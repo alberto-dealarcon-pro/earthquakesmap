@@ -16,138 +16,98 @@
       --accent:  #6366f1;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
       font-family: system-ui, -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      height: 100dvh;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
+      background: var(--bg); color: var(--text);
+      height: 100dvh; display: flex; flex-direction: column; overflow: hidden;
     }
 
-    /* ── HEADER ── */
+    /* HEADER */
     header {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
       padding: 8px 14px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-shrink: 0;
-      flex-wrap: wrap;
+      display: flex; align-items: center; gap: 12px; flex-shrink: 0; flex-wrap: wrap;
     }
     header h1 { font-size: 1rem; font-weight: 700; white-space: nowrap; }
     header h1 span { color: var(--accent); }
     .pills { display: flex; gap: 8px; flex-wrap: wrap; flex: 1; }
     .pill {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 3px 10px;
-      font-size: 0.76rem;
-      color: var(--muted);
-      white-space: nowrap;
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 20px; padding: 3px 10px;
+      font-size: 0.76rem; color: var(--muted); white-space: nowrap;
     }
     .pill b { color: var(--text); }
     .btn {
-      background: var(--accent);
-      border: none;
-      border-radius: 6px;
-      color: #fff;
-      padding: 5px 11px;
-      font-size: 0.78rem;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: opacity .15s;
+      background: var(--accent); border: none; border-radius: 6px;
+      color: #fff; padding: 5px 11px; font-size: 0.78rem;
+      cursor: pointer; white-space: nowrap; transition: opacity .15s;
     }
     .btn:hover { opacity: .8; }
-    .btn.secondary {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--muted);
+    .btn.ghost {
+      background: transparent; border: 1px solid var(--border); color: var(--muted);
     }
 
-    /* ── LAYOUT ── */
+    /* LAYOUT */
     .content { display: flex; flex: 1; min-height: 0; }
     #map { flex: 1; min-width: 0; }
 
-    /* ── SIDEBAR ── */
+    /* SIDEBAR */
     .sidebar {
-      width: 290px;
-      flex-shrink: 0;
-      background: var(--surface);
-      border-left: 1px solid var(--border);
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
+      width: 290px; flex-shrink: 0;
+      background: var(--surface); border-left: 1px solid var(--border);
+      display: flex; flex-direction: column; overflow: hidden;
     }
     .sidebar-hd {
-      padding: 8px 12px;
-      font-size: 0.72rem;
-      font-weight: 600;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: .05em;
-      border-bottom: 1px solid var(--border);
-      flex-shrink: 0;
+      padding: 8px 12px; font-size: 0.72rem; font-weight: 600;
+      color: var(--muted); text-transform: uppercase; letter-spacing: .05em;
+      border-bottom: 1px solid var(--border); flex-shrink: 0;
     }
     .eq-list { flex: 1; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
-
     .eq-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 9px;
-      padding: 9px 12px;
-      border-bottom: 1px solid var(--border);
-      cursor: pointer;
-      transition: background .12s;
+      display: flex; align-items: flex-start; gap: 9px;
+      padding: 9px 12px; border-bottom: 1px solid var(--border);
+      cursor: pointer; transition: background .12s;
     }
     .eq-item:hover  { background: rgba(255,255,255,.04); }
     .eq-item.active { background: rgba(99,102,241,.12); border-left: 3px solid var(--accent); }
-
     .mag-badge {
-      min-width: 38px; height: 38px;
-      border-radius: 7px;
+      min-width: 38px; height: 38px; border-radius: 7px;
       display: flex; align-items: center; justify-content: center;
       font-size: .85rem; font-weight: 800; color: #fff; flex-shrink: 0;
     }
     .eq-info { flex: 1; min-width: 0; }
-    .eq-loc  { font-size: .81rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .eq-date { font-size: .73rem; color: var(--muted); margin-top: 2px; }
-    .eq-coord{ font-size: .68rem; color: var(--border); margin-top: 1px; font-family: monospace; }
+    .eq-loc   { font-size: .81rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .eq-date  { font-size: .73rem; color: var(--muted); margin-top: 2px; }
+    .eq-coord { font-size: .68rem; color: var(--border); margin-top: 1px; font-family: monospace; }
 
-    /* ── LEGEND ── */
+    /* LEGEND */
     .legend { border-top: 1px solid var(--border); padding: 9px 12px; flex-shrink: 0; }
     .legend-hd { font-size: .72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 5px; }
-    .legend-row { display: flex; align-items: center; gap: 7px; font-size: .73rem; color: var(--muted); line-height: 1.7; }
+    .lrow { display: flex; align-items: center; gap: 7px; font-size: .73rem; color: var(--muted); line-height: 1.8; }
     .ldot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
 
-    /* ── STATUS / LOADING ── */
+    /* STATUS */
     #status {
-      display: none;
-      background: #7c2d12; color: #fed7aa;
-      font-size: .78rem; padding: 5px 14px; text-align: center; flex-shrink: 0;
+      display: none; background: #7c2d12; color: #fed7aa;
+      font-size: .78rem; padding: 6px 14px; text-align: center; flex-shrink: 0;
     }
+
+    /* LOADER */
     #loader {
-      position: absolute; inset: 0;
-      background: rgba(15,17,23,.75);
+      position: absolute; inset: 0; background: rgba(15,17,23,.75);
       display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      gap: 10px; z-index: 9999;
+      align-items: center; justify-content: center; gap: 10px; z-index: 9999;
     }
     .spin {
-      width: 34px; height: 34px;
-      border: 3px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
+      width: 34px; height: 34px; border: 3px solid var(--border);
+      border-top-color: var(--accent); border-radius: 50%;
       animation: spin .7s linear infinite;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
     #loader p { color: var(--muted); font-size: .85rem; }
 
-    /* ── POPUP ── */
+    /* POPUP */
     .leaflet-popup-content-wrapper {
       background: var(--surface); color: var(--text);
       border: 1px solid var(--border); border-radius: 8px;
@@ -156,11 +116,10 @@
     .leaflet-popup-tip { background: var(--surface); }
     .pm  { font-size: 1.3rem; font-weight: 800; margin-bottom: 3px; }
     .pl  { font-size: .88rem; font-weight: 600; margin-bottom: 3px; }
-    .pd  { font-size: .78rem; color: var(--muted); margin-bottom: 6px; }
+    .pd  { font-size: .78rem; color: var(--muted); margin-bottom: 4px; }
     .pa a{ color: var(--accent); font-size: .77rem; text-decoration: none; }
     .pa a:hover { text-decoration: underline; }
 
-    /* ── MOBILE ── */
     @media (max-width: 600px) {
       .content { flex-direction: column; }
       .sidebar { width: 100%; border-left: none; border-top: 1px solid var(--border); max-height: 38vh; }
@@ -170,14 +129,14 @@
 <body>
 
 <header>
-  <h1>🌍 Terremotos <span>España</span></h1>
+  <h1>🌍 Terremotos <span>España · IGN</span></h1>
   <div class="pills">
     <div class="pill">🔢 <b id="s-count">—</b> registros</div>
     <div class="pill">📈 Máx. M<b id="s-max">—</b></div>
     <div class="pill">🕐 <b id="s-updated">—</b></div>
     <div class="pill">⏱ <b id="s-next">—</b></div>
   </div>
-  <button class="btn secondary" id="btn-layer" onclick="toggleLayer()">🌙 Oscuro</button>
+  <button class="btn ghost" id="btn-layer" onclick="toggleLayer()">🌙 Oscuro</button>
   <button class="btn" onclick="doRefresh()">↺ Actualizar</button>
 </header>
 
@@ -185,29 +144,52 @@
 
 <div class="content">
   <div id="map">
-    <div id="loader"><div class="spin"></div><p>Cargando datos…</p></div>
+    <div id="loader"><div class="spin"></div><p>Cargando feed IGN…</p></div>
   </div>
   <div class="sidebar">
     <div class="sidebar-hd">Últimos terremotos</div>
     <div class="eq-list" id="eq-list"></div>
     <div class="legend">
       <div class="legend-hd">Magnitud</div>
-      <div class="legend-row"><div class="ldot" style="background:#3b82f6"></div>&lt; 1.5 — Micro</div>
-      <div class="legend-row"><div class="ldot" style="background:#22c55e"></div>1.5 – 2.5 — Menor</div>
-      <div class="legend-row"><div class="ldot" style="background:#eab308"></div>2.5 – 3.5 — Leve</div>
-      <div class="legend-row"><div class="ldot" style="background:#f97316"></div>3.5 – 4.5 — Moderado</div>
-      <div class="legend-row"><div class="ldot" style="background:#ef4444"></div>4.5 – 5.5 — Fuerte</div>
-      <div class="legend-row"><div class="ldot" style="background:#a855f7"></div>≥ 5.5 — Mayor</div>
+      <div class="lrow"><div class="ldot" style="background:#3b82f6"></div>&lt; 1.5 — Micro</div>
+      <div class="lrow"><div class="ldot" style="background:#22c55e"></div>1.5 – 2.5 — Menor</div>
+      <div class="lrow"><div class="ldot" style="background:#eab308"></div>2.5 – 3.5 — Leve</div>
+      <div class="lrow"><div class="ldot" style="background:#f97316"></div>3.5 – 4.5 — Moderado</div>
+      <div class="lrow"><div class="ldot" style="background:#ef4444"></div>4.5 – 5.5 — Fuerte</div>
+      <div class="lrow"><div class="ldot" style="background:#a855f7"></div>≥ 5.5 — Mayor</div>
     </div>
   </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-// ── MAPA ──────────────────────────────────────────────────────────────────────
-const map = L.map('map').setView([40.0, -3.5], 6);
+// ── CONFIG ───────────────────────────────────────────────────────────────────
+const FEED_URL = 'https://www.ign.es/ign/RssTools/sismologia.xml';
+const POLL_MS  = 60 * 1000; // comprobar cada minuto
 
-const layers = {
+// Proxies CORS en orden de preferencia.
+// Cada uno devuelve el XML de forma distinta → parse() lo normaliza a string.
+const PROXIES = [
+  {
+    name: 'allorigins/get',
+    url:  u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
+    parse: async r => { const d = await r.json(); return d.contents || ''; }
+  },
+  {
+    name: 'allorigins/raw',
+    url:  u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+    parse: async r => r.text()
+  },
+  {
+    name: 'codetabs',
+    url:  u => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
+    parse: async r => r.text()
+  }
+];
+
+// ── MAPA ─────────────────────────────────────────────────────────────────────
+const map = L.map('map').setView([40.0, -3.5], 6);
+const tileLayers = {
   light: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Datos: <a href="https://www.ign.es">IGN</a>',
     maxZoom: 19
@@ -218,24 +200,18 @@ const layers = {
   })
 };
 let darkLayer = false;
-layers.light.addTo(map);
+tileLayers.light.addTo(map);
 
 function toggleLayer() {
-  if (darkLayer) {
-    map.removeLayer(layers.dark);
-    layers.light.addTo(map);
-    document.getElementById('btn-layer').textContent = '🌙 Oscuro';
-  } else {
-    map.removeLayer(layers.light);
-    layers.dark.addTo(map);
-    document.getElementById('btn-layer').textContent = '☀️ Claro';
-  }
+  darkLayer ? map.removeLayer(tileLayers.dark) : map.removeLayer(tileLayers.light);
   darkLayer = !darkLayer;
+  darkLayer ? tileLayers.dark.addTo(map) : tileLayers.light.addTo(map);
+  document.getElementById('btn-layer').textContent = darkLayer ? '☀️ Claro' : '🌙 Oscuro';
 }
 
-const markersLayer = L.layerGroup().addTo(map);
+const markerLayer = L.layerGroup().addTo(map);
 
-// ── ESCALA DE COLORES ─────────────────────────────────────────────────────────
+// ── COLORES Y TAMAÑOS ────────────────────────────────────────────────────────
 function magColor(m) {
   if (m < 1.5) return '#3b82f6';
   if (m < 2.5) return '#22c55e';
@@ -246,89 +222,123 @@ function magColor(m) {
 }
 function magRadius(m) { return Math.max(5, Math.pow(1.85, Math.max(m, 0)) * 1.8); }
 
+// ── PARSEAR XML ───────────────────────────────────────────────────────────────
+function parseRSS(xml) {
+  const results = [];
+  const itemRx = /<item>([\s\S]*?)<\/item>/g;
+  let m;
+  while ((m = itemRx.exec(xml)) !== null) {
+    try {
+      const chunk = m[1];
+      const desc  = (getCDATA(chunk, 'description') || getTag(chunk, 'description') || '').trim();
+      const title = (getCDATA(chunk, 'title')       || getTag(chunk, 'title')       || '').trim();
+      const link  = (getTag(chunk, 'link') || getTag(chunk, 'guid') || '').trim();
+
+      // 1) Coordenadas desde geo:lat / geo:long
+      let lat = parseFloat(getTag(chunk, 'geo:lat')  || getTag(chunk, 'lat')  || '');
+      let lon = parseFloat(getTag(chunk, 'geo:long') || getTag(chunk, 'long') || '');
+
+      // 2) Fallback: coordenadas desde el texto "localización: LAT,LON"
+      if (isNaN(lat) || isNaN(lon)) {
+        const coordM = desc.match(/localizaci[oó]n:\s*([\d.-]+)\s*,\s*([\d.-]+)/i);
+        if (coordM) { lat = parseFloat(coordM[1]); lon = parseFloat(coordM[2]); }
+      }
+      if (isNaN(lat) || isNaN(lon)) continue;
+
+      // Magnitud
+      const magM = desc.match(/magnitud[e]?\s+([\d.]+)/i);
+      const magnitude = magM ? parseFloat(magM[1]) : 0;
+
+      // Localización textual
+      const locM = desc.match(/magnitud[e]?\s+[\d.]+\s+en\s+(.+?)\s+en\s+la\s+fecha/i);
+      const location = locM ? locM[1].trim() : '';
+
+      // Fecha
+      const dateM = (title + ' ' + desc).match(/(\d{2}\/\d{2}\/\d{4}\s+\d{1,2}:\d{2}:\d{2})/);
+      const date  = dateM ? dateM[1] : '';
+
+      results.push({ lat, lon, magnitude, location, date, link });
+    } catch (_) {}
+  }
+  return results;
+}
+
+function getTag(xml, tag) {
+  const rx = new RegExp(`<${tag}[^>]*>([^<]*)<\\/${tag}>`, 'i');
+  const mm = xml.match(rx);
+  return mm ? mm[1].trim() : null;
+}
+function getCDATA(xml, tag) {
+  const rx = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i');
+  const mm = xml.match(rx);
+  return mm ? mm[1].trim() : null;
+}
+
 // ── ESTADO ────────────────────────────────────────────────────────────────────
 let earthquakes = [];
 let markers     = [];
-let activeIdx   = -1;
-let lastEtag    = '';           // para detectar cambios en el JSON
-const POLL_MS   = 60 * 1000;   // el navegador comprueba el JSON cada 1 minuto
 let nextPoll    = Date.now() + POLL_MS;
 
-// ── CARGA DEL JSON ────────────────────────────────────────────────────────────
-async function loadJSON(showSpinner) {
-  if (showSpinner) setLoader(true);
+// ── FETCH FEED ───────────────────────────────────────────────────────────────
+async function fetchFeed(showLoader) {
+  if (showLoader) setLoader(true);
 
-  try {
-    const r = await fetch(`./data/earthquakes.json?_=${Date.now()}`, {
-      cache: 'no-store'
-    });
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  for (const proxy of PROXIES) {
+    try {
+      const r = await fetch(proxy.url(FEED_URL), { signal: AbortSignal.timeout(12000) });
+      if (!r.ok) continue;
+      const xml = await proxy.parse(r);
+      if (!xml || !xml.includes('<item>')) continue;
 
-    const etag = r.headers.get('ETag') || '';
-    const data = await r.json();
+      const eqs = parseRSS(xml);
+      if (!eqs.length) continue;
 
-    // Solo re-renderizar si los datos cambiaron
-    if (etag && etag === lastEtag && !showSpinner) {
+      earthquakes = eqs;
+      renderAll();
+      setUpdated(new Date());
+      hideStatus();
       setLoader(false);
       return;
-    }
-    lastEtag = etag;
-
-    earthquakes = data.earthquakes || [];
-    renderAll();
-    setUpdated(data.updated);
-    hideStatus();
-  } catch (e) {
-    showStatus('⚠️ No se pudo leer earthquakes.json. ¿Está generado el JSON? → python scripts/fetch_earthquakes.py');
+    } catch (_) {}
   }
 
+  // Todos los proxies fallaron
   setLoader(false);
+  showStatus('⚠️ No se pudo cargar el feed del IGN. Reintentando en 1 min…');
 }
 
 async function doRefresh() {
   nextPoll = Date.now() + POLL_MS;
-  await loadJSON(true);
+  await fetchFeed(true);
 }
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
-function renderAll() {
-  renderMarkers();
-  renderList();
-  renderStats();
-}
+function renderAll() { renderMarkers(); renderList(); renderStats(); }
 
 function renderMarkers() {
-  markersLayer.clearLayers();
-  markers = [];
+  markerLayer.clearLayers(); markers = [];
   earthquakes.forEach((eq, i) => {
     const color  = magColor(eq.magnitude);
     const radius = magRadius(eq.magnitude);
     const c = L.circleMarker([eq.lat, eq.lon], {
-      radius, fillColor: color, color: '#fff',
-      weight: 0.8, opacity: 0.9, fillOpacity: 0.75
+      radius, fillColor: color, color: '#fff', weight: 0.8, opacity: .9, fillOpacity: .75
     });
     c.bindPopup(`
       <div class="pm" style="color:${color}">M ${eq.magnitude.toFixed(1)}</div>
       <div class="pl">${eq.location || 'Localización desconocida'}</div>
       <div class="pd">📅 ${eq.date || '—'}</div>
-      <div class="pd" style="margin-bottom:6px">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
+      <div class="pd">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
       ${eq.link ? `<div class="pa"><a href="${eq.link}" target="_blank">Ver en catálogo IGN ↗</a></div>` : ''}
     `, { maxWidth: 280 });
-    c.bindTooltip(`M ${eq.magnitude.toFixed(1)} · ${eq.location || ''}`, {
-      direction: 'top', offset: [0, -radius]
-    });
+    c.bindTooltip(`M ${eq.magnitude.toFixed(1)} · ${eq.location || ''}`, { direction: 'top', offset: [0, -radius] });
     c.on('click', () => setActive(i, false));
-    markersLayer.addLayer(c);
-    markers.push(c);
+    markerLayer.addLayer(c); markers.push(c);
   });
 }
 
 function renderList() {
   const list = document.getElementById('eq-list');
-  if (!earthquakes.length) {
-    list.innerHTML = '<div style="padding:14px;color:#64748b;font-size:.83rem">Sin datos.</div>';
-    return;
-  }
+  if (!earthquakes.length) { list.innerHTML = '<div style="padding:14px;color:#64748b;font-size:.83rem">Sin datos.</div>'; return; }
   list.innerHTML = earthquakes.map((eq, i) => {
     const color = magColor(eq.magnitude);
     return `
@@ -350,48 +360,35 @@ function renderStats() {
   document.getElementById('s-max').textContent   = max.toFixed(1);
 }
 
-function setUpdated(iso) {
-  try {
-    const d = new Date(iso);
-    document.getElementById('s-updated').textContent =
-      d.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
-  } catch (_) {}
-}
-
-// ── ITEM ACTIVO ───────────────────────────────────────────────────────────────
+// ── ACTIVO ────────────────────────────────────────────────────────────────────
 function setActive(i, scroll) {
   document.querySelectorAll('.eq-item').forEach(el => el.classList.remove('active'));
-  activeIdx = i;
   const el = document.getElementById(`eqi-${i}`);
   if (el) { el.classList.add('active'); if (scroll) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
   const eq = earthquakes[i];
-  if (markers[i]) {
-    map.setView([eq.lat, eq.lon], Math.max(map.getZoom(), 9), { animate: true });
-    markers[i].openPopup();
-  }
+  if (markers[i]) { map.setView([eq.lat, eq.lon], Math.max(map.getZoom(), 9), { animate: true }); markers[i].openPopup(); }
 }
 
-// ── UI HELPERS ────────────────────────────────────────────────────────────────
+// ── UI ────────────────────────────────────────────────────────────────────────
 function setLoader(on) { document.getElementById('loader').style.display = on ? 'flex' : 'none'; }
-function showStatus(msg) { const s = document.getElementById('status'); s.textContent = msg; s.style.display = 'block'; }
-function hideStatus()    { document.getElementById('status').style.display = 'none'; }
+function showStatus(m) { const s = document.getElementById('status'); s.textContent = m; s.style.display = 'block'; }
+function hideStatus()  { document.getElementById('status').style.display = 'none'; }
+function setUpdated(d) {
+  document.getElementById('s-updated').textContent =
+    d.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+}
 
-// ── CUENTA ATRÁS ──────────────────────────────────────────────────────────────
+// ── CUENTA ATRÁS + AUTOPOLL ───────────────────────────────────────────────────
 setInterval(() => {
   const rem = Math.max(0, nextPoll - Date.now());
   const m   = Math.floor(rem / 60000);
   const s   = String(Math.floor((rem % 60000) / 1000)).padStart(2, '0');
-  document.getElementById('s-next').textContent = `comprueba en ${m}:${s}`;
-
-  // Cuando llega a cero, recargar JSON silenciosamente
-  if (rem === 0) {
-    nextPoll = Date.now() + POLL_MS;
-    loadJSON(false);
-  }
+  document.getElementById('s-next').textContent = `actualiza en ${m}:${s}`;
+  if (rem === 0) { nextPoll = Date.now() + POLL_MS; fetchFeed(false); }
 }, 1000);
 
 // ── INICIO ────────────────────────────────────────────────────────────────────
-loadJSON(true);
+fetchFeed(true);
 </script>
 </body>
 </html>
