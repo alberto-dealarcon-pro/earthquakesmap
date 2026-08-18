@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T19:35:52.303056+00:00",
+  "updated": "2026-08-18T19:55:15.476143+00:00",
   "count": 29,
   "source": "https://www.ign.es/ign/RssTools/sismologia.xml",
   "earthquakes": [
@@ -65,12 +65,12 @@
     },
     {
       "id": "es2026qddqb",
-      "lat": 37.1107,
-      "lon": -3.6145,
+      "lat": 37.0968,
+      "lon": -3.6289,
       "magnitude": 4.8,
-      "location": "NW GÓJAR.GR",
+      "location": "NE VILLA DE OTURA.GR",
       "date": "18/08/2026 8:37:45",
-      "description": "Se ha producido un terremoto de magnitud 4.8 en NW GÓJAR.GR en la fecha 18/08/2026 8:37:45 en la siguiente localización: 37.1107,-3.6145",
+      "description": "Se ha producido un terremoto de magnitud 4.8 en NE VILLA DE OTURA.GR en la fecha 18/08/2026 8:37:45 en la siguiente localización: 37.0968,-3.6289",
       "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qddqb"
     },
     {
