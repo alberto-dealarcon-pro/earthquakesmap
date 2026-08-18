@@ -1,8 +1,18 @@
 {
-  "updated": "2026-08-18T20:24:59.122158+00:00",
-  "count": 29,
+  "updated": "2026-08-18T20:50:15.771824+00:00",
+  "count": 30,
   "source": "https://www.ign.es/ign/RssTools/sismologia.xml",
   "earthquakes": [
+    {
+      "id": "es2026qebhy",
+      "lat": 37.1071,
+      "lon": -3.6484,
+      "magnitude": 3.3,
+      "location": "SW ALHENDÍN.GR",
+      "date": "18/08/2026 20:35:40",
+      "description": "Se ha producido un terremoto de magnitud 3.3 en SW ALHENDÍN.GR en la fecha 18/08/2026 20:35:40 en la siguiente localización: 37.1071,-3.6484",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qebhy"
+    },
     {
       "id": "es2026qdhqs",
       "lat": 37.1181,
