@@ -21,13 +21,10 @@
       background: var(--bg); color: var(--text);
       height: 100dvh; display: flex; flex-direction: column; overflow: hidden;
     }
-
-    /* HEADER */
     header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 8px 14px;
-      display: flex; align-items: center; gap: 12px; flex-shrink: 0; flex-wrap: wrap;
+      background: var(--surface); border-bottom: 1px solid var(--border);
+      padding: 8px 14px; display: flex; align-items: center; gap: 12px;
+      flex-shrink: 0; flex-wrap: wrap;
     }
     header h1 { font-size: 1rem; font-weight: 700; white-space: nowrap; }
     header h1 span { color: var(--accent); }
@@ -44,23 +41,16 @@
       cursor: pointer; white-space: nowrap; transition: opacity .15s;
     }
     .btn:hover { opacity: .8; }
-    .btn.ghost {
-      background: transparent; border: 1px solid var(--border); color: var(--muted);
-    }
-
-    /* LAYOUT */
+    .btn.ghost { background: transparent; border: 1px solid var(--border); color: var(--muted); }
     .content { display: flex; flex: 1; min-height: 0; }
     #map { flex: 1; min-width: 0; }
-
-    /* SIDEBAR */
     .sidebar {
-      width: 290px; flex-shrink: 0;
-      background: var(--surface); border-left: 1px solid var(--border);
-      display: flex; flex-direction: column; overflow: hidden;
+      width: 290px; flex-shrink: 0; background: var(--surface);
+      border-left: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden;
     }
     .sidebar-hd {
-      padding: 8px 12px; font-size: 0.72rem; font-weight: 600;
-      color: var(--muted); text-transform: uppercase; letter-spacing: .05em;
+      padding: 8px 12px; font-size: 0.72rem; font-weight: 600; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .05em;
       border-bottom: 1px solid var(--border); flex-shrink: 0;
     }
     .eq-list { flex: 1; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
@@ -80,24 +70,18 @@
     .eq-loc   { font-size: .81rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .eq-date  { font-size: .73rem; color: var(--muted); margin-top: 2px; }
     .eq-coord { font-size: .68rem; color: var(--border); margin-top: 1px; font-family: monospace; }
-
-    /* LEGEND */
     .legend { border-top: 1px solid var(--border); padding: 9px 12px; flex-shrink: 0; }
     .legend-hd { font-size: .72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 5px; }
     .lrow { display: flex; align-items: center; gap: 7px; font-size: .73rem; color: var(--muted); line-height: 1.8; }
     .ldot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
-
-    /* STATUS */
     #status {
       display: none; background: #7c2d12; color: #fed7aa;
       font-size: .78rem; padding: 6px 14px; text-align: center; flex-shrink: 0;
     }
-
-    /* LOADER */
     #loader {
       position: absolute; inset: 0; background: rgba(15,17,23,.75);
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center; gap: 10px; z-index: 9999;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 10px; z-index: 9999;
     }
     .spin {
       width: 34px; height: 34px; border: 3px solid var(--border);
@@ -106,20 +90,17 @@
     }
     @keyframes spin { to { transform: rotate(360deg); } }
     #loader p { color: var(--muted); font-size: .85rem; }
-
-    /* POPUP */
     .leaflet-popup-content-wrapper {
       background: var(--surface); color: var(--text);
       border: 1px solid var(--border); border-radius: 8px;
       box-shadow: 0 4px 20px rgba(0,0,0,.5);
     }
     .leaflet-popup-tip { background: var(--surface); }
-    .pm  { font-size: 1.3rem; font-weight: 800; margin-bottom: 3px; }
-    .pl  { font-size: .88rem; font-weight: 600; margin-bottom: 3px; }
-    .pd  { font-size: .78rem; color: var(--muted); margin-bottom: 4px; }
-    .pa a{ color: var(--accent); font-size: .77rem; text-decoration: none; }
+    .pm { font-size: 1.3rem; font-weight: 800; margin-bottom: 3px; }
+    .pl { font-size: .88rem; font-weight: 600; margin-bottom: 3px; }
+    .pd { font-size: .78rem; color: var(--muted); margin-bottom: 4px; }
+    .pa a { color: var(--accent); font-size: .77rem; text-decoration: none; }
     .pa a:hover { text-decoration: underline; }
-
     @media (max-width: 600px) {
       .content { flex-direction: column; }
       .sidebar { width: 100%; border-left: none; border-top: 1px solid var(--border); max-height: 38vh; }
@@ -144,7 +125,7 @@
 
 <div class="content">
   <div id="map">
-    <div id="loader"><div class="spin"></div><p>Cargando feed IGN…</p></div>
+    <div id="loader"><div class="spin"></div><p>Cargando datos…</p></div>
   </div>
   <div class="sidebar">
     <div class="sidebar-hd">Últimos terremotos</div>
@@ -163,30 +144,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-// ── CONFIG ───────────────────────────────────────────────────────────────────
-const FEED_URL = 'https://www.ign.es/ign/RssTools/sismologia.xml';
-const POLL_MS  = 60 * 1000; // comprobar cada minuto
-
-// Proxies CORS en orden de preferencia.
-// Cada uno devuelve el XML de forma distinta → parse() lo normaliza a string.
-const PROXIES = [
-  {
-    name: 'allorigins/get',
-    url:  u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
-    parse: async r => { const d = await r.json(); return d.contents || ''; }
-  },
-  {
-    name: 'allorigins/raw',
-    url:  u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
-    parse: async r => r.text()
-  },
-  {
-    name: 'codetabs',
-    url:  u => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
-    parse: async r => r.text()
-  }
-];
-
 // ── MAPA ─────────────────────────────────────────────────────────────────────
 const map = L.map('map').setView([40.0, -3.5], 6);
 const tileLayers = {
@@ -211,7 +168,7 @@ function toggleLayer() {
 
 const markerLayer = L.layerGroup().addTo(map);
 
-// ── COLORES Y TAMAÑOS ────────────────────────────────────────────────────────
+// ── COLORES Y TAMAÑOS ─────────────────────────────────────────────────────────
 function magColor(m) {
   if (m < 1.5) return '#3b82f6';
   if (m < 2.5) return '#22c55e';
@@ -222,94 +179,32 @@ function magColor(m) {
 }
 function magRadius(m) { return Math.max(5, Math.pow(1.85, Math.max(m, 0)) * 1.8); }
 
-// ── PARSEAR XML ───────────────────────────────────────────────────────────────
-function parseRSS(xml) {
-  const results = [];
-  const itemRx = /<item>([\s\S]*?)<\/item>/g;
-  let m;
-  while ((m = itemRx.exec(xml)) !== null) {
-    try {
-      const chunk = m[1];
-      const desc  = (getCDATA(chunk, 'description') || getTag(chunk, 'description') || '').trim();
-      const title = (getCDATA(chunk, 'title')       || getTag(chunk, 'title')       || '').trim();
-      const link  = (getTag(chunk, 'link') || getTag(chunk, 'guid') || '').trim();
-
-      // 1) Coordenadas desde geo:lat / geo:long
-      let lat = parseFloat(getTag(chunk, 'geo:lat')  || getTag(chunk, 'lat')  || '');
-      let lon = parseFloat(getTag(chunk, 'geo:long') || getTag(chunk, 'long') || '');
-
-      // 2) Fallback: coordenadas desde el texto "localización: LAT,LON"
-      if (isNaN(lat) || isNaN(lon)) {
-        const coordM = desc.match(/localizaci[oó]n:\s*([\d.-]+)\s*,\s*([\d.-]+)/i);
-        if (coordM) { lat = parseFloat(coordM[1]); lon = parseFloat(coordM[2]); }
-      }
-      if (isNaN(lat) || isNaN(lon)) continue;
-
-      // Magnitud
-      const magM = desc.match(/magnitud[e]?\s+([\d.]+)/i);
-      const magnitude = magM ? parseFloat(magM[1]) : 0;
-
-      // Localización textual
-      const locM = desc.match(/magnitud[e]?\s+[\d.]+\s+en\s+(.+?)\s+en\s+la\s+fecha/i);
-      const location = locM ? locM[1].trim() : '';
-
-      // Fecha
-      const dateM = (title + ' ' + desc).match(/(\d{2}\/\d{2}\/\d{4}\s+\d{1,2}:\d{2}:\d{2})/);
-      const date  = dateM ? dateM[1] : '';
-
-      results.push({ lat, lon, magnitude, location, date, link });
-    } catch (_) {}
-  }
-  return results;
-}
-
-function getTag(xml, tag) {
-  const rx = new RegExp(`<${tag}[^>]*>([^<]*)<\\/${tag}>`, 'i');
-  const mm = xml.match(rx);
-  return mm ? mm[1].trim() : null;
-}
-function getCDATA(xml, tag) {
-  const rx = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i');
-  const mm = xml.match(rx);
-  return mm ? mm[1].trim() : null;
-}
-
 // ── ESTADO ────────────────────────────────────────────────────────────────────
 let earthquakes = [];
 let markers     = [];
+const POLL_MS   = 60 * 1000;   // comprobar JSON cada minuto
 let nextPoll    = Date.now() + POLL_MS;
 
-// ── FETCH FEED ───────────────────────────────────────────────────────────────
-async function fetchFeed(showLoader) {
+// ── CARGA DEL JSON ────────────────────────────────────────────────────────────
+async function loadData(showLoader) {
   if (showLoader) setLoader(true);
-
-  for (const proxy of PROXIES) {
-    try {
-      const r = await fetch(proxy.url(FEED_URL), { signal: AbortSignal.timeout(12000) });
-      if (!r.ok) continue;
-      const xml = await proxy.parse(r);
-      if (!xml || !xml.includes('<item>')) continue;
-
-      const eqs = parseRSS(xml);
-      if (!eqs.length) continue;
-
-      earthquakes = eqs;
-      renderAll();
-      setUpdated(new Date());
-      hideStatus();
-      setLoader(false);
-      return;
-    } catch (_) {}
+  try {
+    const r = await fetch(`./data/earthquakes.json?_=${Date.now()}`, { cache: 'no-store' });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
+    earthquakes = data.earthquakes || [];
+    renderAll();
+    setUpdated(data.updated);
+    hideStatus();
+  } catch (e) {
+    showStatus('⚠️ No se pudieron cargar los datos. El workflow de GitHub Actions genera el archivo data/earthquakes.json cada 5 min.');
   }
-
-  // Todos los proxies fallaron
   setLoader(false);
-  showStatus('⚠️ No se pudo cargar el feed del IGN. Reintentando en 1 min…');
 }
 
 async function doRefresh() {
   nextPoll = Date.now() + POLL_MS;
-  await fetchFeed(true);
+  await loadData(true);
 }
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
@@ -338,7 +233,10 @@ function renderMarkers() {
 
 function renderList() {
   const list = document.getElementById('eq-list');
-  if (!earthquakes.length) { list.innerHTML = '<div style="padding:14px;color:#64748b;font-size:.83rem">Sin datos.</div>'; return; }
+  if (!earthquakes.length) {
+    list.innerHTML = '<div style="padding:14px;color:#64748b;font-size:.83rem">Sin datos disponibles.</div>';
+    return;
+  }
   list.innerHTML = earthquakes.map((eq, i) => {
     const color = magColor(eq.magnitude);
     return `
@@ -366,29 +264,35 @@ function setActive(i, scroll) {
   const el = document.getElementById(`eqi-${i}`);
   if (el) { el.classList.add('active'); if (scroll) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
   const eq = earthquakes[i];
-  if (markers[i]) { map.setView([eq.lat, eq.lon], Math.max(map.getZoom(), 9), { animate: true }); markers[i].openPopup(); }
+  if (markers[i]) {
+    map.setView([eq.lat, eq.lon], Math.max(map.getZoom(), 9), { animate: true });
+    markers[i].openPopup();
+  }
 }
 
 // ── UI ────────────────────────────────────────────────────────────────────────
 function setLoader(on) { document.getElementById('loader').style.display = on ? 'flex' : 'none'; }
 function showStatus(m) { const s = document.getElementById('status'); s.textContent = m; s.style.display = 'block'; }
 function hideStatus()  { document.getElementById('status').style.display = 'none'; }
-function setUpdated(d) {
-  document.getElementById('s-updated').textContent =
-    d.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+function setUpdated(iso) {
+  try {
+    const d = new Date(iso);
+    document.getElementById('s-updated').textContent =
+      d.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+  } catch (_) {}
 }
 
-// ── CUENTA ATRÁS + AUTOPOLL ───────────────────────────────────────────────────
+// ── AUTOPOLL + CUENTA ATRÁS ───────────────────────────────────────────────────
 setInterval(() => {
   const rem = Math.max(0, nextPoll - Date.now());
   const m   = Math.floor(rem / 60000);
   const s   = String(Math.floor((rem % 60000) / 1000)).padStart(2, '0');
   document.getElementById('s-next').textContent = `actualiza en ${m}:${s}`;
-  if (rem === 0) { nextPoll = Date.now() + POLL_MS; fetchFeed(false); }
+  if (rem === 0) { nextPoll = Date.now() + POLL_MS; loadData(false); }
 }, 1000);
 
 // ── INICIO ────────────────────────────────────────────────────────────────────
-fetchFeed(true);
+loadData(true);
 </script>
 </body>
 </html>
