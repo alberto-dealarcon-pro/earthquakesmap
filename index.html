@@ -90,6 +90,28 @@
     }
     @keyframes spin { to { transform: rotate(360deg); } }
     #loader p { color: var(--muted); font-size: .85rem; }
+
+    /* ── PULSO ÚLTIMO TERREMOTO ── */
+    .pulse-wrap {
+      position: relative;
+      width: 0; height: 0;
+      pointer-events: none;
+    }
+    .pulse-ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 2px solid var(--ring-color, #ef4444);
+      width: 20px; height: 20px;
+      top: -10px; left: -10px;
+      opacity: 0;
+      animation: pulse-grow 2s ease-out infinite;
+    }
+    .pulse-ring:nth-child(2) { animation-delay: .6s; }
+    .pulse-ring:nth-child(3) { animation-delay: 1.2s; }
+    @keyframes pulse-grow {
+      0%   { transform: scale(1);   opacity: .8; }
+      100% { transform: scale(5);   opacity: 0;  }
+    }
     .leaflet-popup-content-wrapper {
       background: var(--surface); color: var(--text);
       border: 1px solid var(--border); border-radius: 8px;
@@ -215,6 +237,9 @@ function renderMarkers() {
   earthquakes.forEach((eq, i) => {
     const color  = magColor(eq.magnitude);
     const radius = magRadius(eq.magnitude);
+    const isLatest = i === 0;
+
+    // Círculo principal
     const c = L.circleMarker([eq.lat, eq.lon], {
       radius, fillColor: color, color: '#fff', weight: 0.8, opacity: .9, fillOpacity: .75
     });
@@ -225,9 +250,28 @@ function renderMarkers() {
       <div class="pd">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
       ${eq.link ? `<div class="pa"><a href="${eq.link}" target="_blank">Ver en catálogo IGN ↗</a></div>` : ''}
     `, { maxWidth: 280 });
-    c.bindTooltip(`M ${eq.magnitude.toFixed(1)} · ${eq.location || ''}`, { direction: 'top', offset: [0, -radius] });
+    c.bindTooltip(
+      `<b>M ${eq.magnitude.toFixed(1)}</b> · ${eq.location || ''}${eq.date ? `<br><span style="font-size:.85em;opacity:.8">📅 ${eq.date}</span>` : ''}${isLatest ? '<br><span style="font-size:.8em;color:#fbbf24">⚡ Último registrado</span>' : ''}`,
+      { direction: 'top', offset: [0, -radius], opacity: 1 }
+    );
     c.on('click', () => setActive(i, false));
     markerLayer.addLayer(c); markers.push(c);
+
+    // Anillos pulsantes para el más reciente
+    if (isLatest) {
+      const pulseIcon = L.divIcon({
+        className: '',
+        html: `<div class="pulse-wrap">
+          <div class="pulse-ring" style="--ring-color:${color}"></div>
+          <div class="pulse-ring" style="--ring-color:${color}"></div>
+          <div class="pulse-ring" style="--ring-color:${color}"></div>
+        </div>`,
+        iconSize: [0, 0],
+        iconAnchor: [0, 0]
+      });
+      const pulse = L.marker([eq.lat, eq.lon], { icon: pulseIcon, interactive: false, zIndexOffset: -100 });
+      markerLayer.addLayer(pulse);
+    }
   });
 }
 
