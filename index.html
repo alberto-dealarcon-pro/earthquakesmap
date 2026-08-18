@@ -245,7 +245,16 @@ async function doRefresh() {
 }
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
-function renderAll() { renderMarkers(); renderList(); renderStats(); }
+function renderAll() {
+  renderMarkers();
+  renderList();
+  renderStats();
+  // Centrar en el terremoto más reciente con radio ~10 km (zoom 12)
+  if (earthquakes.length) {
+    const latest = earthquakes[0];
+    map.setView([latest.lat, latest.lon], 12, { animate: true });
+  }
+}
 
 function renderMarkers() {
   markerLayer.clearLayers(); markers = [];
