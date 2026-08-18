@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa de Terremotos – España (IGN)</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d2e;
+      --border: #2a2d3e;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #6366f1;
+      --m-low:    #3b82f6;
+      --m-minor:  #22c55e;
+      --m-light:  #eab308;
+      --m-mod:    #f97316;
+      --m-strong: #ef4444;
+      --m-major:  #a855f7;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ─── HEADER ─── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      white-space: nowrap;
+    }
+    header h1 span { color: var(--accent); }
+    .header-stats {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+    .stat-pill {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .stat-pill b { color: var(--text); }
+    .refresh-btn {
+      background: var(--accent);
+      border: none;
+      border-radius: 6px;
+      color: white;
+      padding: 5px 12px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: opacity .2s;
+      white-space: nowrap;
+    }
+    .refresh-btn:hover { opacity: .8; }
+
+    /* ─── MAIN LAYOUT ─── */
+    .content {
+      display: flex;
+      flex: 1;
+      min-height: 0;
+    }
+
+    /* ─── MAP ─── */
+    #map {
+      flex: 1;
+      min-width: 0;
+    }
+
+    /* ─── SIDEBAR ─── */
+    .sidebar {
+      width: 300px;
+      flex-shrink: 0;
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .sidebar-title {
+      padding: 10px 14px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      border-bottom: 1px solid var(--border);
+    }
+    .eq-list {
+      flex: 1;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+    .eq-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background .15s;
+    }
+    .eq-item:hover { background: rgba(255,255,255,.04); }
+    .eq-item.active { background: rgba(99,102,241,.1); border-left: 3px solid var(--accent); }
+    .mag-badge {
+      min-width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      font-weight: 800;
+      color: white;
+      flex-shrink: 0;
+    }
+    .eq-info { flex: 1; min-width: 0; }
+    .eq-location {
+      font-size: 0.83rem;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .eq-date {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .eq-coords {
+      font-size: 0.7rem;
+      color: var(--border);
+      margin-top: 2px;
+      font-family: monospace;
+    }
+
+    /* ─── LEGEND ─── */
+    .legend {
+      border-top: 1px solid var(--border);
+      padding: 10px 14px;
+      flex-shrink: 0;
+    }
+    .legend-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin-bottom: 6px;
+    }
+    .legend-items {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    .legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ─── STATUS / ERROR ─── */
+    #status-bar {
+      display: none;
+      background: #7c2d12;
+      color: #fed7aa;
+      font-size: 0.8rem;
+      padding: 6px 14px;
+      text-align: center;
+    }
+    #loading-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(15,17,23,.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    #loading-overlay p { color: var(--text-muted); font-size: .9rem; }
+
+    /* ─── MOBILE ─── */
+    @media (max-width: 640px) {
+      .content { flex-direction: column; }
+      .sidebar { width: 100%; border-left: none; border-top: 1px solid var(--border); max-height: 40vh; }
+    }
+
+    /* Leaflet overrides */
+    .leaflet-popup-content-wrapper {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.5);
+    }
+    .leaflet-popup-tip { background: var(--surface); }
+    .popup-mag { font-size: 1.4rem; font-weight: 800; margin-bottom: 4px; }
+    .popup-loc { font-size: 0.9rem; font-weight: 600; margin-bottom: 4px; }
+    .popup-date { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px; }
+    .popup-link a { color: var(--accent); font-size: 0.8rem; text-decoration: none; }
+    .popup-link a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🌍 Mapa de Terremotos <span>España</span></h1>
+  <div class="header-stats">
+    <div class="stat-pill">🔢 <b id="stat-count">—</b> terremotos</div>
+    <div class="stat-pill">📈 Máx. M<b id="stat-max">—</b></div>
+    <div class="stat-pill">🕐 Actualizado: <b id="stat-updated">—</b></div>
+    <div class="stat-pill">⏱ <b id="stat-countdown">—</b></div>
+  </div>
+  <button class="refresh-btn" id="btn-tiles" onclick="toggleTiles()">🌙 Modo oscuro</button>
+  <button class="refresh-btn" onclick="refresh()">↺ Actualizar</button>
+</header>
+
+<div id="status-bar"></div>
+
+<div class="content">
+  <div id="map">
+    <div id="loading-overlay">
+      <div class="spinner"></div>
+      <p>Cargando datos…</p>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sidebar-title">Terremotos recientes</div>
+    <div class="eq-list" id="eq-list"></div>
+    <div class="legend">
+      <div class="legend-title">Magnitud</div>
+      <div class="legend-items">
+        <div class="legend-item"><div class="legend-dot" style="background:var(--m-low)"></div> &lt; 1.5 — Micro</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--m-minor)"></div> 1.5–2.5 — Menor</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--m-light)"></div> 2.5–3.5 — Leve</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--m-mod)"></div> 3.5–4.5 — Moderado</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--m-strong)"></div> 4.5–5.5 — Fuerte</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--m-major)"></div> ≥ 5.5 — Mayor</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+// ─── CONFIG ─────────────────────────────────────────────────────────────────
+const FEED_URL   = 'https://www.ign.es/ign/RssTools/sismologia.xml';
+const DATA_URL   = './data/earthquakes.json';
+const REFRESH_MS = 5 * 60 * 1000; // 5 minutos
+// Cada entrada: { url: fn, parse: async fn → xmlString }
+const CORS_PROXIES = [
+  {
+    label: 'allorigins/get',
+    url:   u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
+    parse: async r => { const d = await r.json(); return d.contents; }
+  },
+  {
+    label: 'allorigins/raw',
+    url:   u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+    parse: async r => r.text()
+  },
+  {
+    label: 'codetabs',
+    url:   u => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
+    parse: async r => r.text()
+  }
+];
+
+// ─── MAGNITUD → COLOR / RADIO ────────────────────────────────────────────────
+function magColor(m) {
+  if (m < 1.5) return '#3b82f6';
+  if (m < 2.5) return '#22c55e';
+  if (m < 3.5) return '#eab308';
+  if (m < 4.5) return '#f97316';
+  if (m < 5.5) return '#ef4444';
+  return '#a855f7';
+}
+function magRadius(m) {
+  return Math.max(5, Math.pow(1.85, Math.max(m, 0)) * 1.8);
+}
+
+// ─── MAPA ────────────────────────────────────────────────────────────────────
+const map = L.map('map', { zoomControl: true }).setView([40.0, -3.5], 6);
+
+const TILES = {
+  osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | Datos: <a href="https://www.ign.es">IGN</a>',
+    maxZoom: 19
+  }),
+  dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter_all/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a> | Datos: <a href="https://www.ign.es">IGN</a>',
+    subdomains: 'abcd',
+    maxZoom: 19
+  })
+};
+
+let darkMode = false;
+TILES.osm.addTo(map);
+
+function toggleTiles() {
+  if (darkMode) {
+    map.removeLayer(TILES.dark);
+    TILES.osm.addTo(map);
+    document.getElementById('btn-tiles').textContent = '🌙 Modo oscuro';
+  } else {
+    map.removeLayer(TILES.osm);
+    TILES.dark.addTo(map);
+    document.getElementById('btn-tiles').textContent = '☀️ Modo claro';
+  }
+  darkMode = !darkMode;
+}
+
+const markersLayer = L.layerGroup().addTo(map);
+
+// ─── ESTADO ──────────────────────────────────────────────────────────────────
+let earthquakes = [];
+let activeIdx = -1;
+let markers = [];
+let countdownInterval = null;
+let nextRefresh = Date.now() + REFRESH_MS;
+
+// ─── PARSEAR RSS (XML texto) ──────────────────────────────────────────────────
+function parseRSS(xmlText) {
+  const results = [];
+  const itemRx = /<item>([\s\S]*?)<\/item>/g;
+  let m;
+  while ((m = itemRx.exec(xmlText)) !== null) {
+    const xml = m[1];
+
+    const lat = parseFloat(getTag(xml, 'geo:lat') || getTag(xml, 'lat') || '');
+    const lon = parseFloat(getTag(xml, 'geo:long') || getTag(xml, 'long') || '');
+    if (isNaN(lat) || isNaN(lon)) continue;
+
+    const rawTitle = getCDATA(xml, 'title') || getTag(xml, 'title') || '';
+    const rawDesc  = getCDATA(xml, 'description') || getTag(xml, 'description') || '';
+    const link     = getTag(xml, 'link') || getTag(xml, 'guid') || '';
+
+    // Magnitud: "magnitud 2.8" (español) | "magnitude 2.8" (inglés)
+    const magM = rawDesc.match(/magnitud[e]?\s+([\d.]+)/i);
+    const magnitude = magM ? parseFloat(magM[1]) : 0;
+
+    // Localización: "magnitud X.X en LOCATION en la fecha"
+    const locM = rawDesc.match(/magnitud[e]?\s+[\d.]+\s+en\s+(.+?)\s+en la fecha/i)
+              || rawDesc.match(/in\s+(.+?)\s+on\s+\d/i);
+    const location = locM ? locM[1].trim() : '';
+
+    // Fecha: DD/MM/YYYY H:MM:SS
+    const dateM = (rawTitle + ' ' + rawDesc).match(/(\d{2}\/\d{2}\/\d{4}\s+\d{1,2}:\d{2}:\d{2})/);
+    const date = dateM ? dateM[1] : '';
+
+    results.push({ lat, lon, magnitude, location, date, link,
+                   title: rawTitle, description: rawDesc });
+  }
+  return results;
+}
+
+function getTag(xml, tag) {
+  // Handles <tag>value</tag> and <ns:tag>value</ns:tag>
+  const rx = new RegExp(`<${tag.replace(':', ':')}[^>]*>([^<]*)<\\/${tag}>`, 'i');
+  const mm = xml.match(rx);
+  return mm ? mm[1].trim() : null;
+}
+function getCDATA(xml, tag) {
+  const rx = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i');
+  const mm = xml.match(rx);
+  return mm ? mm[1].trim() : null;
+}
+
+// ─── CARGAR DATOS ────────────────────────────────────────────────────────────
+async function loadData() {
+  showLoading(true);
+
+  // 1️⃣ Intentar JSON local — solo cuando se sirve por HTTP(S), no desde file://
+  const isHTTP = location.protocol === 'http:' || location.protocol === 'https:';
+  if (isHTTP) {
+    try {
+      const r = await fetch(`${DATA_URL}?_=${Date.now()}`);
+      if (r.ok) {
+        const data = await r.json();
+        if (data.earthquakes && data.earthquakes.length > 0) {
+          earthquakes = data.earthquakes;
+          setUpdated(data.updated);
+          renderAll();
+          showLoading(false);
+          return;
+        }
+      }
+    } catch (_) {}
+  }
+
+  // 2️⃣ Fallback: RSS vía proxy CORS
+  for (const proxy of CORS_PROXIES) {
+    try {
+      const r = await fetch(proxy.url(FEED_URL), { signal: AbortSignal.timeout(12000) });
+      if (!r.ok) continue;
+      const text = await proxy.parse(r);
+      if (!text || !text.includes('<item>')) continue;
+      earthquakes = parseRSS(text);
+      if (earthquakes.length > 0) {
+        setUpdated(new Date().toISOString());
+        renderAll();
+        showLoading(false);
+        return;
+      }
+    } catch (_) {}
+  }
+
+  // ❌ Todo falló
+  showLoading(false);
+  if (isHTTP) {
+    showError('No se pudieron cargar los datos. Reintentando en ' + (REFRESH_MS/60000) + ' min.');
+  } else {
+    showError('Para ver el mapa en local: abre una terminal en esta carpeta y ejecuta: python scripts/fetch_earthquakes.py — luego abre el archivo con python -m http.server 8080 y accede a http://localhost:8080');
+  }
+}
+
+async function refresh() {
+  nextRefresh = Date.now() + REFRESH_MS;
+  await loadData();
+}
+
+// ─── RENDER ──────────────────────────────────────────────────────────────────
+function renderAll() {
+  renderMarkers();
+  renderList();
+  renderStats();
+  hideError();
+}
+
+function renderMarkers() {
+  markersLayer.clearLayers();
+  markers = [];
+
+  earthquakes.forEach((eq, i) => {
+    const color  = magColor(eq.magnitude);
+    const radius = magRadius(eq.magnitude);
+
+    const circle = L.circleMarker([eq.lat, eq.lon], {
+      radius,
+      fillColor: color,
+      color: '#ffffff',
+      weight: 0.8,
+      opacity: 0.9,
+      fillOpacity: 0.75
+    });
+
+    const popupContent = `
+      <div class="popup-mag" style="color:${color}">M ${eq.magnitude.toFixed(1)}</div>
+      <div class="popup-loc">${eq.location || 'Localización desconocida'}</div>
+      <div class="popup-date">📅 ${eq.date || '—'}</div>
+      <div style="font-size:.75rem;color:#64748b;margin-bottom:6px">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
+      ${eq.link ? `<div class="popup-link"><a href="${eq.link}" target="_blank">Ver en catálogo IGN ↗</a></div>` : ''}
+    `;
+
+    circle.bindPopup(popupContent, { maxWidth: 280 });
+    circle.bindTooltip(`M ${eq.magnitude.toFixed(1)} — ${eq.location || ''}`, {
+      direction: 'top', offset: [0, -radius]
+    });
+
+    circle.on('click', () => setActive(i, false));
+    markersLayer.addLayer(circle);
+    markers.push(circle);
+  });
+}
+
+function renderList() {
+  const list = document.getElementById('eq-list');
+  if (earthquakes.length === 0) {
+    list.innerHTML = '<div style="padding:16px;color:#64748b;font-size:.85rem">Sin datos disponibles.</div>';
+    return;
+  }
+  list.innerHTML = earthquakes.map((eq, i) => {
+    const color = magColor(eq.magnitude);
+    const mag   = eq.magnitude.toFixed(1);
+    const loc   = eq.location || 'Localización desconocida';
+    const date  = eq.date || '—';
+    return `
+      <div class="eq-item" id="eq-item-${i}" onclick="setActive(${i}, true)">
+        <div class="mag-badge" style="background:${color}">${mag}</div>
+        <div class="eq-info">
+          <div class="eq-location" title="${loc}">${loc}</div>
+          <div class="eq-date">${date}</div>
+          <div class="eq-coords">${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function renderStats() {
+  const count = earthquakes.length;
+  const maxMag = count > 0 ? Math.max(...earthquakes.map(e => e.magnitude)) : 0;
+  document.getElementById('stat-count').textContent = count;
+  document.getElementById('stat-max').textContent   = maxMag.toFixed(1);
+}
+
+// ─── ACTIVO ──────────────────────────────────────────────────────────────────
+function setActive(i, scroll) {
+  // Limpiar anterior
+  document.querySelectorAll('.eq-item').forEach(el => el.classList.remove('active'));
+  activeIdx = i;
+  const eq = earthquakes[i];
+  const el = document.getElementById(`eq-item-${i}`);
+  if (el) {
+    el.classList.add('active');
+    if (scroll) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+  if (markers[i]) {
+    map.setView([eq.lat, eq.lon], Math.max(map.getZoom(), 9), { animate: true });
+    markers[i].openPopup();
+  }
+}
+
+// ─── UI HELPERS ──────────────────────────────────────────────────────────────
+function showLoading(on) {
+  document.getElementById('loading-overlay').style.display = on ? 'flex' : 'none';
+}
+function showError(msg) {
+  const bar = document.getElementById('status-bar');
+  bar.textContent = '⚠️ ' + msg;
+  bar.style.display = 'block';
+}
+function hideError() {
+  document.getElementById('status-bar').style.display = 'none';
+}
+function setUpdated(isoStr) {
+  try {
+    const d = new Date(isoStr);
+    document.getElementById('stat-updated').textContent =
+      d.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+  } catch (_) {}
+}
+
+// ─── CUENTA ATRÁS ────────────────────────────────────────────────────────────
+function updateCountdown() {
+  const rem = Math.max(0, nextRefresh - Date.now());
+  const m   = Math.floor(rem / 60000);
+  const s   = Math.floor((rem % 60000) / 1000);
+  document.getElementById('stat-countdown').textContent =
+    `próxima: ${m}:${String(s).padStart(2,'0')}`;
+}
+setInterval(updateCountdown, 1000);
+setInterval(refresh, REFRESH_MS);
+updateCountdown();
+
+// ─── INICIO ──────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
