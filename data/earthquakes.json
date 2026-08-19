@@ -1,0 +1,327 @@
+{
+  "updated": "2026-08-19T11:49:47.047273+00:00",
+  "count": 32,
+  "source": "https://www.ign.es/ign/RssTools/sismologia.xml",
+  "earthquakes": [
+    {
+      "id": "es2026qfcyg",
+      "lat": 37.1479,
+      "lon": -3.6298,
+      "magnitude": 2.8,
+      "location": "NW ARMILLA.GR",
+      "date": "19/08/2026 10:32:56",
+      "description": "Se ha producido un terremoto de magnitud 2.8 en NW ARMILLA.GR en la fecha 19/08/2026 10:32:56 en la siguiente localización: 37.1479,-3.6298",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qfcyg"
+    },
+    {
+      "id": "es2026qekry",
+      "lat": 35.9211,
+      "lon": 0.595,
+      "magnitude": 3.0,
+      "location": "N RELIZANE.ARG",
+      "date": "19/08/2026 1:20:03",
+      "description": "Se ha producido un terremoto de magnitud 3.0 en N RELIZANE.ARG en la fecha 19/08/2026 1:20:03 en la siguiente localización: 35.9211,0.595",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qekry"
+    },
+    {
+      "id": "es2026qeeud",
+      "lat": 36.1337,
+      "lon": -7.9564,
+      "magnitude": 2.7,
+      "location": "GOLFO DE CÁDIZ",
+      "date": "18/08/2026 22:20:47",
+      "description": "Se ha producido un terremoto de magnitud 2.7 en GOLFO DE CÁDIZ en la fecha 18/08/2026 22:20:47 en la siguiente localización: 36.1337,-7.9564",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qeeud"
+    },
+    {
+      "id": "es2026qebhy",
+      "lat": 37.1162,
+      "lon": -3.6158,
+      "magnitude": 3.4,
+      "location": "SW OGÍJARES.GR",
+      "date": "18/08/2026 20:35:39",
+      "description": "Se ha producido un terremoto de magnitud 3.4 en SW OGÍJARES.GR en la fecha 18/08/2026 20:35:39 en la siguiente localización: 37.1162,-3.6158",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qebhy"
+    },
+    {
+      "id": "es2026qdhqs",
+      "lat": 37.1181,
+      "lon": -3.6041,
+      "magnitude": 4.0,
+      "location": "E OGÍJARES.GR",
+      "date": "18/08/2026 10:39:44",
+      "description": "Se ha producido un terremoto de magnitud 4.0 en E OGÍJARES.GR en la fecha 18/08/2026 10:39:44 en la siguiente localización: 37.1181,-3.6041",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qdhqs"
+    },
+    {
+      "id": "es2026qdfmw",
+      "lat": 37.1237,
+      "lon": -3.6486,
+      "magnitude": 4.2,
+      "location": "N ALHENDÍN.GR",
+      "date": "18/08/2026 9:34:37",
+      "description": "Se ha producido un terremoto de magnitud 4.2 en N ALHENDÍN.GR en la fecha 18/08/2026 9:34:37 en la siguiente localización: 37.1237,-3.6486",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qdfmw"
+    },
+    {
+      "id": "es2026qdehi",
+      "lat": 37.0975,
+      "lon": -3.6179,
+      "magnitude": 2.9,
+      "location": "SW GÓJAR.GR",
+      "date": "18/08/2026 8:57:51",
+      "description": "Se ha producido un terremoto de magnitud 2.9 en SW GÓJAR.GR en la fecha 18/08/2026 8:57:51 en la siguiente localización: 37.0975,-3.6179",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qdehi"
+    },
+    {
+      "id": "es2026qdedh",
+      "lat": 37.159,
+      "lon": -3.6366,
+      "magnitude": 3.9,
+      "location": "NE CHURRIANA DE LA VEGA.GR",
+      "date": "18/08/2026 8:53:09",
+      "description": "Se ha producido un terremoto de magnitud 3.9 en NE CHURRIANA DE LA VEGA.GR en la fecha 18/08/2026 8:53:09 en la siguiente localización: 37.159,-3.6366",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qdedh"
+    },
+    {
+      "id": "es2026qddyj",
+      "lat": 37.1309,
+      "lon": -3.652,
+      "magnitude": 2.6,
+      "location": "SE LAS GABIAS.GR",
+      "date": "18/08/2026 8:47:25",
+      "description": "Se ha producido un terremoto de magnitud 2.6 en SE LAS GABIAS.GR en la fecha 18/08/2026 8:47:25 en la siguiente localización: 37.1309,-3.652",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qddyj"
+    },
+    {
+      "id": "es2026qddve",
+      "lat": 37.1144,
+      "lon": -3.631,
+      "magnitude": 2.7,
+      "location": "NE ALHENDÍN.GR",
+      "date": "18/08/2026 8:43:40",
+      "description": "Se ha producido un terremoto de magnitud 2.7 en NE ALHENDÍN.GR en la fecha 18/08/2026 8:43:40 en la siguiente localización: 37.1144,-3.631",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qddve"
+    },
+    {
+      "id": "es2026qddqb",
+      "lat": 37.0972,
+      "lon": -3.6366,
+      "magnitude": 4.8,
+      "location": "NW VILLA DE OTURA.GR",
+      "date": "18/08/2026 8:37:45",
+      "description": "Se ha producido un terremoto de magnitud 4.8 en NW VILLA DE OTURA.GR en la fecha 18/08/2026 8:37:45 en la siguiente localización: 37.0972,-3.6366",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qddqb"
+    },
+    {
+      "id": "es2026qbrmh",
+      "lat": 36.9391,
+      "lon": -13.5773,
+      "magnitude": 3.1,
+      "location": "AZORES-CABO DE SAN VICENTE",
+      "date": "17/08/2026 13:21:40",
+      "description": "Se ha producido un terremoto de magnitud 3.1 en AZORES-CABO DE SAN VICENTE en la fecha 17/08/2026 13:21:40 en la siguiente localización: 36.9391,-13.5773",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qbrmh"
+    },
+    {
+      "id": "es2026pzeil",
+      "lat": 37.1136,
+      "lon": -3.6124,
+      "magnitude": 2.8,
+      "location": "SW OGÍJARES.GR",
+      "date": "16/08/2026 4:27:12",
+      "description": "Se ha producido un terremoto de magnitud 2.8 en SW OGÍJARES.GR en la fecha 16/08/2026 4:27:12 en la siguiente localización: 37.1136,-3.6124",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pzeil"
+    },
+    {
+      "id": "es2026pzavg",
+      "lat": 37.1429,
+      "lon": -3.6319,
+      "magnitude": 3.1,
+      "location": "NW ARMILLA.GR",
+      "date": "16/08/2026 2:40:54",
+      "description": "Se ha producido un terremoto de magnitud 3.1 en NW ARMILLA.GR en la fecha 16/08/2026 2:40:54 en la siguiente localización: 37.1429,-3.6319",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pzavg"
+    },
+    {
+      "id": "es2026pxvbx",
+      "lat": 35.5937,
+      "lon": -3.4066,
+      "magnitude": 3.0,
+      "location": "ALBORÁN SUR",
+      "date": "15/08/2026 10:38:48",
+      "description": "Se ha producido un terremoto de magnitud 3.0 en ALBORÁN SUR en la fecha 15/08/2026 10:38:48 en la siguiente localización: 35.5937,-3.4066",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pxvbx"
+    },
+    {
+      "id": "es2026pxnug",
+      "lat": 37.1002,
+      "lon": -3.6159,
+      "magnitude": 3.0,
+      "location": "SW GÓJAR.GR",
+      "date": "15/08/2026 6:57:46",
+      "description": "Se ha producido un terremoto de magnitud 3.0 en SW GÓJAR.GR en la fecha 15/08/2026 6:57:46 en la siguiente localización: 37.1002,-3.6159",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pxnug"
+    },
+    {
+      "id": "es2026pxjbc",
+      "lat": 37.1096,
+      "lon": -3.6055,
+      "magnitude": 3.3,
+      "location": "N GÓJAR.GR",
+      "date": "15/08/2026 4:34:10",
+      "description": "Se ha producido un terremoto de magnitud 3.3 en N GÓJAR.GR en la fecha 15/08/2026 4:34:10 en la siguiente localización: 37.1096,-3.6055",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pxjbc"
+    },
+    {
+      "id": "es2026pwzea",
+      "lat": 37.0997,
+      "lon": -3.6248,
+      "magnitude": 2.6,
+      "location": "NE VILLA DE OTURA.GR",
+      "date": "14/08/2026 23:34:31",
+      "description": "Se ha producido un terremoto de magnitud 2.6 en NE VILLA DE OTURA.GR en la fecha 14/08/2026 23:34:31 en la siguiente localización: 37.0997,-3.6248",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pwzea"
+    },
+    {
+      "id": "es2026pwyjj",
+      "lat": 37.1122,
+      "lon": -3.5986,
+      "magnitude": 2.6,
+      "location": "NE GÓJAR.GR",
+      "date": "14/08/2026 23:10:25",
+      "description": "Se ha producido un terremoto de magnitud 2.6 en NE GÓJAR.GR en la fecha 14/08/2026 23:10:25 en la siguiente localización: 37.1122,-3.5986",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pwyjj"
+    },
+    {
+      "id": "es2026pwyek",
+      "lat": 37.1187,
+      "lon": -3.6344,
+      "magnitude": 4.8,
+      "location": "NE ALHENDÍN.GR",
+      "date": "14/08/2026 23:04:40",
+      "description": "Se ha producido un terremoto de magnitud 4.8 en NE ALHENDÍN.GR en la fecha 14/08/2026 23:04:40 en la siguiente localización: 37.1187,-3.6344",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pwyek"
+    },
+    {
+      "id": "es2026pwlpq",
+      "lat": 37.1251,
+      "lon": -3.5963,
+      "magnitude": 3.7,
+      "location": "NW LA ZUBIA.GR",
+      "date": "14/08/2026 16:43:45",
+      "description": "Se ha producido un terremoto de magnitud 3.7 en NW LA ZUBIA.GR en la fecha 14/08/2026 16:43:45 en la siguiente localización: 37.1251,-3.5963",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pwlpq"
+    },
+    {
+      "id": "es2026pwkoa",
+      "lat": 36.1321,
+      "lon": -3.0627,
+      "magnitude": 2.7,
+      "location": "ALBORÁN NORTE",
+      "date": "14/08/2026 16:11:33",
+      "description": "Se ha producido un terremoto de magnitud 2.7 en ALBORÁN NORTE en la fecha 14/08/2026 16:11:33 en la siguiente localización: 36.1321,-3.0627",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pwkoa"
+    },
+    {
+      "id": "es2026pwhsv",
+      "lat": 34.1259,
+      "lon": -5.169,
+      "magnitude": 3.2,
+      "location": "NE MOULAY YACOUB.MAC",
+      "date": "14/08/2026 14:46:15",
+      "description": "Se ha producido un terremoto de magnitud 3.2 en NE MOULAY YACOUB.MAC en la fecha 14/08/2026 14:46:15 en la siguiente localización: 34.1259,-5.169",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pwhsv"
+    },
+    {
+      "id": "es2026pwczs",
+      "lat": 36.4768,
+      "lon": -9.8369,
+      "magnitude": 2.6,
+      "location": "SW CABO DE SAN VICENTE",
+      "date": "14/08/2026 12:22:44",
+      "description": "Se ha producido un terremoto de magnitud 2.6 en SW CABO DE SAN VICENTE en la fecha 14/08/2026 12:22:44 en la siguiente localización: 36.4768,-9.8369",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pwczs"
+    },
+    {
+      "id": "es2026puwlz",
+      "lat": 37.3127,
+      "lon": -1.9547,
+      "magnitude": 2.8,
+      "location": "W CUEVAS DEL ALMANZORA.AL",
+      "date": "13/08/2026 19:56:53",
+      "description": "Se ha producido un terremoto de magnitud 2.8 en W CUEVAS DEL ALMANZORA.AL en la fecha 13/08/2026 19:56:53 en la siguiente localización: 37.3127,-1.9547",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026puwlz"
+    },
+    {
+      "id": "es2026puujm",
+      "lat": 37.3214,
+      "lon": -1.9645,
+      "magnitude": 3.7,
+      "location": "SE ZURGENA.AL",
+      "date": "13/08/2026 18:53:22",
+      "description": "Se ha producido un terremoto de magnitud 3.7 en SE ZURGENA.AL en la fecha 13/08/2026 18:53:22 en la siguiente localización: 37.3214,-1.9645",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026puujm"
+    },
+    {
+      "id": "es2026prsza",
+      "lat": 32.6242,
+      "lon": -4.9642,
+      "magnitude": 3.2,
+      "location": "SW MIDELT.MAC",
+      "date": "12/08/2026 2:46:53",
+      "description": "Se ha producido un terremoto de magnitud 3.2 en SW MIDELT.MAC en la fecha 12/08/2026 2:46:53 en la siguiente localización: 32.6242,-4.9642",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026prsza"
+    },
+    {
+      "id": "es2026pqixd",
+      "lat": 40.1374,
+      "lon": 0.97,
+      "magnitude": 2.7,
+      "location": "GOLFO DE VALENCIA",
+      "date": "11/08/2026 8:33:36",
+      "description": "Se ha producido un terremoto de magnitud 2.7 en GOLFO DE VALENCIA en la fecha 11/08/2026 8:33:36 en la siguiente localización: 40.1374,0.97",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pqixd"
+    },
+    {
+      "id": "es2026ppruf",
+      "lat": 38.2163,
+      "lon": -3.9638,
+      "magnitude": 2.7,
+      "location": "W BAÑOS DE LA ENCINA.J",
+      "date": "10/08/2026 23:54:59",
+      "description": "Se ha producido un terremoto de magnitud 2.7 en W BAÑOS DE LA ENCINA.J en la fecha 10/08/2026 23:54:59 en la siguiente localización: 38.2163,-3.9638",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026ppruf"
+    },
+    {
+      "id": "es2026potgo",
+      "lat": 39.1835,
+      "lon": -9.1095,
+      "magnitude": 3.5,
+      "location": "S CADAVAL.POR",
+      "date": "10/08/2026 11:31:41",
+      "description": "Se ha producido un terremoto de magnitud 3.5 en S CADAVAL.POR en la fecha 10/08/2026 11:31:41 en la siguiente localización: 39.1835,-9.1095",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026potgo"
+    },
+    {
+      "id": "es2026poarh",
+      "lat": 37.6062,
+      "lon": -8.4163,
+      "magnitude": 3.5,
+      "location": "E ODEMIRA.POR",
+      "date": "10/08/2026 2:08:24",
+      "description": "Se ha producido un terremoto de magnitud 3.5 en E ODEMIRA.POR en la fecha 10/08/2026 2:08:24 en la siguiente localización: 37.6062,-8.4163",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026poarh"
+    },
+    {
+      "id": "es2026pnuws",
+      "lat": 36.9489,
+      "lon": -8.9893,
+      "magnitude": 2.6,
+      "location": "SW SAGRES.POR",
+      "date": "09/08/2026 23:12:59",
+      "description": "Se ha producido un terremoto de magnitud 2.6 en SW SAGRES.POR en la fecha 09/08/2026 23:12:59 en la siguiente localización: 36.9489,-8.9893",
+      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pnuws"
+    }
+  ]
+}
