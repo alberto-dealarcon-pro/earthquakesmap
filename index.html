@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mapa de Terremotos – España (USGS)</title>
+  <title>Mapa de Terremotos – España (IGN)</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
   <style>
@@ -38,7 +38,7 @@
     }
     .pill b { color: var(--text); }
 
-    /* ── GRUPOS DE FILTROS ── */
+    /* ── FILTRO MAGNITUD ── */
     .filter-group {
       display: flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden;
     }
@@ -92,9 +92,9 @@
       font-size: .85rem; font-weight: 800; color: #fff; flex-shrink: 0;
     }
     .eq-info { flex: 1; min-width: 0; }
-    .eq-loc   { font-size: .81rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .eq-date  { font-size: .73rem; color: var(--muted); margin-top: 2px; }
-    .eq-depth { font-size: .68rem; color: var(--border); margin-top: 1px; font-family: monospace; }
+    .eq-loc  { font-size: .81rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .eq-date { font-size: .73rem; color: var(--muted); margin-top: 2px; }
+    .eq-coord{ font-size: .68rem; color: var(--border); margin-top: 1px; font-family: monospace; }
 
     .legend { border-top: 1px solid var(--border); padding: 9px 12px; flex-shrink: 0; }
     .legend-hd { font-size: .72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 5px; }
@@ -120,9 +120,7 @@
     #loader p { color: var(--muted); font-size: .85rem; }
 
     /* ── PULSO ÚLTIMO TERREMOTO ── */
-    .pulse-wrap {
-      position: relative; width: 0; height: 0; pointer-events: none;
-    }
+    .pulse-wrap { position: relative; width: 0; height: 0; pointer-events: none; }
     .pulse-ring {
       position: absolute; border-radius: 50%;
       border: 2px solid var(--ring-color, #ef4444);
@@ -159,7 +157,7 @@
       .mag-badge { min-width: 32px; height: 32px; font-size: .78rem; border-radius: 6px; }
       .eq-loc  { font-size: .76rem; }
       .eq-date { font-size: .68rem; margin-top: 1px; }
-      .eq-depth { display: none; }
+      .eq-coord { display: none; }
       .filter-group label { display: none; }
     }
   </style>
@@ -167,30 +165,22 @@
 <body>
 
 <header>
-  <h1>🌍 Terremotos <span>España · USGS</span></h1>
+  <h1>🌍 Terremotos <span>España · IGN</span></h1>
 
   <div class="pills">
-    <div class="pill">🔢 <b id="s-count">—</b></div>
+    <div class="pill">🔢 <b id="s-count">—</b> registros</div>
     <div class="pill">📈 Máx. M<b id="s-max">—</b></div>
     <div class="pill">🕐 <b id="s-updated">—</b></div>
     <div class="pill">⏱ <b id="s-next">—</b></div>
   </div>
 
-  <!-- Filtro tiempo -->
-  <div class="filter-group">
-    <label>Período</label>
-    <button class="filter-btn active" data-hours="24"   onclick="setHours(24)">24h</button>
-    <button class="filter-btn"        data-hours="168"  onclick="setHours(168)">7d</button>
-    <button class="filter-btn"        data-hours="720"  onclick="setHours(720)">30d</button>
-  </div>
-
-  <!-- Filtro magnitud -->
+  <!-- Filtro magnitud (lado cliente) -->
   <div class="filter-group">
     <label>Mín. M</label>
-    <button class="filter-btn"        data-mag="1.0" onclick="setMag(1.0)">1.0</button>
+    <button class="filter-btn active" data-mag="0"   onclick="setMag(0)">Todos</button>
     <button class="filter-btn"        data-mag="1.5" onclick="setMag(1.5)">1.5</button>
-    <button class="filter-btn active" data-mag="2.0" onclick="setMag(2.0)">2.0</button>
-    <button class="filter-btn"        data-mag="3.0" onclick="setMag(3.0)">3.0</button>
+    <button class="filter-btn"        data-mag="2.5" onclick="setMag(2.5)">2.5</button>
+    <button class="filter-btn"        data-mag="3.5" onclick="setMag(3.5)">3.5</button>
   </div>
 
   <button class="btn ghost" id="btn-layer" onclick="toggleLayer()">🌙 Oscuro</button>
@@ -221,15 +211,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 // ── MAPA ──────────────────────────────────────────────────────────────────────
-const map = L.map('map').setView([40.0, -3.7], 6);
+const map = L.map('map').setView([37.1773, -3.5986], 12);
 
 const tileLayers = {
   light: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Datos: <a href="https://earthquake.usgs.gov">USGS</a>',
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Datos: <a href="https://www.ign.es">IGN</a>',
     maxZoom: 19
   }),
   dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter_all/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a> · Datos: <a href="https://earthquake.usgs.gov">USGS</a>',
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a> · Datos: <a href="https://www.ign.es">IGN</a>',
     subdomains: 'abcd', maxZoom: 19
   })
 };
@@ -245,40 +235,15 @@ function toggleLayer() {
 
 const markerLayer = L.layerGroup().addTo(map);
 
-// ── CONFIGURACIÓN USGS ────────────────────────────────────────────────────────
-// Bounding box: España peninsular + Baleares + Canarias + Ceuta/Melilla
-const BBOX = { minlat: 27.5, maxlat: 43.8, minlon: -18.2, maxlon: 4.5 };
-
-let currentHours  = 24;
-let currentMinMag = 2.0;
-
-function buildURL() {
-  const start = new Date(Date.now() - currentHours * 3600 * 1000).toISOString();
-  return `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time` +
-    `&minlatitude=${BBOX.minlat}&maxlatitude=${BBOX.maxlat}` +
-    `&minlongitude=${BBOX.minlon}&maxlongitude=${BBOX.maxlon}` +
-    `&minmagnitude=${currentMinMag}&starttime=${start}`;
-}
-
-// ── FILTROS ───────────────────────────────────────────────────────────────────
-function setHours(h) {
-  currentHours = h;
-  document.querySelectorAll('[data-hours]').forEach(b =>
-    b.classList.toggle('active', +b.dataset.hours === h));
-  doRefresh();
-}
-
-function setMag(m) {
-  currentMinMag = m;
-  document.querySelectorAll('[data-mag]').forEach(b =>
-    b.classList.toggle('active', +b.dataset.mag === m));
-  doRefresh();
-}
-
-// ── TIEMPO → HORA ESPAÑA ──────────────────────────────────────────────────────
-function toSpanishTime(unixMs) {
-  if (!unixMs) return '—';
-  return new Date(unixMs).toLocaleString('es-ES', {
+// ── CONVERSIÓN UTC → HORA ESPAÑA ──────────────────────────────────────────────
+// El feed IGN da fechas en formato "DD/MM/YYYY H:MM:SS" en UTC
+function toSpanishTime(dateStr) {
+  if (!dateStr) return '—';
+  const m = dateStr.match(/(\d{2})\/(\d{2})\/(\d{4})\s+(\d{1,2}):(\d{2}):(\d{2})/);
+  if (!m) return dateStr;
+  const [, dd, mo, yyyy, hh, min, ss] = m;
+  const utc = new Date(Date.UTC(+yyyy, +mo - 1, +dd, +hh, +min, +ss));
+  return utc.toLocaleString('es-ES', {
     timeZone: 'Europe/Madrid',
     day: '2-digit', month: '2-digit', year: 'numeric',
     hour: '2-digit', minute: '2-digit', second: '2-digit'
@@ -297,34 +262,41 @@ function magColor(m) {
 function magRadius(m) { return Math.max(5, Math.pow(1.85, Math.max(m, 0)) * 1.8); }
 
 // ── ESTADO ────────────────────────────────────────────────────────────────────
-let earthquakes = [];
-let markers     = [];
-const POLL_MS   = 60 * 1000;
-let nextPoll    = Date.now() + POLL_MS;
+let allEarthquakes = [];   // todos los del JSON
+let earthquakes    = [];   // filtrados por magnitud
+let markers        = [];
+let currentMinMag  = 0;
+const POLL_MS      = 60 * 1000;
+let nextPoll       = Date.now() + POLL_MS;
 
-// ── CARGA DE DATOS (USGS API) ─────────────────────────────────────────────────
+// ── FILTRO MAGNITUD ───────────────────────────────────────────────────────────
+function setMag(m) {
+  currentMinMag = m;
+  document.querySelectorAll('[data-mag]').forEach(b =>
+    b.classList.toggle('active', +b.dataset.mag === m));
+  applyFilter();
+}
+
+function applyFilter() {
+  earthquakes = currentMinMag > 0
+    ? allEarthquakes.filter(e => e.magnitude >= currentMinMag)
+    : allEarthquakes;
+  renderAll();
+}
+
+// ── CARGA DEL JSON (generado por GitHub Actions) ──────────────────────────────
 async function loadData(showLoader) {
   if (showLoader) setLoader(true);
   try {
-    const r = await fetch(buildURL());
+    const r = await fetch(`./data/earthquakes.json?_=${Date.now()}`, { cache: 'no-store' });
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const data = await r.json();
-
-    earthquakes = (data.features || []).map(f => ({
-      magnitude: f.properties.mag  != null ? f.properties.mag : 0,
-      location:  f.properties.place || 'Localización desconocida',
-      time:      f.properties.time,          // Unix ms UTC
-      lat:       f.geometry.coordinates[1],
-      lon:       f.geometry.coordinates[0],
-      depth:     f.geometry.coordinates[2],  // km
-      link:      f.properties.url
-    }));
-
-    renderAll();
-    setUpdated();
+    allEarthquakes = data.earthquakes || [];
+    applyFilter();
+    setUpdated(data.updated);
     hideStatus();
   } catch (e) {
-    showStatus(`⚠️ Error al consultar USGS: ${e.message}`);
+    showStatus('⚠️ No se pudieron cargar los datos. El workflow de GitHub Actions genera data/earthquakes.json cada ~1 min.');
   }
   setLoader(false);
 }
@@ -359,16 +331,16 @@ function renderMarkers() {
 
     c.bindPopup(`
       <div class="pm" style="color:${color}">M ${eq.magnitude.toFixed(1)}</div>
-      <div class="pl">${eq.location}</div>
-      <div class="pd">🕐 Hora España: ${toSpanishTime(eq.time)}</div>
-      <div class="pd">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)} · Prof. ${eq.depth != null ? eq.depth.toFixed(1) + ' km' : '—'}</div>
-      ${eq.link ? `<div class="pa"><a href="${eq.link}" target="_blank">Ver en USGS ↗</a></div>` : ''}
-    `, { maxWidth: 290 });
+      <div class="pl">${eq.location || 'Localización desconocida'}</div>
+      <div class="pd">🕐 Hora España: ${toSpanishTime(eq.date)}</div>
+      <div class="pd">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
+      ${eq.link ? `<div class="pa"><a href="${eq.link}" target="_blank">Ver en catálogo IGN ↗</a></div>` : ''}
+    `, { maxWidth: 280 });
 
     c.bindTooltip(
-      `<b>M ${eq.magnitude.toFixed(1)}</b> · ${eq.location}` +
-      `<br><span style="font-size:.85em;opacity:.8">🕐 ${toSpanishTime(eq.time)}</span>` +
-      (isLatest ? '<br><span style="font-size:.8em;color:#fbbf24">⚡ Último registrado</span>' : ''),
+      `<b>M ${eq.magnitude.toFixed(1)}</b> · ${eq.location || ''}` +
+      `${eq.date ? `<br><span style="font-size:.85em;opacity:.8">🕐 ${toSpanishTime(eq.date)}</span>` : ''}` +
+      `${isLatest ? '<br><span style="font-size:.8em;color:#fbbf24">⚡ Último registrado</span>' : ''}`,
       { direction: 'top', offset: [0, -radius], opacity: 1 }
     );
 
@@ -396,7 +368,7 @@ function renderMarkers() {
 function renderList() {
   const list = document.getElementById('eq-list');
   if (!earthquakes.length) {
-    list.innerHTML = '<div style="padding:14px;color:#64748b;font-size:.83rem">Sin terremotos en el período seleccionado.</div>';
+    list.innerHTML = '<div style="padding:14px;color:#64748b;font-size:.83rem">Sin terremotos para el filtro seleccionado.</div>';
     return;
   }
   list.innerHTML = earthquakes.map((eq, i) => {
@@ -405,9 +377,9 @@ function renderList() {
       <div class="eq-item" id="eqi-${i}" onclick="setActive(${i},true)">
         <div class="mag-badge" style="background:${color}">${eq.magnitude.toFixed(1)}</div>
         <div class="eq-info">
-          <div class="eq-loc" title="${eq.location}">${eq.location}</div>
-          <div class="eq-date">🕐 ${toSpanishTime(eq.time)}</div>
-          <div class="eq-depth">Prof. ${eq.depth != null ? eq.depth.toFixed(1) + ' km' : '—'} · ${eq.lat.toFixed(3)}, ${eq.lon.toFixed(3)}</div>
+          <div class="eq-loc" title="${eq.location}">${eq.location || 'Desconocido'}</div>
+          <div class="eq-date">🕐 ${toSpanishTime(eq.date)}</div>
+          <div class="eq-coord">${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
         </div>
       </div>`;
   }).join('');
@@ -436,9 +408,11 @@ function setActive(i, scroll) {
 function setLoader(on)  { document.getElementById('loader').style.display = on ? 'flex' : 'none'; }
 function showStatus(m)  { const s = document.getElementById('status'); s.textContent = m; s.style.display = 'block'; }
 function hideStatus()   { document.getElementById('status').style.display = 'none'; }
-function setUpdated()   {
-  document.getElementById('s-updated').textContent =
-    new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+function setUpdated(iso) {
+  try {
+    document.getElementById('s-updated').textContent =
+      new Date(iso).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+  } catch (_) {}
 }
 
 // ── AUTOPOLL + CUENTA ATRÁS ───────────────────────────────────────────────────
