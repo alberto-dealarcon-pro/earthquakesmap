@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mapa de Terremotos – España (IGN)</title>
+  <title>Mapa de Terremotos – España (USGS)</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
   <style>
@@ -21,35 +21,60 @@
       background: var(--bg); color: var(--text);
       height: 100dvh; display: flex; flex-direction: column; overflow: hidden;
     }
+
+    /* ── CABECERA ── */
     header {
       background: var(--surface); border-bottom: 1px solid var(--border);
-      padding: 8px 14px; display: flex; align-items: center; gap: 12px;
+      padding: 7px 14px; display: flex; align-items: center; gap: 10px;
       flex-shrink: 0; flex-wrap: wrap;
     }
-    header h1 { font-size: 1rem; font-weight: 700; white-space: nowrap; }
+    header h1 { font-size: .95rem; font-weight: 700; white-space: nowrap; }
     header h1 span { color: var(--accent); }
-    .pills { display: flex; gap: 8px; flex-wrap: wrap; flex: 1; }
+    .pills { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; align-items: center; }
     .pill {
       background: var(--bg); border: 1px solid var(--border);
-      border-radius: 20px; padding: 3px 10px;
-      font-size: 0.76rem; color: var(--muted); white-space: nowrap;
+      border-radius: 20px; padding: 3px 9px;
+      font-size: .73rem; color: var(--muted); white-space: nowrap;
     }
     .pill b { color: var(--text); }
+
+    /* ── GRUPOS DE FILTROS ── */
+    .filter-group {
+      display: flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden;
+    }
+    .filter-group label {
+      font-size: .68rem; color: var(--muted); padding: 3px 7px;
+      background: var(--bg); border-right: 1px solid var(--border);
+      display: flex; align-items: center; white-space: nowrap;
+    }
+    .filter-btn {
+      background: transparent; border: none; border-right: 1px solid var(--border);
+      color: var(--muted); padding: 4px 9px; font-size: .73rem;
+      cursor: pointer; transition: background .12s, color .12s; white-space: nowrap;
+    }
+    .filter-btn:last-child { border-right: none; }
+    .filter-btn:hover { background: rgba(255,255,255,.05); color: var(--text); }
+    .filter-btn.active { background: var(--accent); color: #fff; font-weight: 600; }
+
     .btn {
       background: var(--accent); border: none; border-radius: 6px;
-      color: #fff; padding: 5px 11px; font-size: 0.78rem;
+      color: #fff; padding: 5px 11px; font-size: .78rem;
       cursor: pointer; white-space: nowrap; transition: opacity .15s;
     }
     .btn:hover { opacity: .8; }
     .btn.ghost { background: transparent; border: 1px solid var(--border); color: var(--muted); }
+
+    /* ── LAYOUT ── */
     .content { display: flex; flex: 1; min-height: 0; }
     #map { flex: 1; min-width: 0; }
+
+    /* ── SIDEBAR ── */
     .sidebar {
       width: 290px; flex-shrink: 0; background: var(--surface);
       border-left: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden;
     }
     .sidebar-hd {
-      padding: 8px 12px; font-size: 0.72rem; font-weight: 600; color: var(--muted);
+      padding: 7px 12px; font-size: .72rem; font-weight: 600; color: var(--muted);
       text-transform: uppercase; letter-spacing: .05em;
       border-bottom: 1px solid var(--border); flex-shrink: 0;
     }
@@ -69,11 +94,14 @@
     .eq-info { flex: 1; min-width: 0; }
     .eq-loc   { font-size: .81rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .eq-date  { font-size: .73rem; color: var(--muted); margin-top: 2px; }
-    .eq-coord { font-size: .68rem; color: var(--border); margin-top: 1px; font-family: monospace; }
+    .eq-depth { font-size: .68rem; color: var(--border); margin-top: 1px; font-family: monospace; }
+
     .legend { border-top: 1px solid var(--border); padding: 9px 12px; flex-shrink: 0; }
     .legend-hd { font-size: .72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 5px; }
     .lrow { display: flex; align-items: center; gap: 7px; font-size: .73rem; color: var(--muted); line-height: 1.8; }
     .ldot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
+
+    /* ── STATUS / LOADER ── */
     #status {
       display: none; background: #7c2d12; color: #fed7aa;
       font-size: .78rem; padding: 6px 14px; text-align: center; flex-shrink: 0;
@@ -93,25 +121,22 @@
 
     /* ── PULSO ÚLTIMO TERREMOTO ── */
     .pulse-wrap {
-      position: relative;
-      width: 0; height: 0;
-      pointer-events: none;
+      position: relative; width: 0; height: 0; pointer-events: none;
     }
     .pulse-ring {
-      position: absolute;
-      border-radius: 50%;
+      position: absolute; border-radius: 50%;
       border: 2px solid var(--ring-color, #ef4444);
-      width: 20px; height: 20px;
-      top: -10px; left: -10px;
-      opacity: 0;
-      animation: pulse-grow 2s ease-out infinite;
+      width: 20px; height: 20px; top: -10px; left: -10px;
+      opacity: 0; animation: pulse-grow 2s ease-out infinite;
     }
     .pulse-ring:nth-child(2) { animation-delay: .6s; }
     .pulse-ring:nth-child(3) { animation-delay: 1.2s; }
     @keyframes pulse-grow {
-      0%   { transform: scale(1);   opacity: .8; }
-      100% { transform: scale(5);   opacity: 0;  }
+      0%   { transform: scale(1); opacity: .8; }
+      100% { transform: scale(5); opacity: 0;  }
     }
+
+    /* ── POPUP ── */
     .leaflet-popup-content-wrapper {
       background: var(--surface); color: var(--text);
       border: 1px solid var(--border); border-radius: 8px;
@@ -123,7 +148,10 @@
     .pd { font-size: .78rem; color: var(--muted); margin-bottom: 4px; }
     .pa a { color: var(--accent); font-size: .77rem; text-decoration: none; }
     .pa a:hover { text-decoration: underline; }
+
+    /* ── RESPONSIVE ── */
     @media (max-width: 600px) {
+      header { padding: 6px 10px; gap: 7px; }
       .content { flex-direction: column; }
       .sidebar { width: 100%; border-left: none; border-top: 1px solid var(--border); max-height: 40vh; }
       .legend { display: none; }
@@ -131,20 +159,40 @@
       .mag-badge { min-width: 32px; height: 32px; font-size: .78rem; border-radius: 6px; }
       .eq-loc  { font-size: .76rem; }
       .eq-date { font-size: .68rem; margin-top: 1px; }
-      .eq-coord { display: none; }
+      .eq-depth { display: none; }
+      .filter-group label { display: none; }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>🌍 Terremotos <span>España · IGN</span></h1>
+  <h1>🌍 Terremotos <span>España · USGS</span></h1>
+
   <div class="pills">
-    <div class="pill">🔢 <b id="s-count">—</b> registros</div>
+    <div class="pill">🔢 <b id="s-count">—</b></div>
     <div class="pill">📈 Máx. M<b id="s-max">—</b></div>
     <div class="pill">🕐 <b id="s-updated">—</b></div>
     <div class="pill">⏱ <b id="s-next">—</b></div>
   </div>
+
+  <!-- Filtro tiempo -->
+  <div class="filter-group">
+    <label>Período</label>
+    <button class="filter-btn active" data-hours="24"   onclick="setHours(24)">24h</button>
+    <button class="filter-btn"        data-hours="168"  onclick="setHours(168)">7d</button>
+    <button class="filter-btn"        data-hours="720"  onclick="setHours(720)">30d</button>
+  </div>
+
+  <!-- Filtro magnitud -->
+  <div class="filter-group">
+    <label>Mín. M</label>
+    <button class="filter-btn"        data-mag="1.0" onclick="setMag(1.0)">1.0</button>
+    <button class="filter-btn"        data-mag="1.5" onclick="setMag(1.5)">1.5</button>
+    <button class="filter-btn active" data-mag="2.0" onclick="setMag(2.0)">2.0</button>
+    <button class="filter-btn"        data-mag="3.0" onclick="setMag(3.0)">3.0</button>
+  </div>
+
   <button class="btn ghost" id="btn-layer" onclick="toggleLayer()">🌙 Oscuro</button>
   <button class="btn" onclick="doRefresh()">↺ Actualizar</button>
 </header>
@@ -172,15 +220,16 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-// ── MAPA ─────────────────────────────────────────────────────────────────────
-const map = L.map('map').setView([37.1773, -3.5986], 12);
+// ── MAPA ──────────────────────────────────────────────────────────────────────
+const map = L.map('map').setView([40.0, -3.7], 6);
+
 const tileLayers = {
   light: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Datos: <a href="https://www.ign.es">IGN</a>',
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Datos: <a href="https://earthquake.usgs.gov">USGS</a>',
     maxZoom: 19
   }),
   dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter_all/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a> · Datos: <a href="https://www.ign.es">IGN</a>',
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a> · Datos: <a href="https://earthquake.usgs.gov">USGS</a>',
     subdomains: 'abcd', maxZoom: 19
   })
 };
@@ -196,15 +245,40 @@ function toggleLayer() {
 
 const markerLayer = L.layerGroup().addTo(map);
 
-// ── CONVERSIÓN UTC → HORA ESPAÑA ─────────────────────────────────────────────
-function toSpanishTime(dateStr) {
-  if (!dateStr) return '—';
-  // Formato del feed: "DD/MM/YYYY H:MM:SS" en UTC
-  const m = dateStr.match(/(\d{2})\/(\d{2})\/(\d{4})\s+(\d{1,2}):(\d{2}):(\d{2})/);
-  if (!m) return dateStr;
-  const [, dd, mo, yyyy, hh, min, ss] = m;
-  const utc = new Date(Date.UTC(+yyyy, +mo - 1, +dd, +hh, +min, +ss));
-  return utc.toLocaleString('es-ES', {
+// ── CONFIGURACIÓN USGS ────────────────────────────────────────────────────────
+// Bounding box: España peninsular + Baleares + Canarias + Ceuta/Melilla
+const BBOX = { minlat: 27.5, maxlat: 43.8, minlon: -18.2, maxlon: 4.5 };
+
+let currentHours  = 24;
+let currentMinMag = 2.0;
+
+function buildURL() {
+  const start = new Date(Date.now() - currentHours * 3600 * 1000).toISOString();
+  return `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time` +
+    `&minlatitude=${BBOX.minlat}&maxlatitude=${BBOX.maxlat}` +
+    `&minlongitude=${BBOX.minlon}&maxlongitude=${BBOX.maxlon}` +
+    `&minmagnitude=${currentMinMag}&starttime=${start}`;
+}
+
+// ── FILTROS ───────────────────────────────────────────────────────────────────
+function setHours(h) {
+  currentHours = h;
+  document.querySelectorAll('[data-hours]').forEach(b =>
+    b.classList.toggle('active', +b.dataset.hours === h));
+  doRefresh();
+}
+
+function setMag(m) {
+  currentMinMag = m;
+  document.querySelectorAll('[data-mag]').forEach(b =>
+    b.classList.toggle('active', +b.dataset.mag === m));
+  doRefresh();
+}
+
+// ── TIEMPO → HORA ESPAÑA ──────────────────────────────────────────────────────
+function toSpanishTime(unixMs) {
+  if (!unixMs) return '—';
+  return new Date(unixMs).toLocaleString('es-ES', {
     timeZone: 'Europe/Madrid',
     day: '2-digit', month: '2-digit', year: 'numeric',
     hour: '2-digit', minute: '2-digit', second: '2-digit'
@@ -225,22 +299,32 @@ function magRadius(m) { return Math.max(5, Math.pow(1.85, Math.max(m, 0)) * 1.8)
 // ── ESTADO ────────────────────────────────────────────────────────────────────
 let earthquakes = [];
 let markers     = [];
-const POLL_MS   = 60 * 1000;   // comprobar JSON cada minuto
+const POLL_MS   = 60 * 1000;
 let nextPoll    = Date.now() + POLL_MS;
 
-// ── CARGA DEL JSON ────────────────────────────────────────────────────────────
+// ── CARGA DE DATOS (USGS API) ─────────────────────────────────────────────────
 async function loadData(showLoader) {
   if (showLoader) setLoader(true);
   try {
-    const r = await fetch(`./data/earthquakes.json?_=${Date.now()}`, { cache: 'no-store' });
+    const r = await fetch(buildURL());
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const data = await r.json();
-    earthquakes = data.earthquakes || [];
+
+    earthquakes = (data.features || []).map(f => ({
+      magnitude: f.properties.mag  != null ? f.properties.mag : 0,
+      location:  f.properties.place || 'Localización desconocida',
+      time:      f.properties.time,          // Unix ms UTC
+      lat:       f.geometry.coordinates[1],
+      lon:       f.geometry.coordinates[0],
+      depth:     f.geometry.coordinates[2],  // km
+      link:      f.properties.url
+    }));
+
     renderAll();
-    setUpdated(data.updated);
+    setUpdated();
     hideStatus();
   } catch (e) {
-    showStatus('⚠️ No se pudieron cargar los datos. El workflow de GitHub Actions genera el archivo data/earthquakes.json cada 5 min.');
+    showStatus(`⚠️ Error al consultar USGS: ${e.message}`);
   }
   setLoader(false);
 }
@@ -265,25 +349,29 @@ function renderAll() {
 function renderMarkers() {
   markerLayer.clearLayers(); markers = [];
   earthquakes.forEach((eq, i) => {
-    const color  = magColor(eq.magnitude);
-    const radius = magRadius(eq.magnitude);
+    const color    = magColor(eq.magnitude);
+    const radius   = magRadius(eq.magnitude);
     const isLatest = i === 0;
 
-    // Círculo principal
     const c = L.circleMarker([eq.lat, eq.lon], {
       radius, fillColor: color, color: '#fff', weight: 0.8, opacity: .9, fillOpacity: .75
     });
+
     c.bindPopup(`
       <div class="pm" style="color:${color}">M ${eq.magnitude.toFixed(1)}</div>
-      <div class="pl">${eq.location || 'Localización desconocida'}</div>
-      <div class="pd">🕐 Hora España: ${toSpanishTime(eq.date)}</div>
-      <div class="pd">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
-      ${eq.link ? `<div class="pa"><a href="${eq.link}" target="_blank">Ver en catálogo IGN ↗</a></div>` : ''}
-    `, { maxWidth: 280 });
+      <div class="pl">${eq.location}</div>
+      <div class="pd">🕐 Hora España: ${toSpanishTime(eq.time)}</div>
+      <div class="pd">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)} · Prof. ${eq.depth != null ? eq.depth.toFixed(1) + ' km' : '—'}</div>
+      ${eq.link ? `<div class="pa"><a href="${eq.link}" target="_blank">Ver en USGS ↗</a></div>` : ''}
+    `, { maxWidth: 290 });
+
     c.bindTooltip(
-      `<b>M ${eq.magnitude.toFixed(1)}</b> · ${eq.location || ''}${eq.date ? `<br><span style="font-size:.85em;opacity:.8">🕐 ${toSpanishTime(eq.date)}</span>` : ''}${isLatest ? '<br><span style="font-size:.8em;color:#fbbf24">⚡ Último registrado</span>' : ''}`,
+      `<b>M ${eq.magnitude.toFixed(1)}</b> · ${eq.location}` +
+      `<br><span style="font-size:.85em;opacity:.8">🕐 ${toSpanishTime(eq.time)}</span>` +
+      (isLatest ? '<br><span style="font-size:.8em;color:#fbbf24">⚡ Último registrado</span>' : ''),
       { direction: 'top', offset: [0, -radius], opacity: 1 }
     );
+
     c.on('click', () => setActive(i, false));
     markerLayer.addLayer(c); markers.push(c);
 
@@ -296,11 +384,11 @@ function renderMarkers() {
           <div class="pulse-ring" style="--ring-color:${color}"></div>
           <div class="pulse-ring" style="--ring-color:${color}"></div>
         </div>`,
-        iconSize: [0, 0],
-        iconAnchor: [0, 0]
+        iconSize: [0, 0], iconAnchor: [0, 0]
       });
-      const pulse = L.marker([eq.lat, eq.lon], { icon: pulseIcon, interactive: false, zIndexOffset: -100 });
-      markerLayer.addLayer(pulse);
+      markerLayer.addLayer(
+        L.marker([eq.lat, eq.lon], { icon: pulseIcon, interactive: false, zIndexOffset: -100 })
+      );
     }
   });
 }
@@ -308,7 +396,7 @@ function renderMarkers() {
 function renderList() {
   const list = document.getElementById('eq-list');
   if (!earthquakes.length) {
-    list.innerHTML = '<div style="padding:14px;color:#64748b;font-size:.83rem">Sin datos disponibles.</div>';
+    list.innerHTML = '<div style="padding:14px;color:#64748b;font-size:.83rem">Sin terremotos en el período seleccionado.</div>';
     return;
   }
   list.innerHTML = earthquakes.map((eq, i) => {
@@ -317,9 +405,9 @@ function renderList() {
       <div class="eq-item" id="eqi-${i}" onclick="setActive(${i},true)">
         <div class="mag-badge" style="background:${color}">${eq.magnitude.toFixed(1)}</div>
         <div class="eq-info">
-          <div class="eq-loc" title="${eq.location}">${eq.location || 'Desconocido'}</div>
-          <div class="eq-date">🕐 ${toSpanishTime(eq.date)}</div>
-          <div class="eq-coord">${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
+          <div class="eq-loc" title="${eq.location}">${eq.location}</div>
+          <div class="eq-date">🕐 ${toSpanishTime(eq.time)}</div>
+          <div class="eq-depth">Prof. ${eq.depth != null ? eq.depth.toFixed(1) + ' km' : '—'} · ${eq.lat.toFixed(3)}, ${eq.lon.toFixed(3)}</div>
         </div>
       </div>`;
   }).join('');
@@ -345,15 +433,12 @@ function setActive(i, scroll) {
 }
 
 // ── UI ────────────────────────────────────────────────────────────────────────
-function setLoader(on) { document.getElementById('loader').style.display = on ? 'flex' : 'none'; }
-function showStatus(m) { const s = document.getElementById('status'); s.textContent = m; s.style.display = 'block'; }
-function hideStatus()  { document.getElementById('status').style.display = 'none'; }
-function setUpdated(iso) {
-  try {
-    const d = new Date(iso);
-    document.getElementById('s-updated').textContent =
-      d.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
-  } catch (_) {}
+function setLoader(on)  { document.getElementById('loader').style.display = on ? 'flex' : 'none'; }
+function showStatus(m)  { const s = document.getElementById('status'); s.textContent = m; s.style.display = 'block'; }
+function hideStatus()   { document.getElementById('status').style.display = 'none'; }
+function setUpdated()   {
+  document.getElementById('s-updated').textContent =
+    new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
 }
 
 // ── AUTOPOLL + CUENTA ATRÁS ───────────────────────────────────────────────────
