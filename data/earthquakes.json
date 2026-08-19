@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-19T06:19:26.816739+00:00",
-  "count": 32,
+  "updated": "2026-08-19T07:11:31.938980+00:00",
+  "count": 31,
   "source": "https://www.ign.es/ign/RssTools/sismologia.xml",
   "earthquakes": [
     {
@@ -75,12 +75,12 @@
     },
     {
       "id": "es2026qddyj",
-      "lat": 37.1304,
-      "lon": -3.6738,
+      "lat": 37.1309,
+      "lon": -3.652,
       "magnitude": 2.6,
-      "location": "SW LAS GABIAS.GR",
+      "location": "SE LAS GABIAS.GR",
       "date": "18/08/2026 8:47:25",
-      "description": "Se ha producido un terremoto de magnitud 2.6 en SW LAS GABIAS.GR en la fecha 18/08/2026 8:47:25 en la siguiente localización: 37.1304,-3.6738",
+      "description": "Se ha producido un terremoto de magnitud 2.6 en SE LAS GABIAS.GR en la fecha 18/08/2026 8:47:25 en la siguiente localización: 37.1309,-3.652",
       "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qddyj"
     },
     {
@@ -312,16 +312,6 @@
       "date": "09/08/2026 23:12:59",
       "description": "Se ha producido un terremoto de magnitud 2.6 en SW SAGRES.POR en la fecha 09/08/2026 23:12:59 en la siguiente localización: 36.9489,-8.9893",
       "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pnuws"
-    },
-    {
-      "id": "es2026pmsvg",
-      "lat": 36.4403,
-      "lon": 3.7943,
-      "magnitude": 3.4,
-      "location": "NW BOUIRA.ARG",
-      "date": "09/08/2026 9:02:31",
-      "description": "Se ha producido un terremoto de magnitud 3.4 en NW BOUIRA.ARG en la fecha 09/08/2026 9:02:31 en la siguiente localización: 36.4403,3.7943",
-      "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026pmsvg"
     }
   ]
 }
