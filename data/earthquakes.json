@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-19T10:54:30.604247+00:00",
+  "updated": "2026-08-19T11:23:36.544080+00:00",
   "count": 32,
   "source": "https://www.ign.es/ign/RssTools/sismologia.xml",
   "earthquakes": [
     {
       "id": "es2026qfcyg",
-      "lat": 37.1247,
-      "lon": -3.6244,
+      "lat": 37.1479,
+      "lon": -3.6298,
       "magnitude": 2.8,
-      "location": "NW OGÍJARES.GR",
+      "location": "NW ARMILLA.GR",
       "date": "19/08/2026 10:32:56",
-      "description": "Se ha producido un terremoto de magnitud 2.8 en NW OGÍJARES.GR en la fecha 19/08/2026 10:32:56 en la siguiente localización: 37.1247,-3.6244",
+      "description": "Se ha producido un terremoto de magnitud 2.8 en NW ARMILLA.GR en la fecha 19/08/2026 10:32:56 en la siguiente localización: 37.1479,-3.6298",
       "link": "http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2026qfcyg"
     },
     {
