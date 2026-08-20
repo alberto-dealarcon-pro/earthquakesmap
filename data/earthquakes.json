@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T10:11:47.029876+00:00",
+  "updated": "2026-08-20T10:27:02.797352+00:00",
   "source": "IGN – últimos terremotos",
   "count": 337,
   "earthquakes": [
@@ -13,7 +13,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ARMILLA.GR",
-      "link": "es2026qgwno"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgwno"
     },
     {
       "event_id": "es2026qgsga",
@@ -25,7 +25,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE SIDI SLIMANE.MAC",
-      "link": "es2026qgsga"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgsga"
     },
     {
       "event_id": "es2026qgrwi",
@@ -37,7 +37,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE GÓJAR.GR",
-      "link": "es2026qgrwi"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgrwi"
     },
     {
       "event_id": "es2026qgpss",
@@ -49,7 +49,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW CÁJAR.GR",
-      "link": "es2026qgpss"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgpss"
     },
     {
       "event_id": "es2026qgpdb",
@@ -61,7 +61,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GRANADA.GR",
-      "link": "es2026qgpdb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgpdb"
     },
     {
       "event_id": "es2026qgmqz",
@@ -73,7 +73,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026qgmqz"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgmqz"
     },
     {
       "event_id": "es2026qgmkt",
@@ -85,7 +85,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W MONTILLANA.GR",
-      "link": "es2026qgmkt"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgmkt"
     },
     {
       "event_id": "es2026qgiik",
@@ -97,7 +97,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E GÓJAR.GR",
-      "link": "es2026qgiik"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgiik"
     },
     {
       "event_id": "es2026qgflp",
@@ -109,7 +109,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE OGÍJARES.GR",
-      "link": "es2026qgflp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgflp"
     },
     {
       "event_id": "es2026qgfhh",
@@ -121,7 +121,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026qgfhh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgfhh"
     },
     {
       "event_id": "es2026qgemy",
@@ -133,7 +133,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW DÍLAR.GR",
-      "link": "es2026qgemy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgemy"
     },
     {
       "event_id": "es2026qgebw",
@@ -145,7 +145,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SW DÍLAR.GR",
-      "link": "es2026qgebw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgebw"
     },
     {
       "event_id": "es2026qfzux",
@@ -157,7 +157,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE VALENCIA",
-      "link": "es2026qfzux"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfzux"
     },
     {
       "event_id": "es2026qfxyy",
@@ -169,7 +169,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SW LAS GABIAS.GR",
-      "link": "es2026qfxyy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfxyy"
     },
     {
       "event_id": "es2026qfwak",
@@ -181,7 +181,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ALHENDÍN.GR",
-      "link": "es2026qfwak"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfwak"
     },
     {
       "event_id": "es2026qfvzf",
@@ -193,7 +193,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026qfvzf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfvzf"
     },
     {
       "event_id": "es2026qfvji",
@@ -205,7 +205,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E TIJARAFE.ILP",
-      "link": "es2026qfvji"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfvji"
     },
     {
       "event_id": "es2026qfuel",
@@ -217,7 +217,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026qfuel"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfuel"
     },
     {
       "event_id": "es2026qfqst",
@@ -229,7 +229,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W GÓJAR.GR",
-      "link": "es2026qfqst"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfqst"
     },
     {
       "event_id": "es2026qfqfa",
@@ -241,7 +241,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "E CHURRIANA DE LA VEGA.GR",
-      "link": "es2026qfqfa"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfqfa"
     },
     {
       "event_id": "es2026qfmta",
@@ -253,7 +253,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SE ARMILLA.GR",
-      "link": "es2026qfmta"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfmta"
     },
     {
       "event_id": "es2026qflpn",
@@ -265,7 +265,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "N ALHENDÍN.GR",
-      "link": "es2026qflpn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qflpn"
     },
     {
       "event_id": "es2026qfksb",
@@ -277,7 +277,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ARMILLA.GR",
-      "link": "es2026qfksb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfksb"
     },
     {
       "event_id": "es2026qfgaq",
@@ -289,7 +289,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW ARMILLA.GR",
-      "link": "es2026qfgaq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfgaq"
     },
     {
       "event_id": "es2026qffkb",
@@ -301,7 +301,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026qffkb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qffkb"
     },
     {
       "event_id": "es2026qffho",
@@ -313,7 +313,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ARMILLA.GR",
-      "link": "es2026qffho"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qffho"
     },
     {
       "event_id": "es2026qfdds",
@@ -325,7 +325,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE TARASCON SUR ARRIEGE.FRA",
-      "link": "es2026qfdds"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfdds"
     },
     {
       "event_id": "es2026qfcyg",
@@ -337,7 +337,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "NW ARMILLA.GR",
-      "link": "es2026qfcyg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfcyg"
     },
     {
       "event_id": "es2026qfccs",
@@ -349,7 +349,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W VALENCIA DEL VENTOSO.BA",
-      "link": "es2026qfccs"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfccs"
     },
     {
       "event_id": "es2026qfaqu",
@@ -361,7 +361,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW LA ZUBIA.GR",
-      "link": "es2026qfaqu"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfaqu"
     },
     {
       "event_id": "es2026qezvf",
@@ -373,7 +373,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W HUÉTOR VEGA.GR",
-      "link": "es2026qezvf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qezvf"
     },
     {
       "event_id": "es2026qexzy",
@@ -385,7 +385,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SE GÓJAR.GR",
-      "link": "es2026qexzy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qexzy"
     },
     {
       "event_id": "es2026qewux",
@@ -397,7 +397,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE CHURRIANA DE LA VEGA.GR",
-      "link": "es2026qewux"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qewux"
     },
     {
       "event_id": "es2026qewqe",
@@ -409,7 +409,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE OGÍJARES.GR",
-      "link": "es2026qewqe"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qewqe"
     },
     {
       "event_id": "es2026qewgv",
@@ -421,7 +421,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026qewgv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qewgv"
     },
     {
       "event_id": "es2026qevzg",
@@ -433,7 +433,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SW ARMILLA.GR",
-      "link": "es2026qevzg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qevzg"
     },
     {
       "event_id": "es2026qevno",
@@ -445,7 +445,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW LA ZUBIA.GR",
-      "link": "es2026qevno"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qevno"
     },
     {
       "event_id": "es2026qeuxk",
@@ -457,7 +457,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GRANADA.GR",
-      "link": "es2026qeuxk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qeuxk"
     },
     {
       "event_id": "es2026qetnv",
@@ -469,7 +469,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ARMILLA.GR",
-      "link": "es2026qetnv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qetnv"
     },
     {
       "event_id": "es2026qethx",
@@ -481,7 +481,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E NACIMIENTO.AL",
-      "link": "es2026qethx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qethx"
     },
     {
       "event_id": "es2026qetbq",
@@ -493,7 +493,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026qetbq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qetbq"
     },
     {
       "event_id": "es2026qesfn",
@@ -505,7 +505,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E VILARDEVÓS.OU",
-      "link": "es2026qesfn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qesfn"
     },
     {
       "event_id": "es2026qepkz",
@@ -517,7 +517,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SE VILLA DE OTURA.GR",
-      "link": "es2026qepkz"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qepkz"
     },
     {
       "event_id": "es2026qengl",
@@ -529,7 +529,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W FRONTERA.IHI",
-      "link": "es2026qengl"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qengl"
     },
     {
       "event_id": "es2026qemzh",
@@ -541,7 +541,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "NE ALHENDÍN.GR",
-      "link": "es2026qemzh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qemzh"
     },
     {
       "event_id": "es2026qemtx",
@@ -553,7 +553,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E EL PASO.ILP",
-      "link": "es2026qemtx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qemtx"
     },
     {
       "event_id": "es2026qemnw",
@@ -565,7 +565,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW OGÍJARES.GR",
-      "link": "es2026qemnw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qemnw"
     },
     {
       "event_id": "es2026qemgy",
@@ -577,7 +577,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "W GÓJAR.GR",
-      "link": "es2026qemgy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qemgy"
     },
     {
       "event_id": "es2026qekry",
@@ -589,7 +589,7 @@
       "mag_type": "M(mb)",
       "intensity": "",
       "location": "N RELIZANE.ARG",
-      "link": "es2026qekry"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qekry"
     },
     {
       "event_id": "es2026qejeu",
@@ -601,7 +601,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SE LAS GABIAS.GR",
-      "link": "es2026qejeu"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qejeu"
     },
     {
       "event_id": "es2026qehos",
@@ -613,7 +613,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026qehos"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qehos"
     },
     {
       "event_id": "es2026qeeud",
@@ -625,7 +625,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
-      "link": "es2026qeeud"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qeeud"
     },
     {
       "event_id": "es2026qeenf",
@@ -637,7 +637,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW VINHAIS.POR",
-      "link": "es2026qeenf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qeenf"
     },
     {
       "event_id": "es2026qeegf",
@@ -649,7 +649,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LOURDES.FRA",
-      "link": "es2026qeegf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qeegf"
     },
     {
       "event_id": "es2026qedzh",
@@ -661,7 +661,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E LA OLIVA.IFV",
-      "link": "es2026qedzh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qedzh"
     },
     {
       "event_id": "es2026qedsr",
@@ -673,7 +673,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "NW OGÍJARES.GR",
-      "link": "es2026qedsr"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qedsr"
     },
     {
       "event_id": "es2026qebma",
@@ -685,7 +685,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "S ARMILLA.GR",
-      "link": "es2026qebma"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qebma"
     },
     {
       "event_id": "es2026qebhy",
@@ -697,7 +697,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026qebhy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qebhy"
     },
     {
       "event_id": "es2026qdzjm",
@@ -709,7 +709,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW ARMILLA.GR",
-      "link": "es2026qdzjm"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdzjm"
     },
     {
       "event_id": "es2026qdtzw",
@@ -721,7 +721,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW ARMILLA.GR",
-      "link": "es2026qdtzw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdtzw"
     },
     {
       "event_id": "es2026qdthf",
@@ -733,7 +733,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW OGÍJARES.GR",
-      "link": "es2026qdthf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdthf"
     },
     {
       "event_id": "es2026qdsvo",
@@ -745,7 +745,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE GÓJAR.GR",
-      "link": "es2026qdsvo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdsvo"
     },
     {
       "event_id": "es2026qdska",
@@ -757,7 +757,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ARMILLA.GR",
-      "link": "es2026qdska"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdska"
     },
     {
       "event_id": "es2026qdrgj",
@@ -769,7 +769,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW OGÍJARES.GR",
-      "link": "es2026qdrgj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdrgj"
     },
     {
       "event_id": "es2026qdrfn",
@@ -781,7 +781,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "NE ALHENDÍN.GR",
-      "link": "es2026qdrfn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdrfn"
     },
     {
       "event_id": "es2026qdrcs",
@@ -793,7 +793,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW EL PINAR DE EL HIERRO.IHI",
-      "link": "es2026qdrcs"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdrcs"
     },
     {
       "event_id": "es2026qdozc",
@@ -805,7 +805,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW ARMILLA.GR",
-      "link": "es2026qdozc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdozc"
     },
     {
       "event_id": "es2026qdnux",
@@ -817,7 +817,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ARMILLA.GR",
-      "link": "es2026qdnux"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdnux"
     },
     {
       "event_id": "es2026qdmpe",
@@ -829,7 +829,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N OGÍJARES.GR",
-      "link": "es2026qdmpe"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdmpe"
     },
     {
       "event_id": "es2026qdmhj",
@@ -841,7 +841,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ARMILLA.GR",
-      "link": "es2026qdmhj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdmhj"
     },
     {
       "event_id": "es2026qdlvv",
@@ -853,7 +853,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW LA ZUBIA.GR",
-      "link": "es2026qdlvv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdlvv"
     },
     {
       "event_id": "es2026qdltn",
@@ -865,7 +865,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SE ALHENDÍN.GR",
-      "link": "es2026qdltn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdltn"
     },
     {
       "event_id": "es2026qdlos",
@@ -877,7 +877,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE CHURRIANA DE LA VEGA.GR",
-      "link": "es2026qdlos"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdlos"
     },
     {
       "event_id": "es2026qdkli",
@@ -889,7 +889,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE CHURRIANA DE LA VEGA.GR",
-      "link": "es2026qdkli"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdkli"
     },
     {
       "event_id": "es2026qdjfx",
@@ -901,7 +901,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ARMILLA.GR",
-      "link": "es2026qdjfx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdjfx"
     },
     {
       "event_id": "es2026qdiuk",
@@ -913,7 +913,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026qdiuk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdiuk"
     },
     {
       "event_id": "es2026qdigy",
@@ -925,7 +925,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ARMILLA.GR",
-      "link": "es2026qdigy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdigy"
     },
     {
       "event_id": "es2026qdiew",
@@ -937,7 +937,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E OGÍJARES.GR",
-      "link": "es2026qdiew"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdiew"
     },
     {
       "event_id": "es2026qdiaa",
@@ -949,7 +949,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W OGÍJARES.GR",
-      "link": "es2026qdiaa"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdiaa"
     },
     {
       "event_id": "es2026qdhyj",
@@ -961,7 +961,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ARMILLA.GR",
-      "link": "es2026qdhyj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdhyj"
     },
     {
       "event_id": "es2026qdhwp",
@@ -973,7 +973,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW LA ZUBIA.GR",
-      "link": "es2026qdhwp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdhwp"
     },
     {
       "event_id": "es2026qdhtu",
@@ -985,7 +985,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ARMILLA.GR",
-      "link": "es2026qdhtu"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdhtu"
     },
     {
       "event_id": "es2026qdhqs",
@@ -997,7 +997,7 @@
       "mag_type": "Mw",
       "intensity": "Sentido",
       "location": "E OGÍJARES.GR",
-      "link": "es2026qdhqs"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdhqs"
     },
     {
       "event_id": "es2026qdhfu",
@@ -1009,7 +1009,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026qdhfu"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdhfu"
     },
     {
       "event_id": "es2026qdgok",
@@ -1021,7 +1021,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW LA ZUBIA.GR",
-      "link": "es2026qdgok"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdgok"
     },
     {
       "event_id": "es2026qdgof",
@@ -1033,7 +1033,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
-      "link": "es2026qdgof"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdgof"
     },
     {
       "event_id": "es2026qdghd",
@@ -1045,7 +1045,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026qdghd"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdghd"
     },
     {
       "event_id": "es2026qdfzf",
@@ -1057,7 +1057,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
-      "link": "es2026qdfzf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdfzf"
     },
     {
       "event_id": "es2026qdfvw",
@@ -1069,7 +1069,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
-      "link": "es2026qdfvw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdfvw"
     },
     {
       "event_id": "es2026qdfsi",
@@ -1081,7 +1081,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW OGÍJARES.GR",
-      "link": "es2026qdfsi"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdfsi"
     },
     {
       "event_id": "es2026qdfmw",
@@ -1093,7 +1093,7 @@
       "mag_type": "Mw",
       "intensity": "Sentido",
       "location": "N ALHENDÍN.GR",
-      "link": "es2026qdfmw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdfmw"
     },
     {
       "event_id": "es2026qdfdf",
@@ -1105,7 +1105,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ARMILLA.GR",
-      "link": "es2026qdfdf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdfdf"
     },
     {
       "event_id": "es2026qdezh",
@@ -1117,7 +1117,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026qdezh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdezh"
     },
     {
       "event_id": "es2026qdeod",
@@ -1129,7 +1129,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ARMILLA.GR",
-      "link": "es2026qdeod"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdeod"
     },
     {
       "event_id": "es2026qdehi",
@@ -1141,7 +1141,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SW GÓJAR.GR",
-      "link": "es2026qdehi"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdehi"
     },
     {
       "event_id": "es2026qdehc",
@@ -1153,7 +1153,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GRANADA.GR",
-      "link": "es2026qdehc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdehc"
     },
     {
       "event_id": "es2026qdefl",
@@ -1165,7 +1165,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE GÓJAR.GR",
-      "link": "es2026qdefl"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdefl"
     },
     {
       "event_id": "es2026qdeew",
@@ -1177,7 +1177,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ARMILLA.GR",
-      "link": "es2026qdeew"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdeew"
     },
     {
       "event_id": "es2026qdeds",
@@ -1189,7 +1189,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W FRONTERA.IHI",
-      "link": "es2026qdeds"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdeds"
     },
     {
       "event_id": "es2026qdedh",
@@ -1201,7 +1201,7 @@
       "mag_type": "Mw",
       "intensity": "Sentido",
       "location": "NE CHURRIANA DE LA VEGA.GR",
-      "link": "es2026qdedh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdedh"
     },
     {
       "event_id": "es2026qdebs",
@@ -1213,7 +1213,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W OGÍJARES.GR",
-      "link": "es2026qdebs"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdebs"
     },
     {
       "event_id": "es2026qddyj",
@@ -1225,7 +1225,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SE LAS GABIAS.GR",
-      "link": "es2026qddyj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qddyj"
     },
     {
       "event_id": "es2026qddve",
@@ -1237,7 +1237,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "NE ALHENDÍN.GR",
-      "link": "es2026qddve"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qddve"
     },
     {
       "event_id": "es2026qddtu",
@@ -1249,7 +1249,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ARMILLA.GR",
-      "link": "es2026qddtu"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qddtu"
     },
     {
       "event_id": "es2026qddtk",
@@ -1261,7 +1261,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SW ARMILLA.GR",
-      "link": "es2026qddtk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qddtk"
     },
     {
       "event_id": "es2026qddsv",
@@ -1273,7 +1273,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ARMILLA.GR",
-      "link": "es2026qddsv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qddsv"
     },
     {
       "event_id": "es2026qddqr",
@@ -1285,7 +1285,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026qddqr"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qddqr"
     },
     {
       "event_id": "es2026qddqb",
@@ -1297,7 +1297,7 @@
       "mag_type": "Mw",
       "intensity": "V-VI",
       "location": "NW VILLA DE OTURA.GR",
-      "link": "es2026qddqb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qddqb"
     },
     {
       "event_id": "es2026qcyta",
@@ -1309,7 +1309,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE VALENCIA",
-      "link": "es2026qcyta"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcyta"
     },
     {
       "event_id": "es2026qcynx",
@@ -1321,7 +1321,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W CÁJAR.GR",
-      "link": "es2026qcynx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcynx"
     },
     {
       "event_id": "es2026qcxyn",
@@ -1333,7 +1333,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N PEÑASCOSA.AB",
-      "link": "es2026qcxyn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcxyn"
     },
     {
       "event_id": "es2026qcxxc",
@@ -1345,7 +1345,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W HUÉTOR VEGA.GR",
-      "link": "es2026qcxxc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcxxc"
     },
     {
       "event_id": "es2026qcwed",
@@ -1357,7 +1357,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE GRANADA.GR",
-      "link": "es2026qcwed"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcwed"
     },
     {
       "event_id": "es2026qcwdp",
@@ -1369,7 +1369,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W HUÉTOR VEGA.GR",
-      "link": "es2026qcwdp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcwdp"
     },
     {
       "event_id": "es2026qcvca",
@@ -1381,7 +1381,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE CÁJAR.GR",
-      "link": "es2026qcvca"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcvca"
     },
     {
       "event_id": "es2026qcudx",
@@ -1393,7 +1393,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE VALENCIA",
-      "link": "es2026qcudx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcudx"
     },
     {
       "event_id": "es2026qcszy",
@@ -1405,7 +1405,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N ALHENDÍN.GR",
-      "link": "es2026qcszy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcszy"
     },
     {
       "event_id": "es2026qcjgk",
@@ -1417,7 +1417,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
-      "link": "es2026qcjgk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcjgk"
     },
     {
       "event_id": "es2026qchib",
@@ -1429,7 +1429,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GÓJAR.GR",
-      "link": "es2026qchib"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qchib"
     },
     {
       "event_id": "es2026qcgfp",
@@ -1441,7 +1441,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "NE VILLA DE OTURA.GR",
-      "link": "es2026qcgfp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcgfp"
     },
     {
       "event_id": "es2026qccpt",
@@ -1453,7 +1453,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW VILLA DE OTURA.GR",
-      "link": "es2026qccpt"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qccpt"
     },
     {
       "event_id": "es2026qccit",
@@ -1465,7 +1465,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GÓJAR.GR",
-      "link": "es2026qccit"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qccit"
     },
     {
       "event_id": "es2026qcbty",
@@ -1477,7 +1477,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ULLDECONA.T",
-      "link": "es2026qcbty"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcbty"
     },
     {
       "event_id": "es2026qcbku",
@@ -1489,7 +1489,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GÓJAR.GR",
-      "link": "es2026qcbku"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qcbku"
     },
     {
       "event_id": "es2026qbxdo",
@@ -1501,7 +1501,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "S ARMILLA.GR",
-      "link": "es2026qbxdo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbxdo"
     },
     {
       "event_id": "es2026qbvzp",
@@ -1513,7 +1513,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE OGÍJARES.GR",
-      "link": "es2026qbvzp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbvzp"
     },
     {
       "event_id": "es2026qbuur",
@@ -1525,7 +1525,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW PALMELA.POR",
-      "link": "es2026qbuur"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbuur"
     },
     {
       "event_id": "es2026qbsou",
@@ -1537,7 +1537,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026qbsou"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbsou"
     },
     {
       "event_id": "es2026qbrmh",
@@ -1549,7 +1549,7 @@
       "mag_type": "M(mb)",
       "intensity": "",
       "location": "AZORES-CABO DE SAN VICENTE",
-      "link": "es2026qbrmh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbrmh"
     },
     {
       "event_id": "es2026qbqos",
@@ -1561,7 +1561,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "S ARMILLA.GR",
-      "link": "es2026qbqos"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbqos"
     },
     {
       "event_id": "es2026qbpjp",
@@ -1573,7 +1573,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE OGÍJARES.GR",
-      "link": "es2026qbpjp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbpjp"
     },
     {
       "event_id": "es2026qbkwi",
@@ -1585,7 +1585,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "S ESCÚZAR.GR",
-      "link": "es2026qbkwi"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbkwi"
     },
     {
       "event_id": "es2026qbguw",
@@ -1597,7 +1597,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE GÓJAR.GR",
-      "link": "es2026qbguw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qbguw"
     },
     {
       "event_id": "es2026qayhv",
@@ -1609,7 +1609,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW HUÉTOR VEGA.GR",
-      "link": "es2026qayhv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qayhv"
     },
     {
       "event_id": "es2026qavek",
@@ -1621,7 +1621,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "E OGÍJARES.GR",
-      "link": "es2026qavek"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qavek"
     },
     {
       "event_id": "es2026qapik",
@@ -1633,7 +1633,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "NW CENES DE LA VEGA.GR",
-      "link": "es2026qapik"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qapik"
     },
     {
       "event_id": "es2026qapag",
@@ -1645,7 +1645,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
-      "link": "es2026qapag"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qapag"
     },
     {
       "event_id": "es2026qamsv",
@@ -1657,7 +1657,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "NE VILLA DE OTURA.GR",
-      "link": "es2026qamsv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qamsv"
     },
     {
       "event_id": "es2026qalis",
@@ -1669,7 +1669,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ST JEAN PIED DE PORT.FRA",
-      "link": "es2026qalis"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qalis"
     },
     {
       "event_id": "es2026qakju",
@@ -1681,7 +1681,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW DÍLAR.GR",
-      "link": "es2026qakju"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qakju"
     },
     {
       "event_id": "es2026qaica",
@@ -1693,7 +1693,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ALBORÁN OESTE",
-      "link": "es2026qaica"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qaica"
     },
     {
       "event_id": "es2026qahww",
@@ -1705,7 +1705,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE VILA NOVA DE FAMALICAO.POR",
-      "link": "es2026qahww"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qahww"
     },
     {
       "event_id": "es2026qahlh",
@@ -1717,7 +1717,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "N VILLA DE OTURA.GR",
-      "link": "es2026qahlh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qahlh"
     },
     {
       "event_id": "es2026qagid",
@@ -1729,7 +1729,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026qagid"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qagid"
     },
     {
       "event_id": "es2026qafzx",
@@ -1741,7 +1741,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW DÍLAR.GR",
-      "link": "es2026qafzx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qafzx"
     },
     {
       "event_id": "es2026qacou",
@@ -1753,7 +1753,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "SE VILLA DE OTURA.GR",
-      "link": "es2026qacou"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qacou"
     },
     {
       "event_id": "es2026qabdh",
@@ -1765,7 +1765,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE GRANADA.GR",
-      "link": "es2026qabdh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qabdh"
     },
     {
       "event_id": "es2026pzzdy",
@@ -1777,7 +1777,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026pzzdy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzzdy"
     },
     {
       "event_id": "es2026pzxtw",
@@ -1789,7 +1789,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E DÍLAR.GR",
-      "link": "es2026pzxtw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzxtw"
     },
     {
       "event_id": "es2026pzxop",
@@ -1801,7 +1801,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ALHENDÍN.GR",
-      "link": "es2026pzxop"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzxop"
     },
     {
       "event_id": "es2026pzxcn",
@@ -1813,7 +1813,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "S LA ZUBIA.GR",
-      "link": "es2026pzxcn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzxcn"
     },
     {
       "event_id": "es2026pzuxt",
@@ -1825,7 +1825,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E DÍLAR.GR",
-      "link": "es2026pzuxt"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzuxt"
     },
     {
       "event_id": "es2026pzupt",
@@ -1837,7 +1837,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GÓJAR.GR",
-      "link": "es2026pzupt"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzupt"
     },
     {
       "event_id": "es2026pztgd",
@@ -1849,7 +1849,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
-      "link": "es2026pztgd"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pztgd"
     },
     {
       "event_id": "es2026pzszo",
@@ -1861,7 +1861,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW GÓJAR.GR",
-      "link": "es2026pzszo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzszo"
     },
     {
       "event_id": "es2026pzspq",
@@ -1873,7 +1873,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GÓJAR.GR",
-      "link": "es2026pzspq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzspq"
     },
     {
       "event_id": "es2026pzrxh",
@@ -1885,7 +1885,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE OGÍJARES.GR",
-      "link": "es2026pzrxh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzrxh"
     },
     {
       "event_id": "es2026pzqyk",
@@ -1897,7 +1897,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW ALHENDÍN.GR",
-      "link": "es2026pzqyk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzqyk"
     },
     {
       "event_id": "es2026pzoqa",
@@ -1909,7 +1909,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E LARUNS.FRA",
-      "link": "es2026pzoqa"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzoqa"
     },
     {
       "event_id": "es2026pzokq",
@@ -1921,7 +1921,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "NE ALHENDÍN.GR",
-      "link": "es2026pzokq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzokq"
     },
     {
       "event_id": "es2026pzhlw",
@@ -1933,7 +1933,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "NE CHURRIANA DE LA VEGA.GR",
-      "link": "es2026pzhlw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzhlw"
     },
     {
       "event_id": "es2026pzfip",
@@ -1945,7 +1945,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ALHENDÍN.GR",
-      "link": "es2026pzfip"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzfip"
     },
     {
       "event_id": "es2026pzeil",
@@ -1957,7 +1957,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026pzeil"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzeil"
     },
     {
       "event_id": "es2026pzedy",
@@ -1969,7 +1969,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026pzedy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzedy"
     },
     {
       "event_id": "es2026pzdsz",
@@ -1981,7 +1981,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "SE GÓJAR.GR",
-      "link": "es2026pzdsz"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzdsz"
     },
     {
       "event_id": "es2026pzchc",
@@ -1993,7 +1993,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ARMILLA.GR",
-      "link": "es2026pzchc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzchc"
     },
     {
       "event_id": "es2026pzbct",
@@ -2005,7 +2005,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "N ALHENDÍN.GR",
-      "link": "es2026pzbct"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzbct"
     },
     {
       "event_id": "es2026pzavg",
@@ -2017,7 +2017,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "NW ARMILLA.GR",
-      "link": "es2026pzavg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzavg"
     },
     {
       "event_id": "es2026pzafw",
@@ -2029,7 +2029,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W OGÍJARES.GR",
-      "link": "es2026pzafw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pzafw"
     },
     {
       "event_id": "es2026pyyyk",
@@ -2041,7 +2041,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026pyyyk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyyyk"
     },
     {
       "event_id": "es2026pyytf",
@@ -2053,7 +2053,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026pyytf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyytf"
     },
     {
       "event_id": "es2026pyyno",
@@ -2065,7 +2065,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W OGÍJARES.GR",
-      "link": "es2026pyyno"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyyno"
     },
     {
       "event_id": "es2026pyygo",
@@ -2077,7 +2077,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E OGÍJARES.GR",
-      "link": "es2026pyygo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyygo"
     },
     {
       "event_id": "es2026pyxen",
@@ -2089,7 +2089,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "E GÓJAR.GR",
-      "link": "es2026pyxen"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyxen"
     },
     {
       "event_id": "es2026pywjh",
@@ -2101,7 +2101,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W OGÍJARES.GR",
-      "link": "es2026pywjh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pywjh"
     },
     {
       "event_id": "es2026pyvns",
@@ -2113,7 +2113,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026pyvns"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyvns"
     },
     {
       "event_id": "es2026pyveg",
@@ -2125,7 +2125,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "SW LA ZUBIA.GR",
-      "link": "es2026pyveg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyveg"
     },
     {
       "event_id": "es2026pyucc",
@@ -2137,7 +2137,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "E GÓJAR.GR",
-      "link": "es2026pyucc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyucc"
     },
     {
       "event_id": "es2026pytng",
@@ -2149,7 +2149,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "W GÓJAR.GR",
-      "link": "es2026pytng"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pytng"
     },
     {
       "event_id": "es2026pyrwv",
@@ -2161,7 +2161,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "NE ARMILLA.GR",
-      "link": "es2026pyrwv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyrwv"
     },
     {
       "event_id": "es2026pyqzs",
@@ -2173,7 +2173,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "W OGÍJARES.GR",
-      "link": "es2026pyqzs"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyqzs"
     },
     {
       "event_id": "es2026pypge",
@@ -2185,7 +2185,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026pypge"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pypge"
     },
     {
       "event_id": "es2026pynys",
@@ -2197,7 +2197,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026pynys"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pynys"
     },
     {
       "event_id": "es2026pykjw",
@@ -2209,7 +2209,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE OGÍJARES.GR",
-      "link": "es2026pykjw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pykjw"
     },
     {
       "event_id": "es2026pyiwc",
@@ -2221,7 +2221,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "NE ALHENDÍN.GR",
-      "link": "es2026pyiwc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyiwc"
     },
     {
       "event_id": "es2026pygli",
@@ -2233,7 +2233,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026pygli"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pygli"
     },
     {
       "event_id": "es2026pyftj",
@@ -2245,7 +2245,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "MEDITERRÁNEO-LEVANTE SUR",
-      "link": "es2026pyftj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyftj"
     },
     {
       "event_id": "es2026pydnk",
@@ -2257,7 +2257,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026pydnk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pydnk"
     },
     {
       "event_id": "es2026pydhc",
@@ -2269,7 +2269,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "E GÓJAR.GR",
-      "link": "es2026pydhc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pydhc"
     },
     {
       "event_id": "es2026pycct",
@@ -2281,7 +2281,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW EL PINAR DE EL HIERRO.IHI",
-      "link": "es2026pycct"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pycct"
     },
     {
       "event_id": "es2026pyasd",
@@ -2293,7 +2293,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW GRANADA.GR",
-      "link": "es2026pyasd"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyasd"
     },
     {
       "event_id": "es2026pyani",
@@ -2305,7 +2305,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026pyani"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pyani"
     },
     {
       "event_id": "es2026pxxvy",
@@ -2317,7 +2317,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026pxxvy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxxvy"
     },
     {
       "event_id": "es2026pxwxy",
@@ -2329,7 +2329,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE VILLA DE OTURA.GR",
-      "link": "es2026pxwxy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxwxy"
     },
     {
       "event_id": "es2026pxwqk",
@@ -2341,7 +2341,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ARICO.ITF",
-      "link": "es2026pxwqk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxwqk"
     },
     {
       "event_id": "es2026pxvpn",
@@ -2353,7 +2353,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "SW LAS GABIAS.GR",
-      "link": "es2026pxvpn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxvpn"
     },
     {
       "event_id": "es2026pxvjq",
@@ -2365,7 +2365,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE LA ZUBIA.GR",
-      "link": "es2026pxvjq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxvjq"
     },
     {
       "event_id": "es2026pxvgt",
@@ -2377,7 +2377,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "SW DÍLAR.GR",
-      "link": "es2026pxvgt"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxvgt"
     },
     {
       "event_id": "es2026pxvbx",
@@ -2389,7 +2389,7 @@
       "mag_type": "mb",
       "intensity": "",
       "location": "ALBORÁN SUR",
-      "link": "es2026pxvbx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxvbx"
     },
     {
       "event_id": "es2026pxuxh",
@@ -2401,7 +2401,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "N ALHENDÍN.GR",
-      "link": "es2026pxuxh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxuxh"
     },
     {
       "event_id": "es2026pxuvr",
@@ -2413,7 +2413,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "S LAS GABIAS.GR",
-      "link": "es2026pxuvr"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxuvr"
     },
     {
       "event_id": "es2026pxujc",
@@ -2425,7 +2425,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "SW VILLA DE OTURA.GR",
-      "link": "es2026pxujc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxujc"
     },
     {
       "event_id": "es2026pxqpw",
@@ -2437,7 +2437,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026pxqpw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxqpw"
     },
     {
       "event_id": "es2026pxqco",
@@ -2449,7 +2449,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE OGÍJARES.GR",
-      "link": "es2026pxqco"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxqco"
     },
     {
       "event_id": "es2026pxosg",
@@ -2461,7 +2461,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W OGÍJARES.GR",
-      "link": "es2026pxosg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxosg"
     },
     {
       "event_id": "es2026pxopb",
@@ -2473,7 +2473,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E OGÍJARES.GR",
-      "link": "es2026pxopb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxopb"
     },
     {
       "event_id": "es2026pxnug",
@@ -2485,7 +2485,7 @@
       "mag_type": "mbLg",
       "intensity": "III-IV",
       "location": "SW GÓJAR.GR",
-      "link": "es2026pxnug"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxnug"
     },
     {
       "event_id": "es2026pxmxl",
@@ -2497,7 +2497,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE MONACHIL.GR",
-      "link": "es2026pxmxl"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxmxl"
     },
     {
       "event_id": "es2026pxmkx",
@@ -2509,7 +2509,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N VALLE DE ABDALAJÍS.MA",
-      "link": "es2026pxmkx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxmkx"
     },
     {
       "event_id": "es2026pxmky",
@@ -2521,7 +2521,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE TEBA.MA",
-      "link": "es2026pxmky"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxmky"
     },
     {
       "event_id": "es2026pxmau",
@@ -2533,7 +2533,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "SW GÓJAR.GR",
-      "link": "es2026pxmau"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxmau"
     },
     {
       "event_id": "es2026pxkzw",
@@ -2545,7 +2545,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE GÓJAR.GR",
-      "link": "es2026pxkzw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxkzw"
     },
     {
       "event_id": "es2026pxkcq",
@@ -2557,7 +2557,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E GÓJAR.GR",
-      "link": "es2026pxkcq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxkcq"
     },
     {
       "event_id": "es2026pxjqo",
@@ -2569,7 +2569,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE CAMPILLOS.MA",
-      "link": "es2026pxjqo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxjqo"
     },
     {
       "event_id": "es2026pxjbc",
@@ -2581,7 +2581,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "N GÓJAR.GR",
-      "link": "es2026pxjbc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxjbc"
     },
     {
       "event_id": "es2026pxiwg",
@@ -2593,7 +2593,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE OGÍJARES.GR",
-      "link": "es2026pxiwg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxiwg"
     },
     {
       "event_id": "es2026pxirw",
@@ -2605,7 +2605,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW VÉLEZ-MÁLAGA.MA",
-      "link": "es2026pxirw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxirw"
     },
     {
       "event_id": "es2026pxiqn",
@@ -2617,7 +2617,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026pxiqn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxiqn"
     },
     {
       "event_id": "es2026pxieo",
@@ -2629,7 +2629,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE OGÍJARES.GR",
-      "link": "es2026pxieo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxieo"
     },
     {
       "event_id": "es2026pxicm",
@@ -2641,7 +2641,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE BENAMOCARRA.MA",
-      "link": "es2026pxicm"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxicm"
     },
     {
       "event_id": "es2026pxibf",
@@ -2653,7 +2653,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026pxibf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxibf"
     },
     {
       "event_id": "es2026pxhux",
@@ -2665,7 +2665,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E GÓJAR.GR",
-      "link": "es2026pxhux"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxhux"
     },
     {
       "event_id": "es2026pxhto",
@@ -2677,7 +2677,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW DÍLAR.GR",
-      "link": "es2026pxhto"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxhto"
     },
     {
       "event_id": "es2026pxgvw",
@@ -2689,7 +2689,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "S LA ZUBIA.GR",
-      "link": "es2026pxgvw"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxgvw"
     },
     {
       "event_id": "es2026pxgut",
@@ -2701,7 +2701,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "S GÓJAR.GR",
-      "link": "es2026pxgut"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxgut"
     },
     {
       "event_id": "es2026pxgsj",
@@ -2713,7 +2713,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W LA ZUBIA.GR",
-      "link": "es2026pxgsj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxgsj"
     },
     {
       "event_id": "es2026pxgkf",
@@ -2725,7 +2725,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026pxgkf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxgkf"
     },
     {
       "event_id": "es2026pxgik",
@@ -2737,7 +2737,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W LA ZUBIA.GR",
-      "link": "es2026pxgik"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxgik"
     },
     {
       "event_id": "es2026pxgfx",
@@ -2749,7 +2749,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW OGÍJARES.GR",
-      "link": "es2026pxgfx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxgfx"
     },
     {
       "event_id": "es2026pxfxs",
@@ -2761,7 +2761,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W OGÍJARES.GR",
-      "link": "es2026pxfxs"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxfxs"
     },
     {
       "event_id": "es2026pxfiv",
@@ -2773,7 +2773,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026pxfiv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxfiv"
     },
     {
       "event_id": "es2026pxfif",
@@ -2785,7 +2785,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW OGÍJARES.GR",
-      "link": "es2026pxfif"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxfif"
     },
     {
       "event_id": "es2026pxdvr",
@@ -2797,7 +2797,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "SE GÓJAR.GR",
-      "link": "es2026pxdvr"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxdvr"
     },
     {
       "event_id": "es2026pxdol",
@@ -2809,7 +2809,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "SW LA ZUBIA.GR",
-      "link": "es2026pxdol"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxdol"
     },
     {
       "event_id": "es2026pxcqb",
@@ -2821,7 +2821,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W OGÍJARES.GR",
-      "link": "es2026pxcqb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxcqb"
     },
     {
       "event_id": "es2026pxcjl",
@@ -2833,7 +2833,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026pxcjl"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxcjl"
     },
     {
       "event_id": "es2026pxcgc",
@@ -2845,7 +2845,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE FRONTERA.IHI",
-      "link": "es2026pxcgc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxcgc"
     },
     {
       "event_id": "es2026pxbdh",
@@ -2857,7 +2857,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ALHENDÍN.GR",
-      "link": "es2026pxbdh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxbdh"
     },
     {
       "event_id": "es2026pxbak",
@@ -2869,7 +2869,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "S VILLA DE OTURA.GR",
-      "link": "es2026pxbak"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxbak"
     },
     {
       "event_id": "es2026pxavh",
@@ -2881,7 +2881,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "S ARMILLA.GR",
-      "link": "es2026pxavh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxavh"
     },
     {
       "event_id": "es2026pxaim",
@@ -2893,7 +2893,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE GÓJAR.GR",
-      "link": "es2026pxaim"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxaim"
     },
     {
       "event_id": "es2026pxafk",
@@ -2905,7 +2905,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W GÓJAR.GR",
-      "link": "es2026pxafk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxafk"
     },
     {
       "event_id": "es2026pxacs",
@@ -2917,7 +2917,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N ALHENDÍN.GR",
-      "link": "es2026pxacs"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pxacs"
     },
     {
       "event_id": "es2026pwzxe",
@@ -2929,7 +2929,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW LA ZUBIA.GR",
-      "link": "es2026pwzxe"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwzxe"
     },
     {
       "event_id": "es2026pwzsn",
@@ -2941,7 +2941,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW OGÍJARES.GR",
-      "link": "es2026pwzsn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwzsn"
     },
     {
       "event_id": "es2026pwznh",
@@ -2953,7 +2953,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE OGÍJARES.GR",
-      "link": "es2026pwznh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwznh"
     },
     {
       "event_id": "es2026pwzhp",
@@ -2965,7 +2965,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "S CHURRIANA DE LA VEGA.GR",
-      "link": "es2026pwzhp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwzhp"
     },
     {
       "event_id": "es2026pwzea",
@@ -2977,7 +2977,7 @@
       "mag_type": "mbLg",
       "intensity": "II-III",
       "location": "NE VILLA DE OTURA.GR",
-      "link": "es2026pwzea"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwzea"
     },
     {
       "event_id": "es2026pwzal",
@@ -2989,7 +2989,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE GÓJAR.GR",
-      "link": "es2026pwzal"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwzal"
     },
     {
       "event_id": "es2026pwyxa",
@@ -3001,7 +3001,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE LA ZUBIA.GR",
-      "link": "es2026pwyxa"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwyxa"
     },
     {
       "event_id": "es2026pwysl",
@@ -3013,7 +3013,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE GÓJAR.GR",
-      "link": "es2026pwysl"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwysl"
     },
     {
       "event_id": "es2026pwyqc",
@@ -3025,7 +3025,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW ARMILLA.GR",
-      "link": "es2026pwyqc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwyqc"
     },
     {
       "event_id": "es2026pwypf",
@@ -3037,7 +3037,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE ALHENDÍN.GR",
-      "link": "es2026pwypf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwypf"
     },
     {
       "event_id": "es2026pwymy",
@@ -3049,7 +3049,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N ALHENDÍN.GR",
-      "link": "es2026pwymy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwymy"
     },
     {
       "event_id": "es2026pwyjj",
@@ -3061,7 +3061,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "NE GÓJAR.GR",
-      "link": "es2026pwyjj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwyjj"
     },
     {
       "event_id": "es2026pwyit",
@@ -3073,7 +3073,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE FONDÓN.AL",
-      "link": "es2026pwyit"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwyit"
     },
     {
       "event_id": "es2026pwyib",
@@ -3085,7 +3085,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE OGÍJARES.GR",
-      "link": "es2026pwyib"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwyib"
     },
     {
       "event_id": "es2026pwyek",
@@ -3097,7 +3097,7 @@
       "mag_type": "Mw",
       "intensity": "V-VI",
       "location": "NE ALHENDÍN.GR",
-      "link": "es2026pwyek"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwyek"
     },
     {
       "event_id": "es2026pwweq",
@@ -3109,7 +3109,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "NE OGÍJARES.GR",
-      "link": "es2026pwweq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwweq"
     },
     {
       "event_id": "es2026pwofz",
@@ -3121,7 +3121,7 @@
       "mag_type": "mbLg",
       "intensity": "III",
       "location": "NE VILLA DE OTURA.GR",
-      "link": "es2026pwofz"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwofz"
     },
     {
       "event_id": "es2026pwlpq",
@@ -3133,7 +3133,7 @@
       "mag_type": "Mw",
       "intensity": "IV",
       "location": "NW LA ZUBIA.GR",
-      "link": "es2026pwlpq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwlpq"
     },
     {
       "event_id": "es2026pwkoa",
@@ -3145,7 +3145,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ALBORÁN NORTE",
-      "link": "es2026pwkoa"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwkoa"
     },
     {
       "event_id": "es2026pwhsv",
@@ -3157,7 +3157,7 @@
       "mag_type": "M(mb)",
       "intensity": "",
       "location": "NE MOULAY YACOUB.MAC",
-      "link": "es2026pwhsv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwhsv"
     },
     {
       "event_id": "es2026pwhip",
@@ -3169,7 +3169,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026pwhip"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwhip"
     },
     {
       "event_id": "es2026pwegf",
@@ -3181,7 +3181,7 @@
       "mag_type": "mb",
       "intensity": "",
       "location": "W ALHAURÍN DE LA TORRE.MA",
-      "link": "es2026pwegf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwegf"
     },
     {
       "event_id": "es2026pwczs",
@@ -3193,7 +3193,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
-      "link": "es2026pwczs"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pwczs"
     },
     {
       "event_id": "es2026pvrre",
@@ -3205,7 +3205,7 @@
       "mag_type": "mbLg",
       "intensity": "I-II",
       "location": "SE GÓJAR.GR",
-      "link": "es2026pvrre"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pvrre"
     },
     {
       "event_id": "es2026pvpuq",
@@ -3217,7 +3217,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026pvpuq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pvpuq"
     },
     {
       "event_id": "es2026pvpfn",
@@ -3229,7 +3229,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N ANTAS.AL",
-      "link": "es2026pvpfn"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pvpfn"
     },
     {
       "event_id": "es2026pviys",
@@ -3241,7 +3241,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-PORTUGAL",
-      "link": "es2026pviys"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pviys"
     },
     {
       "event_id": "es2026pvgzu",
@@ -3253,7 +3253,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026pvgzu"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pvgzu"
     },
     {
       "event_id": "es2026puzsx",
@@ -3265,7 +3265,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W CUEVAS DEL ALMANZORA.AL",
-      "link": "es2026puzsx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puzsx"
     },
     {
       "event_id": "es2026puzes",
@@ -3277,7 +3277,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W CUEVAS DEL ALMANZORA.AL",
-      "link": "es2026puzes"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puzes"
     },
     {
       "event_id": "es2026puyxt",
@@ -3289,7 +3289,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ALBORÁN SUR",
-      "link": "es2026puyxt"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puyxt"
     },
     {
       "event_id": "es2026puxlu",
@@ -3301,7 +3301,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W CUEVAS DEL ALMANZORA.AL",
-      "link": "es2026puxlu"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puxlu"
     },
     {
       "event_id": "es2026puwnt",
@@ -3313,7 +3313,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW ANTAS.AL",
-      "link": "es2026puwnt"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puwnt"
     },
     {
       "event_id": "es2026puwlz",
@@ -3325,7 +3325,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "W CUEVAS DEL ALMANZORA.AL",
-      "link": "es2026puwlz"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puwlz"
     },
     {
       "event_id": "es2026puwlc",
@@ -3337,7 +3337,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE TABERNAS.AL",
-      "link": "es2026puwlc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puwlc"
     },
     {
       "event_id": "es2026puwct",
@@ -3349,7 +3349,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW CUEVAS DEL ALMANZORA.AL",
-      "link": "es2026puwct"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puwct"
     },
     {
       "event_id": "es2026puuxf",
@@ -3361,7 +3361,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE ZURGENA.AL",
-      "link": "es2026puuxf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puuxf"
     },
     {
       "event_id": "es2026puutq",
@@ -3373,7 +3373,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W CUEVAS DEL ALMANZORA.AL",
-      "link": "es2026puutq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puutq"
     },
     {
       "event_id": "es2026puuqd",
@@ -3385,7 +3385,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W CUEVAS DEL ALMANZORA.AL",
-      "link": "es2026puuqd"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puuqd"
     },
     {
       "event_id": "es2026puukx",
@@ -3397,7 +3397,7 @@
       "mag_type": "mbLg",
       "intensity": "Sentido",
       "location": "SE ZURGENA.AL",
-      "link": "es2026puukx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puukx"
     },
     {
       "event_id": "es2026puukf",
@@ -3409,7 +3409,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW HUÉRCAL-OVERA.AL",
-      "link": "es2026puukf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puukf"
     },
     {
       "event_id": "es2026puujm",
@@ -3421,7 +3421,7 @@
       "mag_type": "mbLg",
       "intensity": "III-IV",
       "location": "SE ZURGENA.AL",
-      "link": "es2026puujm"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puujm"
     },
     {
       "event_id": "es2026puojk",
@@ -3433,7 +3433,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW NAY.FRA",
-      "link": "es2026puojk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puojk"
     },
     {
       "event_id": "es2026puiye",
@@ -3445,7 +3445,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE TARASCON SUR ARRIEGE.FRA",
-      "link": "es2026puiye"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puiye"
     },
     {
       "event_id": "es2026puezo",
@@ -3457,7 +3457,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE OURENSE.OU",
-      "link": "es2026puezo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026puezo"
     },
     {
       "event_id": "es2026pudep",
@@ -3469,7 +3469,7 @@
       "mag_type": "mb",
       "intensity": "",
       "location": "E LA ROMANA.A",
-      "link": "es2026pudep"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pudep"
     },
     {
       "event_id": "es2026ptyku",
@@ -3481,7 +3481,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW MOTREDON LABESSONNIE.FRA",
-      "link": "es2026ptyku"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptyku"
     },
     {
       "event_id": "es2026ptwxx",
@@ -3493,7 +3493,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW LAXE.C",
-      "link": "es2026ptwxx"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptwxx"
     },
     {
       "event_id": "es2026ptwgp",
@@ -3505,7 +3505,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ALBORÁN SUR",
-      "link": "es2026ptwgp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptwgp"
     },
     {
       "event_id": "es2026pttzc",
@@ -3517,7 +3517,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW ENCINASOLA.H",
-      "link": "es2026pttzc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pttzc"
     },
     {
       "event_id": "es2026ptrpz",
@@ -3529,7 +3529,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W CALDAS DA RAINHA.POR",
-      "link": "es2026ptrpz"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptrpz"
     },
     {
       "event_id": "es2026ptnbe",
@@ -3541,7 +3541,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N VALLE DE ABDALAJÍS.MA",
-      "link": "es2026ptnbe"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptnbe"
     },
     {
       "event_id": "es2026ptlod",
@@ -3553,7 +3553,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-GALICIA",
-      "link": "es2026ptlod"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptlod"
     },
     {
       "event_id": "es2026pthkj",
@@ -3565,7 +3565,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "N LARUNS.FRA",
-      "link": "es2026pthkj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pthkj"
     },
     {
       "event_id": "es2026ptexb",
@@ -3577,7 +3577,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
-      "link": "es2026ptexb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptexb"
     },
     {
       "event_id": "es2026ptenv",
@@ -3589,7 +3589,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
-      "link": "es2026ptenv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptenv"
     },
     {
       "event_id": "es2026ptadu",
@@ -3601,7 +3601,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ALBORÁN SUR",
-      "link": "es2026ptadu"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ptadu"
     },
     {
       "event_id": "es2026psvhk",
@@ -3613,7 +3613,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-PORTUGAL",
-      "link": "es2026psvhk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026psvhk"
     },
     {
       "event_id": "es2026pstdv",
@@ -3625,7 +3625,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW VALE CAMBRA.POR",
-      "link": "es2026pstdv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pstdv"
     },
     {
       "event_id": "es2026psmlq",
@@ -3637,7 +3637,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
-      "link": "es2026psmlq"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026psmlq"
     },
     {
       "event_id": "es2026psiqh",
@@ -3649,7 +3649,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "MEDITERRÁNEO-ARGELIA",
-      "link": "es2026psiqh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026psiqh"
     },
     {
       "event_id": "es2026psfsj",
@@ -3661,7 +3661,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE FASNIA.ITF",
-      "link": "es2026psfsj"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026psfsj"
     },
     {
       "event_id": "es2026psflk",
@@ -3673,7 +3673,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ARICO.ITF",
-      "link": "es2026psflk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026psflk"
     },
     {
       "event_id": "es2026psevy",
@@ -3685,7 +3685,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW SOUSEL.POR",
-      "link": "es2026psevy"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026psevy"
     },
     {
       "event_id": "es2026psdtp",
@@ -3697,7 +3697,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
-      "link": "es2026psdtp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026psdtp"
     },
     {
       "event_id": "es2026przah",
@@ -3709,7 +3709,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
-      "link": "es2026przah"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026przah"
     },
     {
       "event_id": "es2026prwgc",
@@ -3721,7 +3721,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE UBRIQUE.CA",
-      "link": "es2026prwgc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026prwgc"
     },
     {
       "event_id": "es2026prsza",
@@ -3733,7 +3733,7 @@
       "mag_type": "M(mb)",
       "intensity": "",
       "location": "SW MIDELT.MAC",
-      "link": "es2026prsza"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026prsza"
     },
     {
       "event_id": "es2026prsno",
@@ -3745,7 +3745,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026prsno"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026prsno"
     },
     {
       "event_id": "es2026profb",
@@ -3757,7 +3757,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
-      "link": "es2026profb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026profb"
     },
     {
       "event_id": "es2026pqqlo",
@@ -3769,7 +3769,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026pqqlo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pqqlo"
     },
     {
       "event_id": "es2026pqixd",
@@ -3781,7 +3781,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE VALENCIA",
-      "link": "es2026pqixd"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pqixd"
     },
     {
       "event_id": "es2026ppzof",
@@ -3793,7 +3793,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026ppzof"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppzof"
     },
     {
       "event_id": "es2026ppxzg",
@@ -3805,7 +3805,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E CANDELARIA.ITF",
-      "link": "es2026ppxzg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppxzg"
     },
     {
       "event_id": "es2026ppvvd",
@@ -3817,7 +3817,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026ppvvd"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppvvd"
     },
     {
       "event_id": "es2026ppvqb",
@@ -3829,7 +3829,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NW GUÍA DE ISORA.ITF",
-      "link": "es2026ppvqb"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppvqb"
     },
     {
       "event_id": "es2026ppswe",
@@ -3841,7 +3841,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW TOÉN.OU",
-      "link": "es2026ppswe"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppswe"
     },
     {
       "event_id": "es2026ppsjh",
@@ -3853,7 +3853,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE MONCHIQUE.POR",
-      "link": "es2026ppsjh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppsjh"
     },
     {
       "event_id": "es2026ppruf",
@@ -3865,7 +3865,7 @@
       "mag_type": "mbLg",
       "intensity": "II",
       "location": "W BAÑOS DE LA ENCINA.J",
-      "link": "es2026ppruf"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppruf"
     },
     {
       "event_id": "es2026pplsg",
@@ -3877,7 +3877,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ALBORÁN SUR",
-      "link": "es2026pplsg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pplsg"
     },
     {
       "event_id": "es2026ppknk",
@@ -3889,7 +3889,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E FUENCALIENTE DE LA PALMA.ILP",
-      "link": "es2026ppknk"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppknk"
     },
     {
       "event_id": "es2026pphnc",
@@ -3901,7 +3901,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
-      "link": "es2026pphnc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pphnc"
     },
     {
       "event_id": "es2026poyrz",
@@ -3913,7 +3913,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W PRADES.FRA",
-      "link": "es2026poyrz"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026poyrz"
     },
     {
       "event_id": "es2026povxc",
@@ -3925,7 +3925,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W LES ESCALDES.AND",
-      "link": "es2026povxc"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026povxc"
     },
     {
       "event_id": "es2026povpg",
@@ -3937,7 +3937,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW FRESNEDILLAS DE LA OLIVA.M",
-      "link": "es2026povpg"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026povpg"
     },
     {
       "event_id": "es2026potgo",
@@ -3949,7 +3949,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "S CADAVAL.POR",
-      "link": "es2026potgo"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026potgo"
     },
     {
       "event_id": "es2026poojv",
@@ -3961,7 +3961,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ALBORÁN NORTE",
-      "link": "es2026poojv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026poojv"
     },
     {
       "event_id": "es2026poian",
@@ -3973,7 +3973,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "W FRONTERA.IHI",
-      "link": "es2026poian"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026poian"
     },
     {
       "event_id": "es2026pogev",
@@ -3985,7 +3985,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
-      "link": "es2026pogev"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pogev"
     },
     {
       "event_id": "es2026pogdh",
@@ -3997,7 +3997,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E FASNIA.ITF",
-      "link": "es2026pogdh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pogdh"
     },
     {
       "event_id": "es2026poduv",
@@ -4009,7 +4009,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE CAMPILLOS.MA",
-      "link": "es2026poduv"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026poduv"
     },
     {
       "event_id": "es2026pobxp",
@@ -4021,7 +4021,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "NE LANTZ.NA",
-      "link": "es2026pobxp"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pobxp"
     },
     {
       "event_id": "es2026poarh",
@@ -4033,7 +4033,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "E ODEMIRA.POR",
-      "link": "es2026poarh"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026poarh"
     },
     {
       "event_id": "es2026pnzne",
@@ -4045,7 +4045,7 @@
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE AIN TEMOUCHENT.ARG",
-      "link": "es2026pnzne"
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pnzne"
     }
   ]
 }
