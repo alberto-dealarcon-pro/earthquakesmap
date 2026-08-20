@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T10:28:54.730346+00:00",
+  "updated": "2026-08-20T10:59:44.049516+00:00",
   "source": "IGN – últimos terremotos",
   "count": 337,
   "earthquakes": [
@@ -990,13 +990,13 @@
     {
       "event_id": "es2026qdhqs",
       "date": "18/08/2026 10:39:44",
-      "lat": 37.1181,
-      "lon": -3.6041,
-      "depth": 0.0,
+      "lat": 37.1038,
+      "lon": -3.6147,
+      "depth": 6.0,
       "magnitude": 4.0,
       "mag_type": "Mw",
       "intensity": "Sentido",
-      "location": "E OGÍJARES.GR",
+      "location": "W GÓJAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdhqs"
     },
     {
@@ -1086,13 +1086,13 @@
     {
       "event_id": "es2026qdfmw",
       "date": "18/08/2026 09:34:37",
-      "lat": 37.1237,
-      "lon": -3.6486,
-      "depth": 0.0,
+      "lat": 37.1097,
+      "lon": -3.6446,
+      "depth": 5.0,
       "magnitude": 4.2,
       "mag_type": "Mw",
-      "intensity": "Sentido",
-      "location": "N ALHENDÍN.GR",
+      "intensity": "IV-V",
+      "location": "NE ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qdfmw"
     },
     {
