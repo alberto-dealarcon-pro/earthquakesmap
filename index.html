@@ -280,6 +280,15 @@ let hasCentered    = false;
 const POLL_MS      = 60 * 1000;
 let nextPoll       = Date.now() + POLL_MS;
 
+// ── ENLACE IGN (construye URL completa aunque el JSON solo traiga el event_id) ─
+function ignUrl(eq) {
+  const id = eq.event_id || eq.link || '';
+  if (!id) return '';
+  // Si ya es una URL completa, devolverla tal cual
+  if (id.startsWith('http')) return id;
+  return `https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=${id}`;
+}
+
 // ── PARSEO DE FECHA IGN (DD/MM/YYYY H:MM:SS UTC) → ms ────────────────────────
 function ignDateToMs(dateStr) {
   if (!dateStr) return null;
@@ -371,14 +380,14 @@ function renderMarkers() {
       <div class="pl">${eq.location || 'Localización desconocida'}</div>
       <div class="pd">🕐 Hora España: ${toSpanishTime(eq.date)}</div>
       <div class="pd">📍 ${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
-      ${eq.link ? `<div class="pa"><a href="${eq.link}" target="_blank">Ver en catálogo IGN ↗</a></div>` : ''}
+      ${ignUrl(eq) ? `<div class="pa"><a href="${ignUrl(eq)}" target="_blank">Ver en catálogo IGN ↗</a></div>` : ''}
     `, { maxWidth: 280 });
 
     c.bindTooltip(
       `<b>M ${eq.magnitude.toFixed(1)}</b> · ${eq.location || ''}` +
       `${eq.date ? `<br><span style="font-size:.85em;opacity:.8">🕐 ${toSpanishTime(eq.date)}</span>` : ''}` +
       `${isLatest ? '<br><span style="font-size:.8em;color:#fbbf24">⚡ Último registrado</span>' : ''}` +
-      `${eq.link ? `<br><a href="${eq.link}" target="_blank" style="font-size:.8em;color:#818cf8">Ver en IGN ↗</a>` : ''}`,
+      `${ignUrl(eq) ? `<br><a href="${ignUrl(eq)}" target="_blank" style="font-size:.8em;color:#818cf8">Ver en IGN ↗</a>` : ''}`,
       { direction: 'top', offset: [0, -radius], opacity: 1 }
     );
 
@@ -418,7 +427,7 @@ function renderList() {
           <div class="eq-loc" title="${eq.location}">${eq.location || 'Desconocido'}</div>
           <div class="eq-date">🕐 ${toSpanishTime(eq.date)}</div>
           <div class="eq-coord">${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
-          ${eq.link ? `<a class="eq-ign-link" href="${eq.link}" target="_blank" onclick="event.stopPropagation()">Ver en IGN ↗</a>` : ''}
+          ${ignUrl(eq) ? `<a class="eq-ign-link" href="${ignUrl(eq)}" target="_blank" onclick="event.stopPropagation()">Ver en IGN ↗</a>` : ''}
         </div>
       </div>`;
   }).join('');
