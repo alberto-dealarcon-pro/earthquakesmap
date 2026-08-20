@@ -30,6 +30,8 @@
     }
     header h1 { font-size: .95rem; font-weight: 700; white-space: nowrap; }
     header h1 span { color: var(--accent); }
+    /* En desktop header-row1 es invisible (inline con el resto) */
+    .header-row1 { display: contents; }
     .pills { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; align-items: center; }
     .pill {
       background: var(--bg); border: 1px solid var(--border);
@@ -154,7 +156,20 @@
 
     /* ── RESPONSIVE ── */
     @media (max-width: 600px) {
-      header { padding: 6px 10px; gap: 7px; }
+      header {
+        padding: 5px 10px; gap: 4px;
+        flex-direction: column; align-items: flex-start;
+      }
+      /* Fila 1: título + filtros en la misma línea */
+      .header-row1 { display: flex; align-items: center; gap: 8px; width: 100%; flex-wrap: wrap; }
+      /* Fila 2: pills de estadísticas en línea */
+      .pills {
+        flex-wrap: nowrap; overflow-x: auto; width: 100%;
+        gap: 5px; padding-bottom: 2px;
+        scrollbar-width: none;
+      }
+      .pills::-webkit-scrollbar { display: none; }
+      .pill { font-size: .66rem; padding: 2px 7px; }
       .content { flex-direction: column; }
       .sidebar { width: 100%; border-left: none; border-top: 1px solid var(--border); max-height: 40vh; }
       .legend { display: none; }
@@ -170,34 +185,36 @@
 <body>
 
 <header>
-  <h1>🌍 Terremotos <span>España · IGN</span></h1>
+  <!-- Fila 1 (desktop: todo en línea; móvil: título + filtros) -->
+  <div class="header-row1">
+    <h1>🌍 Terremotos <span>España · IGN</span></h1>
 
+    <!-- Filtro tiempo (lado cliente) -->
+    <div class="filter-group">
+      <label>Período</label>
+      <button class="filter-btn active" data-hours="24"  onclick="setHours(24)">24h</button>
+      <button class="filter-btn"        data-hours="72"  onclick="setHours(72)">3d</button>
+      <button class="filter-btn"        data-hours="168" onclick="setHours(168)">7d</button>
+      <button class="filter-btn"        data-hours="0"   onclick="setHours(0)">Todos</button>
+    </div>
+
+    <!-- Filtro magnitud (lado cliente) -->
+    <div class="filter-group">
+      <label>Mín. M</label>
+      <button class="filter-btn active" data-mag="0"   onclick="setMag(0)">Todos</button>
+      <button class="filter-btn"        data-mag="1.5" onclick="setMag(1.5)">≥1.5</button>
+      <button class="filter-btn"        data-mag="2.5" onclick="setMag(2.5)">≥2.5</button>
+      <button class="filter-btn"        data-mag="3.5" onclick="setMag(3.5)">≥3.5</button>
+    </div>
+  </div>
+
+  <!-- Fila 2: pills de estadísticas -->
   <div class="pills">
     <div class="pill">🔢 <b id="s-count">—</b> registros</div>
     <div class="pill">📈 Máx. M<b id="s-max">—</b></div>
     <div class="pill">🕐 <b id="s-updated">—</b></div>
     <div class="pill">⏱ <b id="s-next">—</b></div>
   </div>
-
-  <!-- Filtro tiempo (lado cliente) -->
-  <div class="filter-group">
-    <label>Período</label>
-    <button class="filter-btn active" data-hours="24"  onclick="setHours(24)">24h</button>
-    <button class="filter-btn"        data-hours="72"  onclick="setHours(72)">3d</button>
-    <button class="filter-btn"        data-hours="168" onclick="setHours(168)">7d</button>
-    <button class="filter-btn"        data-hours="0"   onclick="setHours(0)">Todos</button>
-  </div>
-
-  <!-- Filtro magnitud (lado cliente) -->
-  <div class="filter-group">
-    <label>Mín. M</label>
-    <button class="filter-btn active" data-mag="0"   onclick="setMag(0)">Todos</button>
-    <button class="filter-btn"        data-mag="1.5" onclick="setMag(1.5)">1.5</button>
-    <button class="filter-btn"        data-mag="2.5" onclick="setMag(2.5)">2.5</button>
-    <button class="filter-btn"        data-mag="3.5" onclick="setMag(3.5)">3.5</button>
-  </div>
-
-  <button class="btn" onclick="doRefresh()">↺ Actualizar</button>
 </header>
 
 <div id="status"></div>
@@ -304,6 +321,7 @@ function setHours(h) {
   document.querySelectorAll('[data-hours]').forEach(b =>
     b.classList.toggle('active', +b.dataset.hours === h));
   applyFilter();
+  panToLatest();
 }
 
 function setMag(m) {
@@ -311,6 +329,17 @@ function setMag(m) {
   document.querySelectorAll('[data-mag]').forEach(b =>
     b.classList.toggle('active', +b.dataset.mag === m));
   applyFilter();
+  panToLatest();
+}
+
+// Mueve el mapa para que el terremoto más reciente del filtro sea visible
+function panToLatest() {
+  if (!earthquakes.length) return;
+  const eq = earthquakes[0];
+  const latlng = L.latLng(eq.lat, eq.lon);
+  if (!map.getBounds().contains(latlng)) {
+    map.panTo(latlng, { animate: true });
+  }
 }
 
 function applyFilter() {
@@ -360,7 +389,11 @@ function renderAll() {
       eq => haversineKm(GRANADA.lat, GRANADA.lon, eq.lat, eq.lon) <= RADIO_KM
     );
     const target = nearby || (earthquakes.length ? earthquakes[0] : null);
-    if (target) map.setView([target.lat, target.lon], 12, { animate: false });
+    if (target) {
+      // invalidateSize primero para que Leaflet conozca el tamaño real en móvil
+      map.invalidateSize();
+      map.setView([target.lat, target.lon], 12, { animate: false });
+    }
   }
 }
 
@@ -406,7 +439,7 @@ function renderMarkers() {
         iconSize: [0, 0], iconAnchor: [0, 0]
       });
       markerLayer.addLayer(
-        L.marker([eq.lat, eq.lon], { icon: pulseIcon, interactive: false, zIndexOffset: -100 })
+        L.marker([eq.lat, eq.lon], { icon: pulseIcon, interactive: false, zIndexOffset: 500 })
       );
     }
   });
