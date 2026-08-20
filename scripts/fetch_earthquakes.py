@@ -171,13 +171,19 @@ def parse_row(cells):
     link = next((c[1] for c in cells if c[1]), "")
 
     try:
+        event_id  = texts[0].strip()
         lat       = parse_float(texts[4])
         lon       = parse_float(texts[5])
         magnitude = parse_float(texts[7])
         if lat is None or lon is None or magnitude is None:
             return None
+        # URL directa a la ficha del terremoto en el IGN
+        ign_link = (
+            f"https://www.ign.es/web/ign/portal/ultimos-terremotos"
+            f"/-/ultimos-terremotos/getDetails?evid={event_id}"
+        )
         return {
-            "event_id":  texts[0],
+            "event_id":  event_id,
             "date":      f"{texts[1]} {texts[2]}",   # "DD/MM/YYYY HH:MM:SS" UTC
             "lat":       lat,
             "lon":       lon,
@@ -186,7 +192,7 @@ def parse_row(cells):
             "mag_type":  texts[8].strip()  if len(texts) > 8  else "",
             "intensity": texts[9].strip()  if len(texts) > 9  else "",
             "location":  texts[10].strip() if len(texts) > 10 else "",
-            "link":      link,
+            "link":      ign_link,
         }
     except Exception as e:
         print(f"  ⚠ fila ignorada: {e}", file=sys.stderr)

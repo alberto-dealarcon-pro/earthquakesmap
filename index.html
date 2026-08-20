@@ -95,6 +95,11 @@
     .eq-loc  { font-size: .81rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .eq-date { font-size: .73rem; color: var(--muted); margin-top: 2px; }
     .eq-coord{ font-size: .68rem; color: var(--border); margin-top: 1px; font-family: monospace; }
+    .eq-ign-link {
+      display: inline-block; margin-top: 3px;
+      font-size: .68rem; color: var(--accent); text-decoration: none; opacity: .8;
+    }
+    .eq-ign-link:hover { opacity: 1; text-decoration: underline; }
 
     .legend { border-top: 1px solid var(--border); padding: 9px 12px; flex-shrink: 0; }
     .legend-hd { font-size: .72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 5px; }
@@ -372,7 +377,8 @@ function renderMarkers() {
     c.bindTooltip(
       `<b>M ${eq.magnitude.toFixed(1)}</b> · ${eq.location || ''}` +
       `${eq.date ? `<br><span style="font-size:.85em;opacity:.8">🕐 ${toSpanishTime(eq.date)}</span>` : ''}` +
-      `${isLatest ? '<br><span style="font-size:.8em;color:#fbbf24">⚡ Último registrado</span>' : ''}`,
+      `${isLatest ? '<br><span style="font-size:.8em;color:#fbbf24">⚡ Último registrado</span>' : ''}` +
+      `${eq.link ? `<br><a href="${eq.link}" target="_blank" style="font-size:.8em;color:#818cf8">Ver en IGN ↗</a>` : ''}`,
       { direction: 'top', offset: [0, -radius], opacity: 1 }
     );
 
@@ -412,6 +418,7 @@ function renderList() {
           <div class="eq-loc" title="${eq.location}">${eq.location || 'Desconocido'}</div>
           <div class="eq-date">🕐 ${toSpanishTime(eq.date)}</div>
           <div class="eq-coord">${eq.lat.toFixed(4)}, ${eq.lon.toFixed(4)}</div>
+          ${eq.link ? `<a class="eq-ign-link" href="${eq.link}" target="_blank" onclick="event.stopPropagation()">Ver en IGN ↗</a>` : ''}
         </div>
       </div>`;
   }).join('');
