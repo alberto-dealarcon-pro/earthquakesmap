@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-20T23:11:23.428635+00:00",
+  "updated": "2026-08-20T23:41:26.332307+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 333,
+  "count": 334,
   "earthquakes": [
+    {
+      "event_id": "es2026qhxwp",
+      "date": "20/08/2026 23:23:28",
+      "lat": 36.7085,
+      "lon": -5.3764,
+      "depth": 3.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE VILLALUENGA DEL ROSARIO.CA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qhxwp"
+    },
     {
       "event_id": "es2026qhnoe",
       "date": "20/08/2026 18:10:34",
