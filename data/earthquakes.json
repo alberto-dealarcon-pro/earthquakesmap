@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-21T13:03:23.477848+00:00",
+  "updated": "2026-08-21T13:54:20.345137+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 361,
+  "count": 363,
   "earthquakes": [
+    {
+      "event_id": "es2026qizpp",
+      "date": "21/08/2026 13:23:54",
+      "lat": 37.1354,
+      "lon": -3.5878,
+      "depth": 11.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W CÁJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qizpp"
+    },
+    {
+      "event_id": "es2026qizjv",
+      "date": "21/08/2026 13:18:18",
+      "lat": 37.1624,
+      "lon": -3.6072,
+      "depth": 6.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qizjv"
+    },
     {
       "event_id": "es2026qixma",
       "date": "21/08/2026 12:19:07",
@@ -11,7 +35,7 @@
       "depth": 3.0,
       "magnitude": 2.1,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "III",
       "location": "E ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qixma"
     },
