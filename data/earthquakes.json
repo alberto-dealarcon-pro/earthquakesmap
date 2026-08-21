@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T21:57:11.109144+00:00",
+  "updated": "2026-08-21T22:28:33.760340+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 376,
+  "count": 368,
   "earthquakes": [
     {
       "event_id": "es2026qjpci",
@@ -4418,102 +4418,6 @@
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026profb"
-    },
-    {
-      "event_id": "es2026pqqlo",
-      "date": "11/08/2026 12:22:37",
-      "lat": 28.0466,
-      "lon": -16.2684,
-      "depth": 26.0,
-      "magnitude": 1.5,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "ATLÁNTICO-CANARIAS",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pqqlo"
-    },
-    {
-      "event_id": "es2026pqixd",
-      "date": "11/08/2026 08:33:36",
-      "lat": 40.1374,
-      "lon": 0.97,
-      "depth": 4.0,
-      "magnitude": 2.7,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "GOLFO DE VALENCIA",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026pqixd"
-    },
-    {
-      "event_id": "es2026ppzof",
-      "date": "11/08/2026 03:50:29",
-      "lat": 28.6033,
-      "lon": -16.8189,
-      "depth": 33.0,
-      "magnitude": 1.9,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "ATLÁNTICO-CANARIAS",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppzof"
-    },
-    {
-      "event_id": "es2026ppxzg",
-      "date": "11/08/2026 03:02:35",
-      "lat": 28.3428,
-      "lon": -16.2574,
-      "depth": 32.0,
-      "magnitude": 1.9,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "E CANDELARIA.ITF",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppxzg"
-    },
-    {
-      "event_id": "es2026ppvvd",
-      "date": "11/08/2026 01:57:19",
-      "lat": 28.1628,
-      "lon": -16.2873,
-      "depth": 24.0,
-      "magnitude": 1.7,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "ATLÁNTICO-CANARIAS",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppvvd"
-    },
-    {
-      "event_id": "es2026ppvqb",
-      "date": "11/08/2026 01:51:23",
-      "lat": 28.2248,
-      "lon": -16.79,
-      "depth": 27.0,
-      "magnitude": 1.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "NW GUÍA DE ISORA.ITF",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppvqb"
-    },
-    {
-      "event_id": "es2026ppswe",
-      "date": "11/08/2026 00:27:36",
-      "lat": 42.2714,
-      "lon": -7.9691,
-      "depth": 21.0,
-      "magnitude": 1.5,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "SW TOÉN.OU",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppswe"
-    },
-    {
-      "event_id": "es2026ppsjh",
-      "date": "11/08/2026 00:12:33",
-      "lat": 37.3038,
-      "lon": -8.5353,
-      "depth": 0.0,
-      "magnitude": 1.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "SE MONCHIQUE.POR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ppsjh"
     }
   ]
 }
