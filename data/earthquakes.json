@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-21T10:37:49.987905+00:00",
+  "updated": "2026-08-21T11:02:27.472060+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 353,
+  "count": 355,
   "earthquakes": [
+    {
+      "event_id": "es2026qisrp",
+      "date": "21/08/2026 09:54:03",
+      "lat": 37.1032,
+      "lon": -3.5802,
+      "depth": 4.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qisrp"
+    },
     {
       "event_id": "es2026qirml",
       "date": "21/08/2026 09:17:45",
@@ -62,6 +74,18 @@
       "intensity": "",
       "location": "SE ARES DEL MAESTRAT.CS",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qipcg"
+    },
+    {
+      "event_id": "es2026qiizf",
+      "date": "21/08/2026 04:59:52",
+      "lat": 35.5139,
+      "lon": -3.6287,
+      "depth": 20.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qiizf"
     },
     {
       "event_id": "es2026qihol",
@@ -167,7 +191,7 @@
       "depth": 0.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II-III",
       "location": "NW ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qiebr"
     },
