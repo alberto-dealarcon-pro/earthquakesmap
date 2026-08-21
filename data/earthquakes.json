@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-21T07:59:15.458246+00:00",
+  "updated": "2026-08-21T08:51:16.077464+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 347,
+  "count": 348,
   "earthquakes": [
+    {
+      "event_id": "es2026qipcg",
+      "date": "21/08/2026 08:05:16",
+      "lat": 40.4366,
+      "lon": -0.1087,
+      "depth": 5.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ARES DEL MAESTRAT.CS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qipcg"
+    },
     {
       "event_id": "es2026qihol",
       "date": "21/08/2026 04:17:02",
