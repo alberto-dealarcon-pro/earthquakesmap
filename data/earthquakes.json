@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-21T17:23:33.266847+00:00",
+  "updated": "2026-08-21T17:54:39.950366+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 365,
+  "count": 367,
   "earthquakes": [
+    {
+      "event_id": "es2026qjgfx",
+      "date": "21/08/2026 16:44:46",
+      "lat": 37.1214,
+      "lon": -3.5864,
+      "depth": 9.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qjgfx"
+    },
+    {
+      "event_id": "es2026qjgfy",
+      "date": "21/08/2026 16:44:46",
+      "lat": 37.1214,
+      "lon": -3.5864,
+      "depth": 9.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qjgfy"
+    },
     {
       "event_id": "es2026qjaww",
       "date": "21/08/2026 14:02:41",
