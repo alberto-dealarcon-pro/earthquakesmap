@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-21T02:51:52.823174+00:00",
+  "updated": "2026-08-21T03:41:37.841302+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 338,
+  "count": 341,
   "earthquakes": [
+    {
+      "event_id": "es2026qifcj",
+      "date": "21/08/2026 03:02:20",
+      "lat": 38.7713,
+      "lon": -3.0931,
+      "depth": 12.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ALCUBILLAS.CR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qifcj"
+    },
+    {
+      "event_id": "es2026qifce",
+      "date": "21/08/2026 03:02:02",
+      "lat": 36.3273,
+      "lon": -9.8993,
+      "depth": 17.0,
+      "magnitude": 2.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qifce"
+    },
     {
       "event_id": "es2026qiebr",
       "date": "21/08/2026 02:31:14",
@@ -14,6 +38,18 @@
       "intensity": "",
       "location": "NW ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qiebr"
+    },
+    {
+      "event_id": "es2026qidsu",
+      "date": "21/08/2026 02:20:53",
+      "lat": 28.0639,
+      "lon": -16.2493,
+      "depth": 3.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qidsu"
     },
     {
       "event_id": "es2026qidfy",
