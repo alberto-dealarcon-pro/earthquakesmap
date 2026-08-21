@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T15:05:54.108489+00:00",
+  "updated": "2026-08-21T15:45:45.198084+00:00",
   "source": "IGN – últimos terremotos",
   "count": 365,
   "earthquakes": [
@@ -671,7 +671,7 @@
       "depth": 0.0,
       "magnitude": 3.4,
       "mag_type": "mbLg",
-      "intensity": "III-IV",
+      "intensity": "Sentido",
       "location": "E ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgebw"
     },
