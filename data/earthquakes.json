@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-21T08:51:16.077464+00:00",
+  "updated": "2026-08-21T09:23:30.541991+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 348,
+  "count": 349,
   "earthquakes": [
+    {
+      "event_id": "es2026qiqzo",
+      "date": "21/08/2026 09:02:48",
+      "lat": 37.1449,
+      "lon": -3.5986,
+      "depth": 7.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W HUÉTOR VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qiqzo"
+    },
     {
       "event_id": "es2026qipcg",
       "date": "21/08/2026 08:05:16",
