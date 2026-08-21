@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-21T11:36:07.718077+00:00",
+  "updated": "2026-08-21T11:59:06.806104+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 358,
+  "count": 359,
   "earthquakes": [
+    {
+      "event_id": "es2026qiwfx",
+      "date": "21/08/2026 11:41:40",
+      "lat": 32.2868,
+      "lon": -6.2061,
+      "depth": 5.0,
+      "magnitude": 3.4,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "SE BENI MELLAL.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qiwfx"
+    },
     {
       "event_id": "es2026qivoy",
       "date": "21/08/2026 11:21:54",
@@ -581,14 +593,14 @@
     },
     {
       "event_id": "es2026qgebw",
-      "date": "20/08/2026 00:15:31",
-      "lat": 37.0678,
-      "lon": -3.6099,
-      "depth": 5.0,
+      "date": "20/08/2026 00:15:30",
+      "lat": 37.108,
+      "lon": -3.6316,
+      "depth": 0.0,
       "magnitude": 3.4,
       "mag_type": "mbLg",
-      "intensity": "Sentido",
-      "location": "SW DÍLAR.GR",
+      "intensity": "III-IV",
+      "location": "E ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qgebw"
     },
     {
