@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-20T23:59:57.206646+00:00",
+  "updated": "2026-08-21T01:50:25.506030+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 334,
+  "count": 335,
   "earthquakes": [
+    {
+      "event_id": "es2026qiauy",
+      "date": "21/08/2026 00:52:27",
+      "lat": 41.2058,
+      "lon": -6.9345,
+      "depth": 10.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E TORRE DE MONCORVO.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qiauy"
+    },
     {
       "event_id": "es2026qhxwp",
       "date": "20/08/2026 23:23:28",
