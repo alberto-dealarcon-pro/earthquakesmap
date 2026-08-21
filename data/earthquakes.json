@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-21T13:54:20.345137+00:00",
+  "updated": "2026-08-21T14:30:40.121274+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 363,
+  "count": 365,
   "earthquakes": [
+    {
+      "event_id": "es2026qjaww",
+      "date": "21/08/2026 14:02:41",
+      "lat": 37.1132,
+      "lon": -3.5634,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qjaww"
+    },
     {
       "event_id": "es2026qizpp",
       "date": "21/08/2026 13:23:54",
@@ -28,6 +40,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qizjv"
     },
     {
+      "event_id": "es2026qiygf",
+      "date": "21/08/2026 12:42:38",
+      "lat": 37.1232,
+      "lon": -3.5672,
+      "depth": 7.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE CÁJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qiygf"
+    },
+    {
       "event_id": "es2026qixma",
       "date": "21/08/2026 12:19:07",
       "lat": 37.1395,
@@ -35,7 +59,7 @@
       "depth": 3.0,
       "magnitude": 2.1,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "Sentido",
       "location": "E ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qixma"
     },
@@ -47,7 +71,7 @@
       "depth": 0.0,
       "magnitude": 2.5,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "NW LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qixiw"
     },
@@ -287,7 +311,7 @@
       "depth": 0.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "NW ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qiebr"
     },
