@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T08:33:10.923460+00:00",
+  "updated": "2026-08-22T09:00:11.133616+00:00",
   "source": "IGN – últimos terremotos",
   "count": 374,
   "earthquakes": [
@@ -47,7 +47,7 @@
       "depth": 2.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "E GÓJAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkcyd"
     },
@@ -59,7 +59,7 @@
       "depth": 0.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "SW CHURRIANA DE LA VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkbnj"
     },
@@ -119,7 +119,7 @@
       "depth": 2.0,
       "magnitude": 2.5,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "Sentido",
       "location": "W OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qjnwa"
     },
@@ -131,7 +131,7 @@
       "depth": 0.0,
       "magnitude": 2.2,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "",
       "location": "ALBORÁN OESTE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qjnst"
     },
