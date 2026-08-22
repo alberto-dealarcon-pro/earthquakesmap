@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-22T21:31:02.856848+00:00",
+  "updated": "2026-08-22T21:51:11.396873+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 384,
+  "count": 385,
   "earthquakes": [
+    {
+      "event_id": "es2026qljrr",
+      "date": "22/08/2026 20:45:22",
+      "lat": 27.8107,
+      "lon": -18.1346,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW FRONTERA.IHI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qljrr"
+    },
     {
       "event_id": "es2026qljoo",
       "date": "22/08/2026 20:41:44",
