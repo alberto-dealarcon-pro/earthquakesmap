@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T21:02:00.488407+00:00",
+  "updated": "2026-08-22T21:31:02.856848+00:00",
   "source": "IGN – últimos terremotos",
   "count": 384,
   "earthquakes": [
@@ -11,7 +11,7 @@
       "depth": 2.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "III",
       "location": "S ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qljoo"
     },
