@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-22T09:00:11.133616+00:00",
+  "updated": "2026-08-22T09:35:25.656620+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 374,
+  "count": 376,
   "earthquakes": [
+    {
+      "event_id": "es2026qkmtg",
+      "date": "22/08/2026 09:10:08",
+      "lat": 36.5833,
+      "lon": -3.6241,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN NORTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkmtg"
+    },
+    {
+      "event_id": "es2026qkmbu",
+      "date": "22/08/2026 08:49:48",
+      "lat": 30.4374,
+      "lon": -15.1671,
+      "depth": 30.0,
+      "magnitude": 2.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "CANARY ISLANDS, SPAIN REG",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkmbu"
+    },
     {
       "event_id": "es2026qkiis",
       "date": "22/08/2026 06:56:38",
