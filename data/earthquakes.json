@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-22T15:09:18.127695+00:00",
+  "updated": "2026-08-22T15:34:26.523885+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 379,
+  "count": 380,
   "earthquakes": [
+    {
+      "event_id": "es2026qkxxg",
+      "date": "22/08/2026 14:48:12",
+      "lat": 43.1139,
+      "lon": -0.4227,
+      "depth": 10.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW ARUDY.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkxxg"
+    },
     {
       "event_id": "es2026qkxhh",
       "date": "22/08/2026 14:29:35",
