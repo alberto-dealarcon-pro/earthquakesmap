@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T06:02:34.486807+00:00",
+  "updated": "2026-08-22T06:55:20.830161+00:00",
   "source": "IGN – últimos terremotos",
   "count": 373,
   "earthquakes": [
@@ -35,7 +35,7 @@
       "depth": 2.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "II-III",
       "location": "E GÓJAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkcyd"
     },
