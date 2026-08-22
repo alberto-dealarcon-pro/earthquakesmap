@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-22T14:51:20.980253+00:00",
+  "updated": "2026-08-22T15:09:18.127695+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 378,
+  "count": 379,
   "earthquakes": [
+    {
+      "event_id": "es2026qkxhh",
+      "date": "22/08/2026 14:29:35",
+      "lat": 35.8991,
+      "lon": -0.6356,
+      "depth": 13.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-ARGELIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkxhh"
+    },
     {
       "event_id": "es2026qktks",
       "date": "22/08/2026 12:32:19",
