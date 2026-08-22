@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-22T12:14:04.811108+00:00",
+  "updated": "2026-08-22T13:03:27.327333+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 377,
+  "count": 378,
   "earthquakes": [
+    {
+      "event_id": "es2026qktks",
+      "date": "22/08/2026 12:32:19",
+      "lat": 37.6632,
+      "lon": -3.5813,
+      "depth": 6.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CAMBIL.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qktks"
+    },
     {
       "event_id": "es2026qkrfh",
       "date": "22/08/2026 11:25:25",
