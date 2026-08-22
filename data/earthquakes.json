@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-22T23:43:46.181698+00:00",
+  "updated": "2026-08-22T23:59:32.405051+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 370,
+  "count": 371,
   "earthquakes": [
+    {
+      "event_id": "es2026qlpdh",
+      "date": "22/08/2026 23:30:28",
+      "lat": 36.5907,
+      "lon": -9.7261,
+      "depth": 16.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlpdh"
+    },
     {
       "event_id": "es2026qlnze",
       "date": "22/08/2026 22:55:21",
@@ -11,7 +23,7 @@
       "depth": 3.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "II-III",
       "location": "E ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlnze"
     },
