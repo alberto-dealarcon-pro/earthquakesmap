@@ -1,8 +1,44 @@
 {
-  "updated": "2026-08-23T15:52:21.284757+00:00",
+  "updated": "2026-08-23T16:14:36.004832+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 390,
+  "count": 393,
   "earthquakes": [
+    {
+      "event_id": "es2026qmvpo",
+      "date": "23/08/2026 15:54:36",
+      "lat": 37.1322,
+      "lon": -3.587,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmvpo"
+    },
+    {
+      "event_id": "es2026qmvhl",
+      "date": "23/08/2026 15:45:08",
+      "lat": 37.1394,
+      "lon": -3.5955,
+      "depth": 9.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W HUÉTOR VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmvhl"
+    },
+    {
+      "event_id": "es2026qmvbt",
+      "date": "23/08/2026 15:38:28",
+      "lat": 37.126,
+      "lon": -3.5877,
+      "depth": 11.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmvbt"
+    },
     {
       "event_id": "es2026qmunt",
       "date": "23/08/2026 15:22:10",
