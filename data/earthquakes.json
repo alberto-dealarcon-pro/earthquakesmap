@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-23T15:31:24.884302+00:00",
+  "updated": "2026-08-23T15:52:21.284757+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 389,
+  "count": 390,
   "earthquakes": [
+    {
+      "event_id": "es2026qmunt",
+      "date": "23/08/2026 15:22:10",
+      "lat": 38.8493,
+      "lon": -3.0007,
+      "depth": 5.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW CARRIZOSA.CR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmunt"
+    },
     {
       "event_id": "es2026qmrhf",
       "date": "23/08/2026 13:43:39",
