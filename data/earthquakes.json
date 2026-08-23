@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-23T17:51:49.619251+00:00",
+  "updated": "2026-08-23T18:13:55.084727+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 394,
+  "count": 396,
   "earthquakes": [
+    {
+      "event_id": "es2026qmzla",
+      "date": "23/08/2026 17:50:33",
+      "lat": 42.8081,
+      "lon": -9.1012,
+      "depth": 8.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CARNOTA.C",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmzla"
+    },
+    {
+      "event_id": "es2026qmzfh",
+      "date": "23/08/2026 17:45:56",
+      "lat": 28.1717,
+      "lon": -16.198,
+      "depth": 24.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmzfh"
+    },
     {
       "event_id": "es2026qmwkw",
       "date": "23/08/2026 16:19:24",
