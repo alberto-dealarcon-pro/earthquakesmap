@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-23T21:01:03.231533+00:00",
+  "updated": "2026-08-23T21:30:00.156232+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 398,
+  "count": 399,
   "earthquakes": [
+    {
+      "event_id": "es2026qnfsi",
+      "date": "23/08/2026 21:00:52",
+      "lat": 37.0343,
+      "lon": -3.451,
+      "depth": 4.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE NIGÜELAS.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnfsi"
+    },
     {
       "event_id": "es2026qncwx",
       "date": "23/08/2026 19:35:19",
