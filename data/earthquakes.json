@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-23T11:57:39.152808+00:00",
+  "updated": "2026-08-23T12:50:04.731911+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 385,
+  "count": 386,
   "earthquakes": [
+    {
+      "event_id": "es2026qmnkw",
+      "date": "23/08/2026 11:46:41",
+      "lat": 40.4436,
+      "lon": -0.1771,
+      "depth": 10.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW ARES DEL MAESTRAT.CS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmnkw"
+    },
     {
       "event_id": "es2026qmjnm",
       "date": "23/08/2026 09:48:28",
