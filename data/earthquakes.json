@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-23T12:50:04.731911+00:00",
+  "updated": "2026-08-23T13:22:17.105947+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 386,
+  "count": 388,
   "earthquakes": [
+    {
+      "event_id": "es2026qmpxa",
+      "date": "23/08/2026 13:01:27",
+      "lat": 42.8129,
+      "lon": -7.2429,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N TRIACASTELA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmpxa"
+    },
+    {
+      "event_id": "es2026qmprg",
+      "date": "23/08/2026 12:54:44",
+      "lat": 42.7896,
+      "lon": -7.2296,
+      "depth": 9.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE TRIACASTELA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmprg"
+    },
     {
       "event_id": "es2026qmnkw",
       "date": "23/08/2026 11:46:41",
