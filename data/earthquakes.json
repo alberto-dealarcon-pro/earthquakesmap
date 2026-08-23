@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-22T23:59:32.405051+00:00",
+  "updated": "2026-08-23T01:53:50.277505+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 371,
+  "count": 374,
   "earthquakes": [
+    {
+      "event_id": "es2026qlsjp",
+      "date": "23/08/2026 01:09:30",
+      "lat": 37.1553,
+      "lon": -3.5984,
+      "depth": 6.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlsjp"
+    },
+    {
+      "event_id": "es2026qlroj",
+      "date": "23/08/2026 00:43:56",
+      "lat": 37.0956,
+      "lon": -3.5707,
+      "depth": 5.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlroj"
+    },
     {
       "event_id": "es2026qlpdh",
       "date": "22/08/2026 23:30:28",
@@ -38,6 +62,18 @@
       "intensity": "",
       "location": "NW OLVERA.CA",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlnfy"
+    },
+    {
+      "event_id": "es2026qlmxo",
+      "date": "22/08/2026 22:23:08",
+      "lat": 41.4223,
+      "lon": -8.4511,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E VILA NOVA DE FAMALICAO.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlmxo"
     },
     {
       "event_id": "es2026qljrr",
