@@ -252,7 +252,7 @@ function getCookie(name) {
 
 // ── MAPA ──────────────────────────────────────────────────────────────────────
 // Vista por defecto: área metropolitana sur de Granada
-const DEFAULT_VIEW = { lat: 37.10, lon: -3.60, zoom: 11 };
+const DEFAULT_VIEW = { lat: 37.13, lon: -3.61, zoom: 13 };
 const savedPos = getCookie('eq_map_pos');
 const initView = savedPos
   ? (([lat, lon, z]) => ({ lat: +lat, lon: +lon, zoom: +z }))(savedPos.split(','))
