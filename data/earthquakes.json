@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-23T17:05:07.620002+00:00",
+  "updated": "2026-08-23T17:31:58.337007+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 393,
+  "count": 394,
   "earthquakes": [
+    {
+      "event_id": "es2026qmwkw",
+      "date": "23/08/2026 16:19:24",
+      "lat": 36.5343,
+      "lon": -7.7181,
+      "depth": 15.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmwkw"
+    },
     {
       "event_id": "es2026qmvpo",
       "date": "23/08/2026 15:54:36",
