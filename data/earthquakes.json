@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T09:58:41.650588+00:00",
+  "updated": "2026-08-23T10:31:28.257490+00:00",
   "source": "IGN – últimos terremotos",
   "count": 385,
   "earthquakes": [
@@ -23,7 +23,7 @@
       "depth": 2.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "W OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmjcv"
     },
@@ -35,7 +35,7 @@
       "depth": 6.0,
       "magnitude": 2.0,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "II-III",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmiok"
     },
