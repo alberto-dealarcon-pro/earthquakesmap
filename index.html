@@ -228,20 +228,37 @@
     <div class="eq-list" id="eq-list"></div>
     <div class="legend">
       <div class="legend-hd">Magnitud</div>
-      <div class="lrow"><div class="ldot" style="background:#3b82f6"></div>&lt; 1.5 — Micro</div>
-      <div class="lrow"><div class="ldot" style="background:#22c55e"></div>1.5 – 2.5 — Menor</div>
-      <div class="lrow"><div class="ldot" style="background:#eab308"></div>2.5 – 3.5 — Leve</div>
-      <div class="lrow"><div class="ldot" style="background:#f97316"></div>3.5 – 4.5 — Moderado</div>
-      <div class="lrow"><div class="ldot" style="background:#ef4444"></div>4.5 – 5.5 — Fuerte</div>
-      <div class="lrow"><div class="ldot" style="background:#a855f7"></div>≥ 5.5 — Mayor</div>
+      <div class="lrow"><div class="ldot" style="background:#38bdf8"></div>&lt; 1.5 — Micro</div>
+      <div class="lrow"><div class="ldot" style="background:#4ade80"></div>1.5 – 2.5 — Menor</div>
+      <div class="lrow"><div class="ldot" style="background:#fde047"></div>2.5 – 3.5 — Leve</div>
+      <div class="lrow"><div class="ldot" style="background:#fb923c"></div>3.5 – 4.5 — Moderado</div>
+      <div class="lrow"><div class="ldot" style="background:#f87171"></div>4.5 – 5.5 — Fuerte</div>
+      <div class="lrow"><div class="ldot" style="background:#e879f9"></div>≥ 5.5 — Mayor</div>
     </div>
   </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
+// ── COOKIES DE PREFERENCIAS ──────────────────────────────────────────────────
+function setCookie(name, value, days = 365) {
+  const expires = new Date(Date.now() + days * 864e5).toUTCString();
+  document.cookie = `${name}=${encodeURIComponent(value)};expires=${expires};path=/;SameSite=Lax`;
+}
+function getCookie(name) {
+  const m = document.cookie.match('(?:^|; )' + name + '=([^;]*)');
+  return m ? decodeURIComponent(m[1]) : null;
+}
+
 // ── MAPA ──────────────────────────────────────────────────────────────────────
-const map = L.map('map').setView([37.1773, -3.5986], 12);
+// Vista por defecto: área metropolitana sur de Granada
+const DEFAULT_VIEW = { lat: 37.10, lon: -3.60, zoom: 11 };
+const savedPos = getCookie('eq_map_pos');
+const initView = savedPos
+  ? (([lat, lon, z]) => ({ lat: +lat, lon: +lon, zoom: +z }))(savedPos.split(','))
+  : DEFAULT_VIEW;
+
+const map = L.map('map').setView([initView.lat, initView.lon], initView.zoom);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Datos: <a href="https://www.ign.es">IGN</a>',
@@ -249,6 +266,12 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 const markerLayer = L.layerGroup().addTo(map);
+
+// Guardar posición del mapa cuando el usuario navega
+map.on('moveend zoomend', () => {
+  const c = map.getCenter();
+  setCookie('eq_map_pos', `${c.lat.toFixed(5)},${c.lng.toFixed(5)},${map.getZoom()}`);
+});
 
 // ── CONVERSIÓN UTC → HORA ESPAÑA ──────────────────────────────────────────────
 // El feed IGN da fechas en formato "DD/MM/YYYY H:MM:SS" en UTC
@@ -267,12 +290,12 @@ function toSpanishTime(dateStr) {
 
 // ── COLORES Y TAMAÑOS ─────────────────────────────────────────────────────────
 function magColor(m) {
-  if (m < 1.5) return '#3b82f6';
-  if (m < 2.5) return '#22c55e';
-  if (m < 3.5) return '#eab308';
-  if (m < 4.5) return '#f97316';
-  if (m < 5.5) return '#ef4444';
-  return '#a855f7';
+  if (m < 1.5) return '#38bdf8';   // azul cielo vivo
+  if (m < 2.5) return '#4ade80';   // verde brillante
+  if (m < 3.5) return '#fde047';   // amarillo intenso
+  if (m < 4.5) return '#fb923c';   // naranja vivo
+  if (m < 5.5) return '#f87171';   // rojo claro brillante
+  return '#e879f9';                  // violeta neón
 }
 function magRadius(m) { return Math.max(5, Math.pow(1.85, Math.max(m, 0)) * 1.8); }
 
@@ -291,9 +314,8 @@ function haversineKm(lat1, lon1, lat2, lon2) {
 let allEarthquakes = [];   // todos los del JSON
 let earthquakes    = [];   // filtrados
 let markers        = [];
-let currentMinMag  = 0;
-let currentHours   = 24;   // 0 = sin límite de tiempo
-let hasCentered    = false;
+let currentMinMag  = +(getCookie('eq_mag')  ?? 0);
+let currentHours   = +(getCookie('eq_hours') ?? 24);
 const POLL_MS      = 60 * 1000;
 let nextPoll       = Date.now() + POLL_MS;
 
@@ -318,6 +340,7 @@ function ignDateToMs(dateStr) {
 // ── FILTROS ───────────────────────────────────────────────────────────────────
 function setHours(h) {
   currentHours = h;
+  setCookie('eq_hours', h);
   document.querySelectorAll('[data-hours]').forEach(b =>
     b.classList.toggle('active', +b.dataset.hours === h));
   applyFilter();
@@ -326,6 +349,7 @@ function setHours(h) {
 
 function setMag(m) {
   currentMinMag = m;
+  setCookie('eq_mag', m);
   document.querySelectorAll('[data-mag]').forEach(b =>
     b.classList.toggle('active', +b.dataset.mag === m));
   applyFilter();
@@ -382,19 +406,6 @@ function renderAll() {
   renderMarkers();
   renderList();
   renderStats();
-  // Solo centrar en la primera carga, sobre el terremoto más reciente cerca de Granada
-  if (!hasCentered) {
-    hasCentered = true;
-    const nearby = earthquakes.find(
-      eq => haversineKm(GRANADA.lat, GRANADA.lon, eq.lat, eq.lon) <= RADIO_KM
-    );
-    const target = nearby || (earthquakes.length ? earthquakes[0] : null);
-    if (target) {
-      // invalidateSize primero para que Leaflet conozca el tamaño real en móvil
-      map.invalidateSize();
-      map.setView([target.lat, target.lon], 12, { animate: false });
-    }
-  }
 }
 
 function renderMarkers() {
@@ -405,7 +416,7 @@ function renderMarkers() {
     const isLatest = i === 0;
 
     const c = L.circleMarker([eq.lat, eq.lon], {
-      radius, fillColor: color, color: '#fff', weight: 0.8, opacity: .9, fillOpacity: .75
+      radius, fillColor: color, color: '#fff', weight: 1.2, opacity: 1, fillOpacity: .9
     });
 
     c.bindPopup(`
@@ -505,7 +516,12 @@ setInterval(() => {
   if (rem === 0) { nextPoll = Date.now() + POLL_MS; loadData(false); }
 }, 1000);
 
-// ── INICIO ────────────────────────────────────────────────────────────────────
+// ── INICIO: aplicar preferencias guardadas en cookies ─────────────────────────
+document.querySelectorAll('[data-hours]').forEach(b =>
+  b.classList.toggle('active', +b.dataset.hours === currentHours));
+document.querySelectorAll('[data-mag]').forEach(b =>
+  b.classList.toggle('active', +b.dataset.mag === currentMinMag));
+map.invalidateSize();
 loadData(true);
 </script>
 
