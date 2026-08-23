@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T10:54:02.200081+00:00",
+  "updated": "2026-08-23T11:17:10.146486+00:00",
   "source": "IGN – últimos terremotos",
   "count": 385,
   "earthquakes": [
@@ -47,7 +47,7 @@
       "depth": 7.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "E LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmhrd"
     },
