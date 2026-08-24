@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-24T05:58:55.778249+00:00",
+  "updated": "2026-08-24T07:13:11.920500+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 384,
+  "count": 385,
   "earthquakes": [
+    {
+      "event_id": "es2026qnwyh",
+      "date": "24/08/2026 05:43:05",
+      "lat": 36.8221,
+      "lon": -2.9688,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW BERJA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnwyh"
+    },
     {
       "event_id": "es2026qnwhn",
       "date": "24/08/2026 05:23:30",
@@ -11,7 +23,7 @@
       "depth": 0.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "Sentido",
       "location": "W OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnwhn"
     },
@@ -35,7 +47,7 @@
       "depth": 1.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "SW GÓJAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnslz"
     },
@@ -47,7 +59,7 @@
       "depth": 0.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "SW OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnquf"
     },
@@ -311,7 +323,7 @@
       "depth": 2.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "W OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmjcv"
     },
@@ -323,7 +335,7 @@
       "depth": 6.0,
       "magnitude": 2.0,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmiok"
     },
@@ -335,7 +347,7 @@
       "depth": 7.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "E LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmhrd"
     },
@@ -347,7 +359,7 @@
       "depth": 1.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "SE CHURRIANA DE LA VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qmaid"
     },
@@ -371,7 +383,7 @@
       "depth": 6.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "S OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlxmf"
     },
@@ -431,7 +443,7 @@
       "depth": 6.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "S GRANADA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlsjp"
     },
@@ -467,7 +479,7 @@
       "depth": 3.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "E ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlnze"
     },
@@ -515,7 +527,7 @@
       "depth": 2.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "S ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qljoo"
     },
@@ -527,7 +539,7 @@
       "depth": 1.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "N OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlbew"
     },
@@ -551,7 +563,7 @@
       "depth": 0.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "Sentido",
       "location": "NW ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkyyy"
     },
@@ -779,7 +791,7 @@
       "depth": 7.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "Sentido",
       "location": "SE LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qjjcx"
     },
