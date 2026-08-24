@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-24T07:13:11.920500+00:00",
+  "updated": "2026-08-24T08:05:46.623721+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 385,
+  "count": 387,
   "earthquakes": [
+    {
+      "event_id": "es2026qnzzm",
+      "date": "24/08/2026 07:15:23",
+      "lat": 37.1024,
+      "lon": -3.6453,
+      "depth": 0.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "S ALHENDÍN.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnzzm"
+    },
     {
       "event_id": "es2026qnwyh",
       "date": "24/08/2026 05:43:05",
@@ -95,7 +107,7 @@
       "depth": 6.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "Sentido",
       "location": "W GRANADA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnnqq"
     },
@@ -472,6 +484,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlpdh"
     },
     {
+      "event_id": "es2026qloki",
+      "date": "22/08/2026 23:08:20",
+      "lat": 28.4937,
+      "lon": -17.999,
+      "depth": 13.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qloki"
+    },
+    {
       "event_id": "es2026qlnze",
       "date": "22/08/2026 22:55:21",
       "lat": 37.1378,
@@ -506,18 +530,6 @@
       "intensity": "",
       "location": "E VILA NOVA DE FAMALICAO.POR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qlmxo"
-    },
-    {
-      "event_id": "es2026qljrr",
-      "date": "22/08/2026 20:45:22",
-      "lat": 27.8107,
-      "lon": -18.1346,
-      "depth": 9.0,
-      "magnitude": 1.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "NW FRONTERA.IHI",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qljrr"
     },
     {
       "event_id": "es2026qljoo",
@@ -659,7 +671,7 @@
       "depth": 0.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "E QUIROGA.LU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qkeri"
     },
@@ -710,6 +722,18 @@
       "intensity": "",
       "location": "W CHURRIANA DE LA VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qjrxb"
+    },
+    {
+      "event_id": "es2026qjqwo",
+      "date": "21/08/2026 22:07:14",
+      "lat": 28.5617,
+      "lon": -17.818,
+      "depth": 16.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW VILLA DE MAZO.ILP",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qjqwo"
     },
     {
       "event_id": "es2026qjpci",
