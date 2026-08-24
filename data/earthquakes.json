@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-24T03:40:50.145752+00:00",
+  "updated": "2026-08-24T04:28:56.183835+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 381,
+  "count": 383,
   "earthquakes": [
+    {
+      "event_id": "es2026qntmt",
+      "date": "24/08/2026 03:58:41",
+      "lat": 41.8442,
+      "lon": 2.766,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W CALDES DE MALAVELLA.GI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qntmt"
+    },
+    {
+      "event_id": "es2026qnslz",
+      "date": "24/08/2026 03:27:50",
+      "lat": 37.1006,
+      "lon": -3.6096,
+      "depth": 1.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnslz"
+    },
     {
       "event_id": "es2026qnquf",
       "date": "24/08/2026 02:36:37",
