@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-24T05:20:54.370001+00:00",
+  "updated": "2026-08-24T05:58:55.778249+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 383,
+  "count": 384,
   "earthquakes": [
+    {
+      "event_id": "es2026qnwhn",
+      "date": "24/08/2026 05:23:30",
+      "lat": 37.1166,
+      "lon": -3.6202,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnwhn"
+    },
     {
       "event_id": "es2026qntmt",
       "date": "24/08/2026 03:58:41",
