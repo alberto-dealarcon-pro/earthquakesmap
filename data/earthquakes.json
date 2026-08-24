@@ -1,8 +1,44 @@
 {
-  "updated": "2026-08-24T14:57:35.438707+00:00",
+  "updated": "2026-08-24T15:43:18.304783+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 394,
+  "count": 397,
   "earthquakes": [
+    {
+      "event_id": "es2026qoqaq",
+      "date": "24/08/2026 15:21:37",
+      "lat": 36.8344,
+      "lon": -2.996,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW BERJA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qoqaq"
+    },
+    {
+      "event_id": "es2026qopnr",
+      "date": "24/08/2026 15:06:32",
+      "lat": 36.8141,
+      "lon": -2.9842,
+      "depth": 0.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "SW BERJA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qopnr"
+    },
+    {
+      "event_id": "es2026qoplv",
+      "date": "24/08/2026 15:04:23",
+      "lat": 36.7938,
+      "lon": -2.9737,
+      "depth": 7.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW BERJA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qoplv"
+    },
     {
       "event_id": "es2026qookl",
       "date": "24/08/2026 14:32:27",
@@ -11,7 +47,7 @@
       "depth": 5.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II-III",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qookl"
     },
