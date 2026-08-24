@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-24T01:34:53.301068+00:00",
+  "updated": "2026-08-24T02:49:08.360453+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 378,
+  "count": 380,
   "earthquakes": [
+    {
+      "event_id": "es2026qnpfs",
+      "date": "24/08/2026 01:49:16",
+      "lat": 37.0868,
+      "lon": -3.533,
+      "depth": 6.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S MONACHIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnpfs"
+    },
+    {
+      "event_id": "es2026qnpcs",
+      "date": "24/08/2026 01:45:50",
+      "lat": 36.6022,
+      "lon": -3.6162,
+      "depth": 16.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN NORTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnpcs"
+    },
     {
       "event_id": "es2026qnnqq",
       "date": "24/08/2026 01:01:22",
