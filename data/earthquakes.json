@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-24T23:28:51.566931+00:00",
+  "updated": "2026-08-24T23:49:42.059363+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 370,
+  "count": 371,
   "earthquakes": [
+    {
+      "event_id": "es2026qpfpy",
+      "date": "24/08/2026 23:14:05",
+      "lat": 43.1237,
+      "lon": -1.2368,
+      "depth": 12.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S ST JEAN PIED DE PORT.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qpfpy"
+    },
     {
       "event_id": "es2026qpdkb",
       "date": "24/08/2026 22:06:36",
