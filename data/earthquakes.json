@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-24T11:12:00.734672+00:00",
+  "updated": "2026-08-24T11:44:45.885815+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 390,
+  "count": 391,
   "earthquakes": [
+    {
+      "event_id": "es2026qohwf",
+      "date": "24/08/2026 11:14:02",
+      "lat": 36.5443,
+      "lon": -4.4923,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S TORREMOLINOS.MA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qohwf"
+    },
     {
       "event_id": "es2026qohhk",
       "date": "24/08/2026 10:56:46",
