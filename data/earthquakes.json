@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-24T13:17:38.955738+00:00",
+  "updated": "2026-08-24T14:07:12.904362+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 391,
+  "count": 393,
   "earthquakes": [
+    {
+      "event_id": "es2026qompe",
+      "date": "24/08/2026 13:37:22",
+      "lat": 37.8714,
+      "lon": -6.7085,
+      "depth": 11.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE SANTA ANA LA REAL.H",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qompe"
+    },
+    {
+      "event_id": "es2026qolxv",
+      "date": "24/08/2026 13:17:07",
+      "lat": 42.708,
+      "lon": -7.6906,
+      "depth": 7.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E TABOADA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qolxv"
+    },
     {
       "event_id": "es2026qohwf",
       "date": "24/08/2026 11:14:02",
