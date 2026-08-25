@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-25T03:57:15.579322+00:00",
+  "updated": "2026-08-25T04:42:14.811613+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 375,
+  "count": 376,
   "earthquakes": [
+    {
+      "event_id": "es2026qpnme",
+      "date": "25/08/2026 03:12:08",
+      "lat": 37.1545,
+      "lon": -3.6157,
+      "depth": 5.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ARMILLA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qpnme"
+    },
     {
       "event_id": "es2026qplfo",
       "date": "25/08/2026 02:03:49",
