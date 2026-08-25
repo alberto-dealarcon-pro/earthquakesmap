@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T07:27:05.115457+00:00",
+  "updated": "2026-08-25T08:08:33.059312+00:00",
   "source": "IGN – últimos terremotos",
   "count": 380,
   "earthquakes": [
@@ -11,7 +11,7 @@
       "depth": 0.0,
       "magnitude": 2.0,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "NE GÓJAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qptrv"
     },
@@ -155,7 +155,7 @@
       "depth": 0.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "SW BERJA.AL",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qopnr"
     },
@@ -179,7 +179,7 @@
       "depth": 5.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qookl"
     },
@@ -263,7 +263,7 @@
       "depth": 0.0,
       "magnitude": 2.3,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "Sentido",
       "location": "S ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qnzzm"
     },
