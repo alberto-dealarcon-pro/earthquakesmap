@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-25T04:42:14.811613+00:00",
+  "updated": "2026-08-25T05:18:07.263885+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 376,
+  "count": 377,
   "earthquakes": [
+    {
+      "event_id": "es2026qpqfo",
+      "date": "25/08/2026 04:35:20",
+      "lat": 34.3149,
+      "lon": -5.8766,
+      "depth": 18.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE SIDI SLIMANE.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qpqfo"
+    },
     {
       "event_id": "es2026qpnme",
       "date": "25/08/2026 03:12:08",
