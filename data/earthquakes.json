@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-25T20:01:31.186970+00:00",
+  "updated": "2026-08-25T20:39:25.410325+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 385,
+  "count": 387,
   "earthquakes": [
+    {
+      "event_id": "es2026qquqi",
+      "date": "25/08/2026 19:57:08",
+      "lat": 37.2188,
+      "lon": -3.5561,
+      "depth": 14.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S VÍZNAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qquqi"
+    },
+    {
+      "event_id": "es2026qqulf",
+      "date": "25/08/2026 19:51:11",
+      "lat": 34.3498,
+      "lon": -5.8519,
+      "depth": 7.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE SIDI SLIMANE.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qqulf"
+    },
     {
       "event_id": "es2026qqebz",
       "date": "25/08/2026 11:35:29",
