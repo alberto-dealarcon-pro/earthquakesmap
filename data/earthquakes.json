@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-26T18:08:35.278662+00:00",
+  "updated": "2026-08-26T20:00:27.519526+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 335,
+  "count": 337,
   "earthquakes": [
+    {
+      "event_id": "es2026qsnxr",
+      "date": "26/08/2026 18:49:31",
+      "lat": 37.1149,
+      "lon": -3.5803,
+      "depth": 3.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qsnxr"
+    },
+    {
+      "event_id": "es2026qsmfr",
+      "date": "26/08/2026 17:58:16",
+      "lat": 28.8273,
+      "lon": -16.3017,
+      "depth": 16.0,
+      "magnitude": 2.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qsmfr"
+    },
     {
       "event_id": "es2026qsmag",
       "date": "26/08/2026 17:51:44",
@@ -35,7 +59,7 @@
       "depth": 34.0,
       "magnitude": 3.6,
       "mag_type": "mbLg",
-      "intensity": "Sentido",
+      "intensity": "II",
       "location": "ATLÁNTICO-CANARIAS",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qslns"
     },
@@ -47,7 +71,7 @@
       "depth": 35.0,
       "magnitude": 3.0,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "ATLÁNTICO-CANARIAS",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qskfi"
     },
