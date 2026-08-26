@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-26T08:57:09.579260+00:00",
+  "updated": "2026-08-26T09:46:24.597089+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 325,
+  "count": 326,
   "earthquakes": [
     {
       "event_id": "es2026qrpnm",
@@ -3470,6 +3470,18 @@
       "intensity": "",
       "location": "NW DÍLAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qakju"
+    },
+    {
+      "event_id": "es2026qaior",
+      "date": "16/08/2026 19:43:40",
+      "lat": 41.4763,
+      "lon": -8.423,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE VILA NOVA DE FAMALICAO.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qaior"
     },
     {
       "event_id": "es2026qaica",
