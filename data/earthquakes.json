@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-26T09:46:24.597089+00:00",
+  "updated": "2026-08-26T10:19:55.822035+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 326,
+  "count": 327,
   "earthquakes": [
     {
       "event_id": "es2026qrpnm",
@@ -2066,6 +2066,18 @@
       "intensity": "",
       "location": "SE ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfksb"
+    },
+    {
+      "event_id": "es2026qfhtr",
+      "date": "19/08/2026 12:58:53",
+      "lat": 39.2333,
+      "lon": -2.885,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW SOCUÉLLAMOS.CR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfhtr"
     },
     {
       "event_id": "es2026qfgaq",
