@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T05:45:27.099973+00:00",
+  "updated": "2026-08-26T06:20:37.595505+00:00",
   "source": "IGN – últimos terremotos",
   "count": 323,
   "earthquakes": [
@@ -35,7 +35,7 @@
       "depth": 8.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "E VEGAS DEL GENIL.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qqybo"
     },
