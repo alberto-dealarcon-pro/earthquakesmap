@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-26T01:02:21.931299+00:00",
+  "updated": "2026-08-26T02:37:22.544671+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 322,
+  "count": 323,
   "earthquakes": [
+    {
+      "event_id": "es2026qrekm",
+      "date": "26/08/2026 00:53:25",
+      "lat": 28.031,
+      "lon": -16.1748,
+      "depth": 10.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qrekm"
+    },
     {
       "event_id": "es2026qqyxz",
       "date": "25/08/2026 22:07:17",
