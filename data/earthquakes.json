@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-26T06:20:37.595505+00:00",
+  "updated": "2026-08-26T07:14:35.677219+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 323,
+  "count": 325,
   "earthquakes": [
+    {
+      "event_id": "es2026qrpnm",
+      "date": "26/08/2026 06:30:16",
+      "lat": 36.314,
+      "lon": -8.3774,
+      "depth": 6.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qrpnm"
+    },
+    {
+      "event_id": "es2026qrpka",
+      "date": "26/08/2026 06:26:16",
+      "lat": 34.3289,
+      "lon": -5.8731,
+      "depth": 18.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE SIDI SLIMANE.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qrpka"
+    },
     {
       "event_id": "es2026qrekm",
       "date": "26/08/2026 00:53:25",
