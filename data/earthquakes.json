@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-26T10:19:55.822035+00:00",
+  "updated": "2026-08-26T10:56:19.718666+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 327,
+  "count": 328,
   "earthquakes": [
     {
       "event_id": "es2026qrpnm",
@@ -2030,6 +2030,18 @@
       "intensity": "Sentido",
       "location": "E CHURRIANA DE LA VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfqfa"
+    },
+    {
+      "event_id": "es2026qfplf",
+      "date": "19/08/2026 16:51:44",
+      "lat": 41.9089,
+      "lon": -7.191,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E VILARDEVÓS.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qfplf"
     },
     {
       "event_id": "es2026qfmta",
