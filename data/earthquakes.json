@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-29T10:26:48.925052+00:00",
+  "updated": "2026-08-29T15:11:41.156090+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 293,
+  "count": 295,
   "earthquakes": [
+    {
+      "event_id": "es2026qxpjr",
+      "date": "29/08/2026 13:13:47",
+      "lat": 37.5964,
+      "lon": -9.1009,
+      "depth": 1.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-PORTUGAL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qxpjr"
+    },
+    {
+      "event_id": "es2026qxmku",
+      "date": "29/08/2026 11:44:10",
+      "lat": 43.012,
+      "lon": -7.2864,
+      "depth": 7.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W BALEIRA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qxmku"
+    },
     {
       "event_id": "es2026qxcyx",
       "date": "29/08/2026 06:57:33",
