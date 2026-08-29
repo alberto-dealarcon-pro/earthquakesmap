@@ -1,8 +1,56 @@
 {
-  "updated": "2026-08-29T03:44:19.358890+00:00",
+  "updated": "2026-08-29T10:26:48.925052+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 289,
+  "count": 293,
   "earthquakes": [
+    {
+      "event_id": "es2026qxcyx",
+      "date": "29/08/2026 06:57:33",
+      "lat": 37.1529,
+      "lon": -3.6505,
+      "depth": 0.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "NW CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qxcyx"
+    },
+    {
+      "event_id": "es2026qxcgg",
+      "date": "29/08/2026 06:35:48",
+      "lat": 37.1187,
+      "lon": -3.5967,
+      "depth": 7.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qxcgg"
+    },
+    {
+      "event_id": "es2026qwznu",
+      "date": "29/08/2026 05:13:39",
+      "lat": 36.9562,
+      "lon": -8.9376,
+      "depth": 35.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE SAGRES.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qwznu"
+    },
+    {
+      "event_id": "es2026qwxjl",
+      "date": "29/08/2026 04:08:58",
+      "lat": 37.1577,
+      "lon": -3.641,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qwxjl"
+    },
     {
       "event_id": "es2026qwucv",
       "date": "29/08/2026 02:29:50",
