@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-29T15:11:41.156090+00:00",
+  "updated": "2026-08-29T18:31:42.096542+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 295,
+  "count": 297,
   "earthquakes": [
+    {
+      "event_id": "es2026qxuvx",
+      "date": "29/08/2026 15:59:36",
+      "lat": 28.147,
+      "lon": -16.4426,
+      "depth": 19.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ARICO.ITF",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qxuvx"
+    },
+    {
+      "event_id": "es2026qxtyb",
+      "date": "29/08/2026 15:31:46",
+      "lat": 28.0389,
+      "lon": -15.9929,
+      "depth": 2.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qxtyb"
+    },
     {
       "event_id": "es2026qxpjr",
       "date": "29/08/2026 13:13:47",
@@ -318,13 +342,13 @@
     {
       "event_id": "es2026qwfot",
       "date": "28/08/2026 19:08:39",
-      "lat": 37.1518,
-      "lon": -3.6615,
+      "lat": 37.1598,
+      "lon": -3.6543,
       "depth": 0.0,
-      "magnitude": 2.5,
+      "magnitude": 2.4,
       "mag_type": "mbLg",
       "intensity": "III",
-      "location": "E CÚLLAR VEGA.GR",
+      "location": "NW CHURRIANA DE LA VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qwfot"
     },
     {
