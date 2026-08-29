@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T18:31:42.096542+00:00",
+  "updated": "2026-08-29T21:08:46.297077+00:00",
   "source": "IGN – últimos terremotos",
   "count": 297,
   "earthquakes": [
@@ -167,7 +167,7 @@
       "depth": 0.0,
       "magnitude": 3.0,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "II-III",
       "location": "N HUELMA.J",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qwqnr"
     },
