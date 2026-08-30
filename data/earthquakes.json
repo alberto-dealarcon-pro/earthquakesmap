@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-30T01:18:50.460415+00:00",
+  "updated": "2026-08-30T06:49:08.501466+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 260,
+  "count": 262,
   "earthquakes": [
+    {
+      "event_id": "es2026qyvyx",
+      "date": "30/08/2026 05:41:22",
+      "lat": 36.7661,
+      "lon": -3.0456,
+      "depth": 2.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW ADRA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qyvyx"
+    },
+    {
+      "event_id": "es2026qytwr",
+      "date": "30/08/2026 04:38:07",
+      "lat": 28.8157,
+      "lon": -16.3361,
+      "depth": 35.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qytwr"
+    },
     {
       "event_id": "es2026qyihi",
       "date": "29/08/2026 22:48:44",
