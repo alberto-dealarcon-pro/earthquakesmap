@@ -1,8 +1,56 @@
 {
-  "updated": "2026-08-30T16:48:46.222775+00:00",
+  "updated": "2026-08-30T19:30:52.009567+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 269,
+  "count": 273,
   "earthquakes": [
+    {
+      "event_id": "es2026qzvzz",
+      "date": "30/08/2026 18:50:37",
+      "lat": 34.8238,
+      "lon": -9.2552,
+      "depth": 30.0,
+      "magnitude": 3.0,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qzvzz"
+    },
+    {
+      "event_id": "es2026qzvha",
+      "date": "30/08/2026 18:28:30",
+      "lat": 37.1384,
+      "lon": -3.5728,
+      "depth": 5.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW CÁJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qzvha"
+    },
+    {
+      "event_id": "es2026qzthv",
+      "date": "30/08/2026 17:28:51",
+      "lat": 28.725,
+      "lon": -16.3531,
+      "depth": 36.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qzthv"
+    },
+    {
+      "event_id": "es2026qzsiw",
+      "date": "30/08/2026 16:59:44",
+      "lat": 37.1418,
+      "lon": -3.6384,
+      "depth": 2.0,
+      "magnitude": 1.1,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "SE CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qzsiw"
+    },
     {
       "event_id": "es2026qzqah",
       "date": "30/08/2026 15:49:08",
