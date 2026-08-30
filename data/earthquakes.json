@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T23:17:19.406751+00:00",
+  "updated": "2026-08-30T01:18:50.460415+00:00",
   "source": "IGN – últimos terremotos",
   "count": 260,
   "earthquakes": [
@@ -11,7 +11,7 @@
       "depth": 4.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II-III",
       "location": "W HUÉTOR VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qyihi"
     },
