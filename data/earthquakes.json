@@ -1,8 +1,44 @@
 {
-  "updated": "2026-08-30T06:49:08.501466+00:00",
+  "updated": "2026-08-30T12:18:46.156456+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 262,
+  "count": 265,
   "earthquakes": [
+    {
+      "event_id": "es2026qzhrq",
+      "date": "30/08/2026 11:36:34",
+      "lat": 43.1698,
+      "lon": -1.8897,
+      "depth": 20.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W GOIZUETA.NA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qzhrq"
+    },
+    {
+      "event_id": "es2026qzfzo",
+      "date": "30/08/2026 10:46:10",
+      "lat": 36.3128,
+      "lon": -11.7918,
+      "depth": 36.0,
+      "magnitude": 4.1,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qzfzo"
+    },
+    {
+      "event_id": "es2026qzczl",
+      "date": "30/08/2026 09:14:10",
+      "lat": 36.762,
+      "lon": -10.9645,
+      "depth": 3.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026qzczl"
+    },
     {
       "event_id": "es2026qyvyx",
       "date": "30/08/2026 05:41:22",
