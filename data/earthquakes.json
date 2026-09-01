@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-01T16:43:28.047711+00:00",
+  "updated": "2026-09-01T19:38:13.022977+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 241,
+  "count": 243,
   "earthquakes": [
+    {
+      "event_id": "es2026rdnjv",
+      "date": "01/09/2026 19:01:18",
+      "lat": 42.1675,
+      "lon": -6.7571,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW TREFACIO.ZA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rdnjv"
+    },
+    {
+      "event_id": "es2026rdjxk",
+      "date": "01/09/2026 17:15:51",
+      "lat": 35.758,
+      "lon": -3.5328,
+      "depth": 7.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rdjxk"
+    },
     {
       "event_id": "es2026rdhgb",
       "date": "01/09/2026 15:55:04",
