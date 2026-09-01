@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-31T23:14:10.619000+00:00",
+  "updated": "2026-09-01T01:51:03.603518+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 228,
+  "count": 229,
   "earthquakes": [
+    {
+      "event_id": "es2026rccpt",
+      "date": "01/09/2026 00:26:50",
+      "lat": 28.2336,
+      "lon": -16.8356,
+      "depth": 21.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW GUÍA DE ISORA.ITF",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rccpt"
+    },
     {
       "event_id": "es2026rbzgn",
       "date": "31/08/2026 22:45:10",
