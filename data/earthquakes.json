@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-01T01:51:03.603518+00:00",
+  "updated": "2026-09-01T06:52:27.238028+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 229,
+  "count": 230,
   "earthquakes": [
+    {
+      "event_id": "es2026rclhl",
+      "date": "01/09/2026 04:49:54",
+      "lat": 40.7093,
+      "lon": -3.037,
+      "depth": 10.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W VALDEGRUDAS.GU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rclhl"
+    },
     {
       "event_id": "es2026rccpt",
       "date": "01/09/2026 00:26:50",
