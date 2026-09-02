@@ -1,8 +1,80 @@
 {
-  "updated": "2026-09-02T00:00:49.681844+00:00",
+  "updated": "2026-09-02T04:17:52.703692+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 225,
+  "count": 231,
   "earthquakes": [
+    {
+      "event_id": "es2026redlc",
+      "date": "02/09/2026 03:07:41",
+      "lat": 37.1587,
+      "lon": -3.647,
+      "depth": 4.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026redlc"
+    },
+    {
+      "event_id": "es2026reckv",
+      "date": "02/09/2026 02:37:01",
+      "lat": 40.9548,
+      "lon": 1.3261,
+      "depth": 8.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "COSTERO CATALANA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026reckv"
+    },
+    {
+      "event_id": "es2026rebty",
+      "date": "02/09/2026 02:17:22",
+      "lat": 36.721,
+      "lon": -7.3732,
+      "depth": 24.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rebty"
+    },
+    {
+      "event_id": "es2026reawq",
+      "date": "02/09/2026 01:50:25",
+      "lat": 37.1871,
+      "lon": -3.6632,
+      "depth": 9.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026reawq"
+    },
+    {
+      "event_id": "es2026rdzru",
+      "date": "02/09/2026 01:14:16",
+      "lat": 35.5595,
+      "lon": -3.731,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rdzru"
+    },
+    {
+      "event_id": "es2026rdylz",
+      "date": "02/09/2026 00:37:06",
+      "lat": 37.7245,
+      "lon": -3.498,
+      "depth": 7.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S TORRES.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rdylz"
+    },
     {
       "event_id": "es2026rdvyx",
       "date": "01/09/2026 23:21:20",
