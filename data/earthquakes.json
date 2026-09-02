@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-02T08:51:09.957475+00:00",
+  "updated": "2026-09-02T13:01:30.055037+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 237,
+  "count": 239,
   "earthquakes": [
+    {
+      "event_id": "es2026retfy",
+      "date": "02/09/2026 11:06:37",
+      "lat": 37.0669,
+      "lon": -4.0568,
+      "depth": 26.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W SANTA CRUZ DEL COMERCIO.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026retfy"
+    },
+    {
+      "event_id": "es2026repdc",
+      "date": "02/09/2026 09:02:02",
+      "lat": 37.3185,
+      "lon": -1.7446,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S PULPÍ.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026repdc"
+    },
+    {
+      "event_id": "es2026reokz",
+      "date": "02/09/2026 08:41:27",
+      "lat": 37.1085,
+      "lon": -3.5883,
+      "depth": 5.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "S LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026reokz"
+    },
     {
       "event_id": "es2026reogo",
       "date": "02/09/2026 08:35:47",
@@ -11,7 +47,7 @@
       "depth": 0.0,
       "magnitude": 2.3,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "Sentido",
       "location": "SW LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026reogo"
     },
@@ -23,7 +59,7 @@
       "depth": 12.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "II",
+      "intensity": "Sentido",
       "location": "S GRANADA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026relvg"
     },
@@ -302,18 +338,6 @@
       "intensity": "",
       "location": "W VALDEGRUDAS.GU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rclhl"
-    },
-    {
-      "event_id": "es2026rccpt",
-      "date": "01/09/2026 00:26:50",
-      "lat": 28.2336,
-      "lon": -16.8356,
-      "depth": 21.0,
-      "magnitude": 1.5,
-      "mag_type": "mbLg",
-      "intensity": "I-II",
-      "location": "NW GUÍA DE ISORA.ITF",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rccpt"
     },
     {
       "event_id": "es2026rbzgn",
