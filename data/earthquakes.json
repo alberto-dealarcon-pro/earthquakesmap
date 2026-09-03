@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-03T08:58:53.340616+00:00",
+  "updated": "2026-09-03T13:30:07.269759+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 226,
+  "count": 229,
   "earthquakes": [
+    {
+      "event_id": "es2026rgsbq",
+      "date": "03/09/2026 12:47:14",
+      "lat": 38.6546,
+      "lon": -0.3919,
+      "depth": 10.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE BENIFALLIM.A",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rgsbq"
+    },
+    {
+      "event_id": "es2026rgqso",
+      "date": "03/09/2026 12:06:21",
+      "lat": 28.1004,
+      "lon": -15.6903,
+      "depth": 10.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E AGAETE.IGC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rgqso"
+    },
     {
       "event_id": "es2026rgjty",
       "date": "03/09/2026 08:35:50",
@@ -11,7 +35,7 @@
       "depth": 9.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "Sentido",
       "location": "W HUÉTOR VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rgjty"
     },
@@ -242,6 +266,18 @@
       "intensity": "Sentido",
       "location": "SW LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026reogo"
+    },
+    {
+      "event_id": "es2026remjc",
+      "date": "02/09/2026 07:38:08",
+      "lat": 40.1641,
+      "lon": -0.7262,
+      "depth": 0.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW RUBIELOS DE MORA.TE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026remjc"
     },
     {
       "event_id": "es2026relvg",
