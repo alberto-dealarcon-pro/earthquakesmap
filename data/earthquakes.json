@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-02T22:00:22.385615+00:00",
+  "updated": "2026-09-03T00:02:52.544861+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 213,
+  "count": 217,
   "earthquakes": [
+    {
+      "event_id": "es2026rfsdl",
+      "date": "02/09/2026 23:41:20",
+      "lat": 38.917,
+      "lon": -0.1678,
+      "depth": 9.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LA FONT D EN CARRÒS.V",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rfsdl"
+    },
+    {
+      "event_id": "es2026rfptl",
+      "date": "02/09/2026 22:29:06",
+      "lat": 37.3041,
+      "lon": -1.9764,
+      "depth": 1.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ZURGENA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rfptl"
+    },
+    {
+      "event_id": "es2026rfoxk",
+      "date": "02/09/2026 22:03:24",
+      "lat": 36.5106,
+      "lon": -9.1285,
+      "depth": 32.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rfoxk"
+    },
+    {
+      "event_id": "es2026rfofz",
+      "date": "02/09/2026 21:43:06",
+      "lat": 35.9352,
+      "lon": -3.9732,
+      "depth": 14.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rfofz"
+    },
     {
       "event_id": "es2026rfmgg",
       "date": "02/09/2026 20:42:31",
