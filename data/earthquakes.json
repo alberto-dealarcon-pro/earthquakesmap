@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-03T00:02:52.544861+00:00",
+  "updated": "2026-09-03T04:15:06.475794+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 217,
+  "count": 221,
   "earthquakes": [
+    {
+      "event_id": "es2026rfxfc",
+      "date": "03/09/2026 02:14:50",
+      "lat": 35.5547,
+      "lon": -3.5871,
+      "depth": 2.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rfxfc"
+    },
+    {
+      "event_id": "es2026rfvvh",
+      "date": "03/09/2026 01:33:23",
+      "lat": 37.103,
+      "lon": -3.6077,
+      "depth": 8.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rfvvh"
+    },
+    {
+      "event_id": "es2026rfvcc",
+      "date": "03/09/2026 01:10:43",
+      "lat": 28.0156,
+      "lon": -15.1801,
+      "depth": 5.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rfvcc"
+    },
+    {
+      "event_id": "es2026rftyu",
+      "date": "03/09/2026 00:36:34",
+      "lat": 37.0945,
+      "lon": -3.6044,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "S GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rftyu"
+    },
     {
       "event_id": "es2026rfsdl",
       "date": "02/09/2026 23:41:20",
