@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-04T15:04:04.573135+00:00",
+  "updated": "2026-09-04T18:20:05.858263+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 227,
+  "count": 228,
   "earthquakes": [
+    {
+      "event_id": "es2026rissu",
+      "date": "04/09/2026 15:23:14",
+      "lat": 37.1642,
+      "lon": -3.6195,
+      "depth": 0.0,
+      "magnitude": 1.2,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "SW GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rissu"
+    },
     {
       "event_id": "es2026rioox",
       "date": "04/09/2026 13:17:44",
@@ -11,7 +23,7 @@
       "depth": 1.0,
       "magnitude": 2.2,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "Sentido",
       "location": "NW CHURRIANA DE LA VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rioox"
     },
