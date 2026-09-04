@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-03T23:48:33.232058+00:00",
+  "updated": "2026-09-04T01:25:39.185023+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 213,
+  "count": 215,
   "earthquakes": [
+    {
+      "event_id": "es2026rhpuc",
+      "date": "04/09/2026 00:45:49",
+      "lat": 38.6593,
+      "lon": -0.3737,
+      "depth": 9.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E BENIFALLIM.A",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhpuc"
+    },
+    {
+      "event_id": "es2026rhphl",
+      "date": "04/09/2026 00:31:56",
+      "lat": 40.3231,
+      "lon": -2.9484,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ALMOGUERA.GU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhphl"
+    },
     {
       "event_id": "es2026rhkxv",
       "date": "03/09/2026 22:18:38",
