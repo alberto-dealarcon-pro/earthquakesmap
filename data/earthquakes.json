@@ -1,19 +1,31 @@
 {
-  "updated": "2026-09-04T18:20:05.858263+00:00",
+  "updated": "2026-09-04T20:51:28.872093+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 228,
+  "count": 229,
   "earthquakes": [
     {
-      "event_id": "es2026rissu",
-      "date": "04/09/2026 15:23:14",
-      "lat": 37.1642,
-      "lon": -3.6195,
-      "depth": 0.0,
-      "magnitude": 1.2,
+      "event_id": "es2026rjakv",
+      "date": "04/09/2026 19:16:24",
+      "lat": 37.1816,
+      "lon": -3.6323,
+      "depth": 7.0,
+      "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "II-III",
-      "location": "SW GRANADA.GR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rissu"
+      "intensity": "",
+      "location": "S MARACENA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rjakv"
+    },
+    {
+      "event_id": "es2026rizlb",
+      "date": "04/09/2026 18:46:55",
+      "lat": 35.5154,
+      "lon": -3.5335,
+      "depth": 26.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rizlb"
     },
     {
       "event_id": "es2026rioox",
