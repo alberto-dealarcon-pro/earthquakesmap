@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-04T06:17:53.329465+00:00",
+  "updated": "2026-09-04T11:28:22.286536+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 219,
+  "count": 226,
   "earthquakes": [
+    {
+      "event_id": "es2026rigtr",
+      "date": "04/09/2026 09:20:33",
+      "lat": 37.1236,
+      "lon": -3.5977,
+      "depth": 13.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "NE OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rigtr"
+    },
+    {
+      "event_id": "es2026ridsq",
+      "date": "04/09/2026 07:48:27",
+      "lat": 37.1976,
+      "lon": -3.6394,
+      "depth": 7.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "SW MARACENA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ridsq"
+    },
     {
       "event_id": "es2026rhxwj",
       "date": "04/09/2026 04:50:56",
@@ -100,6 +124,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhhba"
     },
     {
+      "event_id": "es2026rhgat",
+      "date": "03/09/2026 19:50:30",
+      "lat": 28.0748,
+      "lon": -15.676,
+      "depth": 1.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE AGAETE.IGC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhgat"
+    },
+    {
       "event_id": "es2026rhfch",
       "date": "03/09/2026 19:22:02",
       "lat": 36.7067,
@@ -136,6 +172,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhecv"
     },
     {
+      "event_id": "es2026rhboq",
+      "date": "03/09/2026 17:35:09",
+      "lat": 28.6471,
+      "lon": -17.6816,
+      "depth": 36.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE SANTA CRUZ DE LA PALMA.ILP",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhboq"
+    },
+    {
       "event_id": "es2026rhaxz",
       "date": "03/09/2026 17:15:46",
       "lat": 37.1399,
@@ -150,14 +198,26 @@
     {
       "event_id": "es2026rgyzn",
       "date": "03/09/2026 16:16:55",
-      "lat": 28.1014,
-      "lon": -15.6886,
-      "depth": 10.0,
-      "magnitude": 2.2,
+      "lat": 28.0976,
+      "lon": -15.6995,
+      "depth": 6.0,
+      "magnitude": 1.9,
       "mag_type": "mbLg",
       "intensity": "II",
-      "location": "NE AGAETE.IGC",
+      "location": "SW AGAETE.IGC",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rgyzn"
+    },
+    {
+      "event_id": "es2026rguwm",
+      "date": "03/09/2026 14:11:49",
+      "lat": 28.1018,
+      "lon": -15.6886,
+      "depth": 6.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "NE AGAETE.IGC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rguwm"
     },
     {
       "event_id": "es2026rgsbq",
@@ -182,6 +242,30 @@
       "intensity": "",
       "location": "E AGAETE.IGC",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rgqso"
+    },
+    {
+      "event_id": "es2026rgpdl",
+      "date": "03/09/2026 11:18:16",
+      "lat": 43.6211,
+      "lon": 3.2262,
+      "depth": 0.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE BEDARIEUX.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rgpdl"
+    },
+    {
+      "event_id": "es2026rgnmz",
+      "date": "03/09/2026 10:28:57",
+      "lat": 36.462,
+      "lon": -4.7973,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE MARBELLA.MA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rgnmz"
     },
     {
       "event_id": "es2026rgjty",
