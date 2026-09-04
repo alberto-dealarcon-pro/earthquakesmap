@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-04T01:25:39.185023+00:00",
+  "updated": "2026-09-04T06:17:53.329465+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 215,
+  "count": 219,
   "earthquakes": [
+    {
+      "event_id": "es2026rhxwj",
+      "date": "04/09/2026 04:50:56",
+      "lat": 37.1272,
+      "lon": -3.5792,
+      "depth": 9.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "NE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhxwj"
+    },
+    {
+      "event_id": "es2026rhuej",
+      "date": "04/09/2026 02:59:01",
+      "lat": 37.1632,
+      "lon": -3.6283,
+      "depth": 3.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "NE CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhuej"
+    },
+    {
+      "event_id": "es2026rhsxf",
+      "date": "04/09/2026 02:20:23",
+      "lat": 43.0771,
+      "lon": -0.6181,
+      "depth": 9.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S OLORON STE MARIE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhsxf"
+    },
+    {
+      "event_id": "es2026rhrdu",
+      "date": "04/09/2026 01:27:27",
+      "lat": 43.0259,
+      "lon": -0.1757,
+      "depth": 8.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW LOURDES.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhrdu"
+    },
     {
       "event_id": "es2026rhpuc",
       "date": "04/09/2026 00:45:49",
@@ -47,7 +95,7 @@
       "depth": 2.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "Sentido",
       "location": "S LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rhhba"
     },
