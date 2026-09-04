@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-04T11:28:22.286536+00:00",
+  "updated": "2026-09-04T15:04:04.573135+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 226,
+  "count": 227,
   "earthquakes": [
+    {
+      "event_id": "es2026rioox",
+      "date": "04/09/2026 13:17:44",
+      "lat": 37.1545,
+      "lon": -3.6573,
+      "depth": 1.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "NW CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rioox"
+    },
     {
       "event_id": "es2026rigtr",
       "date": "04/09/2026 09:20:33",
