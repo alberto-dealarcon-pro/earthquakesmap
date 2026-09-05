@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-05T17:18:20.520508+00:00",
+  "updated": "2026-09-05T19:07:35.887017+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 215,
+  "count": 216,
   "earthquakes": [
+    {
+      "event_id": "es2026rktoy",
+      "date": "05/09/2026 18:05:04",
+      "lat": 37.1004,
+      "lon": -3.6104,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "SW GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rktoy"
+    },
     {
       "event_id": "es2026rkiwo",
       "date": "05/09/2026 12:40:31",
