@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-05T04:43:26.450579+00:00",
+  "updated": "2026-09-05T08:38:34.293724+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 212,
+  "count": 214,
   "earthquakes": [
+    {
+      "event_id": "es2026rjzwm",
+      "date": "05/09/2026 08:07:42",
+      "lat": 42.5208,
+      "lon": 1.4498,
+      "depth": 3.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E ALINS.L",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rjzwm"
+    },
+    {
+      "event_id": "es2026rjtzy",
+      "date": "05/09/2026 05:09:53",
+      "lat": 36.9399,
+      "lon": -10.7377,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rjtzy"
+    },
     {
       "event_id": "es2026rjmom",
       "date": "05/09/2026 01:24:21",
