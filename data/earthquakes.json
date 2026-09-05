@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-05T00:22:14.307519+00:00",
+  "updated": "2026-09-05T04:43:26.450579+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 210,
+  "count": 212,
   "earthquakes": [
+    {
+      "event_id": "es2026rjmom",
+      "date": "05/09/2026 01:24:21",
+      "lat": 32.1375,
+      "lon": -16.2851,
+      "depth": 0.0,
+      "magnitude": 3.4,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "ATLÁNTICO-MADEIRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rjmom"
+    },
+    {
+      "event_id": "es2026rjldf",
+      "date": "05/09/2026 00:40:53",
+      "lat": 36.4239,
+      "lon": 2.1629,
+      "depth": 16.0,
+      "magnitude": 2.7,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "NE AIN DEFLA.ARG",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rjldf"
+    },
     {
       "event_id": "es2026rjiid",
       "date": "04/09/2026 23:15:42",
