@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-06T09:21:36.187199+00:00",
+  "updated": "2026-09-06T12:57:56.856763+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 206,
+  "count": 207,
   "earthquakes": [
+    {
+      "event_id": "es2026rlzpp",
+      "date": "06/09/2026 10:15:35",
+      "lat": 36.8237,
+      "lon": -8.1937,
+      "depth": 6.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rlzpp"
+    },
     {
       "event_id": "es2026rlrgu",
       "date": "06/09/2026 06:02:53",
@@ -11,7 +23,7 @@
       "depth": 2.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "Sentido",
+      "intensity": "III",
       "location": "SW ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rlrgu"
     },
