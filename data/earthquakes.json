@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-07T09:32:44.610002+00:00",
+  "updated": "2026-09-07T15:11:29.355807+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 188,
+  "count": 192,
   "earthquakes": [
+    {
+      "event_id": "es2026roajo",
+      "date": "07/09/2026 12:54:54",
+      "lat": 37.0997,
+      "lon": -3.6027,
+      "depth": 4.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "SE GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026roajo"
+    },
+    {
+      "event_id": "es2026rnwfs",
+      "date": "07/09/2026 10:49:09",
+      "lat": 37.0314,
+      "lon": -3.7482,
+      "depth": 10.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ESCÚZAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rnwfs"
+    },
+    {
+      "event_id": "es2026rnumu",
+      "date": "07/09/2026 09:56:47",
+      "lat": 38.3283,
+      "lon": -0.2797,
+      "depth": 17.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-LEVANTE SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rnumu"
+    },
     {
       "event_id": "es2026rnncy",
       "date": "07/09/2026 06:13:07",
@@ -14,6 +50,18 @@
       "intensity": "II",
       "location": "N NERPIO.AB",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rnncy"
+    },
+    {
+      "event_id": "es2026rnkfm",
+      "date": "07/09/2026 04:45:06",
+      "lat": 28.1756,
+      "lon": -16.2024,
+      "depth": 7.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rnkfm"
     },
     {
       "event_id": "es2026rnjmp",
