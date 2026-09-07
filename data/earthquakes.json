@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-07T04:23:29.066598+00:00",
+  "updated": "2026-09-07T09:32:44.610002+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 186,
+  "count": 188,
   "earthquakes": [
+    {
+      "event_id": "es2026rnncy",
+      "date": "07/09/2026 06:13:07",
+      "lat": 38.2311,
+      "lon": -2.314,
+      "depth": 2.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "N NERPIO.AB",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rnncy"
+    },
+    {
+      "event_id": "es2026rnjmp",
+      "date": "07/09/2026 04:23:13",
+      "lat": 37.1947,
+      "lon": -3.6418,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "SW MARACENA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rnjmp"
+    },
     {
       "event_id": "es2026rnfbx",
       "date": "07/09/2026 02:09:29",
@@ -11,7 +35,7 @@
       "depth": 6.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "Sentido",
       "location": "SE LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rnfbx"
     },
