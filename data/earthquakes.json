@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-07T15:11:29.355807+00:00",
+  "updated": "2026-09-07T19:10:22.038889+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 192,
+  "count": 194,
   "earthquakes": [
+    {
+      "event_id": "es2026roklc",
+      "date": "07/09/2026 17:59:45",
+      "lat": 28.0955,
+      "lon": -15.6994,
+      "depth": 3.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "S AGAETE.IGC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026roklc"
+    },
+    {
+      "event_id": "es2026rohvy",
+      "date": "07/09/2026 16:42:43",
+      "lat": 37.14,
+      "lon": -3.6542,
+      "depth": 3.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "NE LAS GABIAS.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rohvy"
+    },
     {
       "event_id": "es2026roajo",
       "date": "07/09/2026 12:54:54",
