@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-07T22:00:55.949629+00:00",
+  "updated": "2026-09-08T00:12:25.844430+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 163,
+  "count": 164,
   "earthquakes": [
+    {
+      "event_id": "es2026roptn",
+      "date": "07/09/2026 20:41:07",
+      "lat": 36.551,
+      "lon": -3.0559,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN NORTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026roptn"
+    },
     {
       "event_id": "es2026ropmr",
       "date": "07/09/2026 20:33:16",
