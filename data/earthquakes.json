@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-09T09:51:38.907732+00:00",
+  "updated": "2026-09-09T14:00:16.866972+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 156,
+  "count": 159,
   "earthquakes": [
+    {
+      "event_id": "es2026rrpna",
+      "date": "09/09/2026 11:57:29",
+      "lat": 36.6796,
+      "lon": -7.8858,
+      "depth": 8.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rrpna"
+    },
+    {
+      "event_id": "es2026rrkxy",
+      "date": "09/09/2026 09:38:40",
+      "lat": 37.0904,
+      "lon": -3.5407,
+      "depth": 12.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S MONACHIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rrkxy"
+    },
+    {
+      "event_id": "es2026rrkky",
+      "date": "09/09/2026 09:23:35",
+      "lat": 37.7873,
+      "lon": -1.0913,
+      "depth": 12.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE FUENTE ÁLAMO DE MURCIA.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rrkky"
+    },
     {
       "event_id": "es2026rrjno",
       "date": "09/09/2026 08:56:15",
