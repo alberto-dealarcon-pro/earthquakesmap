@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-10T00:29:38.796814+00:00",
+  "updated": "2026-09-10T05:08:07.070244+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 143,
+  "count": 145,
   "earthquakes": [
+    {
+      "event_id": "es2026rsvda",
+      "date": "10/09/2026 03:55:40",
+      "lat": 36.8243,
+      "lon": -9.3034,
+      "depth": 35.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rsvda"
+    },
+    {
+      "event_id": "es2026rsoep",
+      "date": "10/09/2026 00:25:22",
+      "lat": 37.9793,
+      "lon": -0.6746,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "E TORREVIEJA.A",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rsoep"
+    },
     {
       "event_id": "es2026rskqh",
       "date": "09/09/2026 22:37:42",
@@ -23,7 +47,7 @@
       "depth": 0.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "W OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rsjij"
     },
