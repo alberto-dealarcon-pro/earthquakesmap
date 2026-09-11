@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-11T00:01:06.096666+00:00",
+  "updated": "2026-09-11T04:27:25.124760+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 135,
+  "count": 137,
   "earthquakes": [
+    {
+      "event_id": "es2026rumlx",
+      "date": "11/09/2026 01:49:15",
+      "lat": 37.5477,
+      "lon": -1.787,
+      "depth": 4.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PUERTO LUMBRERAS.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rumlx"
+    },
+    {
+      "event_id": "es2026rujot",
+      "date": "11/09/2026 00:21:37",
+      "lat": 42.8922,
+      "lon": -4.8933,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E PRIORO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rujot"
+    },
     {
       "event_id": "es2026ruiaz",
       "date": "10/09/2026 23:35:29",
