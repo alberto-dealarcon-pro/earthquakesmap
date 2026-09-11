@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-10T22:00:44.126588+00:00",
+  "updated": "2026-09-11T00:01:06.096666+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 132,
+  "count": 135,
   "earthquakes": [
+    {
+      "event_id": "es2026ruiaz",
+      "date": "10/09/2026 23:35:29",
+      "lat": 37.3306,
+      "lon": -2.0152,
+      "depth": 2.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ZURGENA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ruiaz"
+    },
+    {
+      "event_id": "es2026ruhbr",
+      "date": "10/09/2026 23:05:48",
+      "lat": 42.9174,
+      "lon": -0.7419,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ANSÓ.HU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ruhbr"
+    },
+    {
+      "event_id": "es2026rugzu",
+      "date": "10/09/2026 23:03:35",
+      "lat": 42.1643,
+      "lon": -7.1491,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E VILARIÑO DE CONSO.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rugzu"
+    },
     {
       "event_id": "es2026rtymc",
       "date": "10/09/2026 18:45:09",
