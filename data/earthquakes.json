@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-12T17:50:05.764527+00:00",
+  "updated": "2026-09-12T19:41:07.347130+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 137,
+  "count": 138,
   "earthquakes": [
+    {
+      "event_id": "es2026rxojv",
+      "date": "12/09/2026 18:11:23",
+      "lat": 42.8995,
+      "lon": -4.9536,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE PRIORO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rxojv"
+    },
     {
       "event_id": "es2026rxgqe",
       "date": "12/09/2026 14:16:22",
