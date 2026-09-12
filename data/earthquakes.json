@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-12T12:22:30.469771+00:00",
+  "updated": "2026-09-12T15:40:04.908468+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 136,
+  "count": 137,
   "earthquakes": [
+    {
+      "event_id": "es2026rxgqe",
+      "date": "12/09/2026 14:16:22",
+      "lat": 43.6796,
+      "lon": -9.1272,
+      "depth": 6.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-GALICIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rxgqe"
+    },
     {
       "event_id": "es2026rxaun",
       "date": "12/09/2026 11:19:33",
