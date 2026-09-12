@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-12T19:41:07.347130+00:00",
+  "updated": "2026-09-12T21:40:49.699238+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 138,
+  "count": 141,
   "earthquakes": [
+    {
+      "event_id": "es2026rxtdr",
+      "date": "12/09/2026 20:36:52",
+      "lat": 37.1223,
+      "lon": -3.5806,
+      "depth": 4.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "NE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rxtdr"
+    },
+    {
+      "event_id": "es2026rxsxs",
+      "date": "12/09/2026 20:28:50",
+      "lat": 41.0797,
+      "lon": -8.4469,
+      "depth": 7.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE GONDOMAR.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rxsxs"
+    },
+    {
+      "event_id": "es2026rxssm",
+      "date": "12/09/2026 20:22:44",
+      "lat": 37.3073,
+      "lon": -8.55,
+      "depth": 8.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE MONCHIQUE.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rxssm"
+    },
     {
       "event_id": "es2026rxojv",
       "date": "12/09/2026 18:11:23",
