@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-12T04:18:55.020385+00:00",
+  "updated": "2026-09-12T08:41:48.790523+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 133,
+  "count": 135,
   "earthquakes": [
+    {
+      "event_id": "es2026rwpyr",
+      "date": "12/09/2026 05:51:01",
+      "lat": 42.8969,
+      "lon": -4.8974,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E PRIORO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rwpyr"
+    },
+    {
+      "event_id": "es2026rwmgw",
+      "date": "12/09/2026 03:59:21",
+      "lat": 42.92,
+      "lon": -4.8875,
+      "depth": 0.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "SE BOCA DE HUÉRGANO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rwmgw"
+    },
     {
       "event_id": "es2026rwkub",
       "date": "12/09/2026 03:14:06",
@@ -11,7 +35,7 @@
       "depth": 0.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "III",
       "location": "E ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rwkub"
     },
