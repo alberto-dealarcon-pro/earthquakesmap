@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-11T23:58:29.636340+00:00",
+  "updated": "2026-09-12T04:18:55.020385+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 132,
+  "count": 133,
   "earthquakes": [
+    {
+      "event_id": "es2026rwkub",
+      "date": "12/09/2026 03:14:06",
+      "lat": 37.1093,
+      "lon": -3.6415,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "E ALHENDÍN.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rwkub"
+    },
     {
       "event_id": "es2026rvwqr",
       "date": "11/09/2026 20:05:52",
