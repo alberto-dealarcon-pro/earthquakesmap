@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-13T01:15:53.490118+00:00",
+  "updated": "2026-09-13T06:17:19.565176+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 120,
+  "count": 123,
   "earthquakes": [
+    {
+      "event_id": "es2026rylfa",
+      "date": "13/09/2026 05:42:51",
+      "lat": 28.0578,
+      "lon": -16.1579,
+      "depth": 20.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rylfa"
+    },
+    {
+      "event_id": "es2026rykrj",
+      "date": "13/09/2026 05:26:58",
+      "lat": 40.41,
+      "lon": -0.7426,
+      "depth": 11.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW GÚDAR.TE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rykrj"
+    },
+    {
+      "event_id": "es2026rykoa",
+      "date": "13/09/2026 05:23:03",
+      "lat": 37.6029,
+      "lon": -7.9574,
+      "depth": 0.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ALMODOVAR.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rykoa"
+    },
     {
       "event_id": "es2026rxzht",
       "date": "12/09/2026 23:42:23",
