@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-13T12:03:08.407527+00:00",
+  "updated": "2026-09-13T16:10:25.399983+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 127,
+  "count": 129,
   "earthquakes": [
+    {
+      "event_id": "es2026rzbrb",
+      "date": "13/09/2026 14:01:48",
+      "lat": 37.6373,
+      "lon": -3.3614,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E HUELMA.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rzbrb"
+    },
+    {
+      "event_id": "es2026rzbog",
+      "date": "13/09/2026 13:58:33",
+      "lat": 44.0462,
+      "lon": -7.6317,
+      "depth": 3.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "CANTÁBRICO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rzbog"
+    },
     {
       "event_id": "es2026rytjp",
       "date": "13/09/2026 09:50:38",
