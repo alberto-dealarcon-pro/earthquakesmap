@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-12T23:23:57.627452+00:00",
+  "updated": "2026-09-13T01:15:53.490118+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 118,
+  "count": 120,
   "earthquakes": [
+    {
+      "event_id": "es2026rxzht",
+      "date": "12/09/2026 23:42:23",
+      "lat": 36.7919,
+      "lon": -2.3254,
+      "depth": 12.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ALMERÍA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rxzht"
+    },
+    {
+      "event_id": "es2026rxypt",
+      "date": "12/09/2026 23:21:24",
+      "lat": 42.1476,
+      "lon": -6.9826,
+      "depth": 11.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E VIANA DO BOLO.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rxypt"
+    },
     {
       "event_id": "es2026rxtdr",
       "date": "12/09/2026 20:36:52",
