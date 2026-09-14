@@ -1,18 +1,54 @@
 {
-  "updated": "2026-09-14T18:11:40.022251+00:00",
+  "updated": "2026-09-14T21:50:31.780513+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 137,
+  "count": 140,
   "earthquakes": [
     {
+      "event_id": "es2026sbihz",
+      "date": "14/09/2026 19:39:22",
+      "lat": 41.0231,
+      "lon": 1.0194,
+      "depth": 0.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CAMBRILS.T",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sbihz"
+    },
+    {
+      "event_id": "es2026sbfzr",
+      "date": "14/09/2026 18:29:05",
+      "lat": 39.2411,
+      "lon": -0.6749,
+      "depth": 4.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E MILLARES.V",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sbfzr"
+    },
+    {
+      "event_id": "es2026sbfyx",
+      "date": "14/09/2026 18:28:10",
+      "lat": 39.253,
+      "lon": -0.7028,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E MILLARES.V",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sbfyx"
+    },
+    {
       "event_id": "es2026sbdsx",
-      "date": "14/09/2026 17:20:35",
-      "lat": 37.2568,
-      "lon": -7.298,
-      "depth": 8.0,
+      "date": "14/09/2026 17:20:36",
+      "lat": 37.261,
+      "lon": -7.3003,
+      "depth": 20.0,
       "magnitude": 2.1,
       "mag_type": "mbLg",
       "intensity": "",
-      "location": "NE ISLA CRISTINA.H",
+      "location": "SE VILLABLANCA.H",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sbdsx"
     },
     {
