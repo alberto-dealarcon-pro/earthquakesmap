@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-15T14:27:43.584043+00:00",
+  "updated": "2026-09-15T18:24:31.500232+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 140,
+  "count": 142,
   "earthquakes": [
+    {
+      "event_id": "es2026scwnx",
+      "date": "15/09/2026 15:58:33",
+      "lat": 43.0572,
+      "lon": -0.6071,
+      "depth": 11.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S OLORON STE MARIE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026scwnx"
+    },
+    {
+      "event_id": "es2026sctux",
+      "date": "15/09/2026 14:35:50",
+      "lat": 36.781,
+      "lon": -5.571,
+      "depth": 21.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW PRADO DEL REY.CA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sctux"
+    },
     {
       "event_id": "es2026scfea",
       "date": "15/09/2026 07:11:48",
