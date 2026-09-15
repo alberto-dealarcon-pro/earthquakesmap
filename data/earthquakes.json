@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-15T00:01:46.676514+00:00",
+  "updated": "2026-09-15T04:44:41.534021+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 129,
+  "count": 131,
   "earthquakes": [
+    {
+      "event_id": "es2026sbxbf",
+      "date": "15/09/2026 03:06:05",
+      "lat": 28.5667,
+      "lon": -17.8361,
+      "depth": 14.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW VILLA DE MAZO.ILP",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sbxbf"
+    },
+    {
+      "event_id": "es2026sbsfv",
+      "date": "15/09/2026 00:40:11",
+      "lat": 37.1801,
+      "lon": 2.8309,
+      "depth": 30.0,
+      "magnitude": 3.7,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-ARGELIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sbsfv"
+    },
     {
       "event_id": "es2026sbnos",
       "date": "14/09/2026 22:18:46",
