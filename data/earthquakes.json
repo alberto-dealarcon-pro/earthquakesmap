@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-15T18:24:31.500232+00:00",
+  "updated": "2026-09-15T21:36:11.899439+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 142,
+  "count": 145,
   "earthquakes": [
+    {
+      "event_id": "es2026sdgob",
+      "date": "15/09/2026 21:01:50",
+      "lat": 42.6777,
+      "lon": -7.7037,
+      "depth": 5.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE TABOADA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sdgob"
+    },
+    {
+      "event_id": "es2026sdgjj",
+      "date": "15/09/2026 20:56:20",
+      "lat": 42.5125,
+      "lon": -7.3413,
+      "depth": 10.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE A POBRA DO BROLLÓN.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sdgjj"
+    },
+    {
+      "event_id": "es2026sdfin",
+      "date": "15/09/2026 20:25:03",
+      "lat": 28.015,
+      "lon": -16.1917,
+      "depth": 5.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sdfin"
+    },
     {
       "event_id": "es2026scwnx",
       "date": "15/09/2026 15:58:33",
