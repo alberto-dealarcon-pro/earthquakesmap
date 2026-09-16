@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-16T16:58:52.125479+00:00",
+  "updated": "2026-09-16T19:58:14.558010+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 156,
+  "count": 159,
   "earthquakes": [
+    {
+      "event_id": "es2026seyjt",
+      "date": "16/09/2026 19:10:20",
+      "lat": 37.8774,
+      "lon": -4.0241,
+      "depth": 20.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E ESCAÑUELA.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026seyjt"
+    },
+    {
+      "event_id": "es2026sewxe",
+      "date": "16/09/2026 18:25:23",
+      "lat": 37.7605,
+      "lon": -9.6377,
+      "depth": 0.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-PORTUGAL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sewxe"
+    },
+    {
+      "event_id": "es2026setaq",
+      "date": "16/09/2026 16:28:09",
+      "lat": 35.8833,
+      "lon": -1.9021,
+      "depth": 1.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-ARGELIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026setaq"
+    },
     {
       "event_id": "es2026seqlq",
       "date": "16/09/2026 15:11:04",
