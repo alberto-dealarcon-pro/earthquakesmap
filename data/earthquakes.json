@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-17T10:27:50.108779+00:00",
+  "updated": "2026-09-17T15:14:28.419845+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 164,
+  "count": 167,
   "earthquakes": [
+    {
+      "event_id": "es2026sgkug",
+      "date": "17/09/2026 14:34:14",
+      "lat": 35.8935,
+      "lon": -1.9218,
+      "depth": 7.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-ARGELIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sgkug"
+    },
+    {
+      "event_id": "es2026sgfkd",
+      "date": "17/09/2026 11:50:56",
+      "lat": 37.7293,
+      "lon": -9.0788,
+      "depth": 4.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-PORTUGAL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sgfkd"
+    },
+    {
+      "event_id": "es2026sgckr",
+      "date": "17/09/2026 10:20:37",
+      "lat": 29.1477,
+      "lon": -14.3385,
+      "depth": 14.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sgckr"
+    },
     {
       "event_id": "es2026sfwcr",
       "date": "17/09/2026 07:09:27",
