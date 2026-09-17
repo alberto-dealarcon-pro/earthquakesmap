@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-17T05:44:33.024852+00:00",
+  "updated": "2026-09-17T10:27:50.108779+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 160,
+  "count": 164,
   "earthquakes": [
+    {
+      "event_id": "es2026sfwcr",
+      "date": "17/09/2026 07:09:27",
+      "lat": 37.1267,
+      "lon": -3.4567,
+      "depth": 8.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW GÜÉJAR SIERRA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sfwcr"
+    },
     {
       "event_id": "es2026sfoub",
       "date": "17/09/2026 03:27:16",
@@ -107,21 +119,9 @@
       "depth": 0.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II-III",
       "location": "NW GÓJAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sfdep"
-    },
-    {
-      "event_id": "es2026sfdek",
-      "date": "16/09/2026 21:35:37",
-      "lat": 37.1142,
-      "lon": -3.6207,
-      "depth": 0.0,
-      "magnitude": 1.0,
-      "mag_type": "mbLg",
-      "intensity": "II-III",
-      "location": "SW OGÍJARES.GR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sfdek"
     },
     {
       "event_id": "es2026sfcnv",
@@ -206,6 +206,18 @@
       "intensity": "",
       "location": "SW CARAVACA DE LA CRUZ.MU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026seqlq"
+    },
+    {
+      "event_id": "es2026seoig",
+      "date": "16/09/2026 14:05:30",
+      "lat": 40.2114,
+      "lon": -0.9718,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW LA PUEBLA DE VALVERDE.TE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026seoig"
     },
     {
       "event_id": "es2026senqh",
@@ -302,6 +314,18 @@
       "intensity": "",
       "location": "W CARAVACA DE LA CRUZ.MU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026seixt"
+    },
+    {
+      "event_id": "es2026sehir",
+      "date": "16/09/2026 10:33:50",
+      "lat": 39.2353,
+      "lon": -0.6978,
+      "depth": 0.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E MILLARES.V",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sehir"
     },
     {
       "event_id": "es2026segjf",
@@ -530,6 +554,30 @@
       "intensity": "II",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026scrjf"
+    },
+    {
+      "event_id": "es2026scmkv",
+      "date": "15/09/2026 10:51:56",
+      "lat": 38.0399,
+      "lon": -1.5772,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W MULA.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026scmkv"
+    },
+    {
+      "event_id": "es2026scind",
+      "date": "15/09/2026 08:53:22",
+      "lat": 37.8745,
+      "lon": -1.1858,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ALCANTARILLA.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026scind"
     },
     {
       "event_id": "es2026scfea",
