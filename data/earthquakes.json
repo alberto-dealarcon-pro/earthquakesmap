@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-16T22:49:11.496613+00:00",
+  "updated": "2026-09-17T00:55:06.182036+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 154,
+  "count": 155,
   "earthquakes": [
+    {
+      "event_id": "es2026sfhug",
+      "date": "16/09/2026 23:55:20",
+      "lat": 37.3177,
+      "lon": -8.5679,
+      "depth": 15.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W MONCHIQUE.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sfhug"
+    },
     {
       "event_id": "es2026sfdwl",
       "date": "16/09/2026 21:56:40",
