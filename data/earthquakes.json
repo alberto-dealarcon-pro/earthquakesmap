@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-18T17:12:38.259465+00:00",
+  "updated": "2026-09-18T19:38:36.438699+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 176,
+  "count": 178,
   "earthquakes": [
+    {
+      "event_id": "es2026siowa",
+      "date": "18/09/2026 18:53:31",
+      "lat": 42.0304,
+      "lon": -7.0294,
+      "depth": 13.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE A MEZQUITA.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026siowa"
+    },
+    {
+      "event_id": "es2026silmc",
+      "date": "18/09/2026 17:11:02",
+      "lat": 37.1481,
+      "lon": -3.2618,
+      "depth": 11.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S LUGROS.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026silmc"
+    },
     {
       "event_id": "es2026siemk",
       "date": "18/09/2026 13:39:16",
