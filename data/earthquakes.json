@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-18T04:47:44.907893+00:00",
+  "updated": "2026-09-18T09:15:17.269538+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 164,
+  "count": 167,
   "earthquakes": [
+    {
+      "event_id": "es2026shsst",
+      "date": "18/09/2026 07:42:56",
+      "lat": 37.1858,
+      "lon": -3.6249,
+      "depth": 4.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026shsst"
+    },
+    {
+      "event_id": "es2026shrvu",
+      "date": "18/09/2026 07:16:11",
+      "lat": 36.806,
+      "lon": -7.0881,
+      "depth": 48.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026shrvu"
+    },
+    {
+      "event_id": "es2026shlnh",
+      "date": "18/09/2026 04:04:27",
+      "lat": 27.661,
+      "lon": -18.0638,
+      "depth": 30.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW EL PINAR DE EL HIERRO.IHI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026shlnh"
+    },
     {
       "event_id": "es2026shizi",
       "date": "18/09/2026 02:47:31",
@@ -143,7 +179,7 @@
       "depth": 0.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "II",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sgnfz"
     },
@@ -407,7 +443,7 @@
       "depth": 0.0,
       "magnitude": 2.1,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "II",
       "location": "NW OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026senqh"
     },
@@ -431,7 +467,7 @@
       "depth": 3.0,
       "magnitude": 2.6,
       "mag_type": "mbLg",
-      "intensity": "III-IV",
+      "intensity": "III",
       "location": "W VILLA DE OTURA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sempg"
     },
