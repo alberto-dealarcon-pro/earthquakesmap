@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-17T22:06:23.072475+00:00",
+  "updated": "2026-09-18T00:12:56.914347+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 155,
+  "count": 157,
   "earthquakes": [
+    {
+      "event_id": "es2026shcok",
+      "date": "17/09/2026 23:32:57",
+      "lat": 36.4586,
+      "lon": -3.7947,
+      "depth": 25.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN NORTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026shcok"
+    },
+    {
+      "event_id": "es2026sgzqs",
+      "date": "17/09/2026 22:04:44",
+      "lat": 36.6525,
+      "lon": -3.5606,
+      "depth": 20.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE SALOBREÑA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sgzqs"
+    },
     {
       "event_id": "es2026sgyzo",
       "date": "17/09/2026 21:44:45",
@@ -11,7 +35,7 @@
       "depth": 0.0,
       "magnitude": 2.1,
       "mag_type": "mbLg",
-      "intensity": "Sentido",
+      "intensity": "III",
       "location": "SE ARMILLA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sgyzo"
     },
@@ -35,7 +59,7 @@
       "depth": 0.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "II-III",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sgnfz"
     },
