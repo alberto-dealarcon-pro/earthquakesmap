@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-19T14:43:49.087424+00:00",
+  "updated": "2026-09-19T17:28:15.806360+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 190,
+  "count": 194,
   "earthquakes": [
+    {
+      "event_id": "es2026skgxm",
+      "date": "19/09/2026 17:08:45",
+      "lat": 28.416,
+      "lon": -16.6676,
+      "depth": 20.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW SAN JUAN DE LA RAMBLA.ITF",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026skgxm"
+    },
+    {
+      "event_id": "es2026skfkg",
+      "date": "19/09/2026 16:23:00",
+      "lat": 36.9981,
+      "lon": -9.5722,
+      "depth": 25.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026skfkg"
+    },
+    {
+      "event_id": "es2026skeku",
+      "date": "19/09/2026 15:53:20",
+      "lat": 43.0509,
+      "lon": -0.2163,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S NAY.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026skeku"
+    },
+    {
+      "event_id": "es2026skcou",
+      "date": "19/09/2026 14:57:24",
+      "lat": 43.0284,
+      "lon": -0.2154,
+      "depth": 0.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LARUNS.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026skcou"
+    },
     {
       "event_id": "es2026sjzeh",
       "date": "19/09/2026 13:14:15",
