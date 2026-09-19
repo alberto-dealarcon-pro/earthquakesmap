@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-19T11:31:51.850501+00:00",
+  "updated": "2026-09-19T14:43:49.087424+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 186,
+  "count": 190,
   "earthquakes": [
+    {
+      "event_id": "es2026sjzeh",
+      "date": "19/09/2026 13:14:15",
+      "lat": 43.0313,
+      "lon": -0.2119,
+      "depth": 0.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LARUNS.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjzeh"
+    },
+    {
+      "event_id": "es2026sjxub",
+      "date": "19/09/2026 12:32:00",
+      "lat": 43.0309,
+      "lon": -0.2237,
+      "depth": 26.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LARUNS.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjxub"
+    },
+    {
+      "event_id": "es2026sjwlq",
+      "date": "19/09/2026 11:51:51",
+      "lat": 36.8764,
+      "lon": -10.9922,
+      "depth": 36.0,
+      "magnitude": 2.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjwlq"
+    },
+    {
+      "event_id": "es2026sjwhc",
+      "date": "19/09/2026 11:46:34",
+      "lat": 42.1475,
+      "lon": -7.0187,
+      "depth": 7.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE VIANA DO BOLO.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjwhc"
+    },
     {
       "event_id": "es2026sjsza",
       "date": "19/09/2026 10:06:13",
