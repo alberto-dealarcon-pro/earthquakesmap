@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-19T17:28:15.806360+00:00",
+  "updated": "2026-09-19T19:31:51.523397+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 194,
+  "count": 195,
   "earthquakes": [
+    {
+      "event_id": "es2026skkpr",
+      "date": "19/09/2026 19:00:54",
+      "lat": 37.108,
+      "lon": -3.5706,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026skkpr"
+    },
     {
       "event_id": "es2026skgxm",
       "date": "19/09/2026 17:08:45",
