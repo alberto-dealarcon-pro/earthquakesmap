@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-19T19:31:51.523397+00:00",
+  "updated": "2026-09-19T21:41:58.606386+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 195,
+  "count": 196,
   "earthquakes": [
+    {
+      "event_id": "es2026sklyq",
+      "date": "19/09/2026 19:41:36",
+      "lat": 43.0512,
+      "lon": -0.2189,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S NAY.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sklyq"
+    },
     {
       "event_id": "es2026skkpr",
       "date": "19/09/2026 19:00:54",
