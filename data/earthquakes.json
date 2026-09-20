@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-20T12:09:39.892364+00:00",
+  "updated": "2026-09-20T16:04:45.575160+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 195,
+  "count": 197,
   "earthquakes": [
+    {
+      "event_id": "es2026slxnd",
+      "date": "20/09/2026 14:40:18",
+      "lat": 38.5571,
+      "lon": -9.1228,
+      "depth": 4.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW SEIXAL.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slxnd"
+    },
+    {
+      "event_id": "es2026sltmz",
+      "date": "20/09/2026 12:38:29",
+      "lat": 37.0745,
+      "lon": -2.386,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N TABERNAS.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sltmz"
+    },
     {
       "event_id": "es2026slqmv",
       "date": "20/09/2026 11:07:23",
