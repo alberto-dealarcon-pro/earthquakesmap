@@ -1,8 +1,80 @@
 {
-  "updated": "2026-09-20T01:35:25.128331+00:00",
+  "updated": "2026-09-20T06:57:35.319547+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 184,
+  "count": 190,
   "earthquakes": [
+    {
+      "event_id": "es2026slhnu",
+      "date": "20/09/2026 06:35:45",
+      "lat": 35.0989,
+      "lon": -6.2499,
+      "depth": 42.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW BARRHA.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slhnu"
+    },
+    {
+      "event_id": "es2026slgdo",
+      "date": "20/09/2026 05:53:31",
+      "lat": 43.0817,
+      "lon": -0.2372,
+      "depth": 1.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S NAY.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slgdo"
+    },
+    {
+      "event_id": "es2026slgcd",
+      "date": "20/09/2026 05:51:51",
+      "lat": 43.1039,
+      "lon": -0.2126,
+      "depth": 2.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE NAY.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slgcd"
+    },
+    {
+      "event_id": "es2026sldxb",
+      "date": "20/09/2026 04:45:20",
+      "lat": 35.4889,
+      "lon": -3.607,
+      "depth": 18.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sldxb"
+    },
+    {
+      "event_id": "es2026sldcz",
+      "date": "20/09/2026 04:21:56",
+      "lat": 35.8577,
+      "lon": -7.529,
+      "depth": 33.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sldcz"
+    },
+    {
+      "event_id": "es2026skysw",
+      "date": "20/09/2026 02:08:54",
+      "lat": 36.269,
+      "lon": -10.736,
+      "depth": 0.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026skysw"
+    },
     {
       "event_id": "es2026sklyq",
       "date": "19/09/2026 19:41:36",
