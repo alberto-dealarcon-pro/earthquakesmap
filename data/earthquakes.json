@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-20T16:04:45.575160+00:00",
+  "updated": "2026-09-20T18:43:26.232710+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 197,
+  "count": 198,
   "earthquakes": [
+    {
+      "event_id": "es2026smedv",
+      "date": "20/09/2026 18:01:13",
+      "lat": 42.7332,
+      "lon": -9.1869,
+      "depth": 2.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW MUROS.C",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026smedv"
+    },
     {
       "event_id": "es2026slxnd",
       "date": "20/09/2026 14:40:18",
