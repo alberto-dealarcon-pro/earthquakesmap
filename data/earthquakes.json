@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-21T18:36:02.525472+00:00",
+  "updated": "2026-09-21T22:11:19.814476+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 203,
+  "count": 193,
   "earthquakes": [
     {
       "event_id": "es2026snyrs",
@@ -2318,126 +2318,6 @@
       "intensity": "II-III",
       "location": "E ALHENDÍN.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rwkub"
-    },
-    {
-      "event_id": "es2026rwboe",
-      "date": "11/09/2026 22:34:29",
-      "lat": 37.1378,
-      "lon": -3.6132,
-      "depth": 8.0,
-      "magnitude": 1.4,
-      "mag_type": "mbLg",
-      "intensity": "I-II",
-      "location": "E ARMILLA.GR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rwboe"
-    },
-    {
-      "event_id": "es2026rvwqr",
-      "date": "11/09/2026 20:05:52",
-      "lat": 35.5214,
-      "lon": -3.5472,
-      "depth": 25.0,
-      "magnitude": 1.9,
-      "mag_type": "mbLg",
-      "intensity": "II",
-      "location": "ALBORÁN SUR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rvwqr"
-    },
-    {
-      "event_id": "es2026rvvux",
-      "date": "11/09/2026 19:40:28",
-      "lat": 35.7577,
-      "lon": -4.7167,
-      "depth": 35.0,
-      "magnitude": 2.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "ALBORÁN OESTE",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rvvux"
-    },
-    {
-      "event_id": "es2026rvvkz",
-      "date": "11/09/2026 19:28:56",
-      "lat": 37.9877,
-      "lon": -4.0447,
-      "depth": 6.0,
-      "magnitude": 1.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "NW LAHIGUERA.J",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rvvkz"
-    },
-    {
-      "event_id": "es2026rvtud",
-      "date": "11/09/2026 18:38:58",
-      "lat": 37.1016,
-      "lon": -3.6137,
-      "depth": 10.0,
-      "magnitude": 1.5,
-      "mag_type": "mbLg",
-      "intensity": "I-II",
-      "location": "SW GÓJAR.GR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rvtud"
-    },
-    {
-      "event_id": "es2026rvonx",
-      "date": "11/09/2026 16:00:13",
-      "lat": 43.1466,
-      "lon": -1.4368,
-      "depth": 0.0,
-      "magnitude": 1.5,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "E BAZTAN.NA",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rvonx"
-    },
-    {
-      "event_id": "es2026rvdsh",
-      "date": "11/09/2026 10:31:54",
-      "lat": 43.0306,
-      "lon": -0.0718,
-      "depth": 0.0,
-      "magnitude": 1.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "SW LOURDES.FRA",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rvdsh"
-    },
-    {
-      "event_id": "es2026rurzr",
-      "date": "11/09/2026 04:36:49",
-      "lat": 37.1313,
-      "lon": -3.593,
-      "depth": 0.0,
-      "magnitude": 1.4,
-      "mag_type": "mbLg",
-      "intensity": "II",
-      "location": "NW LA ZUBIA.GR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rurzr"
-    },
-    {
-      "event_id": "es2026rumlx",
-      "date": "11/09/2026 01:49:15",
-      "lat": 37.5477,
-      "lon": -1.787,
-      "depth": 4.0,
-      "magnitude": 1.5,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "SE PUERTO LUMBRERAS.MU",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rumlx"
-    },
-    {
-      "event_id": "es2026rujot",
-      "date": "11/09/2026 00:21:37",
-      "lat": 42.8922,
-      "lon": -4.8933,
-      "depth": 0.0,
-      "magnitude": 2.0,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "E PRIORO.LE",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026rujot"
     }
   ]
 }
