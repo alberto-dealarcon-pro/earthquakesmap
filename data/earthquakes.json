@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-21T12:59:44.539255+00:00",
+  "updated": "2026-09-21T18:36:02.525472+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 193,
+  "count": 203,
   "earthquakes": [
+    {
+      "event_id": "es2026snyrs",
+      "date": "21/09/2026 17:31:37",
+      "lat": 32.8027,
+      "lon": -5.2513,
+      "depth": 22.0,
+      "magnitude": 2.9,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "SE KHENIFRA.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026snyrs"
+    },
+    {
+      "event_id": "es2026snqaa",
+      "date": "21/09/2026 13:08:27",
+      "lat": 37.1319,
+      "lon": -3.5785,
+      "depth": 9.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CÁJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026snqaa"
+    },
+    {
+      "event_id": "es2026snpyq",
+      "date": "21/09/2026 13:06:49",
+      "lat": 37.1791,
+      "lon": -3.6373,
+      "depth": 8.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026snpyq"
+    },
     {
       "event_id": "es2026snpek",
       "date": "21/09/2026 12:43:12",
@@ -11,7 +47,7 @@
       "depth": 8.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "NW GRANADA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026snpek"
     },
@@ -23,9 +59,21 @@
       "depth": 2.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "II",
       "location": "W LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026snmhj"
+    },
+    {
+      "event_id": "es2026sngwk",
+      "date": "21/09/2026 08:31:29",
+      "lat": 37.1676,
+      "lon": -3.6157,
+      "depth": 3.0,
+      "magnitude": 1.0,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "SW GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sngwk"
     },
     {
       "event_id": "es2026smzit",
@@ -64,6 +112,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026smtto"
     },
     {
+      "event_id": "es2026smqmn",
+      "date": "21/09/2026 00:15:00",
+      "lat": 37.1823,
+      "lon": -3.6195,
+      "depth": 8.0,
+      "magnitude": 1.1,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "NW GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026smqmn"
+    },
+    {
       "event_id": "es2026smqlg",
       "date": "21/09/2026 00:13:32",
       "lat": 37.0917,
@@ -71,7 +131,7 @@
       "depth": 0.0,
       "magnitude": 1.3,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "II",
       "location": "E VILLA DE OTURA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026smqlg"
     },
@@ -107,7 +167,7 @@
       "depth": 11.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "NE CHAUCHINA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026smhpb"
     },
@@ -191,7 +251,7 @@
       "depth": 12.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "E VEGAS DEL GENIL.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slojq"
     },
@@ -203,7 +263,7 @@
       "depth": 1.0,
       "magnitude": 1.1,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "II",
       "location": "NW ATARFE.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slnag"
     },
@@ -230,6 +290,18 @@
       "intensity": "",
       "location": "NW NERPIO.AB",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slkqc"
+    },
+    {
+      "event_id": "es2026slins",
+      "date": "20/09/2026 07:05:57",
+      "lat": 37.1243,
+      "lon": -3.6038,
+      "depth": 3.0,
+      "magnitude": 0.9,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "NE OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slins"
     },
     {
       "event_id": "es2026slhnu",
@@ -292,6 +364,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sldcz"
     },
     {
+      "event_id": "es2026slcul",
+      "date": "20/09/2026 04:11:58",
+      "lat": 37.1164,
+      "lon": -3.5775,
+      "depth": 6.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slcul"
+    },
+    {
       "event_id": "es2026skysw",
       "date": "20/09/2026 02:08:54",
       "lat": 36.269,
@@ -323,7 +407,7 @@
       "depth": 9.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "SE LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026skkpr"
     },
@@ -568,6 +652,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjcmt"
     },
     {
+      "event_id": "es2026sjchn",
+      "date": "19/09/2026 01:40:56",
+      "lat": 37.1381,
+      "lon": -3.5781,
+      "depth": 9.0,
+      "magnitude": 1.2,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "NW CÁJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjchn"
+    },
+    {
       "event_id": "es2026sjcfc",
       "date": "19/09/2026 01:38:06",
       "lat": 37.1165,
@@ -575,7 +671,7 @@
       "depth": 6.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "II",
       "location": "SW LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjcfc"
     },
@@ -652,6 +748,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026silmc"
     },
     {
+      "event_id": "es2026siftp",
+      "date": "18/09/2026 14:17:56",
+      "lat": 37.1141,
+      "lon": -3.5906,
+      "depth": 7.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "SW LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026siftp"
+    },
+    {
       "event_id": "es2026siemk",
       "date": "18/09/2026 13:39:16",
       "lat": 37.1622,
@@ -695,7 +803,7 @@
       "depth": 6.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "II",
       "location": "N LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026siazl"
     },
@@ -779,7 +887,7 @@
       "depth": 4.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "NW GRANADA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026shsst"
     },
@@ -1298,6 +1406,18 @@
       "intensity": "",
       "location": "W CARAVACA DE LA CRUZ.MU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026seixt"
+    },
+    {
+      "event_id": "es2026seieo",
+      "date": "16/09/2026 10:59:22",
+      "lat": 37.1767,
+      "lon": -3.6318,
+      "depth": 5.0,
+      "magnitude": 1.1,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "W GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026seieo"
     },
     {
       "event_id": "es2026sehir",
