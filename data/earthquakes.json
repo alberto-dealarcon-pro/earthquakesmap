@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-20T23:11:49.486673+00:00",
+  "updated": "2026-09-21T01:07:11.998446+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 184,
+  "count": 186,
   "earthquakes": [
+    {
+      "event_id": "es2026smojj",
+      "date": "20/09/2026 23:10:44",
+      "lat": 35.583,
+      "lon": -3.456,
+      "depth": 31.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026smojj"
+    },
+    {
+      "event_id": "es2026smohl",
+      "date": "20/09/2026 23:08:28",
+      "lat": 35.5765,
+      "lon": -3.5187,
+      "depth": 30.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026smohl"
+    },
     {
       "event_id": "es2026smhpb",
       "date": "20/09/2026 19:45:49",
