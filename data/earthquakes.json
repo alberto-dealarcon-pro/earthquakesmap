@@ -1,8 +1,68 @@
 {
-  "updated": "2026-09-21T22:11:19.814476+00:00",
+  "updated": "2026-09-22T00:50:26.675993+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 193,
+  "count": 198,
   "earthquakes": [
+    {
+      "event_id": "es2026sokvj",
+      "date": "21/09/2026 23:39:29",
+      "lat": 36.7348,
+      "lon": -7.1483,
+      "depth": 1.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sokvj"
+    },
+    {
+      "event_id": "es2026sokmh",
+      "date": "21/09/2026 23:28:54",
+      "lat": 36.8171,
+      "lon": -7.1168,
+      "depth": 1.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sokmh"
+    },
+    {
+      "event_id": "es2026sojze",
+      "date": "21/09/2026 23:13:35",
+      "lat": 36.6275,
+      "lon": -9.7882,
+      "depth": 7.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sojze"
+    },
+    {
+      "event_id": "es2026sojfp",
+      "date": "21/09/2026 22:50:47",
+      "lat": 35.6146,
+      "lon": -3.5748,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sojfp"
+    },
+    {
+      "event_id": "es2026sogyb",
+      "date": "21/09/2026 21:41:26",
+      "lat": 41.8562,
+      "lon": 4.4215,
+      "depth": 0.0,
+      "magnitude": 2.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE LEÓN",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sogyb"
+    },
     {
       "event_id": "es2026snyrs",
       "date": "21/09/2026 17:31:37",
