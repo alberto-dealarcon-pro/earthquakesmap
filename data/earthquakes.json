@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-23T12:40:00.217426+00:00",
+  "updated": "2026-09-23T17:28:14.873314+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 218,
+  "count": 219,
   "earthquakes": [
     {
       "event_id": "es2026srbqm",
@@ -11,7 +11,7 @@
       "depth": 0.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "Sentido",
+      "intensity": "II",
       "location": "S LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026srbqm"
     },
@@ -74,6 +74,18 @@
       "intensity": "",
       "location": "ALBORÁN SUR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sqhtb"
+    },
+    {
+      "event_id": "es2026sqelw",
+      "date": "22/09/2026 22:42:32",
+      "lat": 37.1098,
+      "lon": -3.6112,
+      "depth": 0.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "NW GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sqelw"
     },
     {
       "event_id": "es2026sqaes",
