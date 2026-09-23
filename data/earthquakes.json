@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-23T06:57:34.680980+00:00",
+  "updated": "2026-09-23T12:40:00.217426+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 211,
+  "count": 218,
   "earthquakes": [
+    {
+      "event_id": "es2026srbqm",
+      "date": "23/09/2026 10:26:22",
+      "lat": 37.1073,
+      "lon": -3.5869,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "S LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026srbqm"
+    },
     {
       "event_id": "es2026sqspj",
       "date": "23/09/2026 05:50:55",
@@ -580,6 +592,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026smedv"
     },
     {
+      "event_id": "es2026slztd",
+      "date": "20/09/2026 15:47:30",
+      "lat": 40.3976,
+      "lon": -3.6416,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E MADRID.M",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026slztd"
+    },
+    {
       "event_id": "es2026slxnd",
       "date": "20/09/2026 14:40:18",
       "lat": 38.5571,
@@ -892,6 +916,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjsvy"
     },
     {
+      "event_id": "es2026sjptd",
+      "date": "19/09/2026 08:28:27",
+      "lat": 40.8199,
+      "lon": -1.9116,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW MOLINA DE ARAGÓN.GU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sjptd"
+    },
+    {
       "event_id": "es2026sjnsx",
       "date": "19/09/2026 07:27:34",
       "lat": 39.4413,
@@ -1120,6 +1156,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026silmc"
     },
     {
+      "event_id": "es2026sigep",
+      "date": "18/09/2026 14:30:45",
+      "lat": 37.8622,
+      "lon": -3.0153,
+      "depth": 22.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE QUESADA.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sigep"
+    },
+    {
       "event_id": "es2026siftp",
       "date": "18/09/2026 14:17:56",
       "lat": 37.1141,
@@ -1154,6 +1202,18 @@
       "intensity": "",
       "location": "MEDITERRÁNEO-LEVANTE SUR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sidbx"
+    },
+    {
+      "event_id": "es2026sibwm",
+      "date": "18/09/2026 12:20:03",
+      "lat": 37.3237,
+      "lon": -1.7876,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE CUEVAS DEL ALMANZORA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sibwm"
     },
     {
       "event_id": "es2026sibbq",
@@ -1204,6 +1264,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026siamj"
     },
     {
+      "event_id": "es2026siaes",
+      "date": "18/09/2026 11:29:03",
+      "lat": 37.3279,
+      "lon": -1.7818,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE CUEVAS DEL ALMANZORA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026siaes"
+    },
+    {
       "event_id": "es2026shzym",
       "date": "18/09/2026 11:21:47",
       "lat": 37.8868,
@@ -1226,6 +1298,18 @@
       "intensity": "",
       "location": "ALBORÁN NORTE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026shznj"
+    },
+    {
+      "event_id": "es2026shyif",
+      "date": "18/09/2026 10:32:32",
+      "lat": 37.9462,
+      "lon": -1.1252,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S MURCIA.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026shyif"
     },
     {
       "event_id": "es2026shwvd",
