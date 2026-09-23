@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-23T01:52:04.968820+00:00",
+  "updated": "2026-09-23T06:57:34.680980+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 206,
+  "count": 211,
   "earthquakes": [
+    {
+      "event_id": "es2026sqspj",
+      "date": "23/09/2026 05:50:55",
+      "lat": 37.0674,
+      "lon": -3.8559,
+      "depth": 7.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W VENTAS DE HUELMA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sqspj"
+    },
+    {
+      "event_id": "es2026sqqkh",
+      "date": "23/09/2026 04:44:24",
+      "lat": 41.9943,
+      "lon": -8.0847,
+      "depth": 24.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W LOBEIRA.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sqqkh"
+    },
+    {
+      "event_id": "es2026sqozd",
+      "date": "23/09/2026 04:01:04",
+      "lat": 35.4798,
+      "lon": -3.6033,
+      "depth": 14.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sqozd"
+    },
+    {
+      "event_id": "es2026sqned",
+      "date": "23/09/2026 03:06:17",
+      "lat": 37.3058,
+      "lon": -8.4996,
+      "depth": 11.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E MONCHIQUE.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sqned"
+    },
     {
       "event_id": "es2026sqhtb",
       "date": "23/09/2026 00:21:50",
@@ -26,6 +74,18 @@
       "intensity": "",
       "location": "W FRONTERA.IHI",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sqaes"
+    },
+    {
+      "event_id": "es2026spuqw",
+      "date": "22/09/2026 17:45:18",
+      "lat": 37.1731,
+      "lon": -3.6343,
+      "depth": 8.0,
+      "magnitude": 1.1,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "E VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026spuqw"
     },
     {
       "event_id": "es2026spnju",
