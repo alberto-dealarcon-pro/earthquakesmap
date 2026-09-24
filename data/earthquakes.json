@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-24T17:03:12.234539+00:00",
+  "updated": "2026-09-24T20:24:46.485132+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 220,
+  "count": 223,
   "earthquakes": [
+    {
+      "event_id": "es2026stmtx",
+      "date": "24/09/2026 18:18:21",
+      "lat": 40.2293,
+      "lon": -0.9488,
+      "depth": 1.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W LA PUEBLA DE VALVERDE.TE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026stmtx"
+    },
+    {
+      "event_id": "es2026stlcm",
+      "date": "24/09/2026 17:27:46",
+      "lat": 36.6357,
+      "lon": -9.8065,
+      "depth": 23.0,
+      "magnitude": 3.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026stlcm"
+    },
+    {
+      "event_id": "es2026stkpy",
+      "date": "24/09/2026 17:13:07",
+      "lat": 36.9197,
+      "lon": -2.7626,
+      "depth": 1.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S PADULES.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026stkpy"
+    },
     {
       "event_id": "es2026stiwg",
       "date": "24/09/2026 16:19:50",
