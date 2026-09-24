@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-24T12:02:00.116855+00:00",
+  "updated": "2026-09-24T17:03:12.234539+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 215,
+  "count": 220,
   "earthquakes": [
+    {
+      "event_id": "es2026stiwg",
+      "date": "24/09/2026 16:19:50",
+      "lat": 37.0721,
+      "lon": -9.205,
+      "depth": 35.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-PORTUGAL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026stiwg"
+    },
+    {
+      "event_id": "es2026stgoc",
+      "date": "24/09/2026 15:09:44",
+      "lat": 35.97,
+      "lon": -4.6887,
+      "depth": 84.0,
+      "magnitude": 2.2,
+      "mag_type": "mb",
+      "intensity": "",
+      "location": "ALBORÁN OESTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026stgoc"
+    },
+    {
+      "event_id": "es2026stdhl",
+      "date": "24/09/2026 13:31:01",
+      "lat": 36.7037,
+      "lon": -7.6073,
+      "depth": 23.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026stdhl"
+    },
+    {
+      "event_id": "es2026stark",
+      "date": "24/09/2026 12:11:43",
+      "lat": 37.0902,
+      "lon": -3.5725,
+      "depth": 9.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE DÍLAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026stark"
+    },
     {
       "event_id": "es2026ssnjf",
       "date": "24/09/2026 05:28:11",
@@ -158,6 +206,18 @@
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026srsra"
+    },
+    {
+      "event_id": "es2026srkmh",
+      "date": "23/09/2026 14:52:53",
+      "lat": 37.0046,
+      "lon": -4.7832,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE CAMPILLOS.MA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026srkmh"
     },
     {
       "event_id": "es2026srbqm",
