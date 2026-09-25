@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-25T06:35:14.780224+00:00",
+  "updated": "2026-09-25T12:10:25.263807+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 212,
+  "count": 216,
   "earthquakes": [
+    {
+      "event_id": "es2026suryt",
+      "date": "25/09/2026 10:03:30",
+      "lat": 36.7805,
+      "lon": -9.699,
+      "depth": 24.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026suryt"
+    },
+    {
+      "event_id": "es2026suqaf",
+      "date": "25/09/2026 09:04:36",
+      "lat": 37.9489,
+      "lon": -0.9547,
+      "depth": 8.0,
+      "magnitude": 3.5,
+      "mag_type": "mbLg",
+      "intensity": "IV",
+      "location": "SE BENIEL.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026suqaf"
+    },
     {
       "event_id": "es2026sujoe",
       "date": "25/09/2026 05:49:35",
@@ -11,9 +35,33 @@
       "depth": 11.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "S GRANADA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sujoe"
+    },
+    {
+      "event_id": "es2026sucnx",
+      "date": "25/09/2026 02:16:15",
+      "lat": 37.1198,
+      "lon": -3.6045,
+      "depth": 8.0,
+      "magnitude": 1.2,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "E OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sucnx"
+    },
+    {
+      "event_id": "es2026subtf",
+      "date": "25/09/2026 01:52:40",
+      "lat": 37.1159,
+      "lon": -3.5886,
+      "depth": 7.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "SW LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026subtf"
     },
     {
       "event_id": "es2026stytj",
@@ -167,7 +215,7 @@
       "depth": 5.0,
       "magnitude": 3.4,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "III",
       "location": "SE LA PUEBLA DE VALVERDE.TE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sshjs"
     },
