@@ -1,8 +1,20 @@
 {
-  "updated": "2026-09-25T01:37:21.269318+00:00",
+  "updated": "2026-09-25T06:35:14.780224+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 211,
+  "count": 212,
   "earthquakes": [
+    {
+      "event_id": "es2026sujoe",
+      "date": "25/09/2026 05:49:35",
+      "lat": 37.1589,
+      "lon": -3.6044,
+      "depth": 11.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sujoe"
+    },
     {
       "event_id": "es2026stytj",
       "date": "25/09/2026 00:21:25",
