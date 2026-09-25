@@ -1,8 +1,80 @@
 {
-  "updated": "2026-09-25T12:10:25.263807+00:00",
+  "updated": "2026-09-25T17:10:58.482953+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 216,
+  "count": 222,
   "earthquakes": [
+    {
+      "event_id": "es2026sveai",
+      "date": "25/09/2026 16:09:02",
+      "lat": 38.4297,
+      "lon": -9.0252,
+      "depth": 2.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E SESIMBRA.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sveai"
+    },
+    {
+      "event_id": "es2026svdjl",
+      "date": "25/09/2026 15:49:21",
+      "lat": 37.9018,
+      "lon": -0.8904,
+      "depth": 16.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW SAN PEDRO DEL PINATAR.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026svdjl"
+    },
+    {
+      "event_id": "es2026svcph",
+      "date": "25/09/2026 15:26:28",
+      "lat": 37.1647,
+      "lon": -3.6244,
+      "depth": 1.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "SW GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026svcph"
+    },
+    {
+      "event_id": "es2026svaaf",
+      "date": "25/09/2026 14:07:41",
+      "lat": 42.2266,
+      "lon": -8.1154,
+      "depth": 22.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE A ARNOIA.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026svaaf"
+    },
+    {
+      "event_id": "es2026suzyv",
+      "date": "25/09/2026 14:06:05",
+      "lat": 42.2301,
+      "lon": -8.0975,
+      "depth": 17.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE A ARNOIA.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026suzyv"
+    },
+    {
+      "event_id": "es2026suzag",
+      "date": "25/09/2026 13:37:24",
+      "lat": 36.4084,
+      "lon": -9.6536,
+      "depth": 3.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026suzag"
+    },
     {
       "event_id": "es2026suryt",
       "date": "25/09/2026 10:03:30",
@@ -23,7 +95,7 @@
       "depth": 8.0,
       "magnitude": 3.5,
       "mag_type": "mbLg",
-      "intensity": "IV",
+      "intensity": "III-IV",
       "location": "SE BENIEL.MU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026suqaf"
     },
