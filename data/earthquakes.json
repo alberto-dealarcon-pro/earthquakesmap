@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-25T17:10:58.482953+00:00",
+  "updated": "2026-09-25T20:29:41.753684+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 222,
+  "count": 225,
   "earthquakes": [
+    {
+      "event_id": "es2026svjas",
+      "date": "25/09/2026 18:41:01",
+      "lat": 28.5599,
+      "lon": -17.8402,
+      "depth": 14.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE FUENCALIENTE DE LA PALMA.IL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026svjas"
+    },
+    {
+      "event_id": "es2026svgqb",
+      "date": "25/09/2026 17:28:39",
+      "lat": 36.9884,
+      "lon": -4.8813,
+      "depth": 14.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E TEBA.MA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026svgqb"
+    },
+    {
+      "event_id": "es2026svgip",
+      "date": "25/09/2026 17:19:16",
+      "lat": 37.006,
+      "lon": -4.8546,
+      "depth": 9.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S CAMPILLOS.MA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026svgip"
+    },
     {
       "event_id": "es2026sveai",
       "date": "25/09/2026 16:09:02",
