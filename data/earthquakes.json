@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-25T23:28:15.612171+00:00",
+  "updated": "2026-09-26T01:52:24.198065+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 209,
+  "count": 211,
   "earthquakes": [
+    {
+      "event_id": "es2026svunb",
+      "date": "26/09/2026 00:28:48",
+      "lat": 37.8556,
+      "lon": -2.4934,
+      "depth": 11.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE HUÉSCAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026svunb"
+    },
+    {
+      "event_id": "es2026svsks",
+      "date": "25/09/2026 23:25:28",
+      "lat": 37.8608,
+      "lon": -2.479,
+      "depth": 4.0,
+      "magnitude": 2.9,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "NE HUÉSCAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026svsks"
+    },
     {
       "event_id": "es2026svnia",
       "date": "25/09/2026 20:52:51",
