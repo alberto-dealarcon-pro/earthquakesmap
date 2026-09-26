@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-26T16:16:08.188830+00:00",
+  "updated": "2026-09-26T19:15:07.369048+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 219,
+  "count": 222,
   "earthquakes": [
+    {
+      "event_id": "es2026sxdva",
+      "date": "26/09/2026 18:18:50",
+      "lat": 37.0991,
+      "lon": -3.5933,
+      "depth": 8.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sxdva"
+    },
+    {
+      "event_id": "es2026sxbtn",
+      "date": "26/09/2026 17:16:29",
+      "lat": 37.9484,
+      "lon": -0.9658,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE BENIEL.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sxbtn"
+    },
+    {
+      "event_id": "es2026sxbot",
+      "date": "26/09/2026 17:10:55",
+      "lat": 36.2855,
+      "lon": -7.6446,
+      "depth": 6.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sxbot"
+    },
     {
       "event_id": "es2026swwvb",
       "date": "26/09/2026 14:46:42",
