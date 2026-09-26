@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-26T11:58:57.364878+00:00",
+  "updated": "2026-09-26T16:16:08.188830+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 217,
+  "count": 219,
   "earthquakes": [
+    {
+      "event_id": "es2026swwvb",
+      "date": "26/09/2026 14:46:42",
+      "lat": 37.7866,
+      "lon": -3.4385,
+      "depth": 1.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E ALBANCHEZ DE MÁGINA.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026swwvb"
+    },
+    {
+      "event_id": "es2026swteo",
+      "date": "26/09/2026 12:56:33",
+      "lat": 41.4799,
+      "lon": -6.0408,
+      "depth": 0.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S VILLALCAMPO.ZA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026swteo"
+    },
     {
       "event_id": "es2026swnhc",
       "date": "26/09/2026 09:57:40",
