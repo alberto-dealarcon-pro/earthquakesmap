@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-27T00:25:31.813162+00:00",
+  "updated": "2026-09-27T05:35:04.659446+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 195,
+  "count": 198,
   "earthquakes": [
+    {
+      "event_id": "es2026sxwfa",
+      "date": "27/09/2026 03:36:00",
+      "lat": 36.9919,
+      "lon": -3.7402,
+      "depth": 10.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ESCÚZAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sxwfa"
+    },
+    {
+      "event_id": "es2026sxqgh",
+      "date": "27/09/2026 00:35:39",
+      "lat": 28.5498,
+      "lon": -17.8471,
+      "depth": 15.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N FUENCALIENTE DE LA PALMA.ILP",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sxqgh"
+    },
+    {
+      "event_id": "es2026sxpky",
+      "date": "27/09/2026 00:10:47",
+      "lat": 37.8763,
+      "lon": -2.4853,
+      "depth": 4.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE HUÉSCAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sxpky"
+    },
     {
       "event_id": "es2026sxnlk",
       "date": "26/09/2026 23:10:42",
