@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-27T22:03:14.945618+00:00",
+  "updated": "2026-09-28T00:36:13.684724+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 195,
+  "count": 197,
   "earthquakes": [
+    {
+      "event_id": "es2026szkll",
+      "date": "27/09/2026 23:55:49",
+      "lat": 37.0898,
+      "lon": -3.6195,
+      "depth": 0.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E VILLA DE OTURA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026szkll"
+    },
+    {
+      "event_id": "es2026sziqi",
+      "date": "27/09/2026 23:00:53",
+      "lat": 42.4013,
+      "lon": -8.4999,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE PONTE CALDELAS.PO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026sziqi"
+    },
     {
       "event_id": "es2026syzts",
       "date": "27/09/2026 18:32:03",
