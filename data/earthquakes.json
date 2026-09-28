@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-28T00:36:13.684724+00:00",
+  "updated": "2026-09-28T05:50:02.940593+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 197,
+  "count": 201,
   "earthquakes": [
+    {
+      "event_id": "es2026szsfu",
+      "date": "28/09/2026 03:51:41",
+      "lat": 39.3278,
+      "lon": -0.7866,
+      "depth": 2.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE DOS AGUAS.V",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026szsfu"
+    },
+    {
+      "event_id": "es2026szrgs",
+      "date": "28/09/2026 03:22:28",
+      "lat": 37.0985,
+      "lon": -3.5689,
+      "depth": 6.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026szrgs"
+    },
+    {
+      "event_id": "es2026szqgd",
+      "date": "28/09/2026 02:51:26",
+      "lat": 36.9898,
+      "lon": -3.7855,
+      "depth": 3.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE JAYENA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026szqgd"
+    },
+    {
+      "event_id": "es2026szlxr",
+      "date": "28/09/2026 00:40:22",
+      "lat": 37.1799,
+      "lon": -2.1948,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ULEILA DEL CAMPO.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026szlxr"
+    },
     {
       "event_id": "es2026szkll",
       "date": "27/09/2026 23:55:49",
