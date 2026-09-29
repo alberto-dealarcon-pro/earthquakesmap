@@ -1,8 +1,44 @@
 {
-  "updated": "2026-09-28T23:55:36.632563+00:00",
+  "updated": "2026-09-29T04:30:38.908140+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 191,
+  "count": 194,
   "earthquakes": [
+    {
+      "event_id": "es2026tbkiv",
+      "date": "29/09/2026 02:08:43",
+      "lat": 37.1052,
+      "lon": -3.6002,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "E GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tbkiv"
+    },
+    {
+      "event_id": "es2026tbhrw",
+      "date": "29/09/2026 00:48:20",
+      "lat": 42.3972,
+      "lon": -8.5337,
+      "depth": 20.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W PONTE CALDELAS.PO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tbhrw"
+    },
+    {
+      "event_id": "es2026tbgwo",
+      "date": "29/09/2026 00:23:26",
+      "lat": 28.0391,
+      "lon": -16.563,
+      "depth": 26.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE SAN MIGUEL DE ABONA.ITF",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tbgwo"
+    },
     {
       "event_id": "es2026tbesd",
       "date": "28/09/2026 23:17:45",
