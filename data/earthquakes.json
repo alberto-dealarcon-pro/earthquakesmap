@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-30T05:44:53.676622+00:00",
+  "updated": "2026-09-30T11:23:41.420426+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 185,
+  "count": 187,
   "earthquakes": [
     {
       "event_id": "es2026tdkny",
@@ -11,7 +11,7 @@
       "depth": 6.0,
       "magnitude": 3.0,
       "mag_type": "mbLg",
-      "intensity": "III-IV",
+      "intensity": "III",
       "location": "SE BENIEL.MU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tdkny"
     },
@@ -76,6 +76,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tdbtn"
     },
     {
+      "event_id": "es2026tcybs",
+      "date": "29/09/2026 22:12:43",
+      "lat": 37.1084,
+      "lon": -3.5654,
+      "depth": 6.0,
+      "magnitude": 1.0,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tcybs"
+    },
+    {
       "event_id": "es2026tculw",
       "date": "29/09/2026 20:23:21",
       "lat": 37.1805,
@@ -122,6 +134,18 @@
       "intensity": "",
       "location": "N ALBAIDA.V",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tcqyp"
+    },
+    {
+      "event_id": "es2026tcmaj",
+      "date": "29/09/2026 16:07:28",
+      "lat": 37.4114,
+      "lon": -8.5862,
+      "depth": 3.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW MONCHIQUE.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tcmaj"
     },
     {
       "event_id": "es2026tclgj",
