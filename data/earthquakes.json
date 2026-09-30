@@ -1,8 +1,56 @@
 {
-  "updated": "2026-09-30T16:53:49.201810+00:00",
+  "updated": "2026-09-30T21:10:28.126728+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 189,
+  "count": 193,
   "earthquakes": [
+    {
+      "event_id": "es2026teoxk",
+      "date": "30/09/2026 19:50:56",
+      "lat": 37.1165,
+      "lon": -3.5786,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026teoxk"
+    },
+    {
+      "event_id": "es2026teoom",
+      "date": "30/09/2026 19:40:13",
+      "lat": 39.6409,
+      "lon": 5.8599,
+      "depth": 0.0,
+      "magnitude": 3.0,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-BALEARES",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026teoom"
+    },
+    {
+      "event_id": "es2026teisv",
+      "date": "30/09/2026 16:43:45",
+      "lat": 42.5253,
+      "lon": 0.9319,
+      "depth": 7.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LA VALL DE BOÍ.L",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026teisv"
+    },
+    {
+      "event_id": "es2026teiqz",
+      "date": "30/09/2026 16:41:35",
+      "lat": 40.9369,
+      "lon": -8.3032,
+      "depth": 20.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W AROUCA.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026teiqz"
+    },
     {
       "event_id": "es2026tehmk",
       "date": "30/09/2026 16:05:57",
