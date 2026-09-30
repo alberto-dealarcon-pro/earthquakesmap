@@ -1,8 +1,32 @@
 {
-  "updated": "2026-09-30T11:23:41.420426+00:00",
+  "updated": "2026-09-30T16:53:49.201810+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 187,
+  "count": 189,
   "earthquakes": [
+    {
+      "event_id": "es2026tehmk",
+      "date": "30/09/2026 16:05:57",
+      "lat": 42.5217,
+      "lon": 0.9222,
+      "depth": 9.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LA VALL DE BOÍ.L",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tehmk"
+    },
+    {
+      "event_id": "es2026tefhw",
+      "date": "30/09/2026 15:00:02",
+      "lat": 40.2357,
+      "lon": -8.0395,
+      "depth": 8.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ARGANIL.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tefhw"
+    },
     {
       "event_id": "es2026tdkny",
       "date": "30/09/2026 04:31:41",
