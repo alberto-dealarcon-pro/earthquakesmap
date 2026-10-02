@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-02T08:34:29.036242+00:00",
+  "updated": "2026-10-02T14:57:19.255473+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 175,
+  "count": 177,
   "earthquakes": [
+    {
+      "event_id": "es2026thsir",
+      "date": "02/10/2026 13:01:03",
+      "lat": 37.1134,
+      "lon": -3.6066,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "SE OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026thsir"
+    },
+    {
+      "event_id": "es2026thrsg",
+      "date": "02/10/2026 12:39:49",
+      "lat": 37.1018,
+      "lon": -3.6066,
+      "depth": 0.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "S GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026thrsg"
+    },
+    {
+      "event_id": "es2026thnhk",
+      "date": "02/10/2026 10:25:56",
+      "lat": 37.1335,
+      "lon": -3.6034,
+      "depth": 4.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "NE OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026thnhk"
+    },
     {
       "event_id": "es2026thfza",
       "date": "02/10/2026 06:44:01",
@@ -146,18 +182,6 @@
       "intensity": "",
       "location": "ALBORÁN NORTE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tfrkz"
-    },
-    {
-      "event_id": "es2026tfnqm",
-      "date": "01/10/2026 08:20:33",
-      "lat": 39.7909,
-      "lon": -8.0568,
-      "depth": 17.0,
-      "magnitude": 1.5,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "SE SERTA.POR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tfnqm"
     },
     {
       "event_id": "es2026tfjip",
