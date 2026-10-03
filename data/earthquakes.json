@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-03T13:17:53.329796+00:00",
+  "updated": "2026-10-03T17:25:40.242481+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 168,
+  "count": 172,
   "earthquakes": [
+    {
+      "event_id": "es2026tjvzo",
+      "date": "03/10/2026 17:05:34",
+      "lat": 37.1432,
+      "lon": -3.6862,
+      "depth": 5.0,
+      "magnitude": 3.1,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "SW CÚLLAR VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tjvzo"
+    },
+    {
+      "event_id": "es2026tjvkp",
+      "date": "03/10/2026 16:48:06",
+      "lat": 36.6067,
+      "lon": -7.6317,
+      "depth": 32.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tjvkp"
+    },
+    {
+      "event_id": "es2026tjrju",
+      "date": "03/10/2026 14:45:56",
+      "lat": 37.1246,
+      "lon": -13.5407,
+      "depth": 30.0,
+      "magnitude": 3.7,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "AZORES-CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tjrju"
+    },
+    {
+      "event_id": "es2026tjpqr",
+      "date": "03/10/2026 13:53:20",
+      "lat": 37.078,
+      "lon": -13.2571,
+      "depth": 2.0,
+      "magnitude": 3.5,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "AZORES-CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tjpqr"
+    },
     {
       "event_id": "es2026tjhqt",
       "date": "03/10/2026 09:50:58",
