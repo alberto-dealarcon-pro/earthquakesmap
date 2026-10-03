@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-02T23:18:26.576321+00:00",
+  "updated": "2026-10-03T02:06:15.256391+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 155,
+  "count": 159,
   "earthquakes": [
+    {
+      "event_id": "es2026tipvu",
+      "date": "03/10/2026 00:51:18",
+      "lat": 36.7236,
+      "lon": -7.6178,
+      "depth": 33.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tipvu"
+    },
+    {
+      "event_id": "es2026tincf",
+      "date": "02/10/2026 23:27:53",
+      "lat": 39.9336,
+      "lon": -0.1564,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E BETXÍ.CS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tincf"
+    },
+    {
+      "event_id": "es2026timrc",
+      "date": "02/10/2026 23:14:56",
+      "lat": 37.1014,
+      "lon": -3.5814,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026timrc"
+    },
+    {
+      "event_id": "es2026timlz",
+      "date": "02/10/2026 23:08:58",
+      "lat": 36.4488,
+      "lon": -10.1831,
+      "depth": 0.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026timlz"
+    },
     {
       "event_id": "es2026tikhe",
       "date": "02/10/2026 22:02:51",
