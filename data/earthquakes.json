@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-04T14:17:46.565396+00:00",
+  "updated": "2026-10-04T18:12:39.188484+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 174,
+  "count": 178,
   "earthquakes": [
+    {
+      "event_id": "es2026tlsut",
+      "date": "04/10/2026 17:45:33",
+      "lat": 37.0813,
+      "lon": -3.6074,
+      "depth": 1.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW DÍLAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlsut"
+    },
+    {
+      "event_id": "es2026tlrrt",
+      "date": "04/10/2026 17:11:54",
+      "lat": 37.08,
+      "lon": -3.6022,
+      "depth": 7.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N DÍLAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlrrt"
+    },
+    {
+      "event_id": "es2026tlnwf",
+      "date": "04/10/2026 15:15:37",
+      "lat": 36.6306,
+      "lon": -10.8565,
+      "depth": 0.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlnwf"
+    },
+    {
+      "event_id": "es2026tlnhp",
+      "date": "04/10/2026 14:58:09",
+      "lat": 28.3389,
+      "lon": -16.7727,
+      "depth": 11.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S EL TANQUE.ITF",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlnhp"
+    },
     {
       "event_id": "es2026tlgsm",
       "date": "04/10/2026 11:38:39",
