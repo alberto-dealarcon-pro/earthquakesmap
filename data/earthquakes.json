@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-04T18:12:39.188484+00:00",
+  "updated": "2026-10-04T21:30:04.002209+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 178,
+  "count": 180,
   "earthquakes": [
+    {
+      "event_id": "es2026tlxoo",
+      "date": "04/10/2026 20:09:18",
+      "lat": 42.9469,
+      "lon": -0.1749,
+      "depth": 3.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW CAUTERETS.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlxoo"
+    },
+    {
+      "event_id": "es2026tlxcv",
+      "date": "04/10/2026 19:56:32",
+      "lat": 37.1126,
+      "lon": -3.651,
+      "depth": 2.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "NW ALHENDÍN.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlxcv"
+    },
     {
       "event_id": "es2026tlsut",
       "date": "04/10/2026 17:45:33",
@@ -11,7 +35,7 @@
       "depth": 1.0,
       "magnitude": 2.1,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II-III",
       "location": "NW DÍLAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlsut"
     },
