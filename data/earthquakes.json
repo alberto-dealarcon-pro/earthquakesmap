@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-04T08:27:39.802488+00:00",
+  "updated": "2026-10-04T14:17:46.565396+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 171,
+  "count": 174,
   "earthquakes": [
+    {
+      "event_id": "es2026tlgsm",
+      "date": "04/10/2026 11:38:39",
+      "lat": 40.2221,
+      "lon": -0.9442,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W LA PUEBLA DE VALVERDE.TE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlgsm"
+    },
+    {
+      "event_id": "es2026tlfoc",
+      "date": "04/10/2026 11:03:15",
+      "lat": 37.1213,
+      "lon": -3.5961,
+      "depth": 5.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlfoc"
+    },
+    {
+      "event_id": "es2026tlexa",
+      "date": "04/10/2026 10:43:19",
+      "lat": 36.5122,
+      "lon": -4.0525,
+      "depth": 3.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN OESTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tlexa"
+    },
     {
       "event_id": "es2026tkwxp",
       "date": "04/10/2026 06:41:30",
