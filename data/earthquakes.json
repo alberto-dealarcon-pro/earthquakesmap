@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-04T02:11:30.304090+00:00",
+  "updated": "2026-10-04T08:27:39.802488+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 168,
+  "count": 171,
   "earthquakes": [
+    {
+      "event_id": "es2026tkwxp",
+      "date": "04/10/2026 06:41:30",
+      "lat": 28.2678,
+      "lon": -16.2283,
+      "depth": 17.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tkwxp"
+    },
+    {
+      "event_id": "es2026tkwhh",
+      "date": "04/10/2026 06:22:32",
+      "lat": 37.1162,
+      "lon": -3.5786,
+      "depth": 6.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tkwhh"
+    },
+    {
+      "event_id": "es2026tkqef",
+      "date": "04/10/2026 03:17:08",
+      "lat": 43.0422,
+      "lon": -0.1992,
+      "depth": 4.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW LOURDES.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tkqef"
+    },
     {
       "event_id": "es2026tknbs",
       "date": "04/10/2026 01:43:18",
