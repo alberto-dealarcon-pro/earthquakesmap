@@ -1,8 +1,68 @@
 {
-  "updated": "2026-10-06T08:03:22.707029+00:00",
+  "updated": "2026-10-06T15:03:26.897834+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 167,
+  "count": 171,
   "earthquakes": [
+    {
+      "event_id": "es2026tpbqy",
+      "date": "06/10/2026 13:37:17",
+      "lat": 37.1058,
+      "lon": -3.5717,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpbqy"
+    },
+    {
+      "event_id": "es2026tpbfq",
+      "date": "06/10/2026 13:24:07",
+      "lat": 37.0123,
+      "lon": -3.5731,
+      "depth": 4.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW DÚRCAL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpbfq"
+    },
+    {
+      "event_id": "es2026tpabg",
+      "date": "06/10/2026 12:48:43",
+      "lat": 42.9675,
+      "lon": 0.1724,
+      "depth": 0.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW LA MONGIE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpabg"
+    },
+    {
+      "event_id": "es2026toxro",
+      "date": "06/10/2026 11:38:03",
+      "lat": 37.0712,
+      "lon": -3.5997,
+      "depth": 4.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE DÍLAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026toxro"
+    },
+    {
+      "event_id": "es2026toulv",
+      "date": "06/10/2026 09:59:12",
+      "lat": 28.168,
+      "lon": -16.2007,
+      "depth": 9.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026toulv"
+    },
     {
       "event_id": "es2026toojd",
       "date": "06/10/2026 06:54:13",
@@ -52,18 +112,6 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tobsx"
     },
     {
-      "event_id": "es2026tnzef",
-      "date": "05/10/2026 23:13:46",
-      "lat": 28.422,
-      "lon": -16.7056,
-      "depth": 21.0,
-      "magnitude": 1.5,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "N ICOD DE LOS VINOS.ITF",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tnzef"
-    },
-    {
       "event_id": "es2026tnwnb",
       "date": "05/10/2026 21:53:15",
       "lat": 34.5635,
@@ -98,18 +146,6 @@
       "intensity": "",
       "location": "COSTERO CATALANA",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tntrm"
-    },
-    {
-      "event_id": "es2026tntan",
-      "date": "05/10/2026 20:07:44",
-      "lat": 28.4172,
-      "lon": -16.7112,
-      "depth": 17.0,
-      "magnitude": 1.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "N ICOD DE LOS VINOS.ITF",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tntan"
     },
     {
       "event_id": "es2026tntal",
@@ -170,6 +206,18 @@
       "intensity": "",
       "location": "E LARUNS.FRA",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tnnwb"
+    },
+    {
+      "event_id": "es2026tnlrl",
+      "date": "05/10/2026 16:24:59",
+      "lat": 28.0333,
+      "lon": -16.1597,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tnlrl"
     },
     {
       "event_id": "es2026tndbu",
