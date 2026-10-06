@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-06T15:03:26.897834+00:00",
+  "updated": "2026-10-06T20:11:39.941576+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 171,
+  "count": 173,
   "earthquakes": [
+    {
+      "event_id": "es2026tpmew",
+      "date": "06/10/2026 18:56:36",
+      "lat": 37.9142,
+      "lon": -0.9201,
+      "depth": 6.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW SAN JAVIER.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpmew"
+    },
+    {
+      "event_id": "es2026tpibr",
+      "date": "06/10/2026 16:53:46",
+      "lat": 28.1587,
+      "lon": -16.288,
+      "depth": 40.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpibr"
+    },
     {
       "event_id": "es2026tpbqy",
       "date": "06/10/2026 13:37:17",
