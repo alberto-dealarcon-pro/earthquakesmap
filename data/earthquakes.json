@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-07T02:44:27.762826+00:00",
+  "updated": "2026-10-07T09:22:02.050507+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 158,
+  "count": 163,
   "earthquakes": [
+    {
+      "event_id": "es2026tqlge",
+      "date": "07/10/2026 07:35:47",
+      "lat": 36.899,
+      "lon": -9.4332,
+      "depth": 3.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tqlge"
+    },
+    {
+      "event_id": "es2026tqjqw",
+      "date": "07/10/2026 06:47:31",
+      "lat": 36.5813,
+      "lon": -8.2936,
+      "depth": 5.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tqjqw"
+    },
+    {
+      "event_id": "es2026tqjfi",
+      "date": "07/10/2026 06:34:31",
+      "lat": 40.8658,
+      "lon": 1.9724,
+      "depth": 16.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "COSTERO CATALANA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tqjfi"
+    },
+    {
+      "event_id": "es2026tpyzg",
+      "date": "07/10/2026 01:24:04",
+      "lat": 37.0987,
+      "lon": -3.5663,
+      "depth": 3.0,
+      "magnitude": 1.3,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpyzg"
+    },
     {
       "event_id": "es2026tpyil",
       "date": "07/10/2026 01:04:24",
@@ -11,7 +59,7 @@
       "depth": 4.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "SE LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpyil"
     },
@@ -35,7 +83,7 @@
       "depth": 6.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "NW SAN JAVIER.MU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpmew"
     },
@@ -59,7 +107,7 @@
       "depth": 6.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "SE LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tpbqy"
     },
@@ -122,6 +170,18 @@
       "intensity": "",
       "location": "GOLFO DE CÁDIZ",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026toojd"
+    },
+    {
+      "event_id": "es2026tolwa",
+      "date": "06/10/2026 05:38:18",
+      "lat": 37.1061,
+      "lon": -3.5896,
+      "depth": 0.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tolwa"
     },
     {
       "event_id": "es2026todop",
