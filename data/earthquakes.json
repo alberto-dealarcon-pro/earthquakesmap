@@ -1,8 +1,68 @@
 {
-  "updated": "2026-10-08T07:31:41.619812+00:00",
+  "updated": "2026-10-08T14:52:07.532044+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 161,
+  "count": 167,
   "earthquakes": [
+    {
+      "event_id": "es2026tspnw",
+      "date": "08/10/2026 12:01:58",
+      "lat": 43.0674,
+      "lon": -1.4179,
+      "depth": 1.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW ST ETIENNE DE BAIGORRY.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tspnw"
+    },
+    {
+      "event_id": "es2026tslnn",
+      "date": "08/10/2026 10:00:59",
+      "lat": 37.1992,
+      "lon": -3.629,
+      "depth": 12.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "Sentido",
+      "location": "SE MARACENA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tslnn"
+    },
+    {
+      "event_id": "es2026tskuv",
+      "date": "08/10/2026 09:38:35",
+      "lat": 44.1238,
+      "lon": -0.2951,
+      "depth": 11.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N VILLENEUVE DE MARSAN.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tskuv"
+    },
+    {
+      "event_id": "es2026tsiao",
+      "date": "08/10/2026 08:14:20",
+      "lat": 36.6604,
+      "lon": -9.5577,
+      "depth": 16.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tsiao"
+    },
+    {
+      "event_id": "es2026tshsf",
+      "date": "08/10/2026 08:04:34",
+      "lat": 37.1736,
+      "lon": -3.618,
+      "depth": 6.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "W GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026tshsf"
+    },
     {
       "event_id": "es2026tsdsn",
       "date": "08/10/2026 06:03:43",
@@ -134,6 +194,18 @@
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026trmdm"
+    },
+    {
+      "event_id": "es2026trlgv",
+      "date": "07/10/2026 20:44:35",
+      "lat": 30.0166,
+      "lon": -15.828,
+      "depth": 15.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026trlgv"
     },
     {
       "event_id": "es2026trlat",
