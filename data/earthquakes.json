@@ -1,8 +1,80 @@
 {
-  "updated": "2026-10-09T00:29:31.750897+00:00",
+  "updated": "2026-10-09T06:35:23.492334+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 156,
+  "count": 162,
   "earthquakes": [
+    {
+      "event_id": "es2026ttwlk",
+      "date": "09/10/2026 04:39:15",
+      "lat": 35.0608,
+      "lon": -4.514,
+      "depth": 30.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW TORRES DE ALCALA.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ttwlk"
+    },
+    {
+      "event_id": "es2026ttuew",
+      "date": "09/10/2026 03:31:01",
+      "lat": 36.3431,
+      "lon": -9.1556,
+      "depth": 2.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ttuew"
+    },
+    {
+      "event_id": "es2026ttthc",
+      "date": "09/10/2026 03:03:19",
+      "lat": 36.4796,
+      "lon": -11.1768,
+      "depth": 28.0,
+      "magnitude": 3.3,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ttthc"
+    },
+    {
+      "event_id": "es2026ttscq",
+      "date": "09/10/2026 02:27:48",
+      "lat": 42.6952,
+      "lon": -7.68,
+      "depth": 0.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E TABOADA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ttscq"
+    },
+    {
+      "event_id": "es2026ttryf",
+      "date": "09/10/2026 02:22:38",
+      "lat": 35.5255,
+      "lon": -3.5484,
+      "depth": 18.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ttryf"
+    },
+    {
+      "event_id": "es2026ttrdn",
+      "date": "09/10/2026 01:58:31",
+      "lat": 42.697,
+      "lon": -7.6943,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE TABOADA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ttrdn"
+    },
     {
       "event_id": "es2026ttgeh",
       "date": "08/10/2026 20:26:03",
