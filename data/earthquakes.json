@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-11T01:00:32.582506+00:00",
+  "updated": "2026-10-11T07:02:08.321198+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 160,
+  "count": 164,
   "earthquakes": [
+    {
+      "event_id": "es2026txrvr",
+      "date": "11/10/2026 06:52:34",
+      "lat": 37.1741,
+      "lon": -3.2531,
+      "depth": 8.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S LUGROS.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026txrvr"
+    },
+    {
+      "event_id": "es2026txjpl",
+      "date": "11/10/2026 02:42:39",
+      "lat": 36.8972,
+      "lon": -10.9699,
+      "depth": 0.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026txjpl"
+    },
+    {
+      "event_id": "es2026txhok",
+      "date": "11/10/2026 01:40:06",
+      "lat": 43.0505,
+      "lon": -1.0141,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW MAULEON LICHARRE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026txhok"
+    },
+    {
+      "event_id": "es2026txhco",
+      "date": "11/10/2026 01:26:19",
+      "lat": 35.9411,
+      "lon": -4.793,
+      "depth": 30.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN OESTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026txhco"
+    },
     {
       "event_id": "es2026txcqd",
       "date": "10/10/2026 23:10:32",
