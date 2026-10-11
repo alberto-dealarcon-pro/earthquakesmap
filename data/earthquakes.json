@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-11T07:02:08.321198+00:00",
+  "updated": "2026-10-11T13:56:06.843056+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 164,
+  "count": 167,
   "earthquakes": [
+    {
+      "event_id": "es2026txzfm",
+      "date": "11/10/2026 10:35:15",
+      "lat": 36.3852,
+      "lon": -7.8434,
+      "depth": 40.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026txzfm"
+    },
+    {
+      "event_id": "es2026txvmx",
+      "date": "11/10/2026 08:42:41",
+      "lat": 43.0387,
+      "lon": -0.2074,
+      "depth": 0.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW LOURDES.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026txvmx"
+    },
+    {
+      "event_id": "es2026txuim",
+      "date": "11/10/2026 08:09:31",
+      "lat": 42.4004,
+      "lon": -8.5006,
+      "depth": 16.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE PONTE CALDELAS.PO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026txuim"
+    },
     {
       "event_id": "es2026txrvr",
       "date": "11/10/2026 06:52:34",
