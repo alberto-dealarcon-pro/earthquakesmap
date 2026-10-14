@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-13T23:01:40.981554+00:00",
+  "updated": "2026-10-14T01:48:18.471482+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 157,
+  "count": 159,
   "earthquakes": [
+    {
+      "event_id": "es2026ucprz",
+      "date": "13/10/2026 23:26:44",
+      "lat": 38.1208,
+      "lon": -0.1331,
+      "depth": 15.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-LEVANTE SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ucprz"
+    },
+    {
+      "event_id": "es2026ucotb",
+      "date": "13/10/2026 22:57:38",
+      "lat": 37.3392,
+      "lon": -8.753,
+      "depth": 12.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ALJEZUR.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ucotb"
+    },
     {
       "event_id": "es2026ucokw",
       "date": "13/10/2026 22:48:06",
