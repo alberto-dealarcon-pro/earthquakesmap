@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-14T12:28:32.763329+00:00",
+  "updated": "2026-10-14T17:31:33.491685+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 173,
+  "count": 176,
   "earthquakes": [
+    {
+      "event_id": "es2026udyea",
+      "date": "14/10/2026 16:51:20",
+      "lat": 36.4657,
+      "lon": 0.926,
+      "depth": 7.0,
+      "magnitude": 2.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW CHLEF.ARG",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026udyea"
+    },
+    {
+      "event_id": "es2026udupg",
+      "date": "14/10/2026 15:03:02",
+      "lat": 43.1029,
+      "lon": -0.6638,
+      "depth": 7.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW OLORON STE MARIE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026udupg"
+    },
+    {
+      "event_id": "es2026udtck",
+      "date": "14/10/2026 14:17:43",
+      "lat": 43.0574,
+      "lon": -0.6181,
+      "depth": 0.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S OLORON STE MARIE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026udtck"
+    },
     {
       "event_id": "es2026udkgo",
       "date": "14/10/2026 09:49:51",
