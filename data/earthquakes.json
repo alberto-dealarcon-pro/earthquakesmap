@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-14T23:44:04.068756+00:00",
+  "updated": "2026-10-15T01:52:42.102223+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 162,
+  "count": 163,
   "earthquakes": [
+    {
+      "event_id": "es2026uenpb",
+      "date": "15/10/2026 00:38:38",
+      "lat": 37.1143,
+      "lon": -2.5386,
+      "depth": 9.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S GÉRGAL.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uenpb"
+    },
     {
       "event_id": "es2026ueipa",
       "date": "14/10/2026 22:07:05",
