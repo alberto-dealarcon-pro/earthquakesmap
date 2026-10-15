@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-15T17:00:38.971227+00:00",
+  "updated": "2026-10-15T20:15:57.266681+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 175,
+  "count": 176,
   "earthquakes": [
+    {
+      "event_id": "es2026ufxzq",
+      "date": "15/10/2026 19:02:02",
+      "lat": 36.9957,
+      "lon": -2.4767,
+      "depth": 4.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE GÁDOR.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ufxzq"
+    },
     {
       "event_id": "es2026uflax",
       "date": "15/10/2026 12:29:32",
