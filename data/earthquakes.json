@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-16T15:04:30.790451+00:00",
+  "updated": "2026-10-16T18:45:52.805562+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 186,
+  "count": 189,
   "earthquakes": [
+    {
+      "event_id": "es2026uhpah",
+      "date": "16/10/2026 16:46:02",
+      "lat": 40.6572,
+      "lon": -2.6586,
+      "depth": 9.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N MANTIEL.GU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uhpah"
+    },
+    {
+      "event_id": "es2026uhlqp",
+      "date": "16/10/2026 15:03:49",
+      "lat": 43.1855,
+      "lon": -1.1012,
+      "depth": 4.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E ST JEAN PIED DE PORT.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uhlqp"
+    },
     {
       "event_id": "es2026uhjmy",
       "date": "16/10/2026 13:58:59",
@@ -14,6 +38,18 @@
       "intensity": "II-III",
       "location": "NE MONACHIL.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uhjmy"
+    },
+    {
+      "event_id": "es2026uhgtk",
+      "date": "16/10/2026 12:35:31",
+      "lat": 36.8048,
+      "lon": -2.4961,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW ALMERÍA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uhgtk"
     },
     {
       "event_id": "es2026uheif",
@@ -306,13 +342,13 @@
     {
       "event_id": "es2026ugbbe",
       "date": "15/10/2026 20:34:45",
-      "lat": 42.4132,
-      "lon": -6.6181,
+      "lat": 42.3933,
+      "lon": -6.5896,
       "depth": 0.0,
       "magnitude": 4.2,
       "mag_type": "mbLg",
       "intensity": "III-IV",
-      "location": "E BENUZA.LE",
+      "location": "NW CASTRILLO DE CABRERA.LE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ugbbe"
     },
     {
