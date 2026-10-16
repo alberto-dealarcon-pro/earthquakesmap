@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-16T05:56:07.278546+00:00",
+  "updated": "2026-10-16T10:52:03.566933+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 181,
+  "count": 184,
   "earthquakes": [
+    {
+      "event_id": "es2026ugzqe",
+      "date": "16/10/2026 08:59:38",
+      "lat": 28.0924,
+      "lon": -15.6942,
+      "depth": 6.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE AGAETE.IGC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ugzqe"
+    },
+    {
+      "event_id": "es2026ugwyb",
+      "date": "16/10/2026 07:37:54",
+      "lat": 28.0641,
+      "lon": -16.1967,
+      "depth": 10.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ugwyb"
+    },
+    {
+      "event_id": "es2026ugufi",
+      "date": "16/10/2026 06:15:27",
+      "lat": 37.1864,
+      "lon": -1.8213,
+      "depth": 5.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE GARRUCHA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ugufi"
+    },
     {
       "event_id": "es2026ugptr",
       "date": "16/10/2026 04:00:36",
@@ -23,7 +59,7 @@
       "depth": 3.0,
       "magnitude": 2.1,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "E VALDERRUBIO.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ugmop"
     },
@@ -95,7 +131,7 @@
       "depth": 1.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "II",
       "location": "SW GÓJAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ughhz"
     },
@@ -251,7 +287,7 @@
       "depth": 0.0,
       "magnitude": 4.2,
       "mag_type": "mbLg",
-      "intensity": "IV-V",
+      "intensity": "III-IV",
       "location": "E BENUZA.LE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ugbbe"
     },
