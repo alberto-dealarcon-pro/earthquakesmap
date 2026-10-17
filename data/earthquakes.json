@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-17T15:29:50.233439+00:00",
+  "updated": "2026-10-17T17:55:13.842138+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 194,
+  "count": 196,
   "earthquakes": [
+    {
+      "event_id": "es2026ujkhy",
+      "date": "17/10/2026 16:39:23",
+      "lat": 42.4549,
+      "lon": -6.6465,
+      "depth": 3.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ujkhy"
+    },
+    {
+      "event_id": "es2026ujivm",
+      "date": "17/10/2026 15:54:32",
+      "lat": 42.4465,
+      "lon": -6.5646,
+      "depth": 0.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW MOLINASECA.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ujivm"
+    },
     {
       "event_id": "es2026ujgtu",
       "date": "17/10/2026 14:52:19",
@@ -11,7 +35,7 @@
       "depth": 4.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II-III",
       "location": "SE GÓJAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ujgtu"
     },
