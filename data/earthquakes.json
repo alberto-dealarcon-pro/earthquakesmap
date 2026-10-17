@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-16T23:57:12.020448+00:00",
+  "updated": "2026-10-17T03:41:35.949870+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 179,
+  "count": 180,
   "earthquakes": [
+    {
+      "event_id": "es2026uijbg",
+      "date": "17/10/2026 02:53:18",
+      "lat": 36.5138,
+      "lon": -11.0883,
+      "depth": 40.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uijbg"
+    },
     {
       "event_id": "es2026uhyqj",
       "date": "16/10/2026 21:37:32",
