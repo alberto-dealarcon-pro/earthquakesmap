@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-17T08:02:45.255293+00:00",
+  "updated": "2026-10-17T12:08:07.080830+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 185,
+  "count": 189,
   "earthquakes": [
+    {
+      "event_id": "es2026ujbfb",
+      "date": "17/10/2026 12:03:15",
+      "lat": 42.3603,
+      "lon": 2.0537,
+      "depth": 5.0,
+      "magnitude": 2.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE TOSES.GI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ujbfb"
+    },
+    {
+      "event_id": "es2026uiywm",
+      "date": "17/10/2026 10:52:37",
+      "lat": 37.0874,
+      "lon": -2.4184,
+      "depth": 5.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW TABERNAS.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uiywm"
+    },
+    {
+      "event_id": "es2026uiwcy",
+      "date": "17/10/2026 09:29:27",
+      "lat": 37.1902,
+      "lon": -3.6595,
+      "depth": 5.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uiwcy"
+    },
+    {
+      "event_id": "es2026uitxc",
+      "date": "17/10/2026 08:21:56",
+      "lat": 38.3777,
+      "lon": -9.32,
+      "depth": 6.0,
+      "magnitude": 2.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW SESIMBRA.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uitxc"
+    },
     {
       "event_id": "es2026uirkp",
       "date": "17/10/2026 07:06:36",
