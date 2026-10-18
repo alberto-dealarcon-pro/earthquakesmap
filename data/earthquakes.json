@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-18T13:08:13.848458+00:00",
+  "updated": "2026-10-18T16:30:21.811736+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 190,
+  "count": 192,
   "earthquakes": [
+    {
+      "event_id": "es2026uldjf",
+      "date": "18/10/2026 15:24:41",
+      "lat": 38.0943,
+      "lon": -3.3218,
+      "depth": 18.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW SABIOTE.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uldjf"
+    },
+    {
+      "event_id": "es2026ulahz",
+      "date": "18/10/2026 13:52:21",
+      "lat": 40.6158,
+      "lon": -2.6397,
+      "depth": 3.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E MANTIEL.GU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ulahz"
+    },
     {
       "event_id": "es2026ukwld",
       "date": "18/10/2026 11:54:46",
