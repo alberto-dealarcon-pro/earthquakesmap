@@ -1,8 +1,80 @@
 {
-  "updated": "2026-10-18T04:23:27.141724+00:00",
+  "updated": "2026-10-18T08:58:10.504483+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 178,
+  "count": 184,
   "earthquakes": [
+    {
+      "event_id": "es2026ukqcc",
+      "date": "18/10/2026 08:43:29",
+      "lat": 37.194,
+      "lon": -3.6675,
+      "depth": 12.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukqcc"
+    },
+    {
+      "event_id": "es2026ukmbj",
+      "date": "18/10/2026 06:41:30",
+      "lat": 37.132,
+      "lon": -3.5817,
+      "depth": 0.0,
+      "magnitude": 2.8,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "W CÁJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukmbj"
+    },
+    {
+      "event_id": "es2026uklyj",
+      "date": "18/10/2026 06:38:06",
+      "lat": 37.1815,
+      "lon": -3.663,
+      "depth": 3.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "NE VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uklyj"
+    },
+    {
+      "event_id": "es2026uklbj",
+      "date": "18/10/2026 06:10:01",
+      "lat": 37.1365,
+      "lon": -3.6129,
+      "depth": 4.0,
+      "magnitude": 0.9,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "SE ARMILLA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uklbj"
+    },
+    {
+      "event_id": "es2026ukice",
+      "date": "18/10/2026 04:40:02",
+      "lat": 40.653,
+      "lon": -1.4456,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE PERACENSE.TE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukice"
+    },
+    {
+      "event_id": "es2026ukhmg",
+      "date": "18/10/2026 04:21:30",
+      "lat": 39.1053,
+      "lon": -2.8323,
+      "depth": 19.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE RUIDERA.CR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukhmg"
+    },
     {
       "event_id": "es2026ukfui",
       "date": "18/10/2026 03:30:16",
