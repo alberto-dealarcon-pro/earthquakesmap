@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-17T22:16:36.092626+00:00",
+  "updated": "2026-10-18T00:05:54.324532+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 176,
+  "count": 177,
   "earthquakes": [
+    {
+      "event_id": "es2026ujyhi",
+      "date": "17/10/2026 23:42:59",
+      "lat": 43.1545,
+      "lon": -8.6833,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE CORISTANCO.C",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ujyhi"
+    },
     {
       "event_id": "es2026ujuii",
       "date": "17/10/2026 21:44:02",
