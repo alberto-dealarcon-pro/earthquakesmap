@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-18T18:51:08.321844+00:00",
+  "updated": "2026-10-18T21:07:44.727585+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 192,
+  "count": 195,
   "earthquakes": [
+    {
+      "event_id": "es2026ulnbq",
+      "date": "18/10/2026 20:18:54",
+      "lat": 37.1434,
+      "lon": -3.6552,
+      "depth": 2.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "SW CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ulnbq"
+    },
+    {
+      "event_id": "es2026ulmtk",
+      "date": "18/10/2026 20:09:22",
+      "lat": 37.1486,
+      "lon": -3.6453,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "SE CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ulmtk"
+    },
+    {
+      "event_id": "es2026ulmkq",
+      "date": "18/10/2026 20:00:25",
+      "lat": 42.9322,
+      "lon": 0.0621,
+      "depth": 0.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW BAREGES.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ulmkq"
+    },
     {
       "event_id": "es2026uldjf",
       "date": "18/10/2026 15:24:41",
