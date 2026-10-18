@@ -1,8 +1,80 @@
 {
-  "updated": "2026-10-18T08:58:10.504483+00:00",
+  "updated": "2026-10-18T13:08:13.848458+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 184,
+  "count": 190,
   "earthquakes": [
+    {
+      "event_id": "es2026ukwld",
+      "date": "18/10/2026 11:54:46",
+      "lat": 42.3541,
+      "lon": 2.0442,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE TOSES.GI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukwld"
+    },
+    {
+      "event_id": "es2026ukwhq",
+      "date": "18/10/2026 11:50:39",
+      "lat": 37.8563,
+      "lon": -1.2705,
+      "depth": 2.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LIBRILLA.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukwhq"
+    },
+    {
+      "event_id": "es2026ukvpo",
+      "date": "18/10/2026 11:29:38",
+      "lat": 42.4543,
+      "lon": -8.115,
+      "depth": 15.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE BOBORÁS.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukvpo"
+    },
+    {
+      "event_id": "es2026ukvex",
+      "date": "18/10/2026 11:17:14",
+      "lat": 37.0723,
+      "lon": -4.1818,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW LOJA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukvex"
+    },
+    {
+      "event_id": "es2026uktfj",
+      "date": "18/10/2026 10:17:07",
+      "lat": 42.3355,
+      "lon": 2.0254,
+      "depth": 5.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE TOSES.GI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uktfj"
+    },
+    {
+      "event_id": "es2026uksak",
+      "date": "18/10/2026 09:41:02",
+      "lat": 37.7495,
+      "lon": -10.0909,
+      "depth": 2.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-PORTUGAL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uksak"
+    },
     {
       "event_id": "es2026ukqcc",
       "date": "18/10/2026 08:43:29",
