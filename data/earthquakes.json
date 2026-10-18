@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-18T00:05:54.324532+00:00",
+  "updated": "2026-10-18T04:23:27.141724+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 177,
+  "count": 178,
   "earthquakes": [
+    {
+      "event_id": "es2026ukfui",
+      "date": "18/10/2026 03:30:16",
+      "lat": 39.4396,
+      "lon": -0.1554,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE VALENCIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukfui"
+    },
     {
       "event_id": "es2026ujyhi",
       "date": "17/10/2026 23:42:59",
