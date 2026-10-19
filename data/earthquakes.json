@@ -1,8 +1,68 @@
 {
-  "updated": "2026-10-19T01:12:55.058910+00:00",
+  "updated": "2026-10-19T06:15:16.654374+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 182,
+  "count": 187,
   "earthquakes": [
+    {
+      "event_id": "es2026umfax",
+      "date": "19/10/2026 05:23:37",
+      "lat": 37.1917,
+      "lon": -3.6583,
+      "depth": 1.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "NE VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026umfax"
+    },
+    {
+      "event_id": "es2026umbis",
+      "date": "19/10/2026 03:31:29",
+      "lat": 37.1767,
+      "lon": -1.9502,
+      "depth": 0.0,
+      "magnitude": 3.4,
+      "mag_type": "mbLg",
+      "intensity": "IV",
+      "location": "NW LOS GALLARDOS.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026umbis"
+    },
+    {
+      "event_id": "es2026ulzdt",
+      "date": "19/10/2026 02:25:06",
+      "lat": 37.2378,
+      "lon": -1.9995,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW BÉDAR.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ulzdt"
+    },
+    {
+      "event_id": "es2026ulxwb",
+      "date": "19/10/2026 01:45:49",
+      "lat": 42.4612,
+      "lon": -6.6624,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ulxwb"
+    },
+    {
+      "event_id": "es2026ulxbk",
+      "date": "19/10/2026 01:21:45",
+      "lat": 40.3064,
+      "lon": -2.833,
+      "depth": 1.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E ALBALATE DE ZORITA.GU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ulxbk"
+    },
     {
       "event_id": "es2026ulpbg",
       "date": "18/10/2026 21:19:06",
@@ -23,7 +83,7 @@
       "depth": 0.0,
       "magnitude": 2.8,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "III",
       "location": "N BÉDAR.AL",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ulosm"
     },
