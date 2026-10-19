@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-19T13:32:25.795919+00:00",
+  "updated": "2026-10-19T19:27:13.420153+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 194,
+  "count": 196,
   "earthquakes": [
+    {
+      "event_id": "es2026umzff",
+      "date": "19/10/2026 15:34:48",
+      "lat": 36.8552,
+      "lon": -8.6259,
+      "depth": 34.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026umzff"
+    },
     {
       "event_id": "es2026umpas",
       "date": "19/10/2026 10:26:29",
@@ -316,6 +328,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukpsz"
     },
     {
+      "event_id": "es2026ukori",
+      "date": "18/10/2026 07:59:34",
+      "lat": 27.8021,
+      "lon": -16.5292,
+      "depth": 31.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ukori"
+    },
+    {
       "event_id": "es2026ukmbj",
       "date": "18/10/2026 06:41:30",
       "lat": 37.132,
@@ -556,28 +580,28 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uitxc"
     },
     {
-      "event_id": "es2026uirkp",
-      "date": "17/10/2026 07:06:36",
-      "lat": 28.2883,
-      "lon": -16.1798,
-      "depth": 8.0,
-      "magnitude": 1.7,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "ATLÁNTICO-CANARIAS",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uirkp"
-    },
-    {
       "event_id": "es2026uirfu",
       "date": "17/10/2026 07:01:03",
-      "lat": 28.1421,
-      "lon": -16.2031,
-      "depth": 16.0,
+      "lat": 28.1379,
+      "lon": -16.2219,
+      "depth": 18.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uirfu"
+    },
+    {
+      "event_id": "es2026uippr",
+      "date": "17/10/2026 06:11:52",
+      "lat": 28.0069,
+      "lon": -16.2626,
+      "depth": 4.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uippr"
     },
     {
       "event_id": "es2026uinqc",
@@ -665,11 +689,11 @@
     },
     {
       "event_id": "es2026uhukw",
-      "date": "16/10/2026 19:29:50",
-      "lat": 28.0825,
-      "lon": -16.2412,
-      "depth": 5.0,
-      "magnitude": 1.8,
+      "date": "16/10/2026 19:29:51",
+      "lat": 28.0131,
+      "lon": -16.234,
+      "depth": 10.0,
+      "magnitude": 1.6,
       "mag_type": "mbLg",
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
