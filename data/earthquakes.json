@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-20T12:12:02.617322+00:00",
+  "updated": "2026-10-20T17:09:48.908652+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 193,
+  "count": 194,
   "earthquakes": [
+    {
+      "event_id": "es2026uopfh",
+      "date": "20/10/2026 12:47:46",
+      "lat": 42.3188,
+      "lon": -7.3731,
+      "depth": 9.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N CHANDREXA DE QUEIXA.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uopfh"
+    },
     {
       "event_id": "es2026unzou",
       "date": "20/10/2026 04:53:57",
