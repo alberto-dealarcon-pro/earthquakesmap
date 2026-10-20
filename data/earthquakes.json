@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-19T23:00:48.076768+00:00",
+  "updated": "2026-10-20T01:41:45.761164+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 183,
+  "count": 185,
   "earthquakes": [
+    {
+      "event_id": "es2026unqah",
+      "date": "20/10/2026 00:04:17",
+      "lat": 28.1546,
+      "lon": -16.1914,
+      "depth": 10.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026unqah"
+    },
+    {
+      "event_id": "es2026unodm",
+      "date": "19/10/2026 23:07:21",
+      "lat": 39.4291,
+      "lon": -0.6705,
+      "depth": 1.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE GODELLETA.V",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026unodm"
+    },
     {
       "event_id": "es2026unmkc",
       "date": "19/10/2026 22:14:28",
