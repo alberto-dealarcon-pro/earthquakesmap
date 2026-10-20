@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-20T01:41:45.761164+00:00",
+  "updated": "2026-10-20T06:38:51.221507+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 185,
+  "count": 188,
   "earthquakes": [
+    {
+      "event_id": "es2026unzou",
+      "date": "20/10/2026 04:53:57",
+      "lat": 37.9691,
+      "lon": -4.0624,
+      "depth": 16.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N ARJONA.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026unzou"
+    },
+    {
+      "event_id": "es2026unvlr",
+      "date": "20/10/2026 02:49:05",
+      "lat": 35.1021,
+      "lon": -4.5315,
+      "depth": 102.0,
+      "magnitude": 1.8,
+      "mag_type": "mb",
+      "intensity": "",
+      "location": "SE JEBHA.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026unvlr"
+    },
+    {
+      "event_id": "es2026unvfx",
+      "date": "20/10/2026 02:42:22",
+      "lat": 42.8101,
+      "lon": -8.9521,
+      "depth": 14.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW OUTES.C",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026unvfx"
+    },
     {
       "event_id": "es2026unqah",
       "date": "20/10/2026 00:04:17",
