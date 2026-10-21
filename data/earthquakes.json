@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-21T17:30:09.785275+00:00",
+  "updated": "2026-10-21T20:50:45.851044+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 198,
+  "count": 199,
   "earthquakes": [
+    {
+      "event_id": "es2026uqxfw",
+      "date": "21/10/2026 19:06:53",
+      "lat": 42.3303,
+      "lon": 1.537,
+      "depth": 4.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ALÀS I CERC.L",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uqxfw"
+    },
     {
       "event_id": "es2026uqndi",
       "date": "21/10/2026 14:00:51",
