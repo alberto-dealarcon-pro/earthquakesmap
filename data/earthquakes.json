@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-22T17:56:05.286573+00:00",
+  "updated": "2026-10-22T21:16:16.239060+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 203,
+  "count": 204,
   "earthquakes": [
+    {
+      "event_id": "es2026usvjn",
+      "date": "22/10/2026 20:26:29",
+      "lat": 41.6245,
+      "lon": 2.5369,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N ARENYS DE MUNT.B",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026usvjn"
+    },
     {
       "event_id": "es2026usouj",
       "date": "22/10/2026 17:07:02",
