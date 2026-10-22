@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-21T23:45:04.483782+00:00",
+  "updated": "2026-10-22T01:57:17.452848+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 187,
+  "count": 188,
   "earthquakes": [
+    {
+      "event_id": "es2026urhqr",
+      "date": "22/10/2026 00:22:37",
+      "lat": 42.1515,
+      "lon": -2.5235,
+      "depth": 8.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LAGUNA DE CAMEROS.LO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026urhqr"
+    },
     {
       "event_id": "es2026urdwe",
       "date": "21/10/2026 22:27:45",
