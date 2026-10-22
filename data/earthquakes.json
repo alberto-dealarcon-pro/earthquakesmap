@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-22T07:19:29.516588+00:00",
+  "updated": "2026-10-22T13:02:47.876302+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 196,
+  "count": 198,
   "earthquakes": [
     {
       "event_id": "es2026ursix",
@@ -158,6 +158,30 @@
       "intensity": "",
       "location": "SE ALÀS I CERC.L",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uqxfw"
+    },
+    {
+      "event_id": "es2026uqsaq",
+      "date": "21/10/2026 16:29:15",
+      "lat": 42.6118,
+      "lon": -7.1996,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW FOLGOSO DO COUREL.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uqsaq"
+    },
+    {
+      "event_id": "es2026uqrnp",
+      "date": "21/10/2026 16:14:04",
+      "lat": 42.1264,
+      "lon": -8.0387,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E QUINTELA DE LEIRADO.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uqrnp"
     },
     {
       "event_id": "es2026uqndi",
