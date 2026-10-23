@@ -1,8 +1,68 @@
 {
-  "updated": "2026-10-23T09:32:10.415594+00:00",
+  "updated": "2026-10-23T14:22:55.176595+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 198,
+  "count": 203,
   "earthquakes": [
+    {
+      "event_id": "es2026uuaiv",
+      "date": "23/10/2026 12:05:14",
+      "lat": 37.6091,
+      "lon": -15.2479,
+      "depth": 0.0,
+      "magnitude": 3.5,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "AZORES-CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uuaiv"
+    },
+    {
+      "event_id": "es2026utxwh",
+      "date": "23/10/2026 10:50:00",
+      "lat": 42.45,
+      "lon": -6.6141,
+      "depth": 0.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utxwh"
+    },
+    {
+      "event_id": "es2026utvgs",
+      "date": "23/10/2026 09:31:15",
+      "lat": 38.1941,
+      "lon": -2.6491,
+      "depth": 15.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE HORNOS.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utvgs"
+    },
+    {
+      "event_id": "es2026utuxt",
+      "date": "23/10/2026 09:20:46",
+      "lat": 42.4639,
+      "lon": -6.6409,
+      "depth": 2.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utuxt"
+    },
+    {
+      "event_id": "es2026utttz",
+      "date": "23/10/2026 08:46:04",
+      "lat": 36.3711,
+      "lon": -3.6672,
+      "depth": 8.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN NORTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utttz"
+    },
     {
       "event_id": "es2026utoxu",
       "date": "23/10/2026 06:18:59",
@@ -76,18 +136,6 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utdwd"
     },
     {
-      "event_id": "es2026usyue",
-      "date": "22/10/2026 22:09:51",
-      "lat": 43.1621,
-      "lon": -1.1583,
-      "depth": 15.0,
-      "magnitude": 1.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "SE ST JEAN PIED DE PORT.FRA",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026usyue"
-    },
-    {
       "event_id": "es2026usytc",
       "date": "22/10/2026 22:08:38",
       "lat": 28.0266,
@@ -105,7 +153,7 @@
       "lat": 36.7252,
       "lon": -11.0596,
       "depth": 0.0,
-      "magnitude": 3.1,
+      "magnitude": 2.8,
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
@@ -194,6 +242,18 @@
       "intensity": "",
       "location": "S LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026usikz"
+    },
+    {
+      "event_id": "es2026usclw",
+      "date": "22/10/2026 10:53:25",
+      "lat": 42.2962,
+      "lon": -6.2799,
+      "depth": 5.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW LUYEGO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026usclw"
     },
     {
       "event_id": "es2026ursix",
@@ -1821,8 +1881,8 @@
       "lat": 42.4331,
       "lon": -6.6522,
       "depth": 6.0,
-      "magnitude": 4.2,
-      "mag_type": "mbLg",
+      "magnitude": 3.8,
+      "mag_type": "Mw",
       "intensity": "IV",
       "location": "NE BENUZA.LE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ugbbe"
