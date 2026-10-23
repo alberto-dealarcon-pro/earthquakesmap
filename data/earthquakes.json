@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-23T00:00:52.352180+00:00",
+  "updated": "2026-10-23T04:34:42.810525+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 192,
+  "count": 196,
   "earthquakes": [
+    {
+      "event_id": "es2026uthkn",
+      "date": "23/10/2026 02:31:22",
+      "lat": 42.4532,
+      "lon": -6.6406,
+      "depth": 0.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uthkn"
+    },
+    {
+      "event_id": "es2026utgaa",
+      "date": "23/10/2026 01:48:49",
+      "lat": 36.434,
+      "lon": -3.6345,
+      "depth": 15.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN NORTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utgaa"
+    },
+    {
+      "event_id": "es2026utdwd",
+      "date": "23/10/2026 00:43:41",
+      "lat": 37.0936,
+      "lon": -3.5795,
+      "depth": 7.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utdwd"
+    },
     {
       "event_id": "es2026usyue",
       "date": "22/10/2026 22:09:51",
@@ -74,6 +110,18 @@
       "intensity": "",
       "location": "N ARENYS DE MUNT.B",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026usvjn"
+    },
+    {
+      "event_id": "es2026ususb",
+      "date": "22/10/2026 20:06:10",
+      "lat": 37.1111,
+      "lon": -3.5919,
+      "depth": 5.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026ususb"
     },
     {
       "event_id": "es2026usouj",
