@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-24T08:59:22.702988+00:00",
+  "updated": "2026-10-24T13:14:22.647874+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 193,
+  "count": 194,
   "earthquakes": [
+    {
+      "event_id": "es2026uvtiy",
+      "date": "24/10/2026 10:49:11",
+      "lat": 43.0682,
+      "lon": -0.6072,
+      "depth": 3.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S OLORON STE MARIE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uvtiy"
+    },
     {
       "event_id": "es2026uvoah",
       "date": "24/10/2026 08:07:34",
