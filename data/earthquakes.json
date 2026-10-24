@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-24T04:23:27.281823+00:00",
+  "updated": "2026-10-24T08:59:22.702988+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 191,
+  "count": 193,
   "earthquakes": [
+    {
+      "event_id": "es2026uvoah",
+      "date": "24/10/2026 08:07:34",
+      "lat": 42.7122,
+      "lon": -7.6985,
+      "depth": 1.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E TABOADA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uvoah"
+    },
+    {
+      "event_id": "es2026uvjqh",
+      "date": "24/10/2026 05:54:41",
+      "lat": 36.326,
+      "lon": -2.7765,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN NORTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uvjqh"
+    },
     {
       "event_id": "es2026uveju",
       "date": "24/10/2026 03:15:34",
