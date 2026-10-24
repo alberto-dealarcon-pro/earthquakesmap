@@ -1,8 +1,68 @@
 {
-  "updated": "2026-10-23T23:59:46.169899+00:00",
+  "updated": "2026-10-24T04:23:27.281823+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 186,
+  "count": 191,
   "earthquakes": [
+    {
+      "event_id": "es2026uveju",
+      "date": "24/10/2026 03:15:34",
+      "lat": 42.4564,
+      "lon": -6.6749,
+      "depth": 7.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE BORRENES.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uveju"
+    },
+    {
+      "event_id": "es2026uvcsi",
+      "date": "24/10/2026 02:24:56",
+      "lat": 28.1035,
+      "lon": -16.2347,
+      "depth": 20.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uvcsi"
+    },
+    {
+      "event_id": "es2026uuyzb",
+      "date": "24/10/2026 00:31:32",
+      "lat": 41.6575,
+      "lon": 2.6036,
+      "depth": 7.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N SANT CEBRIÀ DE VALLALTA.B",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uuyzb"
+    },
+    {
+      "event_id": "es2026uuyyf",
+      "date": "24/10/2026 00:30:34",
+      "lat": 41.6482,
+      "lon": 2.614,
+      "depth": 11.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE SANT CEBRIÀ DE VALLALTA.B",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uuyyf"
+    },
+    {
+      "event_id": "es2026uuyxz",
+      "date": "24/10/2026 00:30:17",
+      "lat": 41.6673,
+      "lon": 2.6037,
+      "depth": 8.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N SANT CEBRIÀ DE VALLALTA.B",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uuyxz"
+    },
     {
       "event_id": "es2026uurrw",
       "date": "23/10/2026 20:50:59",
