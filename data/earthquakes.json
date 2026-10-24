@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-24T13:14:22.647874+00:00",
+  "updated": "2026-10-24T16:39:21.685355+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 194,
+  "count": 196,
   "earthquakes": [
+    {
+      "event_id": "es2026uvzld",
+      "date": "24/10/2026 13:53:37",
+      "lat": 41.6196,
+      "lon": 2.5979,
+      "depth": 10.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W SANT CEBRIÀ DE VALLALTA.B",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uvzld"
+    },
+    {
+      "event_id": "es2026uvxmc",
+      "date": "24/10/2026 12:54:06",
+      "lat": 43.1121,
+      "lon": -5.2594,
+      "depth": 9.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE CASO.O",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uvxmc"
+    },
     {
       "event_id": "es2026uvtiy",
       "date": "24/10/2026 10:49:11",
