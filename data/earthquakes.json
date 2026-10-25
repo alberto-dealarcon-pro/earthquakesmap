@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-25T12:07:27.940955+00:00",
+  "updated": "2026-10-25T16:09:39.529121+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 193,
+  "count": 195,
   "earthquakes": [
+    {
+      "event_id": "es2026uxvlq",
+      "date": "25/10/2026 14:08:56",
+      "lat": 42.5363,
+      "lon": 1.058,
+      "depth": 0.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW ESPOT.L",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uxvlq"
+    },
     {
       "event_id": "es2026uxqld",
       "date": "25/10/2026 11:36:50",
@@ -14,6 +26,18 @@
       "intensity": "",
       "location": "AZORES-CABO DE SAN VICENTE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uxqld"
+    },
+    {
+      "event_id": "es2026uxpwi",
+      "date": "25/10/2026 11:19:32",
+      "lat": 27.8078,
+      "lon": -16.1823,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uxpwi"
     },
     {
       "event_id": "es2026uxomc",
