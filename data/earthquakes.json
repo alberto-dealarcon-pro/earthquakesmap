@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-25T19:02:21.925181+00:00",
+  "updated": "2026-10-25T21:40:41.554504+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 198,
+  "count": 199,
   "earthquakes": [
     {
       "event_id": "es2026uyerp",
@@ -14,6 +14,18 @@
       "intensity": "",
       "location": "SE PRIARANZA DEL BIERZO.LE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uyerp"
+    },
+    {
+      "event_id": "es2026uydkc",
+      "date": "25/10/2026 18:08:57",
+      "lat": 29.0467,
+      "lon": -14.9002,
+      "depth": 50.0,
+      "magnitude": 3.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uydkc"
     },
     {
       "event_id": "es2026uycde",
