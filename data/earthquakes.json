@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-25T01:36:41.511142+00:00",
+  "updated": "2026-10-25T06:49:26.189992+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 185,
+  "count": 188,
   "earthquakes": [
+    {
+      "event_id": "es2026uxdji",
+      "date": "25/10/2026 05:00:43",
+      "lat": 37.1359,
+      "lon": -3.6102,
+      "depth": 3.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "E ARMILLA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uxdji"
+    },
+    {
+      "event_id": "es2026uxcot",
+      "date": "25/10/2026 04:36:45",
+      "lat": 28.8051,
+      "lon": -14.7753,
+      "depth": 31.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uxcot"
+    },
+    {
+      "event_id": "es2026uwzer",
+      "date": "25/10/2026 02:54:03",
+      "lat": 39.7101,
+      "lon": -3.4212,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E EL ROMERAL.TO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uwzer"
+    },
     {
       "event_id": "es2026uwnij",
       "date": "24/10/2026 20:54:42",
