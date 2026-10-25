@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-25T16:09:39.529121+00:00",
+  "updated": "2026-10-25T19:02:21.925181+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 195,
+  "count": 198,
   "earthquakes": [
+    {
+      "event_id": "es2026uyerp",
+      "date": "25/10/2026 18:48:40",
+      "lat": 42.464,
+      "lon": -6.6286,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uyerp"
+    },
+    {
+      "event_id": "es2026uycde",
+      "date": "25/10/2026 17:31:32",
+      "lat": 37.1676,
+      "lon": -3.6413,
+      "depth": 5.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uycde"
+    },
+    {
+      "event_id": "es2026uyasu",
+      "date": "25/10/2026 16:48:50",
+      "lat": 43.2905,
+      "lon": -1.3278,
+      "depth": 8.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N ST ETIENNE DE BAIGORRY.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uyasu"
+    },
     {
       "event_id": "es2026uxvlq",
       "date": "25/10/2026 14:08:56",
