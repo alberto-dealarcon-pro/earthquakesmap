@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-26T01:38:19.651904+00:00",
+  "updated": "2026-10-26T06:57:48.717223+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 174,
+  "count": 178,
   "earthquakes": [
+    {
+      "event_id": "es2026uzbty",
+      "date": "26/10/2026 06:28:28",
+      "lat": 37.1885,
+      "lon": -3.6583,
+      "depth": 11.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uzbty"
+    },
+    {
+      "event_id": "es2026uyxwm",
+      "date": "26/10/2026 04:30:12",
+      "lat": 35.8842,
+      "lon": -0.7835,
+      "depth": 29.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-ARGELIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uyxwm"
+    },
+    {
+      "event_id": "es2026uyvau",
+      "date": "26/10/2026 03:04:16",
+      "lat": 38.4302,
+      "lon": -2.4534,
+      "depth": 4.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E COTILLAS.AB",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uyvau"
+    },
+    {
+      "event_id": "es2026uysqc",
+      "date": "26/10/2026 01:51:14",
+      "lat": 36.4823,
+      "lon": -9.9333,
+      "depth": 45.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uysqc"
+    },
     {
       "event_id": "es2026uynpg",
       "date": "25/10/2026 23:18:40",
