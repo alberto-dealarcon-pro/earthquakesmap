@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-27T08:03:15.535570+00:00",
+  "updated": "2026-10-27T14:22:03.859699+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 178,
+  "count": 177,
   "earthquakes": [
+    {
+      "event_id": "es2026vbevv",
+      "date": "27/10/2026 10:17:50",
+      "lat": 37.0869,
+      "lon": -3.5728,
+      "depth": 5.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "NE DÍLAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vbevv"
+    },
     {
       "event_id": "es2026vaxmt",
       "date": "27/10/2026 06:34:51",
@@ -26,18 +38,6 @@
       "intensity": "",
       "location": "SW COMARES.MA",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vaxgj"
-    },
-    {
-      "event_id": "es2026vawmk",
-      "date": "27/10/2026 06:04:07",
-      "lat": 42.4539,
-      "lon": -6.6295,
-      "depth": 0.0,
-      "magnitude": 1.9,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "SE PRIARANZA DEL BIERZO.LE",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vawmk"
     },
     {
       "event_id": "es2026vaqqp",
@@ -753,7 +753,7 @@
       "lat": 42.4532,
       "lon": -6.6406,
       "depth": 0.0,
-      "magnitude": 2.1,
+      "magnitude": 1.9,
       "mag_type": "mbLg",
       "intensity": "",
       "location": "SE PRIARANZA DEL BIERZO.LE",
@@ -770,18 +770,6 @@
       "intensity": "",
       "location": "ALBORÁN NORTE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utgaa"
-    },
-    {
-      "event_id": "es2026utdwd",
-      "date": "23/10/2026 00:43:41",
-      "lat": 37.0936,
-      "lon": -3.5795,
-      "depth": 7.0,
-      "magnitude": 1.6,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "SE GÓJAR.GR",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026utdwd"
     },
     {
       "event_id": "es2026usytc",
