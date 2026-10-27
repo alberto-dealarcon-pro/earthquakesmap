@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-27T02:20:52.124293+00:00",
+  "updated": "2026-10-27T08:03:15.535570+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 172,
+  "count": 178,
   "earthquakes": [
+    {
+      "event_id": "es2026vaxmt",
+      "date": "27/10/2026 06:34:51",
+      "lat": 33.9914,
+      "lon": -5.1082,
+      "depth": 7.0,
+      "magnitude": 3.1,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "E OUED NJA.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vaxmt"
+    },
+    {
+      "event_id": "es2026vaxgj",
+      "date": "27/10/2026 06:27:22",
+      "lat": 36.825,
+      "lon": -4.3024,
+      "depth": 29.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW COMARES.MA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vaxgj"
+    },
+    {
+      "event_id": "es2026vawmk",
+      "date": "27/10/2026 06:04:07",
+      "lat": 42.4539,
+      "lon": -6.6295,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vawmk"
+    },
+    {
+      "event_id": "es2026vaqqp",
+      "date": "27/10/2026 03:08:03",
+      "lat": 37.4915,
+      "lon": -17.2763,
+      "depth": 35.0,
+      "magnitude": 4.1,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "AZORES-CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vaqqp"
+    },
     {
       "event_id": "es2026vamxr",
       "date": "27/10/2026 01:14:12",
@@ -35,9 +83,21 @@
       "depth": 0.0,
       "magnitude": 2.6,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "NE BENUZA.LE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vadpx"
+    },
+    {
+      "event_id": "es2026vaanu",
+      "date": "26/10/2026 18:58:57",
+      "lat": 37.103,
+      "lon": -3.5916,
+      "depth": 6.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "E GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vaanu"
     },
     {
       "event_id": "es2026uzxot",
@@ -95,9 +155,21 @@
       "depth": 0.0,
       "magnitude": 2.2,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "NW LIZOÁIN-ARRIASGOITI.NA",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uzggm"
+    },
+    {
+      "event_id": "es2026uzfzs",
+      "date": "26/10/2026 08:36:23",
+      "lat": 37.1493,
+      "lon": -3.6466,
+      "depth": 6.0,
+      "magnitude": 1.2,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "NW CHURRIANA DE LA VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uzfzs"
     },
     {
       "event_id": "es2026uzbty",
@@ -107,7 +179,7 @@
       "depth": 11.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "NE VEGAS DEL GENIL.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026uzbty"
     },
