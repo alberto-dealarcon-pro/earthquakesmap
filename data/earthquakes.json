@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-28T15:22:57.105190+00:00",
+  "updated": "2026-10-28T20:25:08.284494+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 173,
+  "count": 177,
   "earthquakes": [
+    {
+      "event_id": "es2026vdsie",
+      "date": "28/10/2026 19:21:54",
+      "lat": 35.5244,
+      "lon": -3.558,
+      "depth": 17.0,
+      "magnitude": 2.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vdsie"
+    },
+    {
+      "event_id": "es2026vdpbl",
+      "date": "28/10/2026 17:43:09",
+      "lat": 43.0341,
+      "lon": -0.2135,
+      "depth": 1.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LARUNS.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vdpbl"
+    },
+    {
+      "event_id": "es2026vdoes",
+      "date": "28/10/2026 17:16:39",
+      "lat": 37.3502,
+      "lon": -8.5915,
+      "depth": 15.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW MONCHIQUE.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vdoes"
+    },
+    {
+      "event_id": "es2026vdluo",
+      "date": "28/10/2026 16:04:13",
+      "lat": 28.1586,
+      "lon": -15.6622,
+      "depth": 4.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW GÁLDAR.IGC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vdluo"
+    },
     {
       "event_id": "es2026vdbrx",
       "date": "28/10/2026 10:58:03",
