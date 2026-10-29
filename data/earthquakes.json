@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-29T17:36:50.391321+00:00",
+  "updated": "2026-10-29T22:00:13.061158+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 167,
+  "count": 171,
   "earthquakes": [
+    {
+      "event_id": "es2026vfrhf",
+      "date": "29/10/2026 21:06:44",
+      "lat": 37.1082,
+      "lon": -3.5852,
+      "depth": 7.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "S LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vfrhf"
+    },
+    {
+      "event_id": "es2026vfqbn",
+      "date": "29/10/2026 20:29:31",
+      "lat": 37.1248,
+      "lon": -3.6148,
+      "depth": 8.0,
+      "magnitude": 1.2,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "NW OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vfqbn"
+    },
+    {
+      "event_id": "es2026vfolw",
+      "date": "29/10/2026 19:41:00",
+      "lat": 42.7781,
+      "lon": -9.0064,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E MUROS.C",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vfolw"
+    },
+    {
+      "event_id": "es2026vfkjy",
+      "date": "29/10/2026 17:37:30",
+      "lat": 42.4604,
+      "lon": -6.6582,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vfkjy"
+    },
     {
       "event_id": "es2026vfjcm",
       "date": "29/10/2026 16:58:30",
