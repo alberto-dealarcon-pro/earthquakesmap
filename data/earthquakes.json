@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-29T00:11:12.058270+00:00",
+  "updated": "2026-10-29T05:49:16.601894+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 154,
+  "count": 158,
   "earthquakes": [
+    {
+      "event_id": "es2026vefsp",
+      "date": "29/10/2026 02:08:04",
+      "lat": 36.6241,
+      "lon": -9.8527,
+      "depth": 39.0,
+      "magnitude": 2.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vefsp"
+    },
+    {
+      "event_id": "es2026vefqb",
+      "date": "29/10/2026 02:05:08",
+      "lat": 43.1381,
+      "lon": -1.8994,
+      "depth": 18.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW GOIZUETA.NA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vefqb"
+    },
+    {
+      "event_id": "es2026veeax",
+      "date": "29/10/2026 01:17:08",
+      "lat": 40.6414,
+      "lon": -2.64,
+      "depth": 5.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE MANTIEL.GU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026veeax"
+    },
+    {
+      "event_id": "es2026vebul",
+      "date": "29/10/2026 00:08:59",
+      "lat": 42.2274,
+      "lon": -7.7195,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE XUNQUEIRA DE AMBÍA.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vebul"
+    },
     {
       "event_id": "es2026vdsie",
       "date": "28/10/2026 19:21:54",
