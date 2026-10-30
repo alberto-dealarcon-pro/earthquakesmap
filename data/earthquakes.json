@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-30T14:36:06.132854+00:00",
+  "updated": "2026-10-30T19:41:20.288773+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 162,
+  "count": 164,
   "earthquakes": [
+    {
+      "event_id": "es2026vhgvx",
+      "date": "30/10/2026 18:06:13",
+      "lat": 39.3931,
+      "lon": -0.0909,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE VALENCIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vhgvx"
+    },
+    {
+      "event_id": "es2026vhbjn",
+      "date": "30/10/2026 15:20:14",
+      "lat": 28.0483,
+      "lon": -16.3831,
+      "depth": 20.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vhbjn"
+    },
     {
       "event_id": "es2026vgspq",
       "date": "30/10/2026 10:54:36",
