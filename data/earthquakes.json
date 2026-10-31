@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-31T08:46:08.609537+00:00",
+  "updated": "2026-10-31T14:50:04.757177+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 154,
+  "count": 157,
   "earthquakes": [
+    {
+      "event_id": "es2026vipom",
+      "date": "31/10/2026 11:38:38",
+      "lat": 37.1198,
+      "lon": -3.546,
+      "depth": 0.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW MONACHIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vipom"
+    },
+    {
+      "event_id": "es2026viimc",
+      "date": "31/10/2026 08:03:22",
+      "lat": 42.4538,
+      "lon": -6.6281,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026viimc"
+    },
+    {
+      "event_id": "es2026viifh",
+      "date": "31/10/2026 07:55:26",
+      "lat": 42.4588,
+      "lon": -6.6305,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026viifh"
+    },
     {
       "event_id": "es2026vhwws",
       "date": "31/10/2026 02:12:05",
