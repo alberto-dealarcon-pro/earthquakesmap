@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-31T18:52:25.270727+00:00",
+  "updated": "2026-10-31T22:04:13.189550+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 157,
+  "count": 160,
   "earthquakes": [
+    {
+      "event_id": "es2026vjfju",
+      "date": "31/10/2026 19:38:32",
+      "lat": 37.5386,
+      "lon": -1.7912,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PUERTO LUMBRERAS.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vjfju"
+    },
+    {
+      "event_id": "es2026vjdzi",
+      "date": "31/10/2026 18:55:14",
+      "lat": 39.143,
+      "lon": -10.9836,
+      "depth": 53.0,
+      "magnitude": 3.4,
+      "mag_type": "mb",
+      "intensity": "",
+      "location": "ATLÁNTICO-PORTUGAL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vjdzi"
+    },
+    {
+      "event_id": "es2026vjdvm",
+      "date": "31/10/2026 18:50:47",
+      "lat": 43.1178,
+      "lon": -5.0926,
+      "depth": 11.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW OSEJA DE SAJAMBRE.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vjdvm"
+    },
     {
       "event_id": "es2026vipom",
       "date": "31/10/2026 11:38:38",
