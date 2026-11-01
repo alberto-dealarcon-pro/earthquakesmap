@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-01T14:25:12.873108+00:00",
+  "updated": "2026-11-01T19:02:51.686459+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 147,
+  "count": 149,
   "earthquakes": [
+    {
+      "event_id": "es2026vkvuk",
+      "date": "01/11/2026 17:03:02",
+      "lat": 37.6468,
+      "lon": -3.8588,
+      "depth": 22.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E FUENSANTA DE MARTOS.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vkvuk"
+    },
+    {
+      "event_id": "es2026vksyl",
+      "date": "01/11/2026 15:38:46",
+      "lat": 37.1125,
+      "lon": -3.5964,
+      "depth": 11.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "NE GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vksyl"
+    },
     {
       "event_id": "es2026vkpcn",
       "date": "01/11/2026 13:40:22",
