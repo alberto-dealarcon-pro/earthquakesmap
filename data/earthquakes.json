@@ -1,8 +1,68 @@
 {
-  "updated": "2026-11-01T19:02:51.686459+00:00",
+  "updated": "2026-11-01T22:43:32.436338+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 149,
+  "count": 154,
   "earthquakes": [
+    {
+      "event_id": "es2026vlfxn",
+      "date": "01/11/2026 22:09:45",
+      "lat": 37.2284,
+      "lon": -4.2591,
+      "depth": 2.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW ZAGRA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlfxn"
+    },
+    {
+      "event_id": "es2026vlfqb",
+      "date": "01/11/2026 22:01:01",
+      "lat": 37.2199,
+      "lon": -4.276,
+      "depth": 0.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE IZNÁJAR.CO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlfqb"
+    },
+    {
+      "event_id": "es2026vlehd",
+      "date": "01/11/2026 21:20:20",
+      "lat": 41.3643,
+      "lon": -7.7201,
+      "depth": 7.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE VILA REAL.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlehd"
+    },
+    {
+      "event_id": "es2026vlcqa",
+      "date": "01/11/2026 20:30:14",
+      "lat": 37.2536,
+      "lon": -4.2433,
+      "depth": 7.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W ZAGRA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlcqa"
+    },
+    {
+      "event_id": "es2026vlban",
+      "date": "01/11/2026 19:41:42",
+      "lat": 36.549,
+      "lon": -7.0746,
+      "depth": 16.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlban"
+    },
     {
       "event_id": "es2026vkvuk",
       "date": "01/11/2026 17:03:02",
