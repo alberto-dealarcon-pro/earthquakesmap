@@ -1,8 +1,56 @@
 {
-  "updated": "2026-11-02T01:51:58.265776+00:00",
+  "updated": "2026-11-02T08:36:35.736094+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 138,
+  "count": 142,
   "earthquakes": [
+    {
+      "event_id": "es2026vlwjj",
+      "date": "02/11/2026 06:28:16",
+      "lat": 28.8733,
+      "lon": -16.3434,
+      "depth": 40.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlwjj"
+    },
+    {
+      "event_id": "es2026vlwaf",
+      "date": "02/11/2026 06:17:47",
+      "lat": 28.177,
+      "lon": -16.2135,
+      "depth": 8.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlwaf"
+    },
+    {
+      "event_id": "es2026vlueg",
+      "date": "02/11/2026 05:21:53",
+      "lat": 36.6062,
+      "lon": -7.2136,
+      "depth": 9.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlueg"
+    },
+    {
+      "event_id": "es2026vlqvg",
+      "date": "02/11/2026 03:40:32",
+      "lat": 28.9377,
+      "lon": -16.8541,
+      "depth": 30.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vlqvg"
+    },
     {
       "event_id": "es2026vljpc",
       "date": "02/11/2026 00:01:08",
