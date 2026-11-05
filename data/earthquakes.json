@@ -1,8 +1,44 @@
 {
-  "updated": "2026-11-05T09:10:13.259853+00:00",
+  "updated": "2026-11-05T17:23:24.513889+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 147,
+  "count": 150,
   "earthquakes": [
+    {
+      "event_id": "es2026vrvnn",
+      "date": "05/11/2026 12:50:55",
+      "lat": 28.1535,
+      "lon": -16.188,
+      "depth": 12.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vrvnn"
+    },
+    {
+      "event_id": "es2026vrtxd",
+      "date": "05/11/2026 12:01:32",
+      "lat": 38.9179,
+      "lon": 0.0319,
+      "depth": 3.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N ELS POBLETS.A",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vrtxd"
+    },
+    {
+      "event_id": "es2026vrqii",
+      "date": "05/11/2026 10:13:23",
+      "lat": 43.0031,
+      "lon": 0.3872,
+      "depth": 2.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S LANNEMEZAN.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vrqii"
+    },
     {
       "event_id": "es2026vrmni",
       "date": "05/11/2026 08:17:56",
@@ -107,7 +143,7 @@
       "depth": 4.0,
       "magnitude": 2.5,
       "mag_type": "mbLg",
-      "intensity": "I-II",
+      "intensity": "III",
       "location": "SE TABERNAS.AL",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vqjjj"
     },
