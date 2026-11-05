@@ -1,8 +1,44 @@
 {
-  "updated": "2026-11-05T01:56:56.725120+00:00",
+  "updated": "2026-11-05T09:10:13.259853+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 144,
+  "count": 147,
   "earthquakes": [
+    {
+      "event_id": "es2026vrmni",
+      "date": "05/11/2026 08:17:56",
+      "lat": 37.0653,
+      "lon": -2.3745,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE TABERNAS.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vrmni"
+    },
+    {
+      "event_id": "es2026vriaj",
+      "date": "05/11/2026 06:01:40",
+      "lat": 27.7834,
+      "lon": -14.9907,
+      "depth": 17.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vriaj"
+    },
+    {
+      "event_id": "es2026vrhtc",
+      "date": "05/11/2026 05:53:08",
+      "lat": 37.5373,
+      "lon": -9.08,
+      "depth": 25.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-PORTUGAL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vrhtc"
+    },
     {
       "event_id": "es2026vqxhl",
       "date": "05/11/2026 00:36:29",
@@ -71,7 +107,7 @@
       "depth": 4.0,
       "magnitude": 2.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "SE TABERNAS.AL",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vqjjj"
     },
@@ -191,7 +227,7 @@
       "depth": 12.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "Sentido",
+      "intensity": "",
       "location": "NE LA VALL DE BOÍ.L",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vpuga"
     },
