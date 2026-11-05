@@ -1,8 +1,56 @@
 {
-  "updated": "2026-11-05T17:23:24.513889+00:00",
+  "updated": "2026-11-05T22:44:26.236136+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 150,
+  "count": 154,
   "earthquakes": [
+    {
+      "event_id": "es2026vsnjt",
+      "date": "05/11/2026 21:52:05",
+      "lat": 38.2639,
+      "lon": -6.8837,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE OLIVA DE LA FRONTERA.BA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vsnjt"
+    },
+    {
+      "event_id": "es2026vsiqx",
+      "date": "05/11/2026 19:28:54",
+      "lat": 35.4418,
+      "lon": -3.3308,
+      "depth": 25.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vsiqx"
+    },
+    {
+      "event_id": "es2026vsgbr",
+      "date": "05/11/2026 18:10:58",
+      "lat": 40.1397,
+      "lon": -0.7149,
+      "depth": 0.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ALBENTOSA.TE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vsgbr"
+    },
+    {
+      "event_id": "es2026vsgbs",
+      "date": "05/11/2026 18:10:31",
+      "lat": 40.1593,
+      "lon": -0.7298,
+      "depth": 2.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ALBENTOSA.TE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vsgbs"
+    },
     {
       "event_id": "es2026vrvnn",
       "date": "05/11/2026 12:50:55",
