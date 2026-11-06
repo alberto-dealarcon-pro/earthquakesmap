@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06T10:02:06.473716+00:00",
+  "updated": "2026-11-06T17:24:45.619368+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 143,
+  "count": 145,
   "earthquakes": [
     {
       "event_id": "es2026vthtd",
@@ -98,6 +98,18 @@
       "intensity": "",
       "location": "NE ALBENTOSA.TE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vsgbs"
+    },
+    {
+      "event_id": "es2026vsblz",
+      "date": "05/11/2026 15:51:00",
+      "lat": 43.0169,
+      "lon": -0.0047,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LOURDES.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vsblz"
     },
     {
       "event_id": "es2026vrvnn",
@@ -1142,6 +1154,18 @@
       "intensity": "",
       "location": "E MONCHIQUE.POR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vgqik"
+    },
+    {
+      "event_id": "es2026vgmrd",
+      "date": "30/10/2026 07:54:31",
+      "lat": 37.2402,
+      "lon": -3.5363,
+      "depth": 0.0,
+      "magnitude": 0.9,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "NE VÍZNAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vgmrd"
     },
     {
       "event_id": "es2026vggda",
