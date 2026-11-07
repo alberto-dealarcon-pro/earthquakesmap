@@ -1,8 +1,44 @@
 {
-  "updated": "2026-11-07T08:38:53.138709+00:00",
+  "updated": "2026-11-07T15:08:46.835609+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 142,
+  "count": 145,
   "earthquakes": [
+    {
+      "event_id": "es2026vvluf",
+      "date": "07/11/2026 12:27:39",
+      "lat": 36.6116,
+      "lon": -9.7731,
+      "depth": 47.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vvluf"
+    },
+    {
+      "event_id": "es2026vviyy",
+      "date": "07/11/2026 11:02:13",
+      "lat": 42.4646,
+      "lon": -6.662,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vviyy"
+    },
+    {
+      "event_id": "es2026vvflw",
+      "date": "07/11/2026 09:17:55",
+      "lat": 37.7952,
+      "lon": -1.3166,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LIBRILLA.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vvflw"
+    },
     {
       "event_id": "es2026vuqpy",
       "date": "07/11/2026 01:46:13",
