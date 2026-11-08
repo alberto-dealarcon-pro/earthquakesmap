@@ -1,8 +1,56 @@
 {
-  "updated": "2026-11-08T08:52:01.061166+00:00",
+  "updated": "2026-11-08T15:39:38.927671+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 135,
+  "count": 140,
   "earthquakes": [
+    {
+      "event_id": "es2026vxnkc",
+      "date": "08/11/2026 15:32:28",
+      "lat": 37.1326,
+      "lon": -3.6056,
+      "depth": 12.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxnkc"
+    },
+    {
+      "event_id": "es2026vxmmk",
+      "date": "08/11/2026 15:04:50",
+      "lat": 36.5663,
+      "lon": -7.5955,
+      "depth": 41.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxmmk"
+    },
+    {
+      "event_id": "es2026vxidk",
+      "date": "08/11/2026 12:53:11",
+      "lat": 37.1202,
+      "lon": -3.6257,
+      "depth": 12.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxidk"
+    },
+    {
+      "event_id": "es2026vxbbt",
+      "date": "08/11/2026 09:19:02",
+      "lat": 37.3414,
+      "lon": -8.5369,
+      "depth": 8.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE MONCHIQUE.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxbbt"
+    },
     {
       "event_id": "es2026vwvaq",
       "date": "08/11/2026 06:15:51",
@@ -26,6 +74,18 @@
       "intensity": "",
       "location": "E LA PARRA DE LAS VEGAS.CU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vwssq"
+    },
+    {
+      "event_id": "es2026vwsac",
+      "date": "08/11/2026 04:44:19",
+      "lat": 37.1474,
+      "lon": -3.5935,
+      "depth": 4.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "W HUÉTOR VEGA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vwsac"
     },
     {
       "event_id": "es2026vwliy",
