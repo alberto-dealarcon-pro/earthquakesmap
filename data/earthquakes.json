@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-08T01:58:46.528263+00:00",
+  "updated": "2026-11-08T08:52:01.061166+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 133,
+  "count": 135,
   "earthquakes": [
+    {
+      "event_id": "es2026vwvaq",
+      "date": "08/11/2026 06:15:51",
+      "lat": 37.9778,
+      "lon": -4.2815,
+      "depth": 7.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE VILLA DEL RÍO.CO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vwvaq"
+    },
+    {
+      "event_id": "es2026vwssq",
+      "date": "08/11/2026 05:05:54",
+      "lat": 39.868,
+      "lon": -2.1211,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LA PARRA DE LAS VEGAS.CU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vwssq"
+    },
     {
       "event_id": "es2026vwliy",
       "date": "08/11/2026 01:22:31",
