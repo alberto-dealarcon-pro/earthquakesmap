@@ -1,8 +1,44 @@
 {
-  "updated": "2026-11-08T15:39:38.927671+00:00",
+  "updated": "2026-11-08T19:57:35.747757+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 140,
+  "count": 143,
   "earthquakes": [
+    {
+      "event_id": "es2026vxvyi",
+      "date": "08/11/2026 19:51:33",
+      "lat": 32.4206,
+      "lon": -6.1961,
+      "depth": 10.0,
+      "magnitude": 3.8,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "NE BENI MELLAL.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxvyi"
+    },
+    {
+      "event_id": "es2026vxvmm",
+      "date": "08/11/2026 19:37:41",
+      "lat": 42.4647,
+      "lon": -6.6716,
+      "depth": 4.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxvmm"
+    },
+    {
+      "event_id": "es2026vxprg",
+      "date": "08/11/2026 16:41:25",
+      "lat": 39.4037,
+      "lon": 1.5153,
+      "depth": 10.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-BALEARES",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxprg"
+    },
     {
       "event_id": "es2026vxnkc",
       "date": "08/11/2026 15:32:28",
