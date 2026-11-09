@@ -1,8 +1,20 @@
 {
-  "updated": "2026-11-08T23:30:34.224367+00:00",
+  "updated": "2026-11-09T02:55:32.244532+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 127,
+  "count": 128,
   "earthquakes": [
+    {
+      "event_id": "es2026vyhgi",
+      "date": "09/11/2026 01:34:12",
+      "lat": 37.1681,
+      "lon": -3.6653,
+      "depth": 11.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S VEGAS DEL GENIL.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vyhgi"
+    },
     {
       "event_id": "es2026vyclp",
       "date": "08/11/2026 23:08:49",
