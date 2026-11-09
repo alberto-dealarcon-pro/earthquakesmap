@@ -1,8 +1,56 @@
 {
-  "updated": "2026-11-09T02:55:32.244532+00:00",
+  "updated": "2026-11-09T10:56:27.146976+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 128,
+  "count": 132,
   "earthquakes": [
+    {
+      "event_id": "es2026vyxkt",
+      "date": "09/11/2026 09:44:24",
+      "lat": 36.5658,
+      "lon": 0.7919,
+      "depth": 0.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-ARGELIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vyxkt"
+    },
+    {
+      "event_id": "es2026vywqu",
+      "date": "09/11/2026 09:20:59",
+      "lat": 42.4588,
+      "lon": -6.6712,
+      "depth": 8.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S PRIARANZA DEL BIERZO.LE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vywqu"
+    },
+    {
+      "event_id": "es2026vymqq",
+      "date": "09/11/2026 04:17:45",
+      "lat": 37.1214,
+      "lon": -3.605,
+      "depth": 11.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "III",
+      "location": "NE OGÍJARES.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vymqq"
+    },
+    {
+      "event_id": "es2026vylmz",
+      "date": "09/11/2026 03:43:11",
+      "lat": 41.8948,
+      "lon": -7.7601,
+      "depth": 5.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE MONTALEGRE.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vylmz"
+    },
     {
       "event_id": "es2026vyhgi",
       "date": "09/11/2026 01:34:12",
