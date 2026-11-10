@@ -1,8 +1,80 @@
 {
-  "updated": "2026-11-10T03:39:16.016793+00:00",
+  "updated": "2026-11-10T11:46:43.794562+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 124,
+  "count": 133,
   "earthquakes": [
+    {
+      "event_id": "es2026waumd",
+      "date": "10/11/2026 10:31:05",
+      "lat": 36.6127,
+      "lon": -3.4948,
+      "depth": 0.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN NORTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026waumd"
+    },
+    {
+      "event_id": "es2026wapqs",
+      "date": "10/11/2026 08:04:45",
+      "lat": 37.1214,
+      "lon": -2.5638,
+      "depth": 11.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W GÉRGAL.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wapqs"
+    },
+    {
+      "event_id": "es2026walbn",
+      "date": "10/11/2026 05:45:47",
+      "lat": 27.9275,
+      "lon": -14.8744,
+      "depth": 23.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026walbn"
+    },
+    {
+      "event_id": "es2026wahqr",
+      "date": "10/11/2026 04:02:13",
+      "lat": 43.0114,
+      "lon": 0.1675,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW BAGNERES DE BIGORRE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wahqr"
+    },
+    {
+      "event_id": "es2026wahkl",
+      "date": "10/11/2026 03:54:57",
+      "lat": 42.2823,
+      "lon": -6.8839,
+      "depth": 5.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E A VEIGA.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wahkl"
+    },
+    {
+      "event_id": "es2026wagyc",
+      "date": "10/11/2026 03:40:34",
+      "lat": 37.2525,
+      "lon": -4.3969,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE CUEVAS DE SAN MARCOS.MA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wagyc"
+    },
     {
       "event_id": "es2026vzxkt",
       "date": "09/11/2026 22:52:13",
@@ -38,6 +110,18 @@
       "intensity": "",
       "location": "NW OLMEDA DEL REY.CU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vzicc"
+    },
+    {
+      "event_id": "es2026vzgzw",
+      "date": "09/11/2026 14:34:39",
+      "lat": 37.1418,
+      "lon": -3.627,
+      "depth": 6.0,
+      "magnitude": 1.2,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "N ARMILLA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vzgzw"
     },
     {
       "event_id": "es2026vzddf",
@@ -107,7 +191,7 @@
       "depth": 11.0,
       "magnitude": 1.7,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "II",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vymqq"
     },
@@ -131,7 +215,7 @@
       "depth": 11.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "S VEGAS DEL GENIL.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vyhgi"
     },
@@ -203,7 +287,7 @@
       "depth": 12.0,
       "magnitude": 1.6,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "NE OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxnkc"
     },
@@ -227,7 +311,7 @@
       "depth": 12.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "W OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vxidk"
     },
@@ -275,7 +359,7 @@
       "depth": 4.0,
       "magnitude": 1.4,
       "mag_type": "mbLg",
-      "intensity": "II-III",
+      "intensity": "I-II",
       "location": "W HUÉTOR VEGA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vwsac"
     },
@@ -299,9 +383,21 @@
       "depth": 6.0,
       "magnitude": 1.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "NE DÍLAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vwiic"
+    },
+    {
+      "event_id": "es2026vwgfw",
+      "date": "07/11/2026 22:47:23",
+      "lat": 37.0982,
+      "lon": -3.5752,
+      "depth": 6.0,
+      "magnitude": 1.1,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vwgfw"
     },
     {
       "event_id": "es2026vvvis",
@@ -434,6 +530,18 @@
       "intensity": "",
       "location": "W VILA DO BISPO.POR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vufbk"
+    },
+    {
+      "event_id": "es2026vtinj",
+      "date": "06/11/2026 08:32:52",
+      "lat": 37.0576,
+      "lon": -2.4027,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW TABERNAS.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026vtinj"
     },
     {
       "event_id": "es2026vthtd",
