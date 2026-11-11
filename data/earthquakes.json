@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-11T11:18:07.886745+00:00",
+  "updated": "2026-11-11T18:45:09.124189+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 137,
+  "count": 139,
   "earthquakes": [
+    {
+      "event_id": "es2026wczlg",
+      "date": "11/11/2026 15:17:27",
+      "lat": 37.8007,
+      "lon": -3.1515,
+      "depth": 8.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE LARVA.J",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wczlg"
+    },
+    {
+      "event_id": "es2026wcxam",
+      "date": "11/11/2026 14:04:17",
+      "lat": 37.2513,
+      "lon": -4.4024,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE CUEVAS DE SAN MARCOS.MA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wcxam"
+    },
     {
       "event_id": "es2026wcjjz",
       "date": "11/11/2026 07:11:00",
