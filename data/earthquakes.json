@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-12T16:49:48.162694+00:00",
+  "updated": "2026-11-12T22:28:02.277531+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 140,
+  "count": 142,
   "earthquakes": [
+    {
+      "event_id": "es2026wfgug",
+      "date": "12/11/2026 21:16:03",
+      "lat": 37.0115,
+      "lon": -13.3003,
+      "depth": 0.0,
+      "magnitude": 3.8,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "AZORES-CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wfgug"
+    },
+    {
+      "event_id": "es2026wfenz",
+      "date": "12/11/2026 20:08:08",
+      "lat": 36.5201,
+      "lon": -5.7078,
+      "depth": 40.0,
+      "magnitude": 3.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N ALCALÁ DE LOS GAZULES.CA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wfenz"
+    },
     {
       "event_id": "es2026weukr",
       "date": "12/11/2026 15:01:11",
@@ -11,7 +35,7 @@
       "depth": 3.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "N LA ZUBIA.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026weukr"
     },
@@ -71,7 +95,7 @@
       "depth": 4.0,
       "magnitude": 1.8,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "NE DÍLAR.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wenjc"
     },
@@ -203,7 +227,7 @@
       "depth": 0.0,
       "magnitude": 1.9,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "I-II",
       "location": "N TABERNAS.AL",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wdfkv"
     },
