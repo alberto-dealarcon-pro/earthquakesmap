@@ -1,8 +1,44 @@
 {
-  "updated": "2026-11-12T01:02:57.169597+00:00",
+  "updated": "2026-11-12T08:12:28.743663+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 127,
+  "count": 131,
   "earthquakes": [
+    {
+      "event_id": "es2026wedfg",
+      "date": "12/11/2026 06:19:40",
+      "lat": 37.158,
+      "lon": -3.5969,
+      "depth": 10.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "S GRANADA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wedfg"
+    },
+    {
+      "event_id": "es2026wecie",
+      "date": "12/11/2026 05:52:45",
+      "lat": 37.9745,
+      "lon": -1.4469,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE PLIEGO.MU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wecie"
+    },
+    {
+      "event_id": "es2026wdzmz",
+      "date": "12/11/2026 04:27:25",
+      "lat": 36.4854,
+      "lon": -7.4587,
+      "depth": 36.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wdzmz"
+    },
     {
       "event_id": "es2026wdmym",
       "date": "11/11/2026 22:06:52",
@@ -38,6 +74,18 @@
       "intensity": "",
       "location": "ATLÁNTICO-CANARIAS",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wdlyq"
+    },
+    {
+      "event_id": "es2026wdjcc",
+      "date": "11/11/2026 20:09:49",
+      "lat": 37.1095,
+      "lon": -3.5713,
+      "depth": 7.0,
+      "magnitude": 1.3,
+      "mag_type": "mbLg",
+      "intensity": "I-II",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wdjcc"
     },
     {
       "event_id": "es2026wdigt",
