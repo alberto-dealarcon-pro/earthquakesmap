@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-13T17:41:22.651182+00:00",
+  "updated": "2026-11-13T22:53:41.396212+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 139,
+  "count": 141,
   "earthquakes": [
+    {
+      "event_id": "es2026wgykb",
+      "date": "13/11/2026 19:17:42",
+      "lat": 37.22,
+      "lon": -4.0104,
+      "depth": 6.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N VILLANUEVA MESÍA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wgykb"
+    },
+    {
+      "event_id": "es2026wgxer",
+      "date": "13/11/2026 18:41:05",
+      "lat": 42.3555,
+      "lon": 2.0453,
+      "depth": 12.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE TOSES.GI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wgxer"
+    },
     {
       "event_id": "es2026wgpvw",
       "date": "13/11/2026 14:58:43",
