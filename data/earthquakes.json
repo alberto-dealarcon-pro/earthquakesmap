@@ -1,8 +1,44 @@
 {
-  "updated": "2026-11-14T02:51:51.420597+00:00",
+  "updated": "2026-11-14T09:37:15.262623+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 128,
+  "count": 131,
   "earthquakes": [
+    {
+      "event_id": "es2026whwhd",
+      "date": "14/11/2026 07:21:40",
+      "lat": 36.1415,
+      "lon": -8.0172,
+      "depth": 19.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026whwhd"
+    },
+    {
+      "event_id": "es2026whupd",
+      "date": "14/11/2026 06:32:19",
+      "lat": 37.1156,
+      "lon": -3.596,
+      "depth": 10.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026whupd"
+    },
+    {
+      "event_id": "es2026whrkf",
+      "date": "14/11/2026 04:54:54",
+      "lat": 37.2164,
+      "lon": -4.0481,
+      "depth": 0.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "N HUÉTOR TÁJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026whrkf"
+    },
     {
       "event_id": "es2026whlen",
       "date": "14/11/2026 01:45:12",
