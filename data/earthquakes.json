@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-15T06:49:42.577381+00:00",
+  "updated": "2026-11-15T14:22:19.235915+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 121,
+  "count": 123,
   "earthquakes": [
+    {
+      "event_id": "es2026wjxgu",
+      "date": "15/11/2026 10:07:33",
+      "lat": 39.3401,
+      "lon": -2.9907,
+      "depth": 2.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE ARENALES DE SAN GREGORIO.CR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wjxgu"
+    },
+    {
+      "event_id": "es2026wjvnf",
+      "date": "15/11/2026 09:15:41",
+      "lat": 37.1035,
+      "lon": -3.5693,
+      "depth": 8.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wjvnf"
+    },
     {
       "event_id": "es2026wjojy",
       "date": "15/11/2026 05:38:29",
