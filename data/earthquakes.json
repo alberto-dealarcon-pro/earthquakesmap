@@ -1,8 +1,44 @@
 {
-  "updated": "2026-11-15T14:22:19.235915+00:00",
+  "updated": "2026-11-15T19:52:32.934247+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 123,
+  "count": 126,
   "earthquakes": [
+    {
+      "event_id": "es2026wkpdr",
+      "date": "15/11/2026 19:09:28",
+      "lat": 40.1005,
+      "lon": 0.7217,
+      "depth": 9.0,
+      "magnitude": 2.3,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE VALENCIA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wkpdr"
+    },
+    {
+      "event_id": "es2026wkmhj",
+      "date": "15/11/2026 17:42:48",
+      "lat": 37.111,
+      "lon": -3.6138,
+      "depth": 4.0,
+      "magnitude": 1.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wkmhj"
+    },
+    {
+      "event_id": "es2026wkjwo",
+      "date": "15/11/2026 16:31:20",
+      "lat": 35.662,
+      "lon": -4.6762,
+      "depth": 25.0,
+      "magnitude": 2.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN OESTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wkjwo"
+    },
     {
       "event_id": "es2026wjxgu",
       "date": "15/11/2026 10:07:33",
