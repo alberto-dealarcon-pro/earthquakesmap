@@ -1,8 +1,56 @@
 {
-  "updated": "2026-11-17T12:28:52.683070+00:00",
+  "updated": "2026-11-17T21:15:30.110107+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 135,
+  "count": 139,
   "earthquakes": [
+    {
+      "event_id": "es2026wognu",
+      "date": "17/11/2026 19:20:25",
+      "lat": 28.0234,
+      "lon": -16.2297,
+      "depth": 11.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wognu"
+    },
+    {
+      "event_id": "es2026wogat",
+      "date": "17/11/2026 19:05:14",
+      "lat": 27.8495,
+      "lon": -15.0455,
+      "depth": 4.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wogat"
+    },
+    {
+      "event_id": "es2026wofre",
+      "date": "17/11/2026 18:54:05",
+      "lat": 27.9836,
+      "lon": -16.2167,
+      "depth": 4.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wofre"
+    },
+    {
+      "event_id": "es2026wodqz",
+      "date": "17/11/2026 17:53:16",
+      "lat": 43.0981,
+      "lon": -0.3563,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE ARUDY.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wodqz"
+    },
     {
       "event_id": "es2026wnodo",
       "date": "17/11/2026 10:02:58",
