@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-19T08:56:57.278578+00:00",
+  "updated": "2026-11-19T18:03:21.892989+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 142,
+  "count": 144,
   "earthquakes": [
+    {
+      "event_id": "es2026wrkye",
+      "date": "19/11/2026 12:57:45",
+      "lat": 36.9656,
+      "lon": -10.7177,
+      "depth": 3.0,
+      "magnitude": 2.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW CABO DE SAN VICENTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wrkye"
+    },
+    {
+      "event_id": "es2026wrifv",
+      "date": "19/11/2026 11:35:44",
+      "lat": 36.0843,
+      "lon": -8.4511,
+      "depth": 8.0,
+      "magnitude": 3.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wrifv"
+    },
     {
       "event_id": "es2026wqxbw",
       "date": "19/11/2026 05:57:45",
@@ -11,7 +35,7 @@
       "depth": 2.0,
       "magnitude": 2.5,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "SE PARTALOA.AL",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wqxbw"
     },
@@ -131,7 +155,7 @@
       "depth": 0.0,
       "magnitude": 2.7,
       "mag_type": "mbLg",
-      "intensity": "",
+      "intensity": "II",
       "location": "E TABOADA.LU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wpkno"
     },
