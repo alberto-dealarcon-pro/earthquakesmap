@@ -1,8 +1,68 @@
 {
-  "updated": "2026-11-21T03:31:17.005889+00:00",
+  "updated": "2026-11-21T11:40:40.638672+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 138,
+  "count": 143,
   "earthquakes": [
+    {
+      "event_id": "es2026wuwdk",
+      "date": "21/11/2026 10:01:13",
+      "lat": 36.1378,
+      "lon": -7.5409,
+      "depth": 14.0,
+      "magnitude": 3.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "GOLFO DE CÁDIZ",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wuwdk"
+    },
+    {
+      "event_id": "es2026wutwu",
+      "date": "21/11/2026 08:52:53",
+      "lat": 42.7453,
+      "lon": 1.975,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW QUILLAN.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wutwu"
+    },
+    {
+      "event_id": "es2026wuqio",
+      "date": "21/11/2026 07:05:22",
+      "lat": 27.5837,
+      "lon": -18.0176,
+      "depth": 17.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW EL PINAR DE EL HIERRO.IHI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wuqio"
+    },
+    {
+      "event_id": "es2026wuotw",
+      "date": "21/11/2026 06:17:56",
+      "lat": 36.6493,
+      "lon": -1.9108,
+      "depth": 11.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-LEVANTE SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wuotw"
+    },
+    {
+      "event_id": "es2026wujzo",
+      "date": "21/11/2026 03:53:00",
+      "lat": 28.4332,
+      "lon": -17.8631,
+      "depth": 17.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S FUENCALIENTE DE LA PALMA.ILP",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wujzo"
+    },
     {
       "event_id": "es2026wubfj",
       "date": "20/11/2026 23:27:00",
