@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-21T23:22:24.187761+00:00",
+  "updated": "2026-11-22T03:18:35.783517+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 132,
+  "count": 134,
   "earthquakes": [
+    {
+      "event_id": "es2026wwbvo",
+      "date": "22/11/2026 02:01:50",
+      "lat": 35.4576,
+      "lon": -3.6173,
+      "depth": 4.0,
+      "magnitude": 2.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ALBORÁN SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wwbvo"
+    },
+    {
+      "event_id": "es2026wvzme",
+      "date": "22/11/2026 00:50:19",
+      "lat": 36.0111,
+      "lon": -5.831,
+      "depth": 63.0,
+      "magnitude": 2.9,
+      "mag_type": "mb",
+      "intensity": "",
+      "location": "W TARIFA.CA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wvzme"
+    },
     {
       "event_id": "es2026wvngb",
       "date": "21/11/2026 18:39:32",
