@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-22T23:50:40.531804+00:00",
+  "updated": "2026-11-23T04:07:30.923271+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 133,
+  "count": 135,
   "earthquakes": [
+    {
+      "event_id": "es2026wxzah",
+      "date": "23/11/2026 02:52:25",
+      "lat": 27.9908,
+      "lon": -16.2104,
+      "depth": 5.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wxzah"
+    },
+    {
+      "event_id": "es2026wxtrx",
+      "date": "23/11/2026 00:11:09",
+      "lat": 39.8357,
+      "lon": -3.5918,
+      "depth": 5.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE HUERTA DE VALDECARÁBANOS.TO",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wxtrx"
+    },
     {
       "event_id": "es2026wxrrg",
       "date": "22/11/2026 23:09:45",
