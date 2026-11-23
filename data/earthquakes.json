@@ -1,8 +1,56 @@
 {
-  "updated": "2026-11-23T04:07:30.923271+00:00",
+  "updated": "2026-11-23T14:30:24.232870+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 135,
+  "count": 140,
   "earthquakes": [
+    {
+      "event_id": "es2026wymuj",
+      "date": "23/11/2026 09:49:51",
+      "lat": 37.0512,
+      "lon": -2.2301,
+      "depth": 1.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW LUCAINENA DE LAS TORRES.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wymuj"
+    },
+    {
+      "event_id": "es2026wygmd",
+      "date": "23/11/2026 06:38:24",
+      "lat": 37.1205,
+      "lon": -3.5795,
+      "depth": 9.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E LA ZUBIA.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wygmd"
+    },
+    {
+      "event_id": "es2026wybcz",
+      "date": "23/11/2026 03:56:12",
+      "lat": 38.0743,
+      "lon": -2.3482,
+      "depth": 0.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW NERPIO.AB",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wybcz"
+    },
+    {
+      "event_id": "es2026wxzvh",
+      "date": "23/11/2026 03:16:58",
+      "lat": 43.0252,
+      "lon": -0.0291,
+      "depth": 0.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S LOURDES.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wxzvh"
+    },
     {
       "event_id": "es2026wxzah",
       "date": "23/11/2026 02:52:25",
@@ -38,6 +86,18 @@
       "intensity": "",
       "location": "S MAULEON LICHARRE.FRA",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wxrrg"
+    },
+    {
+      "event_id": "es2026wxman",
+      "date": "22/11/2026 20:19:25",
+      "lat": 37.0942,
+      "lon": -3.6025,
+      "depth": 4.0,
+      "magnitude": 1.4,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "SE GÓJAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wxman"
     },
     {
       "event_id": "es2026wxczp",
