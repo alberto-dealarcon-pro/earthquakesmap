@@ -1,8 +1,80 @@
 {
-  "updated": "2026-11-25T04:31:52.956850+00:00",
+  "updated": "2026-11-25T14:52:25.133195+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 139,
+  "count": 145,
   "earthquakes": [
+    {
+      "event_id": "es2026xclov",
+      "date": "25/11/2026 13:45:02",
+      "lat": 33.7433,
+      "lon": -5.1459,
+      "depth": 10.0,
+      "magnitude": 2.8,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "S OUED NJA.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xclov"
+    },
+    {
+      "event_id": "es2026xcbhb",
+      "date": "25/11/2026 08:32:54",
+      "lat": 42.9688,
+      "lon": 5.9822,
+      "depth": 0.0,
+      "magnitude": 3.0,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "SE MARSEILLE.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xcbhb"
+    },
+    {
+      "event_id": "es2026xcapm",
+      "date": "25/11/2026 08:12:34",
+      "lat": 37.0833,
+      "lon": -3.5674,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "II",
+      "location": "E DÍLAR.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xcapm"
+    },
+    {
+      "event_id": "es2026xbxpg",
+      "date": "25/11/2026 06:41:13",
+      "lat": 36.1321,
+      "lon": 5.583,
+      "depth": 0.0,
+      "magnitude": 4.0,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "SE SETIF.ARG",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xbxpg"
+    },
+    {
+      "event_id": "es2026xbukb",
+      "date": "25/11/2026 05:04:18",
+      "lat": 42.41,
+      "lon": 2.3116,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE SETCASES.GI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xbukb"
+    },
+    {
+      "event_id": "es2026xbtld",
+      "date": "25/11/2026 04:35:11",
+      "lat": 40.1638,
+      "lon": 1.6142,
+      "depth": 26.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-BALEARES",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xbtld"
+    },
     {
       "event_id": "es2026xbnjg",
       "date": "25/11/2026 01:31:12",
