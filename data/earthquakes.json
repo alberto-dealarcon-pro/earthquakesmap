@@ -1,8 +1,104 @@
 {
-  "updated": "2026-11-26T05:17:07.932347+00:00",
+  "updated": "2026-11-26T15:27:38.828008+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 139,
+  "count": 151,
   "earthquakes": [
+    {
+      "event_id": "es2026xebeu",
+      "date": "26/11/2026 10:46:15",
+      "lat": 42.4504,
+      "lon": 0.4714,
+      "depth": 5.0,
+      "magnitude": 3.3,
+      "mag_type": "mbLg",
+      "intensity": "II-III",
+      "location": "NE VALLE DE BARDAJÍ.HU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xebeu"
+    },
+    {
+      "event_id": "es2026xdytl",
+      "date": "26/11/2026 09:32:25",
+      "lat": 37.4203,
+      "lon": -2.0709,
+      "depth": 12.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "S TABERNO.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdytl"
+    },
+    {
+      "event_id": "es2026xdxpr",
+      "date": "26/11/2026 08:57:43",
+      "lat": 36.353,
+      "lon": 1.0118,
+      "depth": 7.0,
+      "magnitude": 3.6,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "NW CHLEF.ARG",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdxpr"
+    },
+    {
+      "event_id": "es2026xdwkj",
+      "date": "26/11/2026 08:21:14",
+      "lat": 36.9852,
+      "lon": -3.3022,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW TREVÉLEZ.GR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdwkj"
+    },
+    {
+      "event_id": "es2026xdujj",
+      "date": "26/11/2026 07:19:49",
+      "lat": 42.5005,
+      "lon": -6.8823,
+      "depth": 6.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE RUBIÁ.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdujj"
+    },
+    {
+      "event_id": "es2026xdsmc",
+      "date": "26/11/2026 06:22:01",
+      "lat": 37.032,
+      "lon": -11.0547,
+      "depth": 0.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-PORTUGAL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdsmc"
+    },
+    {
+      "event_id": "es2026xdsjr",
+      "date": "26/11/2026 06:20:13",
+      "lat": 42.4051,
+      "lon": 2.3146,
+      "depth": 0.0,
+      "magnitude": 2.4,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE SETCASES.GI",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdsjr"
+    },
+    {
+      "event_id": "es2026xdqmf",
+      "date": "26/11/2026 05:21:32",
+      "lat": 42.8397,
+      "lon": -0.2509,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "W CAUTERETS.FRA",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdqmf"
+    },
     {
       "event_id": "es2026xdodv",
       "date": "26/11/2026 04:11:10",
@@ -316,6 +412,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xafna"
     },
     {
+      "event_id": "es2026xadiz",
+      "date": "24/11/2026 07:19:47",
+      "lat": 36.8245,
+      "lon": -3.0006,
+      "depth": 0.0,
+      "magnitude": 2.0,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW BERJA.AL",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xadiz"
+    },
+    {
       "event_id": "es2026xacxj",
       "date": "24/11/2026 07:06:16",
       "lat": 37.326,
@@ -328,6 +436,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xacxj"
     },
     {
+      "event_id": "es2026xacry",
+      "date": "24/11/2026 06:59:57",
+      "lat": 42.4843,
+      "lon": -7.952,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE SAN CRISTOVO DE CEA.OU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xacry"
+    },
+    {
       "event_id": "es2026xacox",
       "date": "24/11/2026 06:56:24",
       "lat": 36.7106,
@@ -338,6 +458,18 @@
       "intensity": "",
       "location": "SW CABO DE SAN VICENTE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xacox"
+    },
+    {
+      "event_id": "es2026xaasc",
+      "date": "24/11/2026 05:59:31",
+      "lat": 42.6611,
+      "lon": -7.2807,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "E O INCIO.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xaasc"
     },
     {
       "event_id": "es2026wzxyv",
@@ -412,6 +544,18 @@
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wzgoq"
     },
     {
+      "event_id": "es2026wzczd",
+      "date": "23/11/2026 18:00:19",
+      "lat": 37.2587,
+      "lon": -8.481,
+      "depth": 0.0,
+      "magnitude": 1.9,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW SILVES.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wzczd"
+    },
+    {
       "event_id": "es2026wyxgq",
       "date": "23/11/2026 15:07:13",
       "lat": 37.1142,
@@ -422,18 +566,6 @@
       "intensity": "I-II",
       "location": "S OGÍJARES.GR",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wyxgq"
-    },
-    {
-      "event_id": "es2026wymuj",
-      "date": "23/11/2026 09:49:51",
-      "lat": 37.0512,
-      "lon": -2.2301,
-      "depth": 1.0,
-      "magnitude": 1.8,
-      "mag_type": "mbLg",
-      "intensity": "",
-      "location": "NW LUCAINENA DE LAS TORRES.AL",
-      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wymuj"
     },
     {
       "event_id": "es2026wygmd",
@@ -530,6 +662,18 @@
       "intensity": "",
       "location": "E LA PUEBLA DE VALVERDE.TE",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wxczp"
+    },
+    {
+      "event_id": "es2026wxbpy",
+      "date": "22/11/2026 15:03:21",
+      "lat": 40.4062,
+      "lon": -8.3321,
+      "depth": 0.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NE MEALHADA.POR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026wxbpy"
     },
     {
       "event_id": "es2026wxasz",
