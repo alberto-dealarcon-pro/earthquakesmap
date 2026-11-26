@@ -1,8 +1,44 @@
 {
-  "updated": "2026-11-25T23:24:42.132670+00:00",
+  "updated": "2026-11-26T05:17:07.932347+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 136,
+  "count": 139,
   "earthquakes": [
+    {
+      "event_id": "es2026xdodv",
+      "date": "26/11/2026 04:11:10",
+      "lat": 42.9812,
+      "lon": -6.7532,
+      "depth": 22.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE IBIAS.O",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdodv"
+    },
+    {
+      "event_id": "es2026xdlwg",
+      "date": "26/11/2026 03:01:41",
+      "lat": 43.0102,
+      "lon": -6.6873,
+      "depth": 22.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "NW DEGAÑA.O",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdlwg"
+    },
+    {
+      "event_id": "es2026xdhab",
+      "date": "26/11/2026 00:34:35",
+      "lat": 42.9719,
+      "lon": -7.2156,
+      "depth": 12.0,
+      "magnitude": 1.8,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE BALEIRA.LU",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xdhab"
+    },
     {
       "event_id": "es2026xczkw",
       "date": "25/11/2026 20:44:44",
