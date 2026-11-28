@@ -1,8 +1,92 @@
 {
-  "updated": "2026-11-28T00:41:46.536109+00:00",
+  "updated": "2026-11-28T08:28:38.043305+00:00",
   "source": "IGN – últimos terremotos",
-  "count": 144,
+  "count": 151,
   "earthquakes": [
+    {
+      "event_id": "es2026xhlfg",
+      "date": "28/11/2026 07:13:50",
+      "lat": 37.7998,
+      "lon": -0.6012,
+      "depth": 0.0,
+      "magnitude": 1.6,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "MEDITERRÁNEO-LEVANTE SUR",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xhlfg"
+    },
+    {
+      "event_id": "es2026xhhvs",
+      "date": "28/11/2026 05:31:50",
+      "lat": 35.8992,
+      "lon": -4.5954,
+      "depth": 73.0,
+      "magnitude": 2.9,
+      "mag_type": "mb",
+      "intensity": "",
+      "location": "ALBORÁN OESTE",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xhhvs"
+    },
+    {
+      "event_id": "es2026xhfyu",
+      "date": "28/11/2026 04:34:44",
+      "lat": 34.6156,
+      "lon": -3.7901,
+      "depth": 1.0,
+      "magnitude": 2.5,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SE AKNOUL.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xhfyu"
+    },
+    {
+      "event_id": "es2026xhfqg",
+      "date": "28/11/2026 04:24:49",
+      "lat": 42.5368,
+      "lon": 0.9503,
+      "depth": 0.0,
+      "magnitude": 2.2,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW ESPOT.L",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xhfqg"
+    },
+    {
+      "event_id": "es2026xheop",
+      "date": "28/11/2026 03:52:34",
+      "lat": 33.6479,
+      "lon": -5.9521,
+      "depth": 18.0,
+      "magnitude": 2.8,
+      "mag_type": "M(mb)",
+      "intensity": "",
+      "location": "S EL KANSERA.MAC",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xheop"
+    },
+    {
+      "event_id": "es2026xhcmg",
+      "date": "28/11/2026 02:49:16",
+      "lat": 28.1627,
+      "lon": -17.321,
+      "depth": 14.0,
+      "magnitude": 1.7,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "SW VALLEHERMOSO.IGM",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xhcmg"
+    },
+    {
+      "event_id": "es2026xhazl",
+      "date": "28/11/2026 02:03:59",
+      "lat": 28.5229,
+      "lon": -15.4979,
+      "depth": 25.0,
+      "magnitude": 2.1,
+      "mag_type": "mbLg",
+      "intensity": "",
+      "location": "ATLÁNTICO-CANARIAS",
+      "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xhazl"
+    },
     {
       "event_id": "es2026xguns",
       "date": "27/11/2026 22:48:31",
@@ -23,7 +107,7 @@
       "depth": 3.0,
       "magnitude": 2.0,
       "mag_type": "mbLg",
-      "intensity": "III",
+      "intensity": "II-III",
       "location": "E SAN PEDRO DEL PINATAR.MU",
       "link": "https://www.ign.es/web/ign/portal/ultimos-terremotos/-/ultimos-terremotos/getDetails?evid=es2026xgukg"
     },
